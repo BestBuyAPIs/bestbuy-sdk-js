@@ -1,0 +1,31 @@
+{
+  "name": "bestbuy",
+  "version": "0.0.1",
+  "description": "High level node.js client for the Best Buy API - alpha quality.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/kwhinnery/bestbuy.git"
+  },
+  "keywords": [
+    "bestbuy",
+    "api",
+    "twilio"
+  ],
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kwhinnery/bestbuy/issues"
+  },
+  "homepage": "https://github.com/kwhinnery/bestbuy",
+  "dependencies": {
+    "request": "^2.40.0",
+    "lodash": "^2.4.1"
+  },
+  "devDependencies": {
+    "async": "^0.9.0"
+  }
+}

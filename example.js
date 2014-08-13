@@ -41,3 +41,12 @@ bby.products('gurgleflats????4', function(err, data) {
         err.examples.length);
     console.log('');
 });
+
+// Figure out the current top trending product
+bby.recommendations('trendingViewed', function(err, data) {
+    var topTrendingSku = data.results[0].sku;
+    bby.products(+topTrendingSku, function (err, data) {
+        console.log('This is the top trending product right now:');
+        console.log(data);
+    });
+});

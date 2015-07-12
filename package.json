@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "github.com/kwhinnery/bestbuy.git"
+    "url": "github.com/BestBuyAPIs/bestbuy.git"
   },
   "keywords": [
     "bestbuy",
@@ -16,11 +16,14 @@
     "twilio"
   ],
   "author": "Kevin Whinnery",
+  "contributors": [
+    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)"
+  ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/kwhinnery/bestbuy/issues"
+    "url": "https://github.com/BestBuyAPIs/bestbuy/issues"
   },
-  "homepage": "https://github.com/kwhinnery/bestbuy",
+  "homepage": "https://github.com/BestBuyAPIs/bestbuy",
   "dependencies": {
     "request": "^2.40.0",
     "lodash": "^2.4.1"

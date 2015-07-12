@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/BestBuyAPIs/bestbuy.git"
+    "url": "https://github.com/BestBuyAPIs/bestbuy-sdk-js.git"
   },
   "keywords": [
     "bestbuy",
@@ -21,9 +21,9 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/BestBuyAPIs/bestbuy/issues"
+    "url": "https://github.com/BestBuyAPIs/bestbuy-sdk-js/issues"
   },
-  "homepage": "https://github.com/BestBuyAPIs/bestbuy",
+  "homepage": "https://github.com/BestBuyAPIs/bestbuy-sdk-js",
   "dependencies": {
     "request": "^2.40.0",
     "lodash": "^2.4.1"

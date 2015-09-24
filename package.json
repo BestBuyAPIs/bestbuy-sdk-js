@@ -1,8 +1,8 @@
 {
   "name": "bestbuy",
   "version": "0.0.5",
-  "description": "High level node.js client for the Best Buy API - alpha quality.",
-  "main": "index.js",
+  "description": "High level node.js client for the Best Buy API.",
+  "main": "bestbuy.js",
   "scripts": {
     "test": "jasmine-node spec"
   },
@@ -13,7 +13,9 @@
   "keywords": [
     "bestbuy",
     "api",
-    "twilio"
+    "retail",
+    "electronics",
+    "product reviews"
   ],
   "author": "Kevin Whinnery",
   "contributors": [

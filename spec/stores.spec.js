@@ -1,4 +1,4 @@
-var bby = require('../index');
+var bby = require('../bestbuy');
 
 //http://developer.bestbuy.com/documentation/stores-api
 describe('The stores section of the BBY API', function(){
@@ -16,7 +16,6 @@ describe('The stores section of the BBY API', function(){
     			console.log('found %d stores.', data.stores.length);
     			console.log('');
     			expect(data.stores.length>0).toBe(true);
-    			console.log(data.stores.toString());
     			done();
 			});			
 		});

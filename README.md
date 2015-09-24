@@ -1,7 +1,23 @@
 # Best Buy API
+This is a high-level Node.js helper for the Best Buy developer API.
 
-This is a high-level helper for the Best Buy developer API. Alpha quality, no test coverage.
+# Getting Started
+Sign-up for a developer API Key at http://developer.bestbuy.com/
 
-## LICENSE
+Fork and clone the repository.
 
+Export your key as an environment variable:  
+
+	export BBY_API_KEY yourDeveloperApiKeyHere
+
+Install the dependencies with:
+    
+    npm install
+
+# Tests    
+Run the existing tests with:
+
+	npm test
+
+# LICENSE
 MIT

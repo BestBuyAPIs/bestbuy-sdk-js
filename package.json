@@ -1,10 +1,10 @@
 {
   "name": "bestbuy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "High level node.js client for the Best Buy API - alpha quality.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node spec"
   },
   "repository": {
     "type": "git",
@@ -17,7 +17,8 @@
   ],
   "author": "Kevin Whinnery",
   "contributors": [
-    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)"
+    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)",
+    "Ian Felton <ian@ianfelton.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -25,10 +26,11 @@
   },
   "homepage": "https://github.com/BestBuyAPIs/bestbuy-sdk-js",
   "dependencies": {
-    "request": "^2.40.0",
-    "lodash": "^2.4.1"
+    "lodash": "^2.4.1",
+    "request": "^2.40.0"
   },
   "devDependencies": {
-    "async": "^0.9.0"
+    "async": "^0.9.0",
+    "jasmine-node": "^1.14.5"
   }
 }

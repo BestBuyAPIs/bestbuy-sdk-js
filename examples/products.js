@@ -8,21 +8,6 @@ var bby = require('./index').init(process.env.BBY_API_KEY);
 // var var bby = require('bestbuy');
 // without the .init() call
 
-// Do a query for stores
-bby.stores('area(55119,25)&storeType=BigBox', function(err, data) {
-    console.log('Store Search:');
-    console.log('found %d stores.', data.stores.length);
-    console.log('');
-});
-
-// Show details for one store
-bby.stores(1443, function(err, data) {
-    console.log('Store Details:');
-    console.log(data.longName);
-    console.log(data.address);
-    console.log('');
-});
-
 // Product search for all items reviewed with exactly 4, show only name + sku
 bby.products('customerReviewAverage=4', {
     show: 'name,sku'
@@ -40,13 +25,4 @@ bby.products('gurgleflats????4', function(err, data) {
     console.log('There are %d examples of how to do it right', 
         err.examples.length);
     console.log('');
-});
-
-// Figure out the current top trending product
-bby.recommendations('trendingViewed', function(err, data) {
-    var topTrendingSku = data.results[0].sku;
-    bby.products(+topTrendingSku, function (err, data) {
-        console.log('This is the top trending product right now:');
-        console.log(data);
-    });
 });

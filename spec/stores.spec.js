@@ -1,0 +1,1 @@
+var bby = require('./index').init(process.env.BBY_API_KEY);

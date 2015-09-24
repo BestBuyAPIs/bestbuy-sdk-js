@@ -1,3 +1,25 @@
-.DS_Store
+### Dot files ###
+.*
+
+### Git ###
+!/.gitignore
+!/.gitmodules
+
+### Logs ###
+logs
+*.log
+
+### Runtime data ###
+pids
+*.pid
+*.seed
+
+### NPM modules ###
 node_modules
-npm-debug.log
+
+### Test coverage ###
+spec/coverage
+
+### Custom ignores ###
+config.js
+.idea

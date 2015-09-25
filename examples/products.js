@@ -26,3 +26,10 @@ bby.products('gurgleflats????4', function(err, data) {
         err.examples.length);
     console.log('');
 });
+
+bby.products('manufacturer=canon&salePrice<1000', {
+    format:'json',
+    show: 'sku,name,salePrice'
+}, function(err,data) {
+    console.log(data.products[0]);
+});

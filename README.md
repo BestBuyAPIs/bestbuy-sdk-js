@@ -19,5 +19,12 @@ Run the existing tests with:
 
 	npm test
 
+#Run the React app
+Open a terminal.
+	gulp
+
+Open another terminal
+	npm run watch
+
 # LICENSE
 MIT

@@ -1,9 +1,15 @@
 import alt from '../alt';
-import bby from '../../bestbuy';
+var bby = require('../../bestbuy');
 
 
 class ProductsActions {
 	constructor() {
+		try{
+		bby.key = BBY_API_KEY;
+	}
+	catch(err){
+		console.log(err);
+	}
 		this.generateActions(
 			'getProductsSuccess',
 			'getProductsError'
@@ -11,8 +17,6 @@ class ProductsActions {
 	}
 
 	getProducts(search){
-		var api = bby.init(process.env.BBY_API_KEY);
-		console.log(process.env.BBY_API_KEY);
 		bby.products(search, {
 		    show: 'name,sku,salePrice'
 		}, (err, data)=> {

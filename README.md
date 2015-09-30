@@ -26,6 +26,10 @@ Run the existing tests with:
 	npm test
 
 #Run the React app
+Install bower dependencies
+
+    bower install
+   
 Open a terminal.
 
     gulp

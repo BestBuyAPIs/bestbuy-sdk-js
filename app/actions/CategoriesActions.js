@@ -2,24 +2,24 @@ import alt from '../alt';
 import bby from '../../bestbuy';
 
 
-class ProductsActions {
+class CategoriesActions {
 	constructor() {
 		this.generateActions(
-			'getProductsSuccess',
-			'getProductsError'
+			'getCategoriesSuccess',
+			'getCategoriesError'
 			);
 	}
 
-	getProducts(search){
+	getCategories(search){
 		var api = bby.init(process.env.BBY_API_KEY);
 		console.log(process.env.BBY_API_KEY);
-		bby.products(search, {
-		    show: 'name,sku,salePrice'
+		bby.categories(search, {
+		    show: 'name,id'
 		}, (err, data)=> {
 			console.log(JSON.stringify(data));
-		    this.actions.getProductsSuccess(data); 
+		    this.actions.getCategoriesSuccess(data); 
 		});
 	}
 }
 
-export default alt.createActions(ProductsActions);
+export default alt.createActions(CategoriesActions);

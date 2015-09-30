@@ -15,6 +15,7 @@ export default class ProductsTable extends Component {
 						<tr>
 							<td>name</td>
 							<td>sku</td>
+							<td>sale price</td>
 						</tr>
 					</thead>
 					<tbody>{rows}</tbody>

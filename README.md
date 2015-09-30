@@ -8,11 +8,17 @@ Fork and clone the repository.
 
 Export your key as an environment variable:  
 
-	export BBY_API_KEY yourDeveloperApiKeyHere
+	export BBY_API_KEY=yourDeveloperApiKeyHere
 
 Install the dependencies with:
     
     npm install
+
+You will also need Bower, Gulp and Nodemon. If you don't have these then:
+
+    npm i -g bower
+    npm i -g gulp
+    npm i -g nodemon
 
 # Tests    
 Run the existing tests with:

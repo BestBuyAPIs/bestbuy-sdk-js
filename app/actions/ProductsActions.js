@@ -1,15 +1,8 @@
 import alt from '../alt';
-var bby = require('../../bestbuy');
-
+import WebApiUtils from '../utils/WebApiUtils';
 
 class ProductsActions {
 	constructor() {
-		try{
-		bby.key = BBY_API_KEY;
-	}
-	catch(err){
-		console.log(err);
-	}
 		this.generateActions(
 			'getProductsSuccess',
 			'getProductsError'
@@ -17,12 +10,7 @@ class ProductsActions {
 	}
 
 	getProducts(search){
-		bby.products(search, {
-		    show: 'name,sku,salePrice'
-		}, (err, data)=> {
-			console.log(JSON.stringify(data));
-		    this.actions.getProductsSuccess(data); 
-		});
+		WebApiUtils.getProducts(search,this.actions.getProductsSuccess);
 	}
 }
 

@@ -5,6 +5,7 @@ import ProductsActions from '../actions/ProductsActions';
 import Categories from './Categories';
 import CategoriesStore from '../stores/CategoriesStore';
 import CategoriesActions from '../actions/CategoriesActions';
+import Paging from './Paging';
 
 export default class Home extends Component {
 	constructor(props) {
@@ -16,6 +17,7 @@ export default class Home extends Component {
 	getStateFromStores() {
 		return {
 			products: ProductsStore.getState().products,
+			pages: ProductsStore.getState().pages,
 			categories: CategoriesStore.getState().categories
 		};
 	}
@@ -23,8 +25,8 @@ export default class Home extends Component {
 	componentDidMount() {
 		ProductsStore.listen(this.onChange);
 		CategoriesStore.listen(this.onChange);
-		ProductsActions.getProducts('');
-		CategoriesActions.getCategories('');
+		ProductsActions.getProducts('',{});
+		CategoriesActions.getCategories('',{});
 	}
 
 	componentWillUnmount() {
@@ -34,9 +36,9 @@ export default class Home extends Component {
 
 	onChange(state) {
 		if (state.displayName === "ProductsStore")
-			this.setState({products:state.products, categories:this.state.categories});
+			this.setState({products:state.products, pages:state.pages, categories:this.state.categories});
 		else if(state.displayName === "CategoriesStore")
-			this.setState({products:this.state.products, categories:state.categories});
+			this.setState({products:this.state.products, pages:this.state.pages, categories:state.categories});
 	}
 
 	render() {
@@ -45,6 +47,7 @@ export default class Home extends Component {
 			<div>
 				<h1>Best Buy Developer API</h1>
 				<h2><i>featuring React.js, Flux architecture and Node.js</i></h2>
+				<Paging pages={this.state.pages} search={this.state.products.search}/>
 				<Categories categories={this.state.categories} />
 				<ProductsTable products={this.state.products} /> 
 			</div>

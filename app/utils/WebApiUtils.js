@@ -10,19 +10,19 @@ class WebApiUtils {
 		}
 	}
 
-	getProducts(search, fn){
-		bby.products(search, {
-		    show: 'name,sku,salePrice'
-		}, (err, data)=> {
+	getProducts(search, qs, fn){
+		if (!qs)
+			qs ={};
+		bby.products(search, qs, (err, data)=> {
 			console.log(JSON.stringify(data));
 		    fn(data); 
 		});
 	}
 
-	getCategories(search, fn){
-		bby.categories(search, {
-		    show: 'name,id'
-		}, (err, data)=> {
+	getCategories(search, qs, fn){
+		if (!qs)
+			qs ={};
+		bby.categories(search, qs, (err, data)=> {
 			console.log(JSON.stringify(data));
 		    fn(data); 
 		});

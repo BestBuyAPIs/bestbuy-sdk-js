@@ -1,7 +1,7 @@
 # Best Buy API
 This is a high-level Node.js helper for the Best Buy developer API.
 
-# Getting Started
+## Getting Started
 Sign-up for a developer API Key at http://developer.bestbuy.com/
 
 Fork and clone the repository.
@@ -20,12 +20,12 @@ You will also need Bower, Gulp and Nodemon. If you don't have these then:
     npm i -g gulp
     npm i -g nodemon
 
-# Tests    
+## Tests    
 Run the existing tests with:
 
 	npm test
 
-#Run the React app
+## Run the React app
 Install bower dependencies
 
     bower install
@@ -38,5 +38,9 @@ Open another terminal
 
     npm run watch
 
-# LICENSE
+## Online Resources
+Best Buy Developer Portal: https://developer.bestbuy.com
+Thinking in React: https://facebook.github.io/react/docs/thinking-in-react.html
+
+### LICENSE
 MIT

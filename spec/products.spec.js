@@ -18,6 +18,25 @@ describe('The products section of the BBY API', function(){
 			});
 		});
 
+        it('LIVE: Product search with paging', function(done){
+
+            // Product search for all items reviewed with exactly 4, show only name + sku
+            bby.products('type=Movie', {
+                show: 'name,sku',
+                pageSize:5,
+                page:2
+            }, function(err, data) {
+            expect(data.products.length>0).toBe(true);
+            expect(data.products[0].customerReviewCount).toBe(undefined);
+            expect(data.products[0].customerReviewAverage).toBe(undefined);
+            expect(data.products[0].name).not.toBe(undefined);
+            expect(data.products[0].sku).not.toBe(undefined);
+            expect(data.from).toBe(6);
+            expect(data.currentPage).toBe(2);
+            done();
+            });
+        });
+
         it('LIVE: Product search beginning with * should fail', function(done){
 
             // Product search for all items reviewed with exactly 4, show only name + sku
@@ -44,7 +63,6 @@ describe('The products section of the BBY API', function(){
                 format:'json',
                 show: 'sku,name,salePrice'
             }, function(err,data) {
-                console.log(data.products[0]);
                 expect(data.products[0].customerReviewCount).toBe(undefined);
                 expect(data.products[0].customerReviewAverage).toBe(undefined);
                 expect(data.products[0].name).not.toBe(undefined);

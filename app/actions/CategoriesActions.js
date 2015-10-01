@@ -10,7 +10,7 @@ class CategoriesActions {
 	}
 
 	getCategories(search){
-		WebApiUtils.getCategories(search, this.actions.getCategoriesSuccess);
+		WebApiUtils.getCategories(search, {}, this.actions.getCategoriesSuccess);
 	}
 }
 

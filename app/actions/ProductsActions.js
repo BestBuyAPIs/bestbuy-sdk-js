@@ -9,8 +9,8 @@ class ProductsActions {
 			);
 	}
 
-	getProducts(search){
-		WebApiUtils.getProducts(search,this.actions.getProductsSuccess);
+	getProducts(search, qs){
+		WebApiUtils.getProducts(search, qs, this.actions.getProductsSuccess);
 	}
 }
 

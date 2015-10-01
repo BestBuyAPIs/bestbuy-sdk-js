@@ -37,15 +37,7 @@ Install the dependencies with:
     
     npm install
 
-You will also need Bower, Gulp and Nodemon. If you don't have these then:
-
-    npm i -g bower
-    npm i -g gulp
-    npm i -g nodemon
-
-Install bower dependencies
-
-    bower install
+***Many developers install gulp, grunt, bower, etc. globally. This package aliases the local node module to avoid problems when installing many global dependencies on CI servers, etc. Delete any/all of the aliases if you prefer using an already installed global module of any of these aliased packages.
   
 ## Tests    
 Run the existing tests with:

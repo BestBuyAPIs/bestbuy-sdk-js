@@ -1,5 +1,16 @@
 # Best Buy API
-This is a high-level Node.js helper for the Best Buy developer API. In addition to some examples and Jasmine tests, it includes a sample React.js application using Flux architecture to demonstrate using the helper in a React-based web app.
+This is a high-level JavaScript / Node.js helper for the Best Buy developer API. 
+
+The examples folder contains code that demonstrates how to include the core NPM export and initialize it with your Best Buy developer key. 
+
+Example:
+
+    var bby = require('./bestbuy').init(process.env.BBY_API_KEY);
+
+
+In addition to the examples, the package contains a suite Jasmine tests to further show how to use the helper in more ways.
+
+Finally, the package includes a sample React.js application using Flux architecture to demonstrate using the helper in a React-based web app served with Node.js.
 
 ## Getting Started
 Sign-up for a developer API Key at http://developer.bestbuy.com/
@@ -40,7 +51,9 @@ Open another terminal
 
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com
+
 Thinking in React: https://facebook.github.io/react/docs/thinking-in-react.html
+
 Flux: https://facebook.github.io/flux/docs/overview.html
 
 ### LICENSE

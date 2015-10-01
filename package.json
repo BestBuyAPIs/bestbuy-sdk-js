@@ -4,6 +4,7 @@
   "description": "High level node.js client for the Best Buy API.",
   "main": "bestbuy.js",
   "scripts": {
+    "postinstall": "npm run bower install",
     "start": "babel-node server.js",
     "watch": "nodemon --exec babel-node -- server.js",
     "test": "jasmine-node spec",

@@ -37,7 +37,7 @@ Install the dependencies with:
     
     npm install
 
-***Many developers install gulp, grunt, bower, etc. globally. This package aliases the local node module to avoid problems when installing many global dependencies on CI servers, etc. Delete any/all of the aliases if you prefer using an already installed global module of any of these aliased packages.
+***Many developers install gulp, grunt, bower, etc. globally. This package aliases the local node module to avoid problems when installing many global dependencies on CI servers, etc. In other words, to run this package, only running "npm install" is required. 
   
 ## Tests    
 Run the existing tests with:
@@ -45,13 +45,15 @@ Run the existing tests with:
 	npm test
 
 ## Run the React app
-Open a terminal.
+Open a terminal to run the Gulp tasks and enter:
 
-    gulp
+    npm run gulp
 
-Open another terminal
+Open another terminal and start the watch script so you can immediately have code changes trigger a rebuild
 
     npm run watch
+
+Once the app is running (the watch window will print "Express server listening on port 3001"), open up a web browser and navigate to localhost:3001
 
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com

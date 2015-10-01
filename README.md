@@ -1,5 +1,5 @@
 # Best Buy API
-This is a high-level Node.js helper for the Best Buy developer API.
+This is a high-level Node.js helper for the Best Buy developer API. In addition to some examples and Jasmine tests, it includes a sample React.js application using Flux architecture to demonstrate using the helper in a React-based web app.
 
 ## Getting Started
 Sign-up for a developer API Key at http://developer.bestbuy.com/
@@ -41,6 +41,7 @@ Open another terminal
 ## Online Resources
 Best Buy Developer Portal: https://developer.bestbuy.com
 Thinking in React: https://facebook.github.io/react/docs/thinking-in-react.html
+Flux: https://facebook.github.io/flux/docs/overview.html
 
 ### LICENSE
 MIT

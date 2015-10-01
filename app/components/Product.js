@@ -7,7 +7,7 @@ export default class Product extends Component {
 		super(props);
 	}
 
-	render(){
+	render() {
 		var name = <span>{this.props.product.name}</span>;
 		var sku = <span>{this.props.product.sku}</span>;
 		var salePrice =<span>{this.props.product.salePrice}</span>;

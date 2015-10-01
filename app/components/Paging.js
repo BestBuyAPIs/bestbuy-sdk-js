@@ -7,7 +7,6 @@ export default class Paging extends Component {
 	constructor(props){
 		super(props);
 		this.handleChange = this.handleChange.bind(this);
-		this.state = {};
 	}
 
 	handleChange(action, e) {
@@ -28,7 +27,7 @@ export default class Paging extends Component {
 				page = this.props.pages.total;
 			break;
 		}
-		var qs = {pageSize:this.state.pageSize, page: page};
+		var qs = {pageSize:(this.props.pages.items.to - this.props.pages.items.from +1), page: page};
 		ProductActions.getProducts(search,qs); 
 	}
 
@@ -37,7 +36,6 @@ export default class Paging extends Component {
 		var pageSize;
 		if (this.props.pages.items)
 			pageSize = (this.props.pages.items.to - this.props.pages.items.from +1);
-		this.state.pageSize = pageSize;
 
 		pageList.push(<span><a onClick={this.handleChange.bind(null, "first")}>First</a> | </span>);
 		pageList.push(<span><a onClick={this.handleChange.bind(null, "prev")}>Prev</a> | </span>);

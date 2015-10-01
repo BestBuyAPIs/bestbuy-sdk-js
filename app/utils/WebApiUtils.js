@@ -14,7 +14,6 @@ class WebApiUtils {
 		if (!qs)
 			qs ={};
 		bby.products(search, qs, (err, data)=> {
-			console.log(JSON.stringify(data));
 		    fn(data); 
 		});
 	}
@@ -23,7 +22,6 @@ class WebApiUtils {
 		if (!qs)
 			qs ={};
 		bby.categories(search, qs, (err, data)=> {
-			console.log(JSON.stringify(data));
 		    fn(data); 
 		});
 	}

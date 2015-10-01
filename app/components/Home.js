@@ -1,11 +1,16 @@
+//frameworks
 import React, {Component} from 'react';
+//react components
 import ProductsTable from './ProductsTable';
-import ProductsStore from '../stores/ProductsStore';
-import ProductsActions from '../actions/ProductsActions';
 import Categories from './Categories';
-import CategoriesStore from '../stores/CategoriesStore';
-import CategoriesActions from '../actions/CategoriesActions';
 import Paging from './Paging';
+//react stores
+import ProductsStore from '../stores/ProductsStore';
+import CategoriesStore from '../stores/CategoriesStore';
+//react actions
+import ProductsActions from '../actions/ProductsActions';
+import CategoriesActions from '../actions/CategoriesActions';
+
 
 export default class Home extends Component {
 	constructor(props) {

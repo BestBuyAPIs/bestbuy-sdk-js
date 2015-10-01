@@ -8,16 +8,16 @@ class ProductsStore {
 		this.pages = {};
 	}
 
-	onGetProductsSuccess(data){
-		var url="";
-		if(data) 
-			url = data.canonicalUrl;
-		var result = /\(.+\)/.exec(url);
-		if (result && result.length>0)
-		  result = result[0];
-		this.products = data.products.slice(0, data.length);
-		this.products.search = result;
-		this.pages = {	items : { from: data.from, to: data.to, total: data.total	},	current:data.currentPage, total:data.totalPages 	};
+	onGetProductsSuccess(data){		
+			var url = data.canonicalUrl;
+			
+			this.products = data.products.slice(0, data.length);
+
+			var result = /\(.+\)/.exec(url);
+			if (result && result.length>0)
+		  		this.products.search = result[0];
+		  					
+			this.pages = {	items : { from: data.from, to: data.to, total: data.total	},	current:data.currentPage, total:data.totalPages 	};
 	}
 }
 

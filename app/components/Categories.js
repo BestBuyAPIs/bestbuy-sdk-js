@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import ProductActions from '../actions/ProductsActions';
 
 export default class Categories extends Component {
-
+	
 	contructor(){
 		this.state = 'select';
 	}
@@ -11,7 +11,6 @@ export default class Categories extends Component {
 		var search = "categoryPath.id=" + e.target.value;
 		ProductActions.getProducts(search); 
 	}
-
 
 	render(){
 		var options = [];
@@ -26,6 +25,4 @@ export default class Categories extends Component {
 				</select>
 			);
 	}
-
-
 }

@@ -44,7 +44,7 @@ export default class Paging extends Component {
 
 		return (
 			<div>
-				<p>On page {this.props.pages.current} of {this.props.pages.total} total pages. Showing {pageSize} products per page.</p>
+				<p>On page <strong>{this.props.pages.current}</strong> of <strong>{this.props.pages.total}</strong> total pages. Showing <strong>{pageSize}</strong> products per page.</p>
 				{pageList}
 			</div>
 			);

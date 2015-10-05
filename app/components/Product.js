@@ -10,7 +10,7 @@ export default class Product extends Component {
 	render() {
 		var name = <span>{this.props.product.name}</span>;
 		var sku = <span>{this.props.product.sku}</span>;
-		var salePrice =<span>{this.props.product.salePrice}</span>;
+		var salePrice =<span>${this.props.product.salePrice}</span>;
 		return (
 				<tr>
 					<td>{name}</td>

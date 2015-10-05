@@ -1,8 +1,8 @@
 # Best Buy API
 This is a high-level JavaScript / Node.js helper for the Best Buy developer API. 
 
-[![NPM](https://nodei.co/npm/bestbuy-sdk-js.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/bestbuy-sdk-js/)
-
+[![NPM](https://nodei.co/npm/bestbuy-sdk-js.png?mini=true)](https://nodei.co/npm/bestbuy-sdk-js/)
+[![NPM](https://nodei.co/npm-dl/bestbuy-sdk-js.png?months=6)](https://nodei.co/npm-dl/bestbuy-sdk-js/)
 The examples folder contains code that demonstrates how to include the module and initialize it with your Best Buy developer key and then programmatically call the API. 
 
 Example of including the NPM module:

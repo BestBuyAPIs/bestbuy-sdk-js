@@ -10,12 +10,12 @@ export default class ProductsTable extends Component {
 			});
 			
 		return (
-				<table>
+				<table className="table-bordered table">
 					<thead>
 						<tr>
-							<td>name</td>
-							<td>sku</td>
-							<td>sale price</td>
+							<td className="col-md-8"><strong>Name</strong></td>
+							<td className="col-md-2"><strong>SKU</strong></td>
+							<td className="col-md-2"><strong>Sale Price</strong></td>
 						</tr>
 					</thead>
 					<tbody>{rows}</tbody>

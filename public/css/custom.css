@@ -1,0 +1,21 @@
+body {
+    background-color: #f8fafd;
+}
+thead {
+    background-color: #003b64;
+    color: #fff;
+}
+table {
+	margin-top: 10px;
+}
+a {
+	cursor: pointer;
+}
+.container {
+    height: 100vh;
+    background-color: #fff;
+}
+
+.test-color {
+    background-color: #000;
+}

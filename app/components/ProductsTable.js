@@ -11,7 +11,7 @@ export default class ProductsTable extends Component {
 			
 		return (
 				<table className="table-bordered table">
-					<thead>
+					<thead className="table-head">
 						<tr>
 							<td className="col-md-8"><strong>Name</strong></td>
 							<td className="col-md-2"><strong>SKU</strong></td>

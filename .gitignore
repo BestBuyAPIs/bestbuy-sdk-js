@@ -94,5 +94,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # Compiled files
-public/css/*
+public/css/*bootstrap.css
 public/js/*

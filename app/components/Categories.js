@@ -20,7 +20,7 @@ export default class Categories extends Component {
 		});
 
 		return (
-				<select onChange={this.handleChange.bind(null)} value={this.state}>
+				<select className="form-control drop" onChange={this.handleChange.bind(null)} value={this.state}>
 					{options}
 				</select>
 			);

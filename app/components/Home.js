@@ -50,8 +50,11 @@ export default class Home extends Component {
 		
 		return (
 			<div>
-				<h1>Best Buy Developer API</h1>
-				<h2><i>featuring React.js, Flux architecture and Node.js</i></h2>
+				<div className="logo">
+					<img src="https://developer.bestbuy.com/images/bestbuy-logo.png" alt="Best Buy Logo" />
+					<h1 className="headline">Developer API</h1>
+					<h2 className="subhead"><i>featuring React.js, Flux architecture and Node.js</i></h2>
+				</div>
 				<Paging pages={this.state.pages} search={this.state.products.search}/>
 				<Categories categories={this.state.categories} />
 				<ProductsTable products={this.state.products} /> 

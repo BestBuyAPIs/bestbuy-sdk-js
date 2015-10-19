@@ -8,10 +8,38 @@ thead {
 table {
 	margin-top: 10px;
 }
+tr:nth-child(even) {
+	background-color: #f8fafd;
+}
 a {
 	cursor: pointer;
+}
+img,
+h1 {
+	display: inline;
+}
+img {
+	margin-top: -30px;
+	margin-left: -15px;
 }
 .container {
     height: 100vh;
     background-color: #fff;
+    padding-top: 50px;
+}
+.headline {
+	font-weight: 100;
+	font-size: 50px;
+}
+.subhead {
+	font-size: 20px;
+	font-weight: 200;
+	margin: 0 0 50px 0;
+}
+.drop {
+	margin-top: 10px;
+	width: 15%;
+}
+.tr-override {
+	border: none;
 }

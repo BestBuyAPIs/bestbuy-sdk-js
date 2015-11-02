@@ -8,6 +8,8 @@
 ### NPM modules ###
 node_modules
 
+coverage
+
 ### Test coverage ###
 spec/coverage
 

@@ -1,0 +1,8 @@
+language: node_js
+node_js:
+  - "0.12.1"
+script: "npm run coverage"
+after_script: "npm run coveralls"
+env:
+    global:
+        - secure: "I94J9DsaBfFNz+JltnewsXq6goeoqxox5ax2uo2dZtmu6kaf1N4+OaShRbKaadam8BtT8QlzXQYCqbSukAgyM0++KlE29aBQuquCO9vUVJ1S0mzum/yBcjL7Mh5JFwJPVFKrnSSsest+AMDaF9fox//Ff+crBZZvCl28NBgfIPI="

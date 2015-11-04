@@ -5,4 +5,4 @@ script: "npm run coverage"
 after_script: "npm run coveralls"
 env:
     global:
-        - secure: "I94J9DsaBfFNz+JltnewsXq6goeoqxox5ax2uo2dZtmu6kaf1N4+OaShRbKaadam8BtT8QlzXQYCqbSukAgyM0++KlE29aBQuquCO9vUVJ1S0mzum/yBcjL7Mh5JFwJPVFKrnSSsest+AMDaF9fox//Ff+crBZZvCl28NBgfIPI="
+        - secure: "dTk9t4RIBYY2QlHvZL+MDOEoc0dSSI+wCTA7xGAOkBTPhKd00untidHQ/WcslFf7azWcSD50rnfbm4aw5WW2uUwdnrbaVDl3yoLAkWRWktPMdkbe193geOWfEwUPnC0Jaw5EqE6/HeWnu4ec5S9Auu8NwCpm4WqHRcyUhacVdfc="

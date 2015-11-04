@@ -8,8 +8,8 @@ Features:
 
   - Travis CI builds
   - Coveralls code coverage
-  - Jasmine node integration / unit tests
-  - Availability : Query availability of products
+  - Jasmine-Node integration / unit tests
+  - Availability
   - BuyingOptions (open box deals)
   - Categories 
   - Products
@@ -17,6 +17,6 @@ Features:
   - Reviews
   - Smart Lists (Connected Home and Active Adventurer)
   - Stores
-  - Pass custome headers
+  - Pass custom headers
   - Toggle request/response debugging
   - Invoke helper using promises

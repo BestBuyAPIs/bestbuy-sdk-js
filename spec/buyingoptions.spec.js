@@ -24,7 +24,7 @@ describe('The buying options section of the BBY API', function(){
                 expect(data.results[0].offers.length>0).toBe(true);
             })
             .catch(function(err){
-                expect(1).toBe(2);
+                expect(err).toBeUndefined();
             })
             .finally(done);
         });
@@ -42,7 +42,7 @@ describe('The buying options section of the BBY API', function(){
                 expect(data.results[0].offers.length>0).toBe(true);
             })
             .catch(function(err){
-                expect(1).toBe(2);
+                expect(err).toBeUndefined();
             })
             .finally(done);
         });

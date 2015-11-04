@@ -19,7 +19,7 @@ describe('The Reviews section of the BBY API', function(){
                 expect(data.reviews[0].rating).not.toBe(undefined);
             })
             .catch(function(err){
-                expect(1).toBe(2);
+                expect(err).toBeUndefined();
             })
             .finally(done);
         });

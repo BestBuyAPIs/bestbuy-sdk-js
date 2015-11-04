@@ -21,7 +21,7 @@ describe('The smart lists section of the BBY API', function(){
                 expect(data.results[0].customerReviews.count).not.toBe(undefined);
             })
             .catch(function(err){
-                expect(1).toBe(2);
+                expect(err).toBeUndefined();
             })
             .finally(done);
         });

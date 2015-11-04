@@ -26,7 +26,7 @@ describe('The recommendations section of the BBY API', function(){
 	                expect(parseInt(data.sku)).toBe(parseInt(topTrendingSku));
 	        })
 	        .catch(function(err){
-	            expect(1).toBe(2);
+	            expect(err).toBeUndefined();
 	        })
 	        .finally(done);
         });

@@ -2,26 +2,11 @@
 // system environment variable called BBY_API_KEY then that will be used
 // automatically. We use it explicitly here so I don't check my API key into 
 // version control :)
-var bby = require('./index').init(process.env.BBY_API_KEY);
+var bby = require('./bestbuy').init(process.env.BBY_API_KEY);
 
 // If the environment variable is set, you would just do:
-// var var bby = require('bestbuy');
+// var bby = require('bestbuy');
 // without the .init() call
-
-// Do a query for stores
-bby.stores('area(55119,25)&storeType=BigBox', function(err, data) {
-    console.log('Store Search:');
-    console.log('found %d stores.', data.stores.length);
-    console.log('');
-});
-
-// Show details for one store
-bby.stores(1443, function(err, data) {
-    console.log('Store Details:');
-    console.log(data.longName);
-    console.log(data.address);
-    console.log('');
-});
 
 // Product search for all items reviewed with exactly 4, show only name + sku
 bby.products('customerReviewAverage=4', {
@@ -42,11 +27,9 @@ bby.products('gurgleflats????4', function(err, data) {
     console.log('');
 });
 
-// Figure out the current top trending product
-bby.recommendations('trendingViewed', function(err, data) {
-    var topTrendingSku = data.results[0].sku;
-    bby.products(+topTrendingSku, function (err, data) {
-        console.log('This is the top trending product right now:');
-        console.log(data);
-    });
+bby.products('manufacturer=canon&salePrice<1000', {
+    format:'json',
+    show: 'sku,name,salePrice'
+}, function(err,data) {
+    console.log(data.products[0]);
 });

@@ -1,21 +1,47 @@
 var bby = require('../bestbuy');
+bby.init({
+    key: process.env.BBY_API_KEY,
+    url:'https://api.bestbuy.com/v1',
+    debug:false,
+    headers:{'User-Agent':'Products specs'}
+});
 
 //https://developer.bestbuy.com/documentation/products-api
 describe('The products section of the BBY API', function(){
 	describe('Fetch products', function(){
-		it('LIVE: Product search for all items reviewed with exactly 4, show only name + sku', function(done){
 
+        it('LIVE: Using Callback Product search for all items reviewed with exactly 4, show only name + sku', function(done){
+            
+            // Product search for all items reviewed with exactly 4, show only name + sku
+            bby.products('customerReviewAverage=4', {
+                show: 'name,sku'
+            }, function(data){
+                data = JSON.parse(data);
+                expect(data.products.length>0).toBe(true);
+                expect(data.products[0].customerReviewCount).toBe(undefined);
+                expect(data.products[0].customerReviewAverage).toBe(undefined);
+                expect(data.products[0].name).not.toBe(undefined);
+                expect(data.products[0].sku).not.toBe(undefined);
+                done();
+            });
+        });
+
+
+		it('LIVE: Using Promise Product search for all items reviewed with exactly 4, show only name + sku', function(done){
+            
 			// Product search for all items reviewed with exactly 4, show only name + sku
 			bby.products('customerReviewAverage=4', {
     			show: 'name,sku'
-			}, function(err, data) {
-    		expect(data.products.length>0).toBe(true);
-    		expect(data.products[0].customerReviewCount).toBe(undefined);
-    		expect(data.products[0].customerReviewAverage).toBe(undefined);
-    		expect(data.products[0].name).not.toBe(undefined);
-    		expect(data.products[0].sku).not.toBe(undefined);
-    		done();
-			});
+			})
+            .then(function(data) {
+                data = JSON.parse(data);
+        		expect(data.products.length>0).toBe(true);
+        		expect(data.products[0].customerReviewCount).toBe(undefined);
+        		expect(data.products[0].customerReviewAverage).toBe(undefined);
+        		expect(data.products[0].name).not.toBe(undefined);
+        		expect(data.products[0].sku).not.toBe(undefined);
+            })
+        	.finally(done);
 		});
 
         it('LIVE: Product search with paging', function(done){
@@ -25,16 +51,17 @@ describe('The products section of the BBY API', function(){
                 show: 'name,sku',
                 pageSize:5,
                 page:2
-            }, function(err, data) {
-            expect(data.products.length>0).toBe(true);
-            expect(data.products[0].customerReviewCount).toBe(undefined);
-            expect(data.products[0].customerReviewAverage).toBe(undefined);
-            expect(data.products[0].name).not.toBe(undefined);
-            expect(data.products[0].sku).not.toBe(undefined);
-            expect(data.from).toBe(6);
-            expect(data.currentPage).toBe(2);
-            done();
-            });
+            })
+            .then(function(data) {
+                data = JSON.parse(data);
+                expect(data.products.length>0).toBe(true);
+                expect(data.products[0].customerReviewCount).toBe(undefined);
+                expect(data.products[0].customerReviewAverage).toBe(undefined);
+                expect(data.products[0].name).not.toBe(undefined);
+                expect(data.products[0].sku).not.toBe(undefined);
+                expect(data.from).toBe(6);
+            })
+            .finally(done);
         });
 
         it('LIVE: Product search beginning with * should fail', function(done){
@@ -42,34 +69,46 @@ describe('The products section of the BBY API', function(){
             // Product search for all items reviewed with exactly 4, show only name + sku
             bby.products('name=***phone*', {
                 show: 'name,sku'
-            }, function(err, data) {
-            expect(data).toBe(undefined);
-            expect(err.code).toBe(400);
-            done();
-            });
+            })
+            .then(function(data) {
+                
+            })
+            .catch(function(data){
+                console.log("DATA:"+data);
+                data = JSON.parse(data);
+                expect(data.error.code).toBe(400);
+            })
+            .finally(done);
         });
 
         it('LIVE: Is a garbage search', function(done){
-
             // Do a search which emits an error
-            bby.products('gurgleflats????4', function(err, data) {
-            expect(err.code).toBe(400);
-            done();
-            });
+            bby.products('gurgleflats????4')
+            .then(function(data) {
+                
+            })
+            .catch(function(data){
+                console.log("DATA:"+data);
+                data = JSON.parse(data);
+                expect(data.error.code).toBe(400);
+            })
+            .finally(done);
         });
 
         it('LIVE: Search multiple attributes and filter', function(done){
             bby.products('manufacturer=canon&salePrice<1000', {
                 format:'json',
                 show: 'sku,name,salePrice'
-            }, function(err,data) {
+            })
+            .then(function(data) {
+                data = JSON.parse(data);
                 expect(data.products[0].customerReviewCount).toBe(undefined);
                 expect(data.products[0].customerReviewAverage).toBe(undefined);
                 expect(data.products[0].name).not.toBe(undefined);
                 expect(data.products[0].sku).not.toBe(undefined);
                 expect(data.products[0].salePrice).not.toBe(undefined);
-                done();
-            });
+               })
+            .finally(done);
         });
 	});
 });

@@ -1,7 +1,6 @@
 var bby = require('../bestbuy');
 bby.init({
     key: process.env.BBY_API_KEY,
-    url:'https://api.bestbuy.com/v1',
     debug:false,
     headers:{'User-Agent':'Categories specs'}
 });

@@ -1,7 +1,6 @@
 var bby = require('../bestbuy');
 bby.init({
     key: process.env.BBY_API_KEY,
-    url:'https://api.bestbuy.com/v1',
     debug:false,
     headers:{'User-Agent':'Reviews specs'}
 });
@@ -9,10 +8,7 @@ bby.init({
 //https://developer.bestbuy.com/documentation/products-api
 describe('The Reviews section of the BBY API', function(){
 	describe('Fetch reviews', function(){
-
         it('LIVE: Reviews search', function(done){
-            
-            // Product search for all items reviewed with exactly 4, show only name + sku
             bby.reviews('sku=1780275')
             .then(function(data) {
                 data = JSON.parse(data);

@@ -5,9 +5,11 @@
 var bby = require('../bestbuy');
 bby.init({
     key: process.env.BBY_API_KEY,
-    url:'https://api.bestbuy.com/v1',
-    debug:true,
-    headers:{'User-Agent':'recommendations example'}
+    url: 'https://api.bestbuy.com/v1',
+    debug: true,
+    headers: {
+        'User-Agent': 'recommendations example'
+    }
 });
 // If the environment variable is set, you would just do:
 // var var bby = require('bestbuy');
@@ -16,7 +18,7 @@ bby.init({
 // Figure out the current top trending product
 bby.recommendations('trendingViewed', function(data, err) {
     var topTrendingSku = data.results[0].sku;
-    bby.products(+topTrendingSku, function (err, data) {
+    bby.products(+topTrendingSku, function(err, data) {
         console.log('This is the top trending product right now:');
         console.log(data);
     });

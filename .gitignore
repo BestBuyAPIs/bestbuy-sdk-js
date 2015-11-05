@@ -5,6 +5,10 @@
 !/.gitignore
 !/.gitmodules
 
+### JS Dot Files ###
+!/.jsbeautifyrc
+!/.jshintrc
+
 ### NPM modules ###
 node_modules
 

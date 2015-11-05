@@ -22,14 +22,14 @@ bby.products('gurgleflats????4', function(err, data) {
     console.log('Here is what an error looks like:');
     console.log('HTTP Status Code: ' + err.code);
     console.log(err.message);
-    console.log('There are %d examples of how to do it right', 
+    console.log('There are %d examples of how to do it right',
         err.examples.length);
     console.log('');
 });
 
 bby.products('manufacturer=canon&salePrice<1000', {
-    format:'json',
+    format: 'json',
     show: 'sku,name,salePrice'
-}, function(err,data) {
+}, function(err, data) {
     console.log(data.products[0]);
 });

@@ -15,10 +15,6 @@ Pre-ES6 with explicit initialization
 
     var bby = require('bestbuy')("your_BBY_API_KEY");
 
-ES6 assuming an environment variable is set:
-
-    import bby from 'bestbuy';
-
 In addition to the examples, the package contains a suite of Jasmine tests to further show how to use the helper in more ways.
 
 

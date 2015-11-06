@@ -1,6 +1,6 @@
-var BBApi = require('../bestbuy');
+var BBY = require('../bestbuy');
 
-var bby = BBApi({
+var bby = BBY({
     key: process.env.BBY_API_KEY,
     debug: false,
     headers: {

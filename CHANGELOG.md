@@ -11,11 +11,10 @@ Features:
   - Jasmine-Node integration / unit tests
   - Availability
   - BuyingOptions (open box deals)
-  - Categories 
+  - Categories
   - Products
   - Recommendations
   - Reviews
-  - Smart Lists (Connected Home and Active Adventurer)
   - Stores
   - Pass custom headers
   - Toggle request/response debugging

@@ -10,7 +10,7 @@ Features:
   - Coveralls code coverage
   - Jasmine-Node integration / unit tests
   - Availability
-  - BuyingOptions (open box deals)
+  - OpenBox (the "Buying Options" part of our API)
   - Categories
   - Products
   - Recommendations

@@ -35,8 +35,8 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 ## Documentation
 
  - [`availability`](#availability)
- - [`buyingOptions`](#buyingOptions)
  - [`categories`](#categories)
+ - [`openBox`](#openBox)
  - [`products`](#products)
  - [`recommendations`](#recommendations)
  - [`reviews`](#reviews)
@@ -51,9 +51,7 @@ _More examples are available in the [examples](examples/) directory_
 
 
 ### availability
-
 #### `availability(sku, array of store ids[, query string object])`
-
 This method supports an optional third parameter that represents extra attributes, such as `show`, to be added to the query string sent to the API.
 ##### Using Callbacks
 ```js
@@ -74,17 +72,7 @@ This method supports an optional third parameter that represents extra attribute
         console.warn(err);
       });
 ```
-### buyingOptions
-#### `buyingOptions(sku, array of store ids)`
-This endpoint serves the search criteria for querying the [Buying Options API as described in our API documentation](https://developer.bestbuy.com/documentation/buyingOptions-api).
-##### Using Callbacks
-```js
-    var bby = require('bestbuy')('YOURKEY');
-```
-##### Using Promises
-```js
-    var bby = require('bestbuy')('YOURKEY');
-```
+
 ### categories
 #### `categories(String of search criteria[, query string object])`
 This endpoint serves the search criteria for querying the [Category API as described in our API documentation](https://developer.bestbuy.com/documentation/categories-api).
@@ -100,7 +88,6 @@ The below example returns the first category with the word "music" in it.
     });
 ```
 ##### Using Promises
-
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.categories('(name=Music)', {pageSize: 1})
@@ -112,6 +99,46 @@ The below example returns the first category with the word "music" in it.
         console.warn(err);
       });
 ```
+
+### openBox
+#### `openBox(sku, array of store ids)`
+This endpoint serves the search criteria for querying the [Buying Options API as described in our API documentation](https://developer.bestbuy.com/documentation/buyingOptions-api).
+
+This example searches all open box products in the video games category, and returns the first result.
+##### Using Callbacks
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.openBox('categoryId=abcat0700000', function(err, data) {
+      if (err) console.warn(err);
+      else if (data.metadata.resultSet.count === 0) console.log('No Open Box products available');
+      else {
+        console.log('Found %d Open Box products', data.metadata.resultSet.count);
+        console.log('First Open Box product:');
+        console.log('\tName: %s', data.results[0].names.title);
+        console.log('\tURL: %s', data.results[0].links.web);
+        console.log('\tPrice: $%d', data.results[0].prices.current);
+      }
+    });
+```
+##### Using Promises
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.openBox('categoryId=abcat0700000')
+      .then(function(data){
+        if (data.metadata.resultSet.count === 0) console.log('No Open Box products available');
+        else {
+          console.log('Found %d Open Box products', data.metadata.resultSet.count);
+          console.log('First Open Box product:');
+          console.log('\tName: %s', data.results[0].names.title);
+          console.log('\tURL: %s', data.results[0].links.web);
+          console.log('\tPrice: $%d', data.results[0].prices.current);
+        }
+      })
+      .catch(function(data){
+        console.warn(err);
+      });
+```
+
 ### products
 #### `products(String of search criteria[, query string object])`
 This endpoint serves the search criteria for querying the [Products API as described in our API documentation](https://developer.bestbuy.com/documentation/products-api).
@@ -138,6 +165,7 @@ The below example returns the title and price of the first search result with th
         console.warn(err);
       });
 ```
+
 ### recommendations
 #### `recommendations('mostViewed' OR 'trendingViewed'[, optional category as a string])`
 #### `recommendations('alsoViewed' OR 'similar', sku)`
@@ -169,6 +197,7 @@ The below examples show how to get the most viewed products on BestBuy.com.
         console.warn(err);
       });
 ```
+
 ### reviews
 #### `reviews(String of search criteria)`
 This endpoint serves the search criteria for querying the [Reviews API as described in our API documentation](https://developer.bestbuy.com/documentation/reviews-api).
@@ -195,6 +224,7 @@ The below examples show finding the reviews for a specific product.
         console.warn(err);
       });
 ```
+
 ### stores
 #### `stores(String of search criteria)`
 This endpoint serves the search criteria for querying the [Stores API as described in our API documentation](https://developer.bestbuy.com/documentation/stores-api).
@@ -208,7 +238,6 @@ The below examples show the number of stores located within 25 miles of 94103 (S
       else console.log('Number of stores found: ' + data.total);
     });
 ```
-
 ##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');

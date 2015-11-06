@@ -1,10 +1,13 @@
 {
   "name": "bestbuy",
-  "version": "0.0.4",
-  "description": "High level node.js client for the Best Buy API - alpha quality.",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "High level node.js client for the Best Buy API.",
+  "main": "bestbuy.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jasmine-node spec",
+    "coverage": "istanbul cover jasmine-node --captureExceptions spec",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
+    "pretty": "fixmyjs --legacy *.js */*.js && js-beautify -r *.js */*.js"
   },
   "repository": {
     "type": "git",
@@ -13,11 +16,14 @@
   "keywords": [
     "bestbuy",
     "api",
-    "twilio"
+    "retail",
+    "electronics",
+    "product reviews"
   ],
-  "author": "Kevin Whinnery",
+  "author": "Ian Felton <ian@ianfelton.com>",
   "contributors": [
-    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)"
+    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)",
+    "Dan Flettre <fletd01@yahoo.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -25,10 +31,17 @@
   },
   "homepage": "https://github.com/BestBuyAPIs/bestbuy-sdk-js",
   "dependencies": {
+    "bluebird": "^3.0.5",
+    "lodash": ">2 <4",
     "request": "^2.40.0",
-    "lodash": "^2.4.1"
+    "request-debug": "^0.2.0",
+    "request-promise": "^1.0.2"
   },
   "devDependencies": {
-    "async": "^0.9.0"
+    "coveralls": "^2.11.4",
+    "fixmyjs": "^1.0.3",
+    "istanbul": "^0.4.0",
+    "jasmine-node": "^1.14.5",
+    "js-beautify": "^1.5.10"
   }
 }

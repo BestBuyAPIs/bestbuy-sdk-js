@@ -7,7 +7,7 @@ This is a high-level JavaScript / Node.js helper for the [Best Buy developer API
 [![Coverage Status](https://coveralls.io/repos/BestBuyAPIs/bestbuy-sdk-js/badge.svg?branch=master&service=github)](https://coveralls.io/github/BestBuyAPIs/bestbuy-sdk-js?branch=master)
 [![Dependency Status](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js.svg)](https://david-dm.org/BestBuyAPIs/bestbuy-sdk-js)
 
-The examples folder contains code that demonstrates how to include the module and initialize it with your Best Buy developer key and then programmatically call the API.
+The [examples](examples/) folder contains code that demonstrates how to include the module and initialize it with your Best Buy developer key and then programmatically call the API.
 
 Example of including the NPM module:
 
@@ -23,32 +23,15 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 
 
 ## Getting Started
-Sign-up for a developer API Key at https://developer.bestbuy.com/
-
-Clone the repository.
-
-    git clone https://github.com/BestBuyAPIs/bestbuy-sdk-js.git
-
-Optionally export your key as an environment variable:
-in Windows:
-
-    SET BBY_API_KEY=yourDeveloperApiKeyHere
-
-on OS X or Linux:
-
-    export BBY_API_KEY=yourDeveloperApiKeyHere
-
-Install the dependencies with:
-
-    npm install
-
-_Many developers install gulp, grunt, bower, etc. globally. This package aliases the local node module to avoid problems when installing many global dependencies on CI servers, etc. In other words, to run this package, only running `npm install` is required._
-
-
-## Tests
-Run the existing tests with:
-
-    npm test
+ 1. Sign-up for a developer API Key at https://developer.bestbuy.com/
+ 2. Run `npm install bestbuy --save`
+    * Alternatively you can just add `"bestbuy": "1.*"` inside of the *dependencies* part of your `package.json` file
+ 3. The library requires an API key to be provided before it can be used. You can set that in one of three ways:
+    * Set an environment variable of `BBY_API_KEY` to your key
+    * Send the key in as a string when invoking the method<br>
+      `var bby = require('bestbuy').init('YOURKEY');`
+    * Send the key in as part of an object when invoking the method<br>
+      `var bby = require('bestbuy').init({'key': 'YOURKEY'});`
 
 
 ## Documentation
@@ -67,7 +50,7 @@ In our documentation, we'll use a couple actual examples:
  - Whenever a SKU is referenced, we'll use `8880044`, which is the [Batman Begins (Blu-ray)](http://www.bestbuy.com/site/batman-begins-blu-ray-disc/8880044.p?id=1484301&skuId=8880044)
  - Whenever a Store ID is referenced, we'll use `482`, which a Best Buy store in New York where [Chloe](https://www.youtube.com/watch?v=rxTQxo6gKd4) works.
 
-_More examples are available in the `examples` directory_
+_More examples are available in the [examples](examples/) directory_
 
 <a name="availability" />
 ### availability(sku, array of store ids)
@@ -109,6 +92,11 @@ _More examples are available in the `examples` directory_
 #### Using Callbacks
 #### Using Promises
 
+
+## Tests
+Run the existing tests with:
+
+    npm test
 
 
 ## Online Resources

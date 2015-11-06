@@ -1,8 +1,8 @@
 // Initialize with your Best Buy developer API key - if it is present as a
 // system environment variable called BBY_API_KEY then that will be used
-// automatically. We use it explicitly here so I don't check my API key into 
+// automatically. We use it explicitly here so I don't check my API key into
 // version control :)
-var bby = require('./bestbuy').init(process.env.BBY_API_KEY);
+var bby = require('../bestbuy').init(process.env.BBY_API_KEY);
 
 // If the environment variable is set, you would just do:
 // var bby = require('bestbuy');
@@ -20,10 +20,10 @@ bby.products('customerReviewAverage=4', {
 // Do a search which emits an error
 bby.products('gurgleflats????4', function(err, data) {
     console.log('Here is what an error looks like:');
-    console.log('HTTP Status Code: ' + err.code);
+    console.log('HTTP Status Code: ' + err.statusCode);
     console.log(err.message);
     console.log('There are %d examples of how to do it right',
-        err.examples.length);
+        err.error.error.examples.length);
     console.log('');
 });
 

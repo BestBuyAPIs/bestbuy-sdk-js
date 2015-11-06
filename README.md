@@ -47,51 +47,91 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 
 In our documentation, we'll use a couple actual examples:
 
- - Whenever a SKU is referenced, we'll use `8880044`, which is the [Batman Begins (Blu-ray)](http://www.bestbuy.com/site/batman-begins-blu-ray-disc/8880044.p?id=1484301&skuId=8880044)
- - Whenever a Store ID is referenced, we'll use `482`, which a Best Buy store in New York where [Chloe](https://www.youtube.com/watch?v=rxTQxo6gKd4) works.
+ - Whenever a SKU is referenced, we'll use `4312001`, which is the [Star Wars Episode IV: A New Hope (Blu-ray)](http://www.bestbuy.com/site/batman-begins-blu-ray-disc/4312001.p?id=48254&skuId=4312001)
+ - Whenever a Store ID is referenced, we'll use `611` and `482`, which are respectfully the Best Buy stores by corporate headquarters and in New York where [Chloe](https://www.youtube.com/watch?v=rxTQxo6gKd4) works.
 
 _More examples are available in the [examples](examples/) directory_
 
 <a name="availability" />
-### availability(sku, array of store ids)
+### availability(sku, array of store ids[, query string object])
+This method supports an optional third parameter that represents extra attributes, such as `show`, to be added to the query string sent to the API.
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
+    bby.availability(4312001, [611, 482], function(err, data) {
+        if (err) console.warn(err);
+        else console.log('Stores carrying %s: %d', data.products[0].name, data.products[0].stores.length);
+    });
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
+    bby.availability(4312001, [611, 482])
+      .then(function(data){
+        console.log('Stores carrying %s: %d', data.products[0].name, data.products[0].stores.length);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 <a name="buyingOptions" />
 ### buyingOptions(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="categories" />
 ### categories(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="products" />
 ### products(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="recommendations" />
 ### recommendations(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="reviews" />
 ### reviews(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="smartLists" />
 ### smartLists(sku, array of store ids)
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="stores" />
-### stores(sku, array of store ids)
-#### Using Callbacks
-#### Using Promises
+### stores(String of search options)
+This endpoint serves the search criteria for querying the [Stores API as described in our API documentation](https://developer.bestbuy.com/documentation/stores-api).
 
+The below examples show the number of stores located within 25 miles of 94103 (San Francisco, CA).
+#### Using Callbacks
+    bby.stores('area(94103,25)&storeType=BigBox', function(err, data){
+      if (err) console.warn(err);
+      else console.log('Number of stores found: ' + data.total);
+    });
+#### Using Promises
+    var bby = require('bestbuy').init('YOURKEY');
+    bby.stores('area(94103,25)&storeType=BigBox')
+      .then(function(data){
+        console.log('Number of stores found: ' + data.total);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 ## Tests
 Run the existing tests with:

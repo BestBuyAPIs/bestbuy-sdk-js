@@ -42,7 +42,6 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
  - [`products`](#products)
  - [`recommendations`](#recommendations)
  - [`reviews`](#reviews)
- - [`smartLists`](#smartLists)
  - [`stores`](#stores)
 
 In our documentation, we'll use a couple actual examples:
@@ -106,12 +105,6 @@ This method supports an optional third parameter that represents extra attribute
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
 
-<a name="smartLists" />
-### smartLists(sku, array of store ids)
-#### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
-#### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
 
 <a name="stores" />
 ### stores(String of search options)
@@ -119,6 +112,7 @@ This endpoint serves the search criteria for querying the [Stores API as describ
 
 The below examples show the number of stores located within 25 miles of 94103 (San Francisco, CA).
 #### Using Callbacks
+    var bby = require('bestbuy').init('YOURKEY');
     bby.stores('area(94103,25)&storeType=BigBox', function(err, data){
       if (err) console.warn(err);
       else console.log('Number of stores found: ' + data.total);

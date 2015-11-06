@@ -22,7 +22,8 @@
   ],
   "author": "Ian Felton <ian@ianfelton.com>",
   "contributors": [
-    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)"
+    "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)",
+    "Dan Flettre <fletd01#yahoo.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -38,7 +39,9 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
+    "fixmyjs": "^1.0.3",
     "istanbul": "^0.4.0",
-    "jasmine-node": "^1.14.5"
+    "jasmine-node": "^1.14.5",
+    "js-beautify": "^1.5.10"
   }
 }

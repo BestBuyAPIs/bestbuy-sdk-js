@@ -16,8 +16,7 @@ describe('The products section of the BBY API', function() {
             // Product search for all items reviewed with exactly 4, show only name + sku
             bby.products('customerReviewAverage=4', {
                 show: 'name,sku'
-            }, function(data) {
-                data = JSON.parse(data);
+            }, function(err, data) {
                 expect(data.products.length > 0).toBe(true);
                 expect(data.products[0].customerReviewCount).toBe(undefined);
                 expect(data.products[0].customerReviewAverage).toBe(undefined);
@@ -35,7 +34,6 @@ describe('The products section of the BBY API', function() {
                     show: 'name,sku'
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.products.length > 0).toBe(true);
                     expect(data.products[0].customerReviewCount).toBe(undefined);
                     expect(data.products[0].customerReviewAverage).toBe(undefined);
@@ -54,7 +52,6 @@ describe('The products section of the BBY API', function() {
                     page: 2
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.products.length > 0).toBe(true);
                     expect(data.products[0].customerReviewCount).toBe(undefined);
                     expect(data.products[0].customerReviewAverage).toBe(undefined);
@@ -76,7 +73,6 @@ describe('The products section of the BBY API', function() {
                 })
                 .catch(function(data) {
                     console.log("DATA:" + data);
-                    data = JSON.parse(data);
                     expect(data.error.code).toBe(400);
                 })
                 .finally(done);
@@ -90,7 +86,6 @@ describe('The products section of the BBY API', function() {
                 })
                 .catch(function(data) {
                     console.log("DATA:" + data);
-                    data = JSON.parse(data);
                     expect(data.error.code).toBe(400);
                 })
                 .finally(done);
@@ -102,7 +97,6 @@ describe('The products section of the BBY API', function() {
                     show: 'sku,name,salePrice'
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.products[0].customerReviewCount).toBe(undefined);
                     expect(data.products[0].customerReviewAverage).toBe(undefined);
                     expect(data.products[0].name).not.toBe(undefined);

@@ -18,7 +18,6 @@ describe('The categories section of the BBY API', function() {
                     show: 'name,id'
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.categories.length > 0).toBe(true);
                     expect(data.categories[0].customerReviewCount).toBe(undefined);
                     expect(data.categories[0].customerReviewAverage).toBe(undefined);

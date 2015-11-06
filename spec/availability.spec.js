@@ -14,7 +14,6 @@ describe('The Availability section of the BBY API', function() {
 
             bby.stores('area(55119,25)&storeType=BigBox')
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.stores.length > 0).toBe(true);
                     var stores = data.stores.map(function(store) {
                         return store.storeId;
@@ -22,7 +21,6 @@ describe('The Availability section of the BBY API', function() {
                     return bby.availability(1780275, stores);
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.products.length > 0).toBe(true);
                 })
                 .catch(function(err) {
@@ -33,14 +31,12 @@ describe('The Availability section of the BBY API', function() {
 
         it('LIVE: Availability search using callback', function(done) {
 
-            bby.stores('area(55119,25)&storeType=BigBox', function(data) {
-                data = JSON.parse(data);
+            bby.stores('area(55119,25)&storeType=BigBox', function(err, data) {
                 expect(data.stores.length > 0).toBe(true);
                 var stores = data.stores.map(function(store) {
                     return store.storeId;
                 });
-                bby.availability(1780275, stores, function(data) {
-                    data = JSON.parse(data);
+                bby.availability(1780275, stores, function(err, data) {
                     expect(data.products.length > 0).toBe(true);
                     done();
                 });

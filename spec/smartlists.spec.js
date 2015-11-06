@@ -18,7 +18,6 @@ describe('The smart lists section of the BBY API', function() {
                     show: 'name,sku'
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.results.length > 0).toBe(true);
                     expect(data.results[0].customerReviews.count).not.toBe(undefined);
                 })
@@ -33,8 +32,7 @@ describe('The smart lists section of the BBY API', function() {
             // Product search for all items reviewed with exactly 4, show only name + sku
             bby.smartLists('connectedHome', {
                 show: 'name,sku'
-            }, function(data) {
-                data = JSON.parse(data);
+            }, function(err, data) {
                 expect(data.results.length > 0).toBe(true);
                 expect(data.results[0].customerReviews.count).not.toBe(undefined);
                 done();

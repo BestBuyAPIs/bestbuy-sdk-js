@@ -13,7 +13,6 @@ describe('The Reviews section of the BBY API', function() {
         it('LIVE: Reviews search', function(done) {
             bby.reviews('sku=1780275')
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.reviews.length > 0).toBe(true);
                     expect(data.reviews[0].id).not.toBe(undefined);
                     expect(data.reviews[0].sku).not.toBe(undefined);

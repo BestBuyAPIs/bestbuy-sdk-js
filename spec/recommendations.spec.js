@@ -18,13 +18,11 @@ describe('The recommendations section of the BBY API', function() {
             // Figure out the current top trending product
             bby.recommendations('trendingViewed')
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.results.length > 0).toBe(true);
                     topTrendingSku = data.results[0].sku;
                     return bby.products(+topTrendingSku);
                 })
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(parseInt(data.sku)).toBe(parseInt(topTrendingSku));
                 })
                 .catch(function(err) {
@@ -36,12 +34,10 @@ describe('The recommendations section of the BBY API', function() {
         it('LIVE: recommendations search using callbacks', function(done) {
 
             // Figure out the current top trending product
-            bby.recommendations('trendingViewed', function(data) {
-                data = JSON.parse(data);
+            bby.recommendations('trendingViewed', function(err, data) {
                 expect(data.results.length > 0).toBe(true);
                 topTrendingSku = data.results[0].sku;
-                bby.products(+topTrendingSku, function(data) {
-                    data = JSON.parse(data);
+                bby.products(+topTrendingSku, function(err, data) {
                     expect(parseInt(data.sku)).toBe(parseInt(topTrendingSku));
                     done();
                 });

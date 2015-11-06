@@ -21,7 +21,6 @@ describe('The stores section of the BBY API', function() {
             // Do a query for stores
             bby.stores('area(55119,25)&storeType=BigBox')
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.stores.length > 0).toBe(true);
                 })
                 .finally(done);
@@ -33,7 +32,6 @@ describe('The stores section of the BBY API', function() {
             // Show details for one store
             bby.stores(1443)
                 .then(function(data) {
-                    data = JSON.parse(data);
                     expect(data.longName).toBe("Best Buy - Blaine");
                     expect(data.address).toBe("10985 Ulysses St Ne");
                 })

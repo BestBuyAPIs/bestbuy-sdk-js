@@ -49,9 +49,13 @@ In our documentation, we'll use a couple actual examples:
 
 _More examples are available in the [examples](examples/) directory_
 
-### availability(sku, array of store ids[, query string object])
+
+### availability
+
+#### `availability(sku, array of store ids[, query string object])`
+
 This method supports an optional third parameter that represents extra attributes, such as `show`, to be added to the query string sent to the API.
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.availability(4312001, [611, 482], function(err, data) {
@@ -59,7 +63,7 @@ This method supports an optional third parameter that represents extra attribute
         else console.log('Stores carrying %s: %d', data.products[0].name, data.products[0].stores.length);
     });
 ```
-#### Using Promises
+##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.availability(4312001, [611, 482])
@@ -70,23 +74,23 @@ This method supports an optional third parameter that represents extra attribute
         console.warn(err);
       });
 ```
-
-### buyingOptions(sku, array of store ids)
+### buyingOptions
+#### `buyingOptions(sku, array of store ids)`
 This endpoint serves the search criteria for querying the [Buying Options API as described in our API documentation](https://developer.bestbuy.com/documentation/buyingOptions-api).
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
 ```
-#### Using Promises
+##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');
 ```
-
-### categories(String of search criteria[, query string object])
+### categories
+#### `categories(String of search criteria[, query string object])`
 This endpoint serves the search criteria for querying the [Category API as described in our API documentation](https://developer.bestbuy.com/documentation/categories-api).
 
 The below example returns the first category with the word "music" in it.
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.categories('(name=Music)', {pageSize: 1}, function(err, data) {
@@ -95,7 +99,7 @@ The below example returns the first category with the word "music" in it.
       else console.log('Found %d categories. First category (%s): %s', data.total, data.categories[0].id, data.categories[0].name);
     });
 ```
-#### Using Promises
+##### Using Promises
 
 ```js
     var bby = require('bestbuy')('YOURKEY');
@@ -108,12 +112,12 @@ The below example returns the first category with the word "music" in it.
         console.warn(err);
       });
 ```
-
-### products(String of search criteria[, query string object])
+### products
+#### `products(String of search criteria[, query string object])`
 This endpoint serves the search criteria for querying the [Products API as described in our API documentation](https://developer.bestbuy.com/documentation/products-api).
 
 The below example returns the title and price of the first search result with the word "Mario" in it.
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1}, function(err, data) {
@@ -122,7 +126,7 @@ The below example returns the title and price of the first search result with th
       else console.log('Found %d products. First match "%s" is $%d', data.total, data.products[0].name, data.products[0].salePrice);
     });
 ```
-#### Using Promises
+##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1})
@@ -134,8 +138,9 @@ The below example returns the title and price of the first search result with th
         console.warn(err);
       });
 ```
-### recommendations('mostViewed' OR 'trendingViewed'[, optional category as a string])
-### recommendations('alsoViewed' OR 'similar', sku)
+### recommendations
+#### `recommendations('mostViewed' OR 'trendingViewed'[, optional category as a string])`
+#### `recommendations('alsoViewed' OR 'similar', sku)`
 This endpoint serves the search criteria for querying the [Recommendations API as described in our API documentation](https://developer.bestbuy.com/documentation/recommendations-api).
 
 The first parameter expects one of four values: mostViewed, trendingViewed, alsoViewed or similar
@@ -143,7 +148,7 @@ If the first parameter is *mostViewed* or *trendingViewed*, an optional second p
 If the first parameter is *alsoViewed* or *similar*, a required second parameter of sku must be provided.
 
 The below examples show how to get the most viewed products on BestBuy.com.
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.recommendations('mostViewed', function(err, data) {
@@ -152,7 +157,7 @@ The below examples show how to get the most viewed products on BestBuy.com.
       else console.log('Found %d products. First product: %s', data.metadata.resultSet.count, data.results[0].names.title);
     });
 ```
-#### Using Promises
+##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.recommendations('mostViewed')
@@ -164,11 +169,12 @@ The below examples show how to get the most viewed products on BestBuy.com.
         console.warn(err);
       });
 ```
-### reviews(String of search criteria)
+### reviews
+#### `reviews(String of search criteria)`
 This endpoint serves the search criteria for querying the [Reviews API as described in our API documentation](https://developer.bestbuy.com/documentation/reviews-api).
 
 The below examples show finding the reviews for a specific product.
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.reviews('sku=4312001', function(err, data) {
@@ -177,24 +183,24 @@ The below examples show finding the reviews for a specific product.
       else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
     });
 ```
-#### Using Promises
+##### Using Promises
 ```js
-var bby = require('bestbuy')('YOURKEY');
-bby.reviews('sku=4312001')
-  .then(function(data){
-    if (data.total === 0) console.log('No reviews found');
-    else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
-  })
-  .catch(function(err){
-    console.warn(err);
-  });
+    var bby = require('bestbuy')('YOURKEY');
+    bby.reviews('sku=4312001')
+      .then(function(data){
+        if (data.total === 0) console.log('No reviews found');
+        else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 ```
-
-### stores(String of search criteria)
+### stores
+#### `stores(String of search criteria)`
 This endpoint serves the search criteria for querying the [Stores API as described in our API documentation](https://developer.bestbuy.com/documentation/stores-api).
 
 The below examples show the number of stores located within 25 miles of 94103 (San Francisco, CA).
-#### Using Callbacks
+##### Using Callbacks
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.stores('area(94103,25)&storeType=BigBox', function(err, data){
@@ -203,7 +209,7 @@ The below examples show the number of stores located within 25 miles of 94103 (S
     });
 ```
 
-#### Using Promises
+##### Using Promises
 ```js
     var bby = require('bestbuy')('YOURKEY');
     bby.stores('area(94103,25)&storeType=BigBox')

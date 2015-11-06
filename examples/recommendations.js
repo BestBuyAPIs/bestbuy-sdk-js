@@ -2,8 +2,8 @@
 // system environment variable called BBY_API_KEY then that will be used
 // automatically. We use it explicitly here so I don't check my API key into
 // version control :)
-var bby = require('../bestbuy');
-bby.init({
+var BBY = require('../bestbuy');
+var bby = BBY({
     key: process.env.BBY_API_KEY,
     url: 'https://api.bestbuy.com/v1',
     debug: true,
@@ -11,9 +11,6 @@ bby.init({
         'User-Agent': 'recommendations example'
     }
 });
-// If the environment variable is set, you would just do:
-// var var bby = require('bestbuy');
-// without the .init() call
 
 // Figure out the current top trending product
 bby.recommendations('trendingViewed', function(err, data) {

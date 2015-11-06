@@ -13,7 +13,7 @@ Example of including the NPM module:
 
 Pre-ES6 with explicit initialization
 
-    var bby = require('bestbuy').init("your_BBY_API_KEY");
+    var bby = require('bestbuy')("your_BBY_API_KEY");
 
 ES6 assuming an environment variable is set:
 
@@ -29,9 +29,9 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
  3. The library requires an API key to be provided before it can be used. You can set that in one of three ways:
     * Set an environment variable of `BBY_API_KEY` to your key
     * Send the key in as a string when invoking the method<br>
-      `var bby = require('bestbuy').init('YOURKEY');`
+      `var bby = require('bestbuy')('YOURKEY');`
     * Send the key in as part of an object when invoking the method<br>
-      `var bby = require('bestbuy').init({'key': 'YOURKEY'});`
+      `var bby = require('bestbuy')({'key': 'YOURKEY'});`
 
 
 ## Documentation
@@ -55,13 +55,13 @@ _More examples are available in the [examples](examples/) directory_
 ### availability(sku, array of store ids[, query string object])
 This method supports an optional third parameter that represents extra attributes, such as `show`, to be added to the query string sent to the API.
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.availability(4312001, [611, 482], function(err, data) {
         if (err) console.warn(err);
         else console.log('Stores carrying %s: %d', data.products[0].name, data.products[0].stores.length);
     });
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.availability(4312001, [611, 482])
       .then(function(data){
         console.log('Stores carrying %s: %d', data.products[0].name, data.products[0].stores.length);
@@ -74,9 +74,9 @@ This method supports an optional third parameter that represents extra attribute
 ### buyingOptions(sku, array of store ids)
 This endpoint serves the search criteria for querying the [Buying Options API as described in our API documentation](https://developer.bestbuy.com/documentation/buyingOptions-api).
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
 
 <a name="categories" />
 ### categoroies(String of search criteria[, query string object])
@@ -84,14 +84,14 @@ This endpoint serves the search criteria for querying the [Category API as descr
 
 The below example returns the first category with the word "music" in it.
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.categories('(name=Music)', {pageSize: 1}, function(err, data) {
       if (err) console.warn(err);
       else if (data.total === 0) console.log('No categories found');
       else console.log('Found %d categories. First category (%s): %s', data.total, data.categories[0].id, data.categories[0].name);
     });
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.categories('(name=Music)', {pageSize: 1})
       .then(function(data){
         if (data.total === 0) console.log('No categories found');
@@ -107,14 +107,14 @@ This endpoint serves the search criteria for querying the [Products API as descr
 
 The below example returns the title and price of the first search result with the word "Mario" in it.
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1}, function(err, data) {
       if (err) console.warn(err);
       else if (data.total === 0) console.log('No products found');
       else console.log('Found %d products. First match "%s" is $%d', data.total, data.products[0].name, data.products[0].salePrice);
     });
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1})
       .then(function(data){
         if (data.total === 0) console.log('No products found');
@@ -135,7 +135,7 @@ If the first parameter is *alsoViewed* or *similar*, a required second parameter
 
 The below examples show how to get the most viewed products on BestBuy.com.
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.recommendations('mostViewed', function(err, data) {
       if (err) console.warn(err);
       else if (data.metadata.resultSet.count === 0) console.log('Did not find any products');
@@ -143,7 +143,7 @@ The below examples show how to get the most viewed products on BestBuy.com.
     });
 
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.recommendations('mostViewed')
       .then(function(data){
         if (data.metadata.resultSet.count === 0) console.log('Did not find any products');
@@ -159,7 +159,7 @@ This endpoint serves the search criteria for querying the [Reviews API as descri
 
 The below examples show finding the reviews for a specific product.
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.reviews('sku=4312001', function(err, data) {
       if (err) console.warn(err);
       else if (data.total === 0) console.log('No reviews found');
@@ -167,7 +167,7 @@ The below examples show finding the reviews for a specific product.
     });
 
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.reviews('sku=4312001')
       .then(function(data){
         if (data.total === 0) console.log('No reviews found');
@@ -184,13 +184,13 @@ This endpoint serves the search criteria for querying the [Stores API as describ
 
 The below examples show the number of stores located within 25 miles of 94103 (San Francisco, CA).
 #### Using Callbacks
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.stores('area(94103,25)&storeType=BigBox', function(err, data){
       if (err) console.warn(err);
       else console.log('Number of stores found: ' + data.total);
     });
 #### Using Promises
-    var bby = require('bestbuy').init('YOURKEY');
+    var bby = require('bestbuy')('YOURKEY');
     bby.stores('area(94103,25)&storeType=BigBox')
       .then(function(data){
         console.log('Number of stores found: ' + data.total);

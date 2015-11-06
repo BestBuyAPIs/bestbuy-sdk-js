@@ -72,42 +72,114 @@ This method supports an optional third parameter that represents extra attribute
 
 <a name="buyingOptions" />
 ### buyingOptions(sku, array of store ids)
+This endpoint serves the search criteria for querying the [Buying Options API as described in our API documentation](https://developer.bestbuy.com/documentation/buyingOptions-api).
 #### Using Callbacks
     var bby = require('bestbuy').init('YOURKEY');
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
 
 <a name="categories" />
-### categories(sku, array of store ids)
+### categoroies(String of search criteria[, query string object])
+This endpoint serves the search criteria for querying the [Category API as described in our API documentation](https://developer.bestbuy.com/documentation/categories-api).
+
+The below example returns the first category with the word "music" in it.
 #### Using Callbacks
     var bby = require('bestbuy').init('YOURKEY');
+    bby.categories('(name=Music)', {pageSize: 1}, function(err, data) {
+      if (err) console.warn(err);
+      else if (data.total === 0) console.log('No categories found');
+      else console.log('Found %d categories. First category (%s): %s', data.total, data.categories[0].id, data.categories[0].name);
+    });
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
+    bby.categories('(name=Music)', {pageSize: 1})
+      .then(function(data){
+        if (data.total === 0) console.log('No categories found');
+        else console.log('Found %d categories. First category (%s): %s', data.total, data.categories[0].id, data.categories[0].name);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 <a name="products" />
-### products(sku, array of store ids)
+### products(String of search criteria[, query string object])
+This endpoint serves the search criteria for querying the [Products API as described in our API documentation](https://developer.bestbuy.com/documentation/products-api).
+
+The below example returns the title and price of the first search result with the word "Mario" in it.
 #### Using Callbacks
     var bby = require('bestbuy').init('YOURKEY');
+    bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1}, function(err, data) {
+      if (err) console.warn(err);
+      else if (data.total === 0) console.log('No products found');
+      else console.log('Found %d products. First match "%s" is $%d', data.total, data.products[0].name, data.products[0].salePrice);
+    });
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
+    bby.products('(search=mario)', {show: 'salePrice,name', pageSize: 1})
+      .then(function(data){
+        if (data.total === 0) console.log('No products found');
+        else console.log('Found %d products. First match "%s" is $%d', data.total, data.products[0].name, data.products[0].salePrice);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 <a name="recommendations" />
-### recommendations(sku, array of store ids)
+### recommendations('mostViewed' OR 'trendingViewed'[, optional category as a string])
+### recommendations('alsoViewed' OR 'similar', sku)
+This endpoint serves the search criteria for querying the [Recommendations API as described in our API documentation](https://developer.bestbuy.com/documentation/recommendations-api).
+
+The first parameter expects one of four values: mostViewed, trendingViewed, alsoViewed or similar
+If the first parameter is *mostViewed* or *trendingViewed*, an optional second parameter of a categoryId may be provided.
+If the first parameter is *alsoViewed* or *similar*, a required second parameter of sku must be provided.
+
+The below examples show how to get the most viewed products on BestBuy.com.
 #### Using Callbacks
     var bby = require('bestbuy').init('YOURKEY');
+    bby.recommendations('mostViewed', function(err, data) {
+      if (err) console.warn(err);
+      else if (data.metadata.resultSet.count === 0) console.log('Did not find any products');
+      else console.log('Found %d products. First product: %s', data.metadata.resultSet.count, data.results[0].names.title);
+    });
+
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
+    bby.recommendations('mostViewed')
+      .then(function(data){
+        if (data.metadata.resultSet.count === 0) console.log('Did not find any products');
+        else console.log('Found %d products. First product: %s', data.metadata.resultSet.count, data.results[0].names.title);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 <a name="reviews" />
-### reviews(sku, array of store ids)
+### reviews(String of search criteria)
+This endpoint serves the search criteria for querying the [Reviews API as described in our API documentation](https://developer.bestbuy.com/documentation/reviews-api).
+
+The below examples show finding the reviews for a specific product.
 #### Using Callbacks
     var bby = require('bestbuy').init('YOURKEY');
+    bby.reviews('sku=4312001', function(err, data) {
+      if (err) console.warn(err);
+      else if (data.total === 0) console.log('No reviews found');
+      else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
+    });
+
 #### Using Promises
     var bby = require('bestbuy').init('YOURKEY');
+    bby.reviews('sku=4312001')
+      .then(function(data){
+        if (data.total === 0) console.log('No reviews found');
+        else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
 
 
 <a name="stores" />
-### stores(String of search options)
+### stores(String of search criteria)
 This endpoint serves the search criteria for querying the [Stores API as described in our API documentation](https://developer.bestbuy.com/documentation/stores-api).
 
 The below examples show the number of stores located within 25 miles of 94103 (San Francisco, CA).
@@ -126,6 +198,7 @@ The below examples show the number of stores located within 25 miles of 94103 (S
       .catch(function(err){
         console.warn(err);
       });
+
 
 ## Tests
 Run the existing tests with:

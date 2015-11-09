@@ -31,13 +31,6 @@ describe('The BBY API module is correctly initialized', function() {
         });
     });
     describe('When using type three initilization', function() {
-        var BBY = require('../bestbuy');
-        it('Has all properties', function(done) {
-            testProperties(BBY);
-            done();
-        });
-    });
-    describe('When using type three initilization', function() {
         var BBY = require('../bestbuy')();
         it('Has all properties', function(done) {
             testProperties(BBY);

@@ -2,9 +2,9 @@
 
 Breaking Changes:
 
-  -Initialization method must be invoked even when setting environment variables
-    `var bby = require('bestbuy')();` 
-  -Callbacks were changed to correctly implement 'error first' pattern.
+  - Initialization method must be invoked even when setting environment variables<br>
+    `var bby = require('bestbuy')();`   
+  - Callbacks were changed to correctly implement 'error first' pattern.<br>
 
 Features:
 

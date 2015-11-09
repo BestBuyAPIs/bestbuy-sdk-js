@@ -25,7 +25,8 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
  2. Run `npm install bestbuy --save`
     * Alternatively you can just add `"bestbuy": "1.*"` inside of the *dependencies* part of your `package.json` file
  3. The library requires an API key to be provided before it can be used. You can set that in one of three ways:
-    * Set an environment variable of `BBY_API_KEY` to your key
+    * Set an environment variable of `BBY_API_KEY` to your key and invoke the method<br>
+      `var bby = require('bestbuy')();`
     * Send the key in as a string when invoking the method<br>
       `var bby = require('bestbuy')('YOURKEY');`
     * Send the key in as part of an object when invoking the method<br>

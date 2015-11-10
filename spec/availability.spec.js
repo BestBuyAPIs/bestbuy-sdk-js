@@ -54,7 +54,6 @@ describe('The Availability section of the BBY API', function() {
         it('LIVE: Availability search using promises error', function(done) {
             bby.availability(1780275, 'blah')
                 .then(function(data) {
-                    //expect(data).toBe(null);
                 })
                 .catch(function(err) {
                     expect(err).not.toBeUndefined();

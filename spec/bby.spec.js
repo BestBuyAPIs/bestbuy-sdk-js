@@ -37,4 +37,20 @@ describe('The BBY API module is correctly initialized', function() {
             done();
         });
     });
+    describe('When using no key', function() {
+        it('Has throws an error', function(done) {
+            try {
+                var BBY = require('../bestbuy')({
+                    'key': null
+                });
+            }
+            catch(err)
+            {
+                expect(err).toBe('A Best Buy developer API key is required. Register for one at ' +
+                    'developer.bestbuy.com, call bestbuy(YOUR_API_KEY), or ' +
+                    'specify a BBY_API_KEY system environment variable.');
+            };
+            done();
+        });
+    });
 });

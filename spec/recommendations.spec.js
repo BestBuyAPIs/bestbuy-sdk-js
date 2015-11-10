@@ -45,5 +45,28 @@ describe('The recommendations section of the BBY API', function() {
             });
         });
 
+        it('LIVE: recommendations search also viewed', function(done) {
+
+            // Figure out the current top trending product
+            bby.recommendations('alsoViewed', 1780275)
+                .then(function(data) {
+                    expect(data.results.length > 0).toBe(true);
+                })
+                .catch(function(err) {
+                })
+                .finally(done);
+        });
+
+        it('LIVE: recommendations search also viewed error', function(done) {
+
+            // Figure out the current top trending product
+            bby.recommendations('alsoViewed')
+                .then(function(data) {
+                })
+                .catch(function(err) {
+                    expect(err).toBe('Recommendations endpoint requires 2nd parameter to be a SKU for the "alsoViewed" method');
+                })
+                .finally(done);
+        });
     });
 });

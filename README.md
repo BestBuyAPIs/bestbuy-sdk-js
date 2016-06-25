@@ -37,7 +37,7 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 
  - [`availability`](#availability)
  - [`categories`](#categories)
- - [`openBox`](#openBox)
+ - [`openBox`](#openbox)
  - [`products`](#products)
  - [`recommendations`](#recommendations)
  - [`reviews`](#reviews)

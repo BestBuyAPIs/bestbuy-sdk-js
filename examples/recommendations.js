@@ -14,8 +14,10 @@ var bby = BBY({
 
 // Figure out the current top trending product
 bby.recommendations('trendingViewed', function (err, data) {
+  if (err) console.error(err);
   var topTrendingSku = data.results[0].sku;
   bby.products(+topTrendingSku, function (err, data) {
+    if (err) console.error(err);
     console.log('This is the top trending product right now:');
     console.log(data);
   });

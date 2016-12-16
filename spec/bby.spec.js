@@ -1,5 +1,5 @@
 'use strict';
-var _ = require('lodash');
+var BestBuy = require('../bestbuy');
 
 function testProperties (BBY) {
   expect(BBY.options).not.toBe(undefined);
@@ -15,14 +15,14 @@ function testProperties (BBY) {
 
 describe('The BBY API module is correctly initialized', function () {
   describe('When using type one initilization', function () {
-    var BBY = require('../bestbuy')(process.env.BBY_API_KEY);
+    var BBY = BestBuy(process.env.BBY_API_KEY);
     it('Has all properties', function (done) {
       testProperties(BBY);
       done();
     });
   });
   describe('When using type two initilization', function () {
-    var BBY = require('../bestbuy')({
+    var BBY = BestBuy({
       'key': process.env.BBY_API_KEY
     });
     it('Has all properties', function (done) {
@@ -31,7 +31,7 @@ describe('The BBY API module is correctly initialized', function () {
     });
   });
   describe('When using type three initilization', function () {
-    var BBY = require('../bestbuy')();
+    var BBY = BestBuy();
     it('Has all properties', function (done) {
       testProperties(BBY);
       done();
@@ -40,7 +40,7 @@ describe('The BBY API module is correctly initialized', function () {
   describe('When using no key', function () {
     it('Has throws an error', function (done) {
       try {
-        var BBY = require('../bestbuy')({
+        BestBuy({
           'key': null
         });
       } catch (err) {

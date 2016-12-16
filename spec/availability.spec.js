@@ -31,11 +31,13 @@ describe('The Availability section of the BBY API', function () {
 
     it('LIVE: Availability search using callback', function (done) {
       bby.stores('area(55119,25)&storeType=BigBox', function (err, data) {
+        expect(err).toBeFalsy();
         expect(data.stores.length > 0).toBe(true);
         var stores = data.stores.map(function (store) {
           return store.storeId;
         });
         bby.availability(1780275, stores, function (err, data) {
+          expect(err).toBeFalsy();
           expect(data.products.length > 0).toBe(true);
           done();
         });

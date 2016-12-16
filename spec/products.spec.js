@@ -16,6 +16,7 @@ describe('The products section of the BBY API', function () {
       bby.products('customerReviewAverage=4', {
         show: 'name,sku'
       }, function (err, data) {
+        expect(err).toBeFalsy();
         expect(data.products.length > 0).toBe(true);
         expect(data.products[0].customerReviewCount).toBe(undefined);
         expect(data.products[0].customerReviewAverage).toBe(undefined);

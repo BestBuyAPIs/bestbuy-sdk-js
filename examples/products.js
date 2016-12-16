@@ -8,6 +8,7 @@ var bby = require('../bestbuy')(process.env.BBY_API_KEY);
 bby.products('customerReviewAverage=4', {
   show: 'name,sku'
 }, function (err, data) {
+  if (err) console.error(err);
   console.log('Product Search result number one:');
   console.log(data.products[0]);
   console.log('');
@@ -27,5 +28,6 @@ bby.products('manufacturer=canon&salePrice<1000', {
   format: 'json',
   show: 'sku,name,salePrice'
 }, function (err, data) {
+  if (err) console.error(err);
   console.log(data.products[0]);
 });

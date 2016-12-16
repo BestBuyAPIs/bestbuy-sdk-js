@@ -12,7 +12,7 @@ var bby = BBY({
 describe('The Reviews section of the BBY API', function () {
   describe('Fetch reviews', function () {
     it('LIVE: Reviews search', function (done) {
-      bby.reviews('sku=1780275')
+      bby.reviews('sku=2557948')
                 .then(function (data) {
                   expect(data.reviews.length > 0).toBe(true);
                   expect(data.reviews[0].id).not.toBe(undefined);

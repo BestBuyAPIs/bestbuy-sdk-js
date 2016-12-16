@@ -6,26 +6,26 @@ var bby = require('../bestbuy')(process.env.BBY_API_KEY);
 
 // Product search for all items reviewed with exactly 4, show only name + sku
 bby.products('customerReviewAverage=4', {
-    show: 'name,sku'
-}, function(err, data) {
-    console.log('Product Search result number one:');
-    console.log(data.products[0]);
-    console.log('');
+  show: 'name,sku'
+}, function (err, data) {
+  console.log('Product Search result number one:');
+  console.log(data.products[0]);
+  console.log('');
 });
 
 // Do a search which emits an error
-bby.products('gurgleflats????4', function(err, data) {
-    console.log('Here is what an error looks like:');
-    console.log('HTTP Status Code: ' + err.statusCode);
-    console.log(err.message);
-    console.log('There are %d examples of how to do it right',
+bby.products('gurgleflats????4', function (err, data) {
+  console.log('Here is what an error looks like:');
+  console.log('HTTP Status Code: ' + err.statusCode);
+  console.log(err.message);
+  console.log('There are %d examples of how to do it right',
         err.error.error.examples.length);
-    console.log('');
+  console.log('');
 });
 
 bby.products('manufacturer=canon&salePrice<1000', {
-    format: 'json',
-    show: 'sku,name,salePrice'
-}, function(err, data) {
-    console.log(data.products[0]);
+  format: 'json',
+  show: 'sku,name,salePrice'
+}, function (err, data) {
+  console.log(data.products[0]);
 });

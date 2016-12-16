@@ -4,19 +4,19 @@
 // version control :)
 var BBY = require('../bestbuy');
 var bby = BBY({
-    key: process.env.BBY_API_KEY,
-    url: 'https://api.bestbuy.com/v1',
-    debug: true,
-    headers: {
-        'User-Agent': 'recommendations example'
-    }
+  key: process.env.BBY_API_KEY,
+  url: 'https://api.bestbuy.com/v1',
+  debug: true,
+  headers: {
+    'User-Agent': 'recommendations example'
+  }
 });
 
 // Figure out the current top trending product
-bby.recommendations('trendingViewed', function(err, data) {
-    var topTrendingSku = data.results[0].sku;
-    bby.products(+topTrendingSku, function(err, data) {
-        console.log('This is the top trending product right now:');
-        console.log(data);
-    });
+bby.recommendations('trendingViewed', function (err, data) {
+  var topTrendingSku = data.results[0].sku;
+  bby.products(+topTrendingSku, function (err, data) {
+    console.log('This is the top trending product right now:');
+    console.log(data);
+  });
 });

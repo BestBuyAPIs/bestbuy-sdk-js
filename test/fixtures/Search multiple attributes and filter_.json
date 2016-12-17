@@ -1,0 +1,84 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products(manufacturer=canon&salePrice%3C1000)?apiKey=XXX&format=json&show=sku%2Cname%2CsalePrice",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "total": 327,
+            "currentPage": 1,
+            "totalPages": 33,
+            "queryTime": "0.098",
+            "totalTime": "0.126",
+            "partial": false,
+            "canonicalUrl": "/v1/products(manufacturer=\"canon\"&salePrice<1000)?show=sku,name,salePrice&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 8795075,
+                    "name": "Canon - 100-Pack 4\" x 6\" Glossy Photo Paper - White",
+                    "salePrice": 9.99
+                },
+                {
+                    "sku": 9671924,
+                    "name": "Canon - 118 Toner Cartridge - Black",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 9671933,
+                    "name": "Canon - 118 Toner Cartridge - Cyan",
+                    "salePrice": 124.99
+                },
+                {
+                    "sku": 9671915,
+                    "name": "Canon - 118 Toner Cartridge - Magenta",
+                    "salePrice": 124.99
+                },
+                {
+                    "sku": 9671942,
+                    "name": "Canon - 118 Toner Cartridge - Yellow",
+                    "salePrice": 129.99
+                },
+                {
+                    "sku": 4518162,
+                    "name": "Canon - 119 Toner Cartridge - Black",
+                    "salePrice": 98
+                },
+                {
+                    "sku": 9888121,
+                    "name": "Canon - 120 Toner Cartridge - Black",
+                    "salePrice": 135.99
+                },
+                {
+                    "sku": 4283859,
+                    "name": "Canon - 125 Toner Cartridge - Black",
+                    "salePrice": 57.99
+                },
+                {
+                    "sku": 6646011,
+                    "name": "Canon - 126 Toner Cartridge - Black",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 1263686,
+                    "name": "Canon - 128 Toner Cartridge - Black",
+                    "salePrice": 91.99
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:48 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "false",
+            "content-length": "1465",
+            "connection": "Close"
+        }
+    }
+]

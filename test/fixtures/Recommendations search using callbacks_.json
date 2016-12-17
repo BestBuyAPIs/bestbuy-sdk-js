@@ -1,0 +1,480 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/beta/products/trendingViewed?apiKey=XXX&format=json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "resultSet": {
+                    "count": 10
+                },
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?apiKey=XXX"
+                }
+            },
+            "results": [
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 95
+                    },
+                    "descriptions": {
+                        "short": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later."
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5547900.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5547900/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5547900/cart"
+                    },
+                    "names": {
+                        "title": "Apple - Apple Watch Series 2 38mm Space Gray Aluminum Case Black Woven Nylon Sport Band - Space Gray Aluminum"
+                    },
+                    "prices": {
+                        "current": 369,
+                        "regular": 369
+                    },
+                    "rank": 1,
+                    "sku": "5547900"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 680
+                    },
+                    "descriptions": {
+                        "short": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later."
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5546/5546305_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5546305.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5546305/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5546305/cart"
+                    },
+                    "names": {
+                        "title": "Apple - Apple Watch Series 2 42mm Silver Aluminum Case White Sport Band - Silver Aluminum"
+                    },
+                    "prices": {
+                        "current": 399,
+                        "regular": 399
+                    },
+                    "rank": 5,
+                    "sku": "5546305"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 9
+                    },
+                    "descriptions": {
+                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/8897/8897495_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/8897495.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/8897495/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/8897495/cart"
+                    },
+                    "names": {
+                        "title": "Apple - MacBook Pro® with Touch Bar  - 13\" Display - Intel Core i5 - 8 GB Memory - 512GB Flash Storage (latest model)"
+                    },
+                    "prices": {
+                        "current": 1999.99,
+                        "regular": 1999.99
+                    },
+                    "rank": 8,
+                    "sku": "8897495"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.4",
+                        "count": 56
+                    },
+                    "descriptions": {
+                        "short": "Fits most wrist sizesCompatible with Android and iOSRubber bandUp to 24 hours of battery lifeIP67 water resistanceSmart notifications"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5251/5251903_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5251903.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5251903/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5251903/cart"
+                    },
+                    "names": {
+                        "title": "Asus - ZenWatch 2 WI501Q Smartwatch Silver"
+                    },
+                    "prices": {
+                        "current": 99.99,
+                        "regular": 129.99
+                    },
+                    "rank": 10,
+                    "sku": "5251903"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 37
+                    },
+                    "descriptions": {
+                        "short": "Created for most GoPro cameras; 6 mount types; monopod; floating handle grip; mount adapter; surface J-hook; thumb screws; safety cable; storage pouch; carrying case"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4454/4454004_rc.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4454004.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4454004/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4454004/cart"
+                    },
+                    "names": {
+                        "title": "Dynex™ - Advanced Accessory Kit for GoPro Action Camera - Black"
+                    },
+                    "prices": {
+                        "current": 34.99,
+                        "regular": 44.99
+                    },
+                    "rank": 2,
+                    "sku": "4454004"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 350
+                    },
+                    "descriptions": {
+                        "short": "2160p resolution60Hz refresh rateRoku TV"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4204/4204500_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4204500.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4204500/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4204500/cart"
+                    },
+                    "names": {
+                        "title": "Insignia™ - 50\" Class (49.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV - Roku TV - Black"
+                    },
+                    "prices": {
+                        "current": 449.99,
+                        "regular": 449.99
+                    },
+                    "rank": 9,
+                    "sku": "4204500"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "3.8",
+                        "count": 47
+                    },
+                    "descriptions": {
+                        "short": "Sweat resistant; include 2 pairs of ear tips (small, large); in-line microphone; Bluetooth connectivity"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5507/5507503_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5507503.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5507503/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5507503/cart"
+                    },
+                    "names": {
+                        "title": "Insignia™ - Wireless In-Ear Headphones - Black"
+                    },
+                    "prices": {
+                        "current": 29.99,
+                        "regular": 49.99
+                    },
+                    "rank": 6,
+                    "sku": "5507503"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 1015
+                    },
+                    "descriptions": {
+                        "short": "Windows 10Technical details: AMD A10-Series processor; 12GB memory; 2TB hard driveSpecial features: Built-in wireless networking; HDMI output"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4362/4362103_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4362103.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4362103/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4362103/cart"
+                    },
+                    "names": {
+                        "title": "Lenovo - Desktop AMD A10-Series - 12GB Memory - 2TB Hard Drive - Black"
+                    },
+                    "prices": {
+                        "current": 429.99,
+                        "regular": 499.99
+                    },
+                    "rank": 7,
+                    "sku": "4362103"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.6",
+                        "count": 359
+                    },
+                    "descriptions": {
+                        "short": "Android 6.0 Marshmallow8\" multitouch-screen display with 2048 x 1536 resolution32GB storage capacity8-core 1.9GHz processorWi-FiMIMO technology2.1MP front and 8MP rear camerasmicroSD slot"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5234/5234641_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5234641.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5234641/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5234641/cart"
+                    },
+                    "names": {
+                        "title": "Samsung - Galaxy Tab S2 - 8\" - 32GB - Black"
+                    },
+                    "prices": {
+                        "current": 249.99,
+                        "regular": 399.99
+                    },
+                    "rank": 4,
+                    "sku": "5234641"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.2",
+                        "count": 126
+                    },
+                    "descriptions": {
+                        "short": "2160p resolution with HDR120Hz effective refresh rateChromecast Built-in Home Theater Display"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4989/4989100_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4989100.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4989100/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4989100/cart"
+                    },
+                    "names": {
+                        "title": "VIZIO - 55\" Class (54.6\" Diag.) - LED - 2160p - Chromecast Built-in - 4K Ultra HD Home Theater Display with High Dynamic Range - Black"
+                    },
+                    "prices": {
+                        "current": 699.99,
+                        "regular": 899.99
+                    },
+                    "rank": 3,
+                    "sku": "4989100"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json;charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:50 GMT",
+            "server": "Apigee Router",
+            "vary": "Accept-Encoding",
+            "content-length": "7544",
+            "connection": "Close"
+        }
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products/5547900.json?apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "sku": 5547900,
+            "productId": 5547900,
+            "name": "Apple - Apple Watch Series 2 38mm Space Gray Aluminum Case Black Woven Nylon Sport Band - Space Gray Aluminum",
+            "source": "bestbuy",
+            "type": "HardGood",
+            "startDate": "2016-09-08",
+            "new": false,
+            "active": true,
+            "lowPriceGuarantee": true,
+            "activeUpdateDate": "2016-11-07T15:38:22",
+            "regularPrice": 369,
+            "salePrice": 369,
+            "clearance": false,
+            "onSale": false,
+            "planPrice": null,
+            "priceWithPlan": [],
+            "priceRestriction": null,
+            "priceUpdateDate": "2016-09-08T05:29:40",
+            "digital": false,
+            "preowned": false,
+            "carrierPlans": [],
+            "technologyCode": null,
+            "carrierModelNumber": null,
+            "earlyTerminationFees": [],
+            "outletCenter": null,
+            "secondaryMarket": null,
+            "frequentlyPurchasedWith": [],
+            "accessories": [],
+            "relatedProducts": [],
+            "techSupportPlans": [],
+            "salesRankShortTerm": 3633,
+            "salesRankMediumTerm": 4651,
+            "salesRankLongTerm": 2767,
+            "bestSellingRank": 3641,
+            "url": "https://api.bestbuy.com/click/-/5547900/pdp",
+            "spin360Url": null,
+            "mobileUrl": "https://api.bestbuy.com/click/-/5547900/pdp",
+            "affiliateUrl": null,
+            "addToCartUrl": "https://api.bestbuy.com/click/-/5547900/cart",
+            "affiliateAddToCartUrl": null,
+            "linkShareAffiliateUrl": "",
+            "linkShareAffiliateAddToCartUrl": "",
+            "upc": "190198209245",
+            "productTemplate": "Smart_Watches",
+            "categoryPath": [
+                {
+                    "id": "cat00000",
+                    "name": "Best Buy"
+                },
+                {
+                    "id": "pcmcat332000050000",
+                    "name": "Wearable Technology"
+                },
+                {
+                    "id": "pcmcat748300489081",
+                    "name": "Apple Watch"
+                },
+                {
+                    "id": "pcmcat748302047020",
+                    "name": "Apple Watch Series 2"
+                }
+            ],
+            "lists": [],
+            "customerReviewCount": 95,
+            "customerReviewAverage": "4.8",
+            "customerTopRated": true,
+            "format": null,
+            "freeShipping": false,
+            "freeShippingEligible": true,
+            "inStoreAvailability": true,
+            "inStoreAvailabilityText": "Store Pickup:",
+            "inStoreAvailabilityUpdateDate": "2016-11-07T15:38:22",
+            "itemUpdateDate": "2016-12-17T00:35:18",
+            "onlineAvailability": true,
+            "onlineAvailabilityText": "Shipping: Usually ships in 1 business day",
+            "onlineAvailabilityUpdateDate": "2016-12-17T00:25:26",
+            "releaseDate": "2016-09-28",
+            "shippingCost": "",
+            "shipping": [
+                {
+                    "ground": "",
+                    "secondDay": "",
+                    "nextDay": "",
+                    "vendorDelivery": ""
+                }
+            ],
+            "shippingLevelsOfService": [],
+            "specialOrder": false,
+            "shortDescription": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later.",
+            "class": "APPLE WATCH",
+            "classId": 222,
+            "subclass": "STANDARD APPLE WATCH",
+            "subclassId": 5403,
+            "department": "COMPUTERS",
+            "departmentId": 6,
+            "buybackPlans": [],
+            "protectionPlans": [],
+            "productFamilies": [
+                {
+                    "name": "alternateColors",
+                    "skus": [
+                        {
+                            "sku": 5548000
+                        }
+                    ]
+                }
+            ],
+            "description": null,
+            "manufacturer": "Apple",
+            "modelNumber": "MP052LL/A",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg",
+            "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg",
+            "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900fp.gif",
+            "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_s.gif",
+            "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sb.jpg",
+            "alternateViewsImage": null,
+            "angleImage": null,
+            "backViewImage": null,
+            "energyGuideImage": null,
+            "leftViewImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900le.jpg",
+            "accessoriesImage": null,
+            "remoteControlImage": null,
+            "rightViewImage": null,
+            "topViewImage": null,
+            "condition": "New",
+            "inStorePickup": true,
+            "friendsAndFamilyPickup": true,
+            "homeDelivery": false,
+            "quantityLimit": 3,
+            "fulfilledBy": "BestBuy.com",
+            "bundledIn": [],
+            "color": "Space Gray Aluminum",
+            "depth": null,
+            "dollarSavings": 0,
+            "percentSavings": "0.0",
+            "tradeInValue": "",
+            "height": null,
+            "orderable": "Available",
+            "weight": null,
+            "shippingWeight": "1.5",
+            "width": null,
+            "warrantyLabor": "1 year",
+            "warrantyParts": "1 year",
+            "longDescription": "Apple Watch Series 2 is a superior sports watch that measures your workouts with detailed customizable metrics. An advanced activity tracker that shows you how often you move, exercise, and stand, and lets you share your progress. A powerful health tool that helps you be more conscious of your overall well-being, starting with your heart rate. And an all-day assistant that provides instant access to the people, apps, and information you care about most. There are cases made from aluminum and stainless steel and a full range of interchangeable bands in a variety of styles, colors, and materials. All models run watchOS 3.   Requires an iPhone 5 or later.",
+            "includedItemList": [
+                {
+                    "includedItem": "1m Magnetic Charging Cable"
+                },
+                {
+                    "includedItem": "5W USB Power Adapter"
+                },
+                {
+                    "includedItem": "Space Gray Aluminum Case"
+                },
+                {
+                    "includedItem": "Woven Nylon Band"
+                }
+            ],
+            "marketplace": false,
+            "listingId": null,
+            "sellerId": null,
+            "shippingRestrictions": null,
+            "bluetoothEnabled": true,
+            "displayType": "OLED",
+            "internetConnectable": true,
+            "mobileOperatingSystem": "watchOS"
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:50 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "5692",
+            "connection": "Close"
+        }
+    }
+]

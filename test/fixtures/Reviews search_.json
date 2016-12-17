@@ -1,0 +1,174 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/reviews(sku=2557948)?apiKey=XXX&format=json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "total": 2173,
+            "currentPage": 1,
+            "totalPages": 218,
+            "queryTime": "0.018",
+            "totalTime": "0.024",
+            "partial": false,
+            "canonicalUrl": "/v1/reviews(sku=2557948)?format=json&apiKey=XXX",
+            "reviews": [
+                {
+                    "id": 115330774,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Applefan"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Excellent product",
+                    "comment": "Can't go wrong with an apple product. Perfect for traveling/on the go.",
+                    "submissionTime": "2016-12-14T19:24:15"
+                },
+                {
+                    "id": 115329479,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "SuperMom"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Great tablet!",
+                    "comment": "I got the IPad mini 2 for my son for Christmas. I love them and their processing speed is amazing. I can't wait until he opens it.",
+                    "submissionTime": "2016-12-14T19:08:27"
+                },
+                {
+                    "id": 115325755,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "TennAC"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Great Product",
+                    "comment": "We decided on this for our son instead of other hand held gaming systems.",
+                    "submissionTime": "2016-12-14T18:25:46"
+                },
+                {
+                    "id": 115323033,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Lmnmd"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Love it",
+                    "comment": "I love the smaller size for portability. Updated iOS is better than my old iPad.",
+                    "submissionTime": "2016-12-14T17:56:04"
+                },
+                {
+                    "id": 115322575,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "HiFidelity"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 4,
+                    "title": "Great tablet.",
+                    "comment": "Bought this on sale. Fast web browsing and enough memory.",
+                    "submissionTime": "2016-12-14T17:51:15"
+                },
+                {
+                    "id": 115322561,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Sk3lly"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Perfect",
+                    "comment": "As always, the iPad serves my needs well. This one was a replacement to an older one that developed an issue from age.",
+                    "submissionTime": "2016-12-14T17:51:07"
+                },
+                {
+                    "id": 115322182,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Camie"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Great product",
+                    "comment": "I am not an apple user but my little sister loves it. This was an awesome gift for her..she couldn't even wait until Christmas",
+                    "submissionTime": "2016-12-14T17:47:05"
+                },
+                {
+                    "id": 115318053,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "K9FARTS"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Apple!",
+                    "comment": "Just like every Apple product. I'm an Apple fan. Just the right size.",
+                    "submissionTime": "2016-12-14T17:10:18"
+                },
+                {
+                    "id": 115315087,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Mommybigtvnice11beverly"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Bigbabylittlebaby0703",
+                    "comment": "It the best gift for my two kids they gonna love it",
+                    "submissionTime": "2016-12-14T16:47:16"
+                },
+                {
+                    "id": 115314321,
+                    "sku": 2557948,
+                    "reviewer": [
+                        {
+                            "name": "Walker"
+                        }
+                    ],
+                    "aboutMe": [],
+                    "rating": 5,
+                    "title": "Light weight",
+                    "comment": "I liked this because it was easy to set up. It was to replace my kindle for trips so it had to have camera, internet, speed, memory, plus be light. It fit the bill.",
+                    "submissionTime": "2016-12-14T16:41:58"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:52 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "false",
+            "content-length": "4046",
+            "connection": "Close"
+        }
+    }
+]

@@ -1,0 +1,64 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/stores/1443.json?apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "storeId": 1443,
+            "storeType": "BigBox",
+            "tradeIn": "Trade-In - No-receipt",
+            "name": "Blaine",
+            "longName": "Best Buy - Blaine",
+            "address": "10985 Ulysses St Ne",
+            "address2": "",
+            "city": "Blaine",
+            "region": "MN",
+            "fullPostalCode": "55434",
+            "country": "US",
+            "lat": 45.169456,
+            "lng": -93.23568,
+            "hours": "Mon: 10-10; Tue: 10-10; Wed: 10-10; Thurs: 10-10; Fri: 9-11; Sat: 9-11; Sun: 10-8",
+            "hoursAmPm": "Mon: 10am-10pm; Tue: 10am-10pm; Wed: 10am-10pm; Thurs: 10am-10pm; Fri: 9am-11pm; Sat: 9am-11pm; Sun: 10am-8pm",
+            "gmtOffset": -5,
+            "services": [
+                {
+                    "service": "Geek Squad Services"
+                },
+                {
+                    "service": "Best Buy Mobile"
+                },
+                {
+                    "service": "Best Buy For Business"
+                },
+                {
+                    "service": "Apple Shop"
+                },
+                {
+                    "service": "Electronics Recycling"
+                },
+                {
+                    "service": "Samsung Experience Shop"
+                },
+                {
+                    "service": "Car & GPS Installation Services"
+                }
+            ],
+            "phone": "763-754-5366",
+            "postalCode": "55434"
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:52 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "1005",
+            "connection": "Close"
+        }
+    }
+]

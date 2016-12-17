@@ -1,0 +1,54 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products(type=Movie)?apiKey=XXX&format=json&show=name%2Csku&pageSize=5&page=2",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 6,
+            "to": 10,
+            "total": 107626,
+            "currentPage": 2,
+            "totalPages": 21526,
+            "queryTime": "0.041",
+            "totalTime": "0.059",
+            "partial": false,
+            "canonicalUrl": "/v1/products(type=\"Movie\")?show=name,sku&page=2&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "name": "#1 Serial Killer (DVD)",
+                    "sku": 27328403
+                },
+                {
+                    "name": "#Horror (DVD)",
+                    "sku": 30374693
+                },
+                {
+                    "name": "#Horror [Blu-ray]",
+                    "sku": 30374702
+                },
+                {
+                    "name": "#Lucky Number (DVD)",
+                    "sku": 29167372
+                },
+                {
+                    "name": "#ReGeneration (DVD)",
+                    "sku": 20305392
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:47 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "false",
+            "content-length": "647",
+            "connection": "Close"
+        }
+    }
+]

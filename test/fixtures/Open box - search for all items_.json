@@ -1,0 +1,451 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/beta/products/openBox?apiKey=XXX&format=json&show=name%2Csku",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "resultSet": {
+                    "count": 2607
+                },
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/openBox?apiKey=XXX"
+                },
+                "page": {
+                    "current": 1,
+                    "size": 10,
+                    "total": 261
+                }
+            },
+            "results": [
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 133
+                    },
+                    "descriptions": {
+                        "short": "Water-resistant; compact size"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5353/5353024_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5353024.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5353024/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5353024/cart"
+                    },
+                    "names": {
+                        "title": "3DR - Backpack for Solo - Black"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 55.99,
+                                "regular": 69.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 69.99,
+                        "regular": 69.99
+                    },
+                    "sku": "5353024"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.7",
+                        "count": 193
+                    },
+                    "descriptions": {
+                        "short": "Compatible with 3DR Solo drones; durable plastic construction"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5357/5357011_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5357011.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5357011/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5357011/cart"
+                    },
+                    "names": {
+                        "title": "3DR - Propellers for 3DR Solo Drones (2-Pack) - Black"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 6.99,
+                                "regular": 7.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 7.99,
+                        "regular": 7.99
+                    },
+                    "sku": "5357011"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.3",
+                        "count": 378
+                    },
+                    "descriptions": {
+                        "short": "Integrated GPS; 4-rotor, landing legs included; Wi-Fi connectivity; 25-minute run time without payload; 20-minute run time with payload"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5351/5351035_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5351035.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5351035/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5351035/cart"
+                    },
+                    "names": {
+                        "title": "3DR - Solo Drone - Black"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 269.99,
+                                "regular": 499.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 299.99,
+                        "regular": 499.99
+                    },
+                    "sku": "5351035"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.4",
+                        "count": 201
+                    },
+                    "descriptions": {
+                        "short": "Compatible with most GoPro cameras; designed for use with 3DR Solo Drones; helps you add photo and video capability to your drone; 3-axis design"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5352/5352061_rc.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5352061.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5352061/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5352061/cart"
+                    },
+                    "names": {
+                        "title": "3DR - Solo Gimbal - Black"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 63.99,
+                                "regular": 79.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 79.99,
+                        "regular": 79.99
+                    },
+                    "sku": "5352061"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.0",
+                        "count": 12
+                    },
+                    "descriptions": {
+                        "short": "Windows 10NVIDIA GeForce GTX 965M 4GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 13.3\" OLED display; 8GB memory; 500GB + 8GB hybrid hard driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5386/5386300_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5386300.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5386300/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5386300/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - 13.3\" OLED Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 500GB + 8GB Hybrid Hard Drive - Epic silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1169.99,
+                                "regular": 1499.99
+                            },
+                            "sellerId": "BBY_OB"
+                        },
+                        {
+                            "condition": "certified",
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1229.99,
+                                "regular": 1499.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1499.99,
+                        "regular": 1499.99
+                    },
+                    "sku": "5386300"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.4",
+                        "count": 325
+                    },
+                    "descriptions": {
+                        "short": "Windows 104K Ultra HD3GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 17.3\" display; 8GB memory; 1TB hard drive + 128GB solid state driveSpecial features: Backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4550/4550902_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4550902.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4550902/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4550902/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 1144.99,
+                                "regular": 1649.99
+                            },
+                            "sellerId": "BBY_OB"
+                        },
+                        {
+                            "condition": "certified",
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1173.99,
+                                "regular": 1649.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1467.99,
+                        "regular": 1649.99
+                    },
+                    "sku": "4550902"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.2",
+                        "count": 12
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 HomeNVIDIA GeForce GTX 1070 8GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 17.3\" display; 16GB memory; 1TB hard drive; 128GB solid state driveSpecial features: Bluetooth; backlit keyboard; HDMI output; G-SYNC technology; Tobii eye tracking"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5623/5623238_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5623238.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5623238/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5623238/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - 17.3\" Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1070 - 1TB Hard Drive + 128GB Solid State Drive - Silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "certified",
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1859.99,
+                                "regular": 1999.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1999.99,
+                        "regular": 1999.99
+                    },
+                    "sku": "5623238"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 32
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 HomeNVIDIA GeForce GTX 1070 8GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 17.3\" display; 16GB memory; 1TB hard drive; 128GB solid state driveSpecial features: Bluetooth; backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5623/5623233_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5623233.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5623233/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5623233/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - 17.3\" Laptop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1070 - 1TB Hard Drive + 128GB Solid State Drive - Silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1619.99,
+                                "regular": 1799.99
+                            },
+                            "sellerId": "BBY_OB"
+                        },
+                        {
+                            "condition": "certified",
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1673.99,
+                                "regular": 1799.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1799.99,
+                        "regular": 1799.99
+                    },
+                    "sku": "5623233"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.0",
+                        "count": 23
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 Home 64-bitNVIDIA GeForce GTX 1070 8GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 16GB memory; 256GB solid state drive; 1TB hard driveSpecial features: built-in wireless networking; Bluetooth"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5647/5647900_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5647900.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5647900/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5647900/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - Aurora R5 Desktop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1070 - 256GB Solid State Drive + 1TB Hard Drive - Silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1349.99,
+                                "regular": 1499.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1499.99,
+                        "regular": 1499.99
+                    },
+                    "sku": "5647900"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.7",
+                        "count": 11
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 Home 64-bitNVIDIA GeForce GTX 1080 8GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 16GB memory; 256GB solid state drive; 2TB hard driveSpecial features: built-in wireless networking; Bluetooth"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5648/5648000_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5648000.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5648000/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5648000/cart"
+                    },
+                    "names": {
+                        "title": "Alienware - Aurora R5 Desktop - Intel Core i7 - 16GB Memory - NVIDIA GeForce GTX 1080 - 256GB Solid State Drive + 2TB Hard Drive - Silver"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 1619.99,
+                                "regular": 1799.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 1799.99,
+                        "regular": 1799.99
+                    },
+                    "sku": "5648000"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json;charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:44 GMT",
+            "server": "Apigee Router",
+            "vary": "Accept-Encoding",
+            "content-length": "10279",
+            "connection": "Close"
+        }
+    }
+]

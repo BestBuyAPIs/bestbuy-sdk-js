@@ -4,8 +4,10 @@
   "description": "High level node.js client for the Best Buy API.",
   "main": "bestbuy.js",
   "scripts": {
-    "test": "jasmine-node spec && semistandard",
-    "coverage": "istanbul cover jasmine-node --captureExceptions spec",
+    "record": "rm -rf test/fixtures/*.json && NOCK_BACK_MODE=record npm test",
+    "test-live": "NOCK_BACK_MODE=wild npm test",
+    "test": "tape test/*.test.js | tap-spec && semistandard ",
+    "coverage": "istanbul cover tape test/*.test.js",
     "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
@@ -39,12 +41,9 @@
   "devDependencies": {
     "coveralls": "^2.11.4",
     "istanbul": "^0.4.0",
-    "jasmine-node": "^1.14.5",
-    "semistandard": "^9.2.1"
-  },
-  "semistandard": {
-    "envs": [
-      "jasmine"
-    ]
+    "semistandard": "^9.2.1",
+    "tap-spec": "^4.1.1",
+    "tape": "^4.6.3",
+    "tape-nock": "^1.4.0"
   }
 }

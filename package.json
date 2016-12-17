@@ -4,10 +4,9 @@
   "description": "High level node.js client for the Best Buy API.",
   "main": "bestbuy.js",
   "scripts": {
-    "test": "jasmine-node spec",
+    "test": "jasmine-node spec && semistandard",
     "coverage": "istanbul cover jasmine-node --captureExceptions spec",
-    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
-    "pretty": "fixmyjs --legacy *.js */*.js && js-beautify -r *.js */*.js"
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
   },
   "repository": {
     "type": "git",
@@ -23,7 +22,7 @@
   "author": "Ian Felton <ian@ianfelton.com>",
   "contributors": [
     "Eric Caron <eric.caron@gmail.com> (http://ericcaron.com/)",
-    "Dan Flettre <fletd01@yahoo.com>"
+    "Dan Flettre <flettre@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -39,9 +38,13 @@
   },
   "devDependencies": {
     "coveralls": "^2.11.4",
-    "fixmyjs": "^1.0.3",
     "istanbul": "^0.4.0",
     "jasmine-node": "^1.14.5",
-    "js-beautify": "^1.5.10"
+    "semistandard": "^9.2.1"
+  },
+  "semistandard": {
+    "envs": [
+      "jasmine"
+    ]
   }
 }

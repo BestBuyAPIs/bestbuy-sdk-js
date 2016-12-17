@@ -31,10 +31,10 @@
   "homepage": "https://github.com/BestBuyAPIs/bestbuy-sdk-js",
   "dependencies": {
     "bluebird": "^3.0.5",
-    "lodash": ">2 <4",
-    "request": "^2.40.0",
+    "lodash.assign": "^4.2.0",
+    "request": "^2.79.0",
     "request-debug": "^0.2.0",
-    "request-promise": "^1.0.2"
+    "request-promise": "^4.1.1"
   },
   "devDependencies": {
     "coveralls": "^2.11.4",

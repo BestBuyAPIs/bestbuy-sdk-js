@@ -80,6 +80,22 @@ test('Is a garbage search', test.opts, function (t) {
   .finally(t.end);
 });
 
+test('Is a garbage search - callback', test.opts, function (t) {
+  // Do a search which emits an error
+  bby.products('gurgleflats????4', (err, result) => {
+    t.equals(err.statusCode, 400, 'statusCode 400 returned');
+    t.equals(err.error.error.code, 400, 'error code 400 returned');
+    t.end();
+  });
+});
+
+test('Products search - function criteria not allowed', test.opts, function (t) {
+  bby.products('name=***phone*', function () {}, (err, result) => {
+    t.equals(err, 'Unhandled parameter type');
+    t.end();
+  });
+});
+
 test('Search multiple attributes and filter', test.opts, function (t) {
   bby.products('manufacturer=canon&salePrice<1000', {
     format: 'json',

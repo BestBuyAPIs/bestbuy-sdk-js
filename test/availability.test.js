@@ -44,6 +44,22 @@ test('Availability search using callback', test.opts, function (t) {
   });
 });
 
+test('Availability search using callback and third argument', test.opts, function (t) {
+  bby.stores('area(55119,25)&storeType=BigBox', function (err, data) {
+    t.error(err, 'no error');
+    t.ok(data.stores.length > 0, 'has stores');
+    var stores = data.stores.map(function (store) {
+      return store.storeId;
+    });
+    bby.availability(AVAILABLE_SKU, stores, {show: 'all'}, function (err, data) {
+      t.error(err, 'no error');
+      t.equals(data.products[0].active, true, 'is active');
+      t.ok(data.products.length > 0, 'has products');
+      t.end();
+    });
+  });
+});
+
 test('Availability search using callback error', test.opts, function (t) {
   bby.availability(AVAILABLE_SKU, 'blah', function (err, data) {
     t.equals(err, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');

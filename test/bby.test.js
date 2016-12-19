@@ -32,3 +32,12 @@ test('using type three initilization', test.opts, function (t) {
   testProperties(t, BBY);
   t.end();
 });
+
+test('Initialize with no key and use', test.opts, function (t) {
+  t.throws(() => {
+    var BBY = BestBuy({key: false});
+    BBY.products();
+  }, /A Best Buy developer API key is required/);
+
+  t.end();
+});

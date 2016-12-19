@@ -1,0 +1,451 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/beta/products/trendingViewed?apiKey=XXX&format=json&categoryId=abcat0502000",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "resultSet": {
+                    "count": 9
+                },
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?apiKey=XXX"
+                }
+            },
+            "results": [
+                {
+                    "customerReviews": {
+                        "averageScore": "4.7",
+                        "count": 148
+                    },
+                    "descriptions": {
+                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FForce Touch Trackpad"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/6447012.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/6447012/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/6447012/cart"
+                    },
+                    "names": {
+                        "title": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Silver"
+                    },
+                    "prices": {
+                        "current": 1374.99,
+                        "regular": 1499.99
+                    },
+                    "rank": 1,
+                    "sku": "6447012"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "5.0",
+                        "count": 13
+                    },
+                    "descriptions": {
+                        "short": "Intel Core i7 processorRadeon Pro 450 with 2GB of GDDR5 memoryUltrafast flash storageUp to 9 hours of battery life&#178;802.11ac Wi-FiForce Touch trackpad"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4260/4260600_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4260600.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4260600/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4260600/cart"
+                    },
+                    "names": {
+                        "title": "Apple - MacBook Pro® with Touch Bar - 15\" Display - Intel Core i7 - 16 GB Memory - 512GB Flash Storage (latest model) - Space Gray"
+                    },
+                    "prices": {
+                        "current": 2799.99,
+                        "regular": 2799.99
+                    },
+                    "rank": 10,
+                    "sku": "4260600"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.0",
+                        "count": 1
+                    },
+                    "descriptions": {
+                        "short": "Google Chrome OSTechnical details: Intel&#174; Celeron&#8482; processor; 14\" display; 4GB memory; 16GB eMMC flash memorySpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5623/5623625_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5623625.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5623625/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5623625/cart"
+                    },
+                    "names": {
+                        "title": "HP - 14\" Chromebook - Intel Celeron - 4GB Memory - 16GB eMMC Flash Memory - HP star pattern in ano silver"
+                    },
+                    "prices": {
+                        "current": 229.99,
+                        "regular": 249.99
+                    },
+                    "rank": 5,
+                    "sku": "5623625"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.3",
+                        "count": 129
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 HomeTechnical details: 6th Gen Intel&#174; Core&#8482; i3 processor; 15.6\" display; 6GB memory; 1TB hard driveSpecial features: touch screen; HDMI output"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5606/5606100_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5606100.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5606100/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5606100/cart"
+                    },
+                    "names": {
+                        "title": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black"
+                    },
+                    "prices": {
+                        "current": 329.99,
+                        "regular": 399.99
+                    },
+                    "rank": 3,
+                    "sku": "5606100"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 651
+                    },
+                    "descriptions": {
+                        "short": "Only at Best Buy\nBlue Label&#8482;Windows 10Technical details: 6th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5228/5228155_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5228155.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5228155/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5228155/cart"
+                    },
+                    "names": {
+                        "title": "HP - Pavilion x360 2-in-1 13.3\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Modern Gold"
+                    },
+                    "prices": {
+                        "current": 693.99,
+                        "regular": 729.99
+                    },
+                    "rank": 9,
+                    "sku": "5228155"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "5.0",
+                        "count": 6
+                    },
+                    "descriptions": {
+                        "short": "Only at Best Buy\nWindows 10 HomeTechnical details: 7th Gen Intel&#174; Core&#8482; i7 processor; 13.3\" display; 8GB memory; 256GB solid state driveSpecial features: Bluetooth; backlit keyboardNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5606/5606201_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5606201.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5606201/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5606201/cart"
+                    },
+                    "names": {
+                        "title": "HP - Spectre 13.3\" Laptop - Intel Core i7 - 8GB Memory - 256GB Solid State Drive - Dark ash silver, Luxe copper accent"
+                    },
+                    "prices": {
+                        "current": 1099.99,
+                        "regular": 1249.99
+                    },
+                    "rank": 2,
+                    "sku": "5606201"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 713
+                    },
+                    "descriptions": {
+                        "short": "Only at Best Buy\nBlue Label&#8482;Windows 104K Ultra HDTechnical details:6th Gen Intel&#174; Core&#8482;i7 processor;15.6\" display;16GB memory;256GB solid state driveSpecial features:Bluetooth;touch screen;backlit keyboard;HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4864/4864800_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/4864800.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4864800/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4864800/cart"
+                    },
+                    "names": {
+                        "title": "HP - Spectre x360 2-in-1 15.6\" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 256GB Solid State Drive - Natural Silver"
+                    },
+                    "prices": {
+                        "current": 1349.99,
+                        "regular": 1349.99
+                    },
+                    "rank": 8,
+                    "sku": "4864800"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 52
+                    },
+                    "descriptions": {
+                        "short": "Only at Best Buy\nWindows 10 Home 64-bitTechnical details: 7th Gen Intel&#174; Core&#8482; i5 processor; 11.6\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screen; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5579/5579843_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5579843.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5579843/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5579843/cart"
+                    },
+                    "names": {
+                        "title": "Lenovo - Yoga 710 2-in-1 11.6\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Silver"
+                    },
+                    "prices": {
+                        "current": 649.99,
+                        "regular": 699.99
+                    },
+                    "rank": 7,
+                    "sku": "5579843"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.5",
+                        "count": 89
+                    },
+                    "descriptions": {
+                        "short": "Windows 10Technical details: 7th Gen Intel&#174; Core&#8482; i7 processor; 14\" display; 8GB memory; 256GB solid state driveSpecial features: fingerprint reader; Bluetooth; touch screen; backlit keyboardNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5579/5579131_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5579131.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5579131/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5579131/cart"
+                    },
+                    "names": {
+                        "title": "Lenovo - Yoga 910 2-in-1 14\" Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 256GB Solid State Drive - Silver"
+                    },
+                    "prices": {
+                        "current": 1199.99,
+                        "regular": 1199.99
+                    },
+                    "rank": 4,
+                    "sku": "5579131"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json;charset=UTF-8",
+            "date": "Mon, 19 Dec 2016 17:23:24 GMT",
+            "server": "Apigee Router",
+            "vary": "Accept-Encoding",
+            "content-length": "7500",
+            "connection": "Close"
+        }
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products/6447012.json?apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "sku": 6447012,
+            "productId": 1219661413798,
+            "name": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Silver",
+            "source": "bestbuy",
+            "type": "HardGood",
+            "startDate": "2016-10-27",
+            "new": false,
+            "active": true,
+            "lowPriceGuarantee": true,
+            "activeUpdateDate": "2016-11-07T12:16:25",
+            "regularPrice": 1499.99,
+            "salePrice": 1374.99,
+            "clearance": false,
+            "onSale": true,
+            "planPrice": null,
+            "priceWithPlan": [],
+            "priceRestriction": null,
+            "priceUpdateDate": "2016-12-18T00:01:13",
+            "digital": false,
+            "preowned": false,
+            "carrierPlans": [],
+            "technologyCode": null,
+            "carrierModelNumber": null,
+            "earlyTerminationFees": [],
+            "outletCenter": null,
+            "secondaryMarket": null,
+            "frequentlyPurchasedWith": [],
+            "accessories": [],
+            "relatedProducts": [],
+            "techSupportPlans": [],
+            "salesRankShortTerm": 2412,
+            "salesRankMediumTerm": 2428,
+            "salesRankLongTerm": 3105,
+            "bestSellingRank": 2417,
+            "url": "https://api.bestbuy.com/click/-/6447012/pdp",
+            "spin360Url": null,
+            "mobileUrl": "https://api.bestbuy.com/click/-/6447012/pdp",
+            "affiliateUrl": null,
+            "addToCartUrl": "https://api.bestbuy.com/click/-/6447012/cart",
+            "affiliateAddToCartUrl": null,
+            "linkShareAffiliateUrl": "",
+            "linkShareAffiliateAddToCartUrl": "",
+            "upc": "888462786751",
+            "productTemplate": "Laptop_Computers",
+            "categoryPath": [
+                {
+                    "id": "cat00000",
+                    "name": "Best Buy"
+                },
+                {
+                    "id": "abcat0500000",
+                    "name": "Computers & Tablets"
+                },
+                {
+                    "id": "abcat0502000",
+                    "name": "Laptops"
+                }
+            ],
+            "lists": [],
+            "customerReviewCount": 148,
+            "customerReviewAverage": "4.7",
+            "customerTopRated": true,
+            "format": null,
+            "freeShipping": true,
+            "freeShippingEligible": true,
+            "inStoreAvailability": true,
+            "inStoreAvailabilityText": "Store Pickup:",
+            "inStoreAvailabilityUpdateDate": "2016-11-28T09:00:31",
+            "itemUpdateDate": "2016-12-19T09:10:13",
+            "onlineAvailability": true,
+            "onlineAvailabilityText": "Shipping: Usually ships in 1 business day",
+            "onlineAvailabilityUpdateDate": "2016-11-07T12:16:25",
+            "releaseDate": "2015-03-10",
+            "shippingCost": 0,
+            "shipping": [
+                {
+                    "ground": "",
+                    "secondDay": 0,
+                    "nextDay": 29.93,
+                    "vendorDelivery": ""
+                }
+            ],
+            "shippingLevelsOfService": [
+                {
+                    "serviceLevelId": 3,
+                    "serviceLevelName": "Two Day",
+                    "unitShippingPrice": 0
+                },
+                {
+                    "serviceLevelId": 5,
+                    "serviceLevelName": "One Day",
+                    "unitShippingPrice": 29.93
+                }
+            ],
+            "specialOrder": false,
+            "shortDescription": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FForce Touch Trackpad",
+            "class": "MOBILE COMPUTING",
+            "classId": 140,
+            "subclass": "APPLE",
+            "subclassId": 5075,
+            "department": "COMPUTERS",
+            "departmentId": 6,
+            "buybackPlans": [],
+            "protectionPlans": [],
+            "productFamilies": [],
+            "description": null,
+            "manufacturer": "Apple",
+            "modelNumber": "MLUQ2LL/A",
+            "image": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg",
+            "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg",
+            "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012fp.gif",
+            "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_s.gif",
+            "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sb.jpg",
+            "alternateViewsImage": null,
+            "angleImage": null,
+            "backViewImage": null,
+            "energyGuideImage": null,
+            "leftViewImage": null,
+            "accessoriesImage": null,
+            "remoteControlImage": null,
+            "rightViewImage": null,
+            "topViewImage": null,
+            "condition": "New",
+            "inStorePickup": true,
+            "friendsAndFamilyPickup": true,
+            "homeDelivery": false,
+            "quantityLimit": 1,
+            "fulfilledBy": "BestBuy.com",
+            "bundledIn": [],
+            "color": "Silver",
+            "depth": "8.36 inches",
+            "dollarSavings": 125,
+            "percentSavings": "8.33",
+            "tradeInValue": "",
+            "height": "0.59 inches",
+            "orderable": "Available",
+            "weight": "3.02 pounds",
+            "shippingWeight": "5.88",
+            "width": "11.97 inches",
+            "warrantyLabor": "1 year limited",
+            "warrantyParts": "2 year limited",
+            "longDescription": "The new MacBook Pro is faster and more powerful than before, yet remarkably thinner and lighter.&#185; It has the brightest, most colorful display ever on a Mac notebook. And it features up to 10 hours of battery life.&#178; It&#8217;s a notebook built for the work you do every day. Ready to go anywhere a great idea takes you.",
+            "includedItemList": [
+                {
+                    "includedItem": "87W USB-C Power Adapter"
+                },
+                {
+                    "includedItem": "MacBook Pro® (Latest Model) - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage"
+                },
+                {
+                    "includedItem": "USB-C Charge Cable (2 m)"
+                }
+            ],
+            "marketplace": false,
+            "listingId": null,
+            "sellerId": null,
+            "shippingRestrictions": null,
+            "bluetoothEnabled": true,
+            "displayType": "Other",
+            "energyStarQualified": true,
+            "mobileOperatingSystem": "Mac OS",
+            "screenSizeIn": 13.3,
+            "usbPort": true
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Mon, 19 Dec 2016 17:23:24 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "5218",
+            "connection": "Close"
+        }
+    }
+]

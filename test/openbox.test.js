@@ -56,7 +56,23 @@ test('Open box - search for one item using sku as string', test.opts, function (
     t.ok(data.results[0].offers.length > 0, 'has offers');
   })
   .catch(function (err) {
-    expect(err).toBeUndefined();
+    t.error(err);
+  })
+  .finally(t.end);
+});
+
+test('Open box - search for one item using search as string', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+  bby.openBox('categoryId=abcat0502000')
+  .then(function (data) {
+    t.ok(data.results.length > 0, 'has results');
+    t.ok(data.results[0].customerReviews.count, 'has count of customerReviews');
+    t.ok(data.results[0].customerReviews.averageScore, 'has averageScore of customerReviews');
+    t.ok(data.results[0].names, 'has names');
+    t.ok(data.results[0].offers.length > 0, 'has offers');
+  })
+  .catch(function (err) {
+    t.error(err);
   })
   .finally(t.end);
 });

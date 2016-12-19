@@ -1,0 +1,1804 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/stores(area(55119,25)&storeType=BigBox)?apiKey=XXX&format=json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "total": 16,
+            "currentPage": 1,
+            "totalPages": 2,
+            "queryTime": "0.015",
+            "totalTime": "0.033",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(area(\"55119\",25)&storeType=\"BigBox\")?format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 15,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Oakdale",
+                    "longName": "Best Buy - Oakdale",
+                    "address": "8301 3rd St N",
+                    "address2": "",
+                    "city": "Oakdale",
+                    "region": "MN",
+                    "fullPostalCode": "55128",
+                    "country": "US",
+                    "lat": 44.950054,
+                    "lng": -92.936394,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Windows Store"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Pacific Kitchen & Home"
+                        },
+                        {
+                            "service": "Magnolia Design Center "
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "LG Experience "
+                        },
+                        {
+                            "service": "Sony Experience "
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        }
+                    ],
+                    "phone": "651-739-1899",
+                    "postalCode": "55128",
+                    "distance": 3.58
+                },
+                {
+                    "storeId": 6,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Inver Grove Heights",
+                    "longName": "Best Buy - Inver Grove Heights",
+                    "address": "1350 50th Street E",
+                    "address2": "",
+                    "city": "Inver Grove Heights",
+                    "region": "MN",
+                    "fullPostalCode": "55077",
+                    "country": "US",
+                    "lat": 44.879314,
+                    "lng": -93.077156,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Samsung Experience Shop"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        },
+                        {
+                            "service": "Windows Store"
+                        }
+                    ],
+                    "phone": "651-457-5817",
+                    "postalCode": "55077",
+                    "distance": 5.28
+                },
+                {
+                    "storeId": 10,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Maplewood",
+                    "longName": "Best Buy - Maplewood",
+                    "address": "1795 County Rd D E",
+                    "address2": "",
+                    "city": "Maplewood",
+                    "region": "MN",
+                    "fullPostalCode": "55109",
+                    "country": "US",
+                    "lat": 45.036556,
+                    "lng": -93.025986,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Windows Store"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Sony Experience "
+                        },
+                        {
+                            "service": "LG Experience "
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        }
+                    ],
+                    "phone": "651-704-1901",
+                    "postalCode": "55109",
+                    "distance": 6.92
+                },
+                {
+                    "storeId": 7,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Roseville",
+                    "longName": "Best Buy - Roseville",
+                    "address": "1643 County Road B2",
+                    "address2": "",
+                    "city": "Roseville",
+                    "region": "MN",
+                    "fullPostalCode": "55113",
+                    "country": "US",
+                    "lat": 45.01651,
+                    "lng": -93.168518,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Windows Store"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Pacific Kitchen & Home"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Best Buy Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Camera Experience Shop "
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        }
+                    ],
+                    "phone": "651-746-0538",
+                    "postalCode": "55113",
+                    "distance": 9.6
+                },
+                {
+                    "storeId": 1055,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Eagan",
+                    "longName": "Best Buy - Eagan",
+                    "address": "1235 Town Centre Dr",
+                    "address2": "Ste F1",
+                    "city": "Eagan",
+                    "region": "MN",
+                    "fullPostalCode": "55123",
+                    "country": "US",
+                    "lat": 44.83189,
+                    "lng": -93.152992,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        }
+                    ],
+                    "phone": "651-365-0540",
+                    "postalCode": "55123",
+                    "distance": 10.21
+                },
+                {
+                    "storeId": 1000,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Mall of America",
+                    "longName": "Best Buy - Mall of America",
+                    "address": "340 W Market",
+                    "address2": "",
+                    "city": "Bloomington",
+                    "region": "MN",
+                    "fullPostalCode": "55425",
+                    "country": "US",
+                    "lat": 44.85466,
+                    "lng": -93.24565,
+                    "hours": "Mon: 8-10; Tue: 8-10; Wed: 8-10; Thurs: 8-10; Fri: 8-10; Sat: 8-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-10pm; Tue: 8am-10pm; Wed: 8am-10pm; Thurs: 8am-10pm; Fri: 8am-10pm; Sat: 8am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Hablamos Español"
+                        },
+                        {
+                            "service": "Camera Experience Shop "
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Samsung Experience Shop"
+                        },
+                        {
+                            "service": "Windows Store"
+                        }
+                    ],
+                    "phone": "952-853-1359",
+                    "postalCode": "55425",
+                    "distance": 13
+                },
+                {
+                    "storeId": 281,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Richfield",
+                    "longName": "Best Buy - Richfield",
+                    "address": "1000 West 78th St.",
+                    "address2": "",
+                    "city": "Richfield",
+                    "region": "MN",
+                    "fullPostalCode": "55423",
+                    "country": "US",
+                    "lat": 44.863312,
+                    "lng": -93.292557,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -6,
+                    "services": [
+                        {
+                            "service": "Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen & Home"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Camera Experience Shop "
+                        },
+                        {
+                            "service": "LG Experience "
+                        },
+                        {
+                            "service": "Magnolia Design Center "
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        },
+                        {
+                            "service": "Hablamos Español"
+                        }
+                    ],
+                    "phone": "612-861-3917",
+                    "postalCode": "55423",
+                    "distance": 14.88
+                },
+                {
+                    "storeId": 245,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Apple Valley",
+                    "longName": "Best Buy - Apple Valley",
+                    "address": "15300 Cedar Ave",
+                    "address2": "",
+                    "city": "Apple Valley",
+                    "region": "MN",
+                    "fullPostalCode": "55124",
+                    "country": "US",
+                    "lat": 44.729126,
+                    "lng": -93.21521,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "LG Experience "
+                        },
+                        {
+                            "service": "Sony Experience "
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        }
+                    ],
+                    "phone": "952-431-2466",
+                    "postalCode": "55124",
+                    "distance": 17.65
+                },
+                {
+                    "storeId": 11,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No-receipt",
+                    "name": "Northtown",
+                    "longName": "Best Buy - Northtown",
+                    "address": "300 Northtown Dr Ne",
+                    "address2": "",
+                    "city": "Blaine",
+                    "region": "MN",
+                    "fullPostalCode": "55434",
+                    "country": "US",
+                    "lat": 45.126179,
+                    "lng": -93.261429,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Hablamos Español"
+                        },
+                        {
+                            "service": "Samsung Experience Shop"
+                        },
+                        {
+                            "service": "Car & GPS Installation Services"
+                        },
+                        {
+                            "service": "Windows Store"
+                        }
+                    ],
+                    "phone": "763-780-8668",
+                    "postalCode": "55434",
+                    "distance": 18.02
+                },
+                {
+                    "storeId": 8,
+                    "storeType": "BigBox",
+                    "tradeIn": "Trade-In - No receipt (biometric)",
+                    "name": "Burnsville",
+                    "longName": "Best Buy - Burnsville",
+                    "address": "14141 Aldrich Ave S",
+                    "address2": "",
+                    "city": "Burnsville",
+                    "region": "MN",
+                    "fullPostalCode": "55337",
+                    "country": "US",
+                    "lat": 44.747404,
+                    "lng": -93.288039,
+                    "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                    "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Best Buy Mobile"
+                        },
+                        {
+                            "service": "Best Buy For Business"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Electronics Recycling"
+                        },
+                        {
+                            "service": "Samsung Experience Shop"
+                        }
+                    ],
+                    "phone": "952-435-9379",
+                    "postalCode": "55337",
+                    "distance": 19.03
+                }
+            ],
+            "warnings": "Distances are in terms of miles (default)"
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Mon, 19 Dec 2016 17:23:23 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "13986",
+            "connection": "Close"
+        }
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products(sku=4971901)+stores(storeId%20in(15,6,10,7,1055,1000,281,245,11,8))?apiKey=XXX&format=json&show=all",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 1,
+            "total": 1,
+            "currentPage": 1,
+            "totalPages": 1,
+            "queryTime": "0.012",
+            "totalTime": "0.057",
+            "partial": false,
+            "canonicalUrl": "/v1/products(sku=4971901)+stores(storeId in(15,6,10,7,1055,1000,281,245,11,8))?show=all&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 4971901,
+                    "productId": 4971901,
+                    "name": "Insignia™ - AA Batteries (60-Pack) - White / Blue",
+                    "source": "bestbuy",
+                    "type": "HardGood",
+                    "startDate": "2016-05-27",
+                    "new": false,
+                    "active": true,
+                    "lowPriceGuarantee": true,
+                    "activeUpdateDate": "2016-11-07T16:44:14",
+                    "regularPrice": 17.99,
+                    "salePrice": 17.99,
+                    "clearance": false,
+                    "onSale": false,
+                    "planPrice": null,
+                    "priceWithPlan": [],
+                    "priceRestriction": null,
+                    "priceUpdateDate": "2016-12-15T00:00:45",
+                    "digital": false,
+                    "preowned": false,
+                    "carrierPlans": [],
+                    "technologyCode": null,
+                    "carrierModelNumber": null,
+                    "earlyTerminationFees": [],
+                    "outletCenter": null,
+                    "secondaryMarket": null,
+                    "frequentlyPurchasedWith": [],
+                    "accessories": [],
+                    "relatedProducts": [],
+                    "techSupportPlans": [],
+                    "salesRankShortTerm": 3235,
+                    "salesRankMediumTerm": 2743,
+                    "salesRankLongTerm": 630,
+                    "bestSellingRank": 3242,
+                    "url": "https://api.bestbuy.com/click/-/4971901/pdp",
+                    "spin360Url": null,
+                    "mobileUrl": "https://api.bestbuy.com/click/-/4971901/pdp",
+                    "affiliateUrl": null,
+                    "addToCartUrl": "https://api.bestbuy.com/click/-/4971901/cart",
+                    "affiliateAddToCartUrl": null,
+                    "linkShareAffiliateUrl": "",
+                    "linkShareAffiliateAddToCartUrl": "",
+                    "search": null,
+                    "stores": [
+                        {
+                            "storeId": 6,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Inver Grove Heights",
+                            "longName": "Best Buy - Inver Grove Heights",
+                            "address": "1350 50th Street E",
+                            "address2": "",
+                            "city": "Inver Grove Heights",
+                            "region": "MN",
+                            "fullPostalCode": "55077",
+                            "country": "US",
+                            "lat": 44.879314,
+                            "lng": -93.077156,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Samsung Experience Shop"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                },
+                                {
+                                    "service": "Windows Store"
+                                }
+                            ],
+                            "phone": "651-457-5817",
+                            "postalCode": "55077",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 10,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Maplewood",
+                            "longName": "Best Buy - Maplewood",
+                            "address": "1795 County Rd D E",
+                            "address2": "",
+                            "city": "Maplewood",
+                            "region": "MN",
+                            "fullPostalCode": "55109",
+                            "country": "US",
+                            "lat": 45.036556,
+                            "lng": -93.025986,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Windows Store"
+                                },
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Samsung Experience"
+                                },
+                                {
+                                    "service": "Sony Experience "
+                                },
+                                {
+                                    "service": "LG Experience "
+                                },
+                                {
+                                    "service": "Magnolia Home Theater"
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                }
+                            ],
+                            "phone": "651-704-1901",
+                            "postalCode": "55109",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 7,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Roseville",
+                            "longName": "Best Buy - Roseville",
+                            "address": "1643 County Road B2",
+                            "address2": "",
+                            "city": "Roseville",
+                            "region": "MN",
+                            "fullPostalCode": "55113",
+                            "country": "US",
+                            "lat": 45.01651,
+                            "lng": -93.168518,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Windows Store"
+                                },
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Pacific Kitchen & Home"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Best Buy Marine Powered by Geek Squad"
+                                },
+                                {
+                                    "service": "Samsung Experience"
+                                },
+                                {
+                                    "service": "Camera Experience Shop "
+                                },
+                                {
+                                    "service": "Magnolia Home Theater"
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                }
+                            ],
+                            "phone": "651-746-0538",
+                            "postalCode": "55113",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 15,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Oakdale",
+                            "longName": "Best Buy - Oakdale",
+                            "address": "8301 3rd St N",
+                            "address2": "",
+                            "city": "Oakdale",
+                            "region": "MN",
+                            "fullPostalCode": "55128",
+                            "country": "US",
+                            "lat": 44.950054,
+                            "lng": -92.936394,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Windows Store"
+                                },
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Pacific Kitchen & Home"
+                                },
+                                {
+                                    "service": "Magnolia Design Center "
+                                },
+                                {
+                                    "service": "Samsung Experience"
+                                },
+                                {
+                                    "service": "LG Experience "
+                                },
+                                {
+                                    "service": "Sony Experience "
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                }
+                            ],
+                            "phone": "651-739-1899",
+                            "postalCode": "55128",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 8,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No receipt (biometric)",
+                            "name": "Burnsville",
+                            "longName": "Best Buy - Burnsville",
+                            "address": "14141 Aldrich Ave S",
+                            "address2": "",
+                            "city": "Burnsville",
+                            "region": "MN",
+                            "fullPostalCode": "55337",
+                            "country": "US",
+                            "lat": 44.747404,
+                            "lng": -93.288039,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Samsung Experience Shop"
+                                }
+                            ],
+                            "phone": "952-435-9379",
+                            "postalCode": "55337",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 281,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Richfield",
+                            "longName": "Best Buy - Richfield",
+                            "address": "1000 West 78th St.",
+                            "address2": "",
+                            "city": "Richfield",
+                            "region": "MN",
+                            "fullPostalCode": "55423",
+                            "country": "US",
+                            "lat": 44.863312,
+                            "lng": -93.292557,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -6,
+                            "services": [
+                                {
+                                    "service": "Windows Store"
+                                },
+                                {
+                                    "service": "Pacific Kitchen & Home"
+                                },
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Apple Shop"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Samsung Experience"
+                                },
+                                {
+                                    "service": "Camera Experience Shop "
+                                },
+                                {
+                                    "service": "LG Experience "
+                                },
+                                {
+                                    "service": "Magnolia Design Center "
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                },
+                                {
+                                    "service": "Hablamos Español"
+                                }
+                            ],
+                            "phone": "612-861-3917",
+                            "postalCode": "55423",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        },
+                        {
+                            "storeId": 11,
+                            "storeType": "BigBox",
+                            "tradeIn": "Trade-In - No-receipt",
+                            "name": "Northtown",
+                            "longName": "Best Buy - Northtown",
+                            "address": "300 Northtown Dr Ne",
+                            "address2": "",
+                            "city": "Blaine",
+                            "region": "MN",
+                            "fullPostalCode": "55434",
+                            "country": "US",
+                            "lat": 45.126179,
+                            "lng": -93.261429,
+                            "hours": "Mon: 8-11; Tue: 8-11; Wed: 8-11; Thurs: 8-11; Fri: 8-11; Sat: 7-6; Sun: 8-10",
+                            "hoursAmPm": "Mon: 8am-11pm; Tue: 8am-11pm; Wed: 8am-11pm; Thurs: 8am-11pm; Fri: 8am-11pm; Sat: 7am-6pm; Sun: 8am-10pm",
+                            "gmtOffset": -5,
+                            "services": [
+                                {
+                                    "service": "Geek Squad Services"
+                                },
+                                {
+                                    "service": "Best Buy Mobile"
+                                },
+                                {
+                                    "service": "Best Buy For Business"
+                                },
+                                {
+                                    "service": "Electronics Recycling"
+                                },
+                                {
+                                    "service": "Hablamos Español"
+                                },
+                                {
+                                    "service": "Samsung Experience Shop"
+                                },
+                                {
+                                    "service": "Car & GPS Installation Services"
+                                },
+                                {
+                                    "service": "Windows Store"
+                                }
+                            ],
+                            "phone": "763-780-8668",
+                            "postalCode": "55434",
+                            "detailedHours": [
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-18",
+                                    "open": "8:00",
+                                    "close": "22:00"
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-19",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-20",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-21",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-22",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-23",
+                                    "open": "8:00",
+                                    "close": "23:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-24",
+                                    "open": "7:00",
+                                    "close": "18:00"
+                                },
+                                {
+                                    "day": "Sunday",
+                                    "date": "2016-12-25",
+                                    "open": null,
+                                    "close": null
+                                },
+                                {
+                                    "day": "Monday",
+                                    "date": "2016-12-26",
+                                    "open": "9:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Tuesday",
+                                    "date": "2016-12-27",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Wednesday",
+                                    "date": "2016-12-28",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Thursday",
+                                    "date": "2016-12-29",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Friday",
+                                    "date": "2016-12-30",
+                                    "open": "10:00",
+                                    "close": "21:00"
+                                },
+                                {
+                                    "day": "Saturday",
+                                    "date": "2016-12-31",
+                                    "open": "10:00",
+                                    "close": "19:00"
+                                }
+                            ]
+                        }
+                    ],
+                    "upc": "600603200311",
+                    "productTemplate": "Batteries",
+                    "categoryPath": [
+                        {
+                            "id": "cat00000",
+                            "name": "Best Buy"
+                        },
+                        {
+                            "id": "pcmcat312300050015",
+                            "name": "Connected Home & Housewares"
+                        },
+                        {
+                            "id": "pcmcat248700050021",
+                            "name": "Housewares"
+                        },
+                        {
+                            "id": "pcmcat303600050001",
+                            "name": "Household Batteries"
+                        },
+                        {
+                            "id": "abcat0208002",
+                            "name": "Alkaline Batteries"
+                        }
+                    ],
+                    "lists": [],
+                    "customerReviewCount": 522,
+                    "customerReviewAverage": "4.7",
+                    "customerTopRated": true,
+                    "format": null,
+                    "freeShipping": false,
+                    "freeShippingEligible": false,
+                    "inStoreAvailability": true,
+                    "inStoreAvailabilityText": "Store Pickup:",
+                    "inStoreAvailabilityTextHtml": "<b>Store Pickup:</b>",
+                    "inStoreAvailabilityUpdateDate": "2016-11-07T16:44:14",
+                    "itemUpdateDate": "2016-12-19T09:29:39",
+                    "onlineAvailability": true,
+                    "onlineAvailabilityText": "Shipping: Usually ships in 1 business day",
+                    "onlineAvailabilityTextHtml": "<b>Shipping:</b> Usually ships in 1 business day",
+                    "onlineAvailabilityUpdateDate": "2016-12-15T15:15:12",
+                    "releaseDate": null,
+                    "shippingCost": 0,
+                    "shipping": [
+                        {
+                            "ground": "",
+                            "secondDay": 0,
+                            "nextDay": 14.95,
+                            "vendorDelivery": ""
+                        }
+                    ],
+                    "shippingLevelsOfService": [
+                        {
+                            "serviceLevelId": 4,
+                            "serviceLevelName": "Two Day",
+                            "unitShippingPrice": 0
+                        },
+                        {
+                            "serviceLevelId": 6,
+                            "serviceLevelName": "One Day",
+                            "unitShippingPrice": 14.95
+                        }
+                    ],
+                    "specialOrder": false,
+                    "shortDescription": "Alkaline chemistry; cadmium and mercury free",
+                    "shortDescriptionHtml": "Alkaline chemistry; cadmium and mercury free",
+                    "class": "BATTERIES",
+                    "classId": 62,
+                    "subclass": "ALKALINE",
+                    "subclassId": 90,
+                    "department": "PHOTO/COMMODITIES",
+                    "departmentId": 5,
+                    "bestBuyItemId": "",
+                    "buybackPlans": [],
+                    "protectionPlans": [],
+                    "productFamilies": [],
+                    "description": null,
+                    "manufacturer": "Insignia™",
+                    "modelNumber": "NS-CB60AA",
+                    "image": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901_sa.jpg",
+                    "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901_sa.jpg",
+                    "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901fp.gif",
+                    "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901_s.gif",
+                    "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901_sb.jpg",
+                    "alternateViewsImage": "http://img.bbystatic.com/BestBuy_US/images/products/4971/4971901cv1a.jpg",
+                    "angleImage": null,
+                    "backViewImage": null,
+                    "energyGuideImage": null,
+                    "leftViewImage": null,
+                    "accessoriesImage": null,
+                    "remoteControlImage": null,
+                    "rightViewImage": null,
+                    "topViewImage": null,
+                    "condition": "New",
+                    "inStorePickup": true,
+                    "friendsAndFamilyPickup": true,
+                    "homeDelivery": false,
+                    "quantityLimit": 2,
+                    "fulfilledBy": "BestBuy.com",
+                    "bundledIn": [],
+                    "color": "White / Blue",
+                    "depth": null,
+                    "dollarSavings": 0,
+                    "percentSavings": "0.0",
+                    "tradeInValue": "",
+                    "height": null,
+                    "orderable": "Available",
+                    "weight": null,
+                    "shippingWeight": "3.13",
+                    "width": null,
+                    "warrantyLabor": "Not Available",
+                    "warrantyParts": "Not Available",
+                    "longDescription": "Power up plenty of remote controls or toys with this pack of 60 AA batteries. These alkaline batteries have a long shelf life, letting you stock up now without worrying about low performance later. Keep this pack of 60 AA batteries in the drawer or closet to keep favorite gadgets running or ensure flashlights are ready during emergencies.",
+                    "longDescriptionHtml": "Power up plenty of remote controls or toys with this pack of 60 AA batteries. These alkaline batteries have a long shelf life, letting you stock up now without worrying about low performance later. Keep this pack of 60 AA batteries in the drawer or closet to keep favorite gadgets running or ensure flashlights are ready during emergencies.",
+                    "details": [
+                        {
+                            "name": "Color",
+                            "value": "White / Blue"
+                        },
+                        {
+                            "name": "Rechargeable",
+                            "value": "No"
+                        },
+                        {
+                            "name": "Product Name",
+                            "value": "AA Batteries (60-Pack)"
+                        },
+                        {
+                            "name": "Brand",
+                            "value": "Insignia&#8482;"
+                        },
+                        {
+                            "name": "Number Of Batteries Included",
+                            "value": "60"
+                        },
+                        {
+                            "name": "Model Number",
+                            "value": "NS-CB60AA"
+                        },
+                        {
+                            "name": "Battery Chemistry",
+                            "value": "Alkaline"
+                        },
+                        {
+                            "name": "Color Category",
+                            "value": "Blue"
+                        },
+                        {
+                            "name": "Battery Size",
+                            "value": "AA"
+                        },
+                        {
+                            "name": "Battery Type",
+                            "value": "General Purpose Batteries"
+                        },
+                        {
+                            "name": "pricematch",
+                            "value": "yes"
+                        },
+                        {
+                            "name": "Product_Variation_ID",
+                            "value": "78a14d91-a778-11e6-9b5f-005056bc4b78-PRVC"
+                        },
+                        {
+                            "name": "Product_Variation_SKU_List",
+                            "value": "5491508,4971902,4971901"
+                        },
+                        {
+                            "name": "Product_Variation_Types",
+                            "value": "urn:bby:pcm:attribute:omega:Batteries:Number_Of_Batteries_Included"
+                        }
+                    ],
+                    "includedItemList": [
+                        {
+                            "includedItem": "Insignia AA Batteries (60-Pack)"
+                        }
+                    ],
+                    "features": [
+                        {
+                            "feature": "Alkaline AA batteries\nSupply reliable power to a wide variety of household electronics."
+                        },
+                        {
+                            "feature": "Environmentally friendly\nCadmium and mercury free."
+                        },
+                        {
+                            "feature": "60-pack\nProvides a steady supply for your household electronics."
+                        }
+                    ],
+                    "offers": [
+                        {
+                            "id": "196543",
+                            "heading": null,
+                            "text": "Spend $40 on Batteries and Save $10",
+                            "url": "/site/offer/196543/pcmcat1478204486961.c?id=pcmcat1478204486961",
+                            "imageUrl": null,
+                            "type": "special_offer",
+                            "startDate": "2016-11-27T00:00:00-06:00",
+                            "endDate": "2016-12-31T23:59:59-06:00",
+                            "contentNotes": "Purchase $40.00 or More of Any Insignia Battery Packs and Save $10.00",
+                            "offerName": "Purchase $40.00 or More of Any Insignia Battery Packs and Save $10.00",
+                            "giftSku": []
+                        }
+                    ],
+                    "marketplace": false,
+                    "listingId": null,
+                    "sellerId": null,
+                    "shippingRestrictions": null
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Mon, 19 Dec 2016 17:23:23 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "35803",
+            "connection": "Close"
+        }
+    }
+]

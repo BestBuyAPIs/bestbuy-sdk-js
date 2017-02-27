@@ -257,6 +257,19 @@ Run the existing tests with:
 ```bash
     npm test
 ```
+Note that this uses nock fixtures to mock all network calls.
+
+Run tests against the live API (BBY_API_KEY env var needs to be set):
+```bash
+    npm run test-live
+```
+
+If tests are added, re-record the mock fixtures:
+```
+   npm run record
+   # tests will run against the live API and their output will be saved in test/fixtures
+```
+
 
 ## Online Resources
  - [Best Buy Developer Portal](https://developer.bestbuy.com)

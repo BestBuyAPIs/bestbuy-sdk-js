@@ -1,0 +1,293 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/beta/products/1780275/alsoViewed?apiKey=XXX&format=json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "resultSet": {
+                    "count": 10
+                },
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/1780275/alsoViewed?apiKey=XXX"
+                }
+            },
+            "results": [
+                {
+                    "customerReviews": {
+                        "averageScore": "4.9",
+                        "count": 21
+                    },
+                    "descriptions": {
+                        "short": "9.7-inch Retina (diagonal) displayA9X third-generation chip with 64-bit architectureM9 motion coprocessor5MP FaceTime HD camera12MP iSight cameraTouch IDApple Pay"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5528/5528900_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5528900.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5528900/pdp",
+                        "addToCart": null
+                    },
+                    "names": {
+                        "title": "Apple - 9.7-Inch iPad Pro with Wi-Fi + Cellular - 32GB (AT&T) - Silver"
+                    },
+                    "prices": {
+                        "current": 679.99,
+                        "regular": 729.99
+                    },
+                    "rank": 8,
+                    "sku": "5528900"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.9",
+                        "count": 4883
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 8.1128GB storage capacityA8X chipWi-Fi8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/3317/3317003_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/3317003.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/3317003/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/3317003/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 Wi-Fi 128GB - Space Gray"
+                    },
+                    "prices": {
+                        "current": 399.99,
+                        "regular": 499.99
+                    },
+                    "rank": 9,
+                    "sku": "3317003"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 1033
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 8.132GB storage capacityA8X chipWi-Fi8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5494/5494200_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5494200.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5494200/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5494200/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 Wi-Fi 32GB - Space Gray"
+                    },
+                    "prices": {
+                        "current": 299.99,
+                        "regular": 399.99
+                    },
+                    "rank": 6,
+                    "sku": "5494200"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "5.0",
+                        "count": 2
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 916GB storage capacityA8X chipWi-Fi + 4G LTE8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5571/5571601_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5571601.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5571601/pdp",
+                        "addToCart": null
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 with Wi-Fi + Cellular - 16GB (AT&T) - Silver"
+                    },
+                    "prices": {
+                        "current": 379.99,
+                        "regular": 479.99
+                    },
+                    "rank": 2,
+                    "sku": "5571601"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 9
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 916GB storage capacityA8X chipWi-Fi + 4G LTE8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5572/5572000_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5572000.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5572000/pdp",
+                        "addToCart": null
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 with Wi-Fi + Cellular - 16GB (Verizon Wireless) - Silver"
+                    },
+                    "prices": {
+                        "current": 379.99,
+                        "regular": 479.99
+                    },
+                    "rank": 5,
+                    "sku": "5572000"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.9",
+                        "count": 31
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 964GB storage capacityA8X chipWi-Fi + 4G LTE8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5574/5574601_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5574601.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5574601/pdp",
+                        "addToCart": null
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 with Wi-Fi + Cellular - 64GB (AT&T) - Silver"
+                    },
+                    "prices": {
+                        "current": 479.99,
+                        "regular": 579.99
+                    },
+                    "rank": 4,
+                    "sku": "5574601"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 53
+                    },
+                    "descriptions": {
+                        "short": "9.7\" Retina displayApple iOS 964GB storage capacityA8X chipWi-Fi + 4G LTE8MP iSight camera"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5575/5575500_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/5575500.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5575500/pdp",
+                        "addToCart": null
+                    },
+                    "names": {
+                        "title": "Apple - iPad Air 2 with Wi-Fi + Cellular - 64GB (Verizon Wireless) - Space Gray"
+                    },
+                    "prices": {
+                        "current": 479.99,
+                        "regular": 579.99
+                    },
+                    "rank": 1,
+                    "sku": "5575500"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 209
+                    },
+                    "descriptions": {
+                        "short": "7.9\" Retina Display with 2048 x 1536 resolutionApple iOS 716GB storage capacityA7 chip with M7 motion coprocessorWi-Fi + 4G LTE5.0MP iSight camera with 1080p HD video recording"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/pac/products/1312/1312557398/1312557398_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/7009597.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/7009597/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/7009597/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad® mini 2 with Wi-Fi + Cellular - 16GB - (AT&T) - Space Gray"
+                    },
+                    "prices": {
+                        "current": 349.99,
+                        "regular": 349.99
+                    },
+                    "rank": 7,
+                    "sku": "7009597"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 76
+                    },
+                    "descriptions": {
+                        "short": "7.9\" Retina Display with 2048 x 1536 resolutionApple iOS 716GB storage capacityA7 chip with M7 motion coprocessorWi-Fi + 4G LTE5.0MP iSight camera with 1080p HD video recording"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/2557/2557966_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/2557966.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/2557966/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/2557966/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad® mini 2 with Wi-Fi + Cellular - 16GB - (Verizon Wireless) - Silver"
+                    },
+                    "prices": {
+                        "current": 349.99,
+                        "regular": 349.99
+                    },
+                    "rank": 3,
+                    "sku": "2557966"
+                },
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 105
+                    },
+                    "descriptions": {
+                        "short": "7.9\" Retina Display with 2048 x 1536 resolutionApple iOS 732GB storage capacityA7 chip with M7 motion coprocessorWi-Fi + 4G LTE5.0MP iSight camera with 1080p HD video recording"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/1780/1780211_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/1780211.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1780211/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/1780211/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad® mini 2 with Wi-Fi + Cellular - 32GB - (Verizon Wireless) - Silver"
+                    },
+                    "prices": {
+                        "current": 399.99,
+                        "regular": 399.99
+                    },
+                    "rank": 10,
+                    "sku": "1780211"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json;charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:51 GMT",
+            "server": "Apigee Router",
+            "vary": "Accept-Encoding",
+            "content-length": "6765",
+            "connection": "Close"
+        }
+    }
+]

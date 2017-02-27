@@ -1,0 +1,74 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/categories?apiKey=XXX&format=json&show=name%2Cid",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "total": 4135,
+            "currentPage": 1,
+            "totalPages": 414,
+            "queryTime": "0.026",
+            "totalTime": "0.060",
+            "partial": false,
+            "canonicalUrl": "/v1/categories?show=name,id&format=json&apiKey=XXX",
+            "categories": [
+                {
+                    "name": "Gift Ideas",
+                    "id": "abcat0010000"
+                },
+                {
+                    "name": "Learning Toys",
+                    "id": "abcat0020001"
+                },
+                {
+                    "name": "DVD Games",
+                    "id": "abcat0020002"
+                },
+                {
+                    "name": "Unique Gifts",
+                    "id": "abcat0020004"
+                },
+                {
+                    "name": "TV & Home Theater",
+                    "id": "abcat0100000"
+                },
+                {
+                    "name": "TVs",
+                    "id": "abcat0101000"
+                },
+                {
+                    "name": "All Flat-Panel TVs",
+                    "id": "abcat0101001"
+                },
+                {
+                    "name": "Blu-ray & DVD Players",
+                    "id": "abcat0102000"
+                },
+                {
+                    "name": "Blu-ray Players",
+                    "id": "abcat0102003"
+                },
+                {
+                    "name": "DVD Players",
+                    "id": "abcat0102005"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:43 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "977",
+            "connection": "Close"
+        }
+    }
+]

@@ -1,0 +1,74 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/v1/products(customerReviewAverage=4)?apiKey=XXX&format=json&show=name%2Csku",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "total": 8554,
+            "currentPage": 1,
+            "totalPages": 856,
+            "queryTime": "0.032",
+            "totalTime": "0.074",
+            "partial": false,
+            "canonicalUrl": "/v1/products(customerReviewAverage=4)?show=name,sku&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "name": "#OfficialMBmusic [CD]",
+                    "sku": 5269312
+                },
+                {
+                    "name": "'Til Death: The Complete Second Season [WS] [3 Discs] (DVD)",
+                    "sku": 9154513
+                },
+                {
+                    "name": "'Til the Morning [CD]",
+                    "sku": 3796197
+                },
+                {
+                    "name": "(DVD)",
+                    "sku": 20700748
+                },
+                {
+                    "name": "(r)Evolution [CD]",
+                    "sku": 8089424
+                },
+                {
+                    "name": "...And Then There Was X [CD] [PA]",
+                    "sku": 3812896
+                },
+                {
+                    "name": "007: The Daniel Craig 4-Film Collection (DVD)",
+                    "sku": 30225153
+                },
+                {
+                    "name": "007: The Timothy Dalton Collection (DVD)",
+                    "sku": 4777805
+                },
+                {
+                    "name": "1 [2CD] [Deluxe Version] [CD]",
+                    "sku": 8808254
+                },
+                {
+                    "name": "1-Year Accidental Geek Squad Protection",
+                    "sku": 5624167
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json; charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:47 GMT",
+            "server": "Best Buy Public APIs",
+            "x-cache-hit": "true",
+            "content-length": "1121",
+            "connection": "Close"
+        }
+    }
+]

@@ -1,0 +1,82 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "GET",
+        "path": "/beta/products/2557948/openBox?apiKey=XXX&format=json",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "resultSet": {
+                    "count": 1
+                },
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/2557948/openBox?apiKey=XXX"
+                }
+            },
+            "results": [
+                {
+                    "customerReviews": {
+                        "averageScore": "4.8",
+                        "count": 4360
+                    },
+                    "descriptions": {
+                        "short": "7.9\" Retina Display with 2048 x 1536 resolutionApple iOS 732GB storage capacityA7 chip with M7 motion coprocessorWi-Fi5.0MP iSight camera with 1080p HD video recording"
+                    },
+                    "images": {
+                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/2557/2557948_sa.jpg"
+                    },
+                    "links": {
+                        "product": "https://api.remix.bestbuy.com/v1/products/2557948.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/2557948/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/2557948/cart"
+                    },
+                    "names": {
+                        "title": "Apple - iPad® mini 2 with Wi-Fi - 32GB - Space Gray"
+                    },
+                    "offers": [
+                        {
+                            "condition": "excellent",
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "onlineAvailability": false,
+                            "prices": {
+                                "current": 242.99,
+                                "regular": 269.99
+                            },
+                            "sellerId": "BBY_OB"
+                        },
+                        {
+                            "condition": "certified",
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "onlineAvailability": true,
+                            "prices": {
+                                "current": 250.99,
+                                "regular": 269.99
+                            },
+                            "sellerId": "BBY_OB"
+                        }
+                    ],
+                    "prices": {
+                        "current": 269.99,
+                        "regular": 269.99
+                    },
+                    "sku": "2557948"
+                }
+            ]
+        },
+        "headers": {
+            "access-control-allow-headers": "origin, x-requested-with, accept",
+            "access-control-allow-methods": "GET",
+            "access-control-allow-origin": "*",
+            "access-control-max-age": "3628800",
+            "content-type": "application/json;charset=UTF-8",
+            "date": "Sat, 17 Dec 2016 06:49:44 GMT",
+            "server": "Apigee Router",
+            "vary": "Accept-Encoding",
+            "content-length": "1217",
+            "connection": "Close"
+        }
+    }
+]

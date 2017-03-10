@@ -169,12 +169,12 @@ The below example returns the title and price of the first search result with th
 
 ### recommendations
 #### `recommendations('mostViewed' OR 'trendingViewed'[, optional category as a string])`
-#### `recommendations('alsoViewed' OR 'similar', sku)`
+#### `recommendations('alsoViewed', sku)`
 This endpoint serves the search criteria for querying the [Recommendations API as described in our API documentation](https://developer.bestbuy.com/documentation/recommendations-api).
 
-The first parameter expects one of four values: mostViewed, trendingViewed, alsoViewed or similar
+The first parameter expects one of three values: mostViewed, trendingViewed or alsoViewed.
 If the first parameter is *mostViewed* or *trendingViewed*, an optional second parameter of a categoryId may be provided.
-If the first parameter is *alsoViewed* or *similar*, a required second parameter of sku must be provided.
+If the first parameter is *alsoViewed*, a required second parameter of sku must be provided.
 
 The below examples show how to get the most viewed products on BestBuy.com.
 ##### Using Callbacks

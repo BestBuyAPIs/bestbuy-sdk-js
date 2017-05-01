@@ -42,6 +42,7 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
  - [`recommendations`](#recommendations)
  - [`reviews`](#reviews)
  - [`stores`](#stores)
+ - [`warranties`](#warranties)
 
 In our documentation, we'll use a couple actual examples:
 
@@ -251,6 +252,30 @@ The below examples show the number of stores located within 25 miles of 94103 (S
       });
 ```
 
+### warranties
+#### `warranties(sku)`
+This endpoint serves warranties for a specified product per the [Warranties API as described in our API documentation](https://developer.bestbuy.com/documentation/stores-api).
+
+The below examples show warranties for an old printer.
+##### Using Callbacks
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.warranties(6354884, function(err, data){
+      if (err) console.warn(err);
+      else console.log('Warranties found: ' + data.length);
+    });
+```
+##### Using Promises
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.warranties(6354884)
+      .then(function(data){
+        console.log('Warranties found: ' + data.length);
+      })
+      .catch(function(err){
+        console.warn(err);
+      });
+```
 
 ## Tests
 Run the existing tests with:

@@ -40,3 +40,17 @@ test('Fetch Categories with name and page size and callback', test.opts, functio
     t.end();
   });
 });
+
+test('Fetch Categories with name and callback', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+  bby.categories('(name=Video Games)', function (err, data) {
+    t.error(err, 'no error');
+
+    t.ok(data.categories.length > 0, 'categories returned');
+    t.ok(data.categories[0].name, 'name returned');
+    t.ok(data.categories[0].id, 'id returned');
+    t.ok(data.categories[0].active, 'active returned');
+
+    t.end();
+  });
+});

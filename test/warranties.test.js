@@ -17,3 +17,12 @@ test('Get a warranty for a product', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Get a warranty for a product via callback', test.opts, function (t) {
+  // Do a query for stores
+  bby.warranties(6354884, function (err, data) {
+    t.error(err, 'no error');
+    t.ok(data.length > 0, 'warranties returned');
+    t.end();
+  });
+});

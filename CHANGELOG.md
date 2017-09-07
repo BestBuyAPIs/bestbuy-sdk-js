@@ -13,6 +13,9 @@
 
 With the exception of the reviews function (and returning `Error`s), the API interface should be nearly identical as the existing test suite was used to ensure the same functionality. The code behind all other funtions has been refactored to make adding some new features a bit easier.
 
+Features:
+  - Added `version()` which returns the current API version and package version.
+
 ## 1.1.0 (2017-05-01)
 
 Features:

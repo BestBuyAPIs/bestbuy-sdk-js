@@ -249,6 +249,36 @@ The below examples show warranties for an old printer.
       });
 ```
 
+### version
+#### `version()`
+This endpoint will return the version of the API and this package version.
+
+##### Using Callbacks
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.version(function(err, data) {
+      if (err) console.warn(err);
+      else console.log(data);
+
+      // output JSON:
+      // { packageVersion: '2.0.0', apiVersion: '1.0.844' }
+    });
+```
+##### Using Promises
+```js
+    var bby = require('bestbuy')('YOURKEY');
+    bby.version().then(function(data) {
+      console.log(version);
+    })
+    .catch(function(err){
+      console.warn(err);
+    });
+
+    // output JSON:
+    // { packageVersion: '2.0.0', apiVersion: '1.0.844' }
+```
+
+
 ## Tests
 Run the existing tests with:
 ```bash

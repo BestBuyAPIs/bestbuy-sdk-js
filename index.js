@@ -15,7 +15,8 @@ function bestbuy (_options) {
     products: require('./lib/products')(options),
     recommendations: require('./lib/recommendations')(options),
     stores: require('./lib/stores')(options),
-    warranties: require('./lib/warranties')(options)
+    warranties: require('./lib/warranties')(options),
+    version: require('./lib/version')(options)
   };
 }
 

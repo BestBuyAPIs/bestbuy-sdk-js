@@ -1,0 +1,49 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products/6354884/warranties.json?format=json&apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": [
+            {
+                "skuId": "4736900",
+                "shortName": "2-Year Geek Squad Product Replacement",
+                "currentPrice": 4.99,
+                "type": "GSP",
+                "department": "7",
+                "subclass": "6604",
+                "protectionType": "Replacement",
+                "paymentType": "ONETIME",
+                "term": "24.0 months",
+                "termLength": {
+                    "value": 2,
+                    "unitOfMeasure": "Years"
+                },
+                "class": "594"
+            }
+        ],
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 19:12:34 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "280",
+            "Connection",
+            "Close"
+        ]
+    }
+]

@@ -40,7 +40,6 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
  - [`openBox`](#openbox)
  - [`products`](#products)
  - [`recommendations`](#recommendations)
- - [`reviews`](#reviews)
  - [`stores`](#stores)
  - [`warranties`](#warranties)
 
@@ -194,33 +193,6 @@ The below examples show how to get the most viewed products on BestBuy.com.
       .then(function(data){
         if (data.metadata.resultSet.count === 0) console.log('Did not find any products');
         else console.log('Found %d products. First product: %s', data.metadata.resultSet.count, data.results[0].names.title);
-      })
-      .catch(function(err){
-        console.warn(err);
-      });
-```
-
-### reviews
-#### `reviews(String of search criteria)`
-This endpoint serves the search criteria for querying the [Reviews API as described in our API documentation](https://developer.bestbuy.com/documentation/reviews-api).
-
-The below examples show finding the reviews for a specific product.
-##### Using Callbacks
-```js
-    var bby = require('bestbuy')('YOURKEY');
-    bby.reviews('sku=4312001', function(err, data) {
-      if (err) console.warn(err);
-      else if (data.total === 0) console.log('No reviews found');
-      else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
-    });
-```
-##### Using Promises
-```js
-    var bby = require('bestbuy')('YOURKEY');
-    bby.reviews('sku=4312001')
-      .then(function(data){
-        if (data.total === 0) console.log('No reviews found');
-        else console.log('Found %d reviews, first review: %s', data.total, data.reviews[0].comment);
       })
       .catch(function(err){
         console.warn(err);

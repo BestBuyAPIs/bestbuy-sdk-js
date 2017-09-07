@@ -1,434 +1,490 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/beta/products/trendingViewed?apiKey=XXX&format=json",
+        "method": "get",
+        "path": "/beta/products/trendingViewed?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": {
             "metadata": {
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?format=json&apiKey=XXX"
+                },
                 "resultSet": {
                     "count": 10
-                },
-                "context": {
-                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?apiKey=XXX"
                 }
             },
             "results": [
                 {
+                    "sku": "5863600",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 95
+                        "averageScore": 0,
+                        "count": 0
                     },
                     "descriptions": {
-                        "short": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later."
+                        "short": "Compatible with select Apple&#174; iOS and Android smartphones and tablets; authentic movements; holographic simulation; droid to droid experience; adaptive personality; signature BB-9E LEDs; enhanced radio system; suitable for ages 8 and up"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5547900.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5547900/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5547900/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - Apple Watch Series 2 38mm Space Gray Aluminum Case Black Woven Nylon Sport Band - Space Gray Aluminum"
+                        "title": "Sphero - BB-9E™ App-Enabled Droid™ - Black/Gray"
                     },
                     "prices": {
-                        "current": 369,
-                        "regular": 369
+                        "regular": 149.99,
+                        "current": 149.99
                     },
-                    "rank": 1,
-                    "sku": "5547900"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5863600.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5863600/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5863600/cart"
+                    },
+                    "rank": 1
                 },
                 {
+                    "sku": "3720002",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 680
+                        "averageScore": 4.7,
+                        "count": 16554
                     },
                     "descriptions": {
-                        "short": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later."
+                        "short": "Only @ Best BuySupports resolution up to 4K Ultra HD (4096 x 2160 pixels)High Dynamic Range (HDR) pass-throughSilver content soldering, 24K gold-plated contactsCertified for in-wall installationLifetime limited warranty"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5546/5546305_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5546305.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5546305/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5546305/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/3720/3720002_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - Apple Watch Series 2 42mm Silver Aluminum Case White Sport Band - Silver Aluminum"
+                        "title": "Rocketfish™ - 4' 4K Ultra HD In-Wall HDMI Cable - Black"
                     },
                     "prices": {
-                        "current": 399,
-                        "regular": 399
+                        "regular": 29.99,
+                        "current": 23.99
                     },
-                    "rank": 5,
-                    "sku": "5546305"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/3720002.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/3720002/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/3720002/cart"
+                    },
+                    "rank": 2
                 },
                 {
+                    "sku": "5647800",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 9
+                        "averageScore": 4.7,
+                        "count": 2690
                     },
                     "descriptions": {
-                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
+                        "short": "Fits most wrist sizesCompatible with AndroidCompatible with standard 22 mm bandsGPS enabledHeart rate monitorIP68 water resistanceMultifunctional bezelCall and text capabilities"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/8897/8897495_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/8897495.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/8897495/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/8897495/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5647/5647800_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - MacBook Pro® with Touch Bar  - 13\" Display - Intel Core i5 - 8 GB Memory - 512GB Flash Storage (latest model)"
+                        "title": "Samsung - Gear S3 Frontier Smartwatch 46mm - Dark Grey"
                     },
                     "prices": {
-                        "current": 1999.99,
-                        "regular": 1999.99
+                        "regular": 349.99,
+                        "current": 299.99
                     },
-                    "rank": 8,
-                    "sku": "8897495"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5647800.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5647800/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5647800/cart"
+                    },
+                    "rank": 3
                 },
                 {
+                    "sku": "4127007",
                     "customerReviews": {
-                        "averageScore": "4.4",
-                        "count": 56
+                        "averageScore": 4.7,
+                        "count": 13146
                     },
                     "descriptions": {
-                        "short": "Fits most wrist sizesCompatible with Android and iOSRubber bandUp to 24 hours of battery lifeIP67 water resistanceSmart notifications"
+                        "short": "Only @ Best BuySupports resolution up to 4K Ultra HD (4096 x 2160 pixels)High Dynamic Range (HDR) pass-through1-year limited warranty3-layer cable shielding"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5251/5251903_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5251903.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5251903/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5251903/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4127/4127007_sa.jpg"
                     },
                     "names": {
-                        "title": "Asus - ZenWatch 2 WI501Q Smartwatch Silver"
+                        "title": "Insignia™ - 6' 4K Ultra HD HDMI Cable - Black"
                     },
                     "prices": {
-                        "current": 99.99,
-                        "regular": 129.99
+                        "regular": 19.99,
+                        "current": 19.99
                     },
-                    "rank": 10,
-                    "sku": "5251903"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4127007.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4127007/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4127007/cart"
+                    },
+                    "rank": 4
                 },
                 {
+                    "sku": "4370400",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 37
+                        "averageScore": 4.7,
+                        "count": 5120
                     },
                     "descriptions": {
-                        "short": "Created for most GoPro cameras; 6 mount types; monopod; floating handle grip; mount adapter; surface J-hook; thumb screws; safety cable; storage pouch; carrying case"
+                        "short": "Instantly stream thousands of movies and TV shows; search for content and check sports scores and weather updates with Alexa voice search function; compatible with most HDTVs; supports up to 4K Ultra HD resolution; 2GB memory"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4454/4454004_rc.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4454004.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4454004/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4454004/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4370/4370400_sa.jpg"
                     },
                     "names": {
-                        "title": "Dynex™ - Advanced Accessory Kit for GoPro Action Camera - Black"
+                        "title": "Amazon - Fire TV (2015 Model) - Black"
                     },
                     "prices": {
-                        "current": 34.99,
-                        "regular": 44.99
+                        "regular": 89.99,
+                        "current": 89.99
                     },
-                    "rank": 2,
-                    "sku": "4454004"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4370400.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4370400/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4370400/cart"
+                    },
+                    "rank": 5
                 },
                 {
+                    "sku": "5707561",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 350
+                        "averageScore": 4.4,
+                        "count": 1059
                     },
                     "descriptions": {
-                        "short": "2160p resolution60Hz refresh rateRoku TV"
+                        "short": "Compatible with Apple iPhone 7 Plus; 2525 mAh capacity; rechargeable; impact protection; drop proof; notification LED; enables Qi wireless charging"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4204/4204500_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4204500.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4204500/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4204500/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5707/5707561_sa.jpg"
                     },
                     "names": {
-                        "title": "Insignia™ - 50\" Class (49.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV - Roku TV - Black"
+                        "title": "mophie - Juice Pack External Battery Case with Wireless Charging for Apple® iPhone® 7 Plus - Blue"
                     },
                     "prices": {
-                        "current": 449.99,
-                        "regular": 449.99
+                        "regular": 99.99,
+                        "current": 63.99
                     },
-                    "rank": 9,
-                    "sku": "4204500"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5707561.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5707561/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5707561/cart"
+                    },
+                    "rank": 6
                 },
                 {
+                    "sku": "5577305",
                     "customerReviews": {
-                        "averageScore": "3.8",
-                        "count": 47
+                        "averageScore": 4.1,
+                        "count": 670
                     },
                     "descriptions": {
-                        "short": "Sweat resistant; include 2 pairs of ear tips (small, large); in-line microphone; Bluetooth connectivity"
+                        "short": "Compatible with select smartphones and tablets; Bluetooth compatibility; built-in microphone; LCD screen with backlit display; 3.5mm AUX connectivity; USB charge port; flex-neck design; remote control included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5507/5507503_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5507503.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5507503/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5507503/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5577/5577305_sa.jpg"
                     },
                     "names": {
-                        "title": "Insignia™ - Wireless In-Ear Headphones - Black"
+                        "title": "Scosche - BTFreq™ Bluetooth FM Transmitter - Black"
                     },
                     "prices": {
-                        "current": 29.99,
-                        "regular": 49.99
+                        "regular": 39.99,
+                        "current": 39.99
                     },
-                    "rank": 6,
-                    "sku": "5507503"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5577305.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5577305/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5577305/cart"
+                    },
+                    "rank": 7
                 },
                 {
+                    "sku": "6029030",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 1015
+                        "averageScore": 0,
+                        "count": 0
                     },
                     "descriptions": {
-                        "short": "Windows 10Technical details: AMD A10-Series processor; 12GB memory; 2TB hard driveSpecial features: Built-in wireless networking; HDMI output"
+                        "short": "Designed for use with Samsung Galaxy Note8 cell phones; built-in kickstand; military-grade ruggedized design"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4362/4362103_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4362103.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4362103/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4362103/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/6029/6029030_sa.jpg"
                     },
                     "names": {
-                        "title": "Lenovo - Desktop AMD A10-Series - 12GB Memory - 2TB Hard Drive - Black"
+                        "title": "Samsung - Rugged Protective Cover for Samsung Galaxy Note8 - Deep Blue"
                     },
                     "prices": {
-                        "current": 429.99,
-                        "regular": 499.99
+                        "regular": 39.99,
+                        "current": 39.99
                     },
-                    "rank": 7,
-                    "sku": "4362103"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/6029030.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/6029030/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/6029030/cart"
+                    },
+                    "rank": 8
                 },
                 {
+                    "sku": "9479027",
                     "customerReviews": {
-                        "averageScore": "4.6",
-                        "count": 359
+                        "averageScore": 4.9,
+                        "count": 2706
                     },
                     "descriptions": {
-                        "short": "Android 6.0 Marshmallow8\" multitouch-screen display with 2048 x 1536 resolution32GB storage capacity8-core 1.9GHz processorWi-FiMIMO technology2.1MP front and 8MP rear camerasmicroSD slot"
+                        "short": "Perfect gift card? Piece of cake. All Best Buy gift cards are shipped free and are good toward future purchases online and in U.S. or Puerto Rico Best Buy stores. Best Buy gift cards do not have an expiration date."
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5234/5234641_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5234641.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5234641/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5234641/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/9479/9479027_sa.jpg"
                     },
                     "names": {
-                        "title": "Samsung - Galaxy Tab S2 - 8\" - 32GB - Black"
+                        "title": "Best Buy GC - $15 Blue Gift Card"
                     },
                     "prices": {
-                        "current": 249.99,
-                        "regular": 399.99
+                        "regular": 15,
+                        "current": 15
                     },
-                    "rank": 4,
-                    "sku": "5234641"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/9479027.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/9479027/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/9479027/cart"
+                    },
+                    "rank": 9
                 },
                 {
+                    "sku": "4343901",
                     "customerReviews": {
-                        "averageScore": "4.2",
-                        "count": 126
+                        "averageScore": 4.5,
+                        "count": 385
                     },
                     "descriptions": {
-                        "short": "2160p resolution with HDR120Hz effective refresh rateChromecast Built-in Home Theater Display"
+                        "short": "Supports TVs up to 60\" or 100 lbs.; wood finish; 3 cabinets with multiple shelves; assembly hardware included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4989/4989100_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4989100.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4989100/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4989100/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4343/4343901_sa.jpg"
                     },
                     "names": {
-                        "title": "VIZIO - 55\" Class (54.6\" Diag.) - LED - 2160p - Chromecast Built-in - 4K Ultra HD Home Theater Display with High Dynamic Range - Black"
+                        "title": "Insignia™ - TV Stand for Most TVs up to 60\" - Espresso"
                     },
                     "prices": {
-                        "current": 699.99,
-                        "regular": 899.99
+                        "regular": 199.99,
+                        "current": 199.99
                     },
-                    "rank": 3,
-                    "sku": "4989100"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4343901.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4343901/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4343901/cart"
+                    },
+                    "rank": 10
                 }
             ]
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json;charset=UTF-8",
-            "date": "Sat, 17 Dec 2016 06:49:49 GMT",
-            "server": "Apigee Router",
-            "vary": "Accept-Encoding",
-            "content-length": "7544",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:02:05 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "",
+            "Content-Length",
+            "7370",
+            "Connection",
+            "Close"
+        ]
     },
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/v1/products/5547900.json?apiKey=XXX",
+        "method": "get",
+        "path": "/v1/products/5863600.json?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": {
-            "sku": 5547900,
-            "productId": 5547900,
-            "name": "Apple - Apple Watch Series 2 38mm Space Gray Aluminum Case Black Woven Nylon Sport Band - Space Gray Aluminum",
-            "source": "bestbuy",
+            "sku": 5863600,
+            "score": null,
+            "productId": null,
+            "name": "Sphero - BB-9E™ App-Enabled Droid™ - Black/Gray",
+            "source": null,
             "type": "HardGood",
-            "startDate": "2016-09-08",
-            "new": false,
+            "startDate": "2017-08-31",
+            "new": true,
             "active": true,
             "lowPriceGuarantee": true,
-            "activeUpdateDate": "2016-11-07T15:38:22",
-            "regularPrice": 369,
-            "salePrice": 369,
+            "activeUpdateDate": "2017-09-01T08:18:05",
+            "regularPrice": 149.99,
+            "salePrice": 149.99,
             "clearance": false,
             "onSale": false,
             "planPrice": null,
             "priceWithPlan": [],
             "priceRestriction": null,
-            "priceUpdateDate": "2016-09-08T05:29:40",
+            "priceUpdateDate": "2017-08-31T00:00:49",
             "digital": false,
             "preowned": false,
+            "carriers": [],
+            "planFeatures": [],
+            "devices": [],
             "carrierPlans": [],
             "technologyCode": null,
             "carrierModelNumber": null,
             "earlyTerminationFees": [],
+            "monthlyRecurringCharge": "",
+            "monthlyRecurringChargeGrandTotal": "",
+            "activationCharge": "",
+            "minutePrice": "",
+            "planCategory": null,
+            "planType": null,
+            "familyIndividualCode": null,
+            "validFrom": null,
+            "validUntil": null,
+            "carrierPlan": null,
             "outletCenter": null,
             "secondaryMarket": null,
             "frequentlyPurchasedWith": [],
             "accessories": [],
             "relatedProducts": [],
             "techSupportPlans": [],
-            "salesRankShortTerm": 3633,
-            "salesRankMediumTerm": 4651,
-            "salesRankLongTerm": 2767,
-            "bestSellingRank": 3641,
-            "url": "https://api.bestbuy.com/click/-/5547900/pdp",
+            "crossSell": [],
+            "salesRankShortTerm": 5139,
+            "salesRankMediumTerm": 4368,
+            "salesRankLongTerm": 3677,
+            "bestSellingRank": 4006,
+            "url": "https://api.bestbuy.com/click/-/5863600/pdp",
             "spin360Url": null,
-            "mobileUrl": "https://api.bestbuy.com/click/-/5547900/pdp",
+            "mobileUrl": "https://api.bestbuy.com/click/-/5863600/pdp",
             "affiliateUrl": null,
-            "addToCartUrl": "https://api.bestbuy.com/click/-/5547900/cart",
+            "addToCartUrl": "https://api.bestbuy.com/click/-/5863600/cart",
             "affiliateAddToCartUrl": null,
             "linkShareAffiliateUrl": "",
             "linkShareAffiliateAddToCartUrl": "",
-            "upc": "190198209245",
-            "productTemplate": "Smart_Watches",
+            "upc": "817961020301",
+            "productTemplate": "Robotics_Kits",
             "categoryPath": [
                 {
                     "id": "cat00000",
                     "name": "Best Buy"
                 },
                 {
-                    "id": "pcmcat332000050000",
-                    "name": "Wearable Technology"
+                    "id": "pcmcat252700050006",
+                    "name": "Drones, Toys & Collectibles"
                 },
                 {
-                    "id": "pcmcat748300489081",
-                    "name": "Apple Watch"
+                    "id": "pcmcat748302046148",
+                    "name": "Licensed Collectibles"
                 },
                 {
-                    "id": "pcmcat748302047020",
-                    "name": "Apple Watch Series 2"
+                    "id": "pcmcat748302046239",
+                    "name": "Star Wars Collectibles"
                 }
             ],
+            "alternateCategories": [],
             "lists": [],
-            "customerReviewCount": 95,
-            "customerReviewAverage": "4.8",
-            "customerTopRated": true,
+            "customerReviewCount": null,
+            "customerReviewAverage": null,
+            "customerTopRated": null,
             "format": null,
-            "freeShipping": false,
+            "freeShipping": true,
             "freeShippingEligible": true,
             "inStoreAvailability": true,
             "inStoreAvailabilityText": "Store Pickup:",
-            "inStoreAvailabilityUpdateDate": "2016-11-07T15:38:22",
-            "itemUpdateDate": "2016-12-17T00:35:18",
+            "inStoreAvailabilityUpdateDate": "2017-09-01T08:18:05",
+            "itemUpdateDate": "2017-09-06T08:05:26",
             "onlineAvailability": true,
             "onlineAvailabilityText": "Shipping: Usually ships in 1 business day",
-            "onlineAvailabilityUpdateDate": "2016-12-17T00:25:26",
-            "releaseDate": "2016-09-28",
-            "shippingCost": "",
+            "onlineAvailabilityUpdateDate": "2017-09-01T08:18:05",
+            "releaseDate": "2017-08-30",
+            "shippingCost": 0,
             "shipping": [
                 {
-                    "ground": "",
-                    "secondDay": "",
-                    "nextDay": "",
+                    "ground": 0,
+                    "secondDay": 0,
+                    "nextDay": 13.96,
                     "vendorDelivery": ""
                 }
             ],
-            "shippingLevelsOfService": [],
-            "specialOrder": false,
-            "shortDescription": "Built-in GPS. Water resistance to 50 meters.&#185; A new lightning-fast dual-core processor. And a 2x brighter display for increased visibility in direct sunlight.&#178; Full of features that help you stay active, motivated, and connected, Apple Watch Series 2 is designed for all the ways you move. \n\nRequires an iPhone 5 or later.",
-            "class": "APPLE WATCH",
-            "classId": 222,
-            "subclass": "STANDARD APPLE WATCH",
-            "subclassId": 5403,
-            "department": "COMPUTERS",
-            "departmentId": 6,
-            "buybackPlans": [],
-            "protectionPlans": [],
-            "productFamilies": [
+            "shippingLevelsOfService": [
                 {
-                    "name": "alternateColors",
-                    "skus": [
-                        {
-                            "sku": 5548000
-                        }
-                    ]
+                    "serviceLevelId": 14,
+                    "serviceLevelName": "Two Day",
+                    "unitShippingPrice": 0
+                },
+                {
+                    "serviceLevelId": 2,
+                    "serviceLevelName": "Standard",
+                    "unitShippingPrice": 0
+                },
+                {
+                    "serviceLevelId": 6,
+                    "serviceLevelName": "One Day",
+                    "unitShippingPrice": 13.96
                 }
             ],
+            "specialOrder": false,
+            "shortDescription": "Compatible with select Apple&#174; iOS and Android smartphones and tablets; authentic movements; holographic simulation; droid to droid experience; adaptive personality; signature BB-9E LEDs; enhanced radio system; suitable for ages 8 and up",
+            "class": "LICENSED MERCHANDISE",
+            "classId": 127,
+            "subclass": "STAR WARS",
+            "subclassId": 956,
+            "department": "PHOTO/COMMODITIES",
+            "departmentId": 5,
+            "protectionPlanTerm": "BB-",
+            "protectionPlanType": null,
+            "protectionPlanLowPrice": "",
+            "protectionPlanHighPrice": "",
+            "buybackPlans": [],
+            "protectionPlans": [],
+            "protectionPlanDetails": [],
+            "productFamilies": [],
+            "aspectRatio": null,
+            "screenFormat": null,
+            "lengthInMinutes": null,
+            "mpaaRating": null,
+            "plot": null,
+            "studio": null,
+            "theatricalReleaseDate": null,
             "description": null,
-            "manufacturer": "Apple",
-            "modelNumber": "MP052LL/A",
-            "image": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg",
-            "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sa.jpg",
-            "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900fp.gif",
-            "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_s.gif",
-            "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900_sb.jpg",
-            "alternateViewsImage": null,
-            "angleImage": null,
+            "manufacturer": "Sphero",
+            "modelNumber": "VD01ROW",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sa.jpg",
+            "largeFrontImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sd.jpg",
+            "mediumImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600fp.gif",
+            "thumbnailImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_s.gif",
+            "largeImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sb.jpg",
+            "alternateViewsImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600cv11d.jpg",
+            "angleImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_rd.jpg",
             "backViewImage": null,
             "energyGuideImage": null,
-            "leftViewImage": "http://img.bbystatic.com/BestBuy_US/images/products/5547/5547900le.jpg",
+            "leftViewImage": null,
             "accessoriesImage": null,
             "remoteControlImage": null,
             "rightViewImage": null,
             "topViewImage": null,
+            "albumTitle": "BB-9E™ App-Enabled Droid™",
+            "artistName": null,
+            "artistId": null,
+            "originalReleaseDate": null,
+            "parentalAdvisory": null,
+            "mediaCount": null,
+            "monoStereo": null,
+            "studioLive": null,
             "condition": "New",
             "inStorePickup": true,
             "friendsAndFamilyPickup": true,
             "homeDelivery": false,
             "quantityLimit": 3,
-            "fulfilledBy": "BestBuy.com",
+            "fulfilledBy": null,
+            "members": [],
             "bundledIn": [],
-            "color": "Space Gray Aluminum",
+            "albumLabel": null,
+            "genre": null,
+            "color": "Black/Gray",
             "depth": null,
             "dollarSavings": 0,
             "percentSavings": "0.0",
@@ -436,45 +492,61 @@
             "height": null,
             "orderable": "Available",
             "weight": null,
-            "shippingWeight": "1.5",
+            "shippingWeight": 2.25,
             "width": null,
-            "warrantyLabor": "1 year",
-            "warrantyParts": "1 year",
-            "longDescription": "Apple Watch Series 2 is a superior sports watch that measures your workouts with detailed customizable metrics. An advanced activity tracker that shows you how often you move, exercise, and stand, and lets you share your progress. A powerful health tool that helps you be more conscious of your overall well-being, starting with your heart rate. And an all-day assistant that provides instant access to the people, apps, and information you care about most. There are cases made from aluminum and stainless steel and a full range of interchangeable bands in a variety of styles, colors, and materials. All models run watchOS 3.   Requires an iPhone 5 or later.",
+            "warrantyLabor": "1 Year",
+            "warrantyParts": "1 Year",
+            "softwareAge": null,
+            "softwareGrade": null,
+            "platform": null,
+            "numberOfPlayers": null,
+            "softwareNumberOfPlayers": null,
+            "esrbRating": null,
+            "longDescription": "BB-9E&#8482; is a menacing astromech droid of the First Order. Control it with your smart device and keep it rolling optimally with the augmented reality Droid Trainer. Watch BB-9E interact with other Star Wars&#8482; App-enabled Droids by Sphero, and view films from the Star Wars saga with BB-9E by your side. This is not the droid you&#8217;re looking for&#8230; it&#8217;s the droid that&#8217;s looking for you.",
             "includedItemList": [
                 {
-                    "includedItem": "1m Magnetic Charging Cable"
+                    "includedItem": "Sphero BB-9E™ App-Enabled Droid™"
                 },
                 {
-                    "includedItem": "5W USB Power Adapter"
+                    "includedItem": "USB charging cord"
                 },
                 {
-                    "includedItem": "Space Gray Aluminum Case"
+                    "includedItem": "Droid trainer"
                 },
                 {
-                    "includedItem": "Woven Nylon Band"
+                    "includedItem": "Legal guide"
+                },
+                {
+                    "includedItem": "Charging base"
                 }
             ],
-            "marketplace": false,
+            "marketplace": null,
             "listingId": null,
             "sellerId": null,
             "shippingRestrictions": null,
-            "bluetoothEnabled": true,
-            "displayType": "OLED",
-            "internetConnectable": true,
-            "mobileOperatingSystem": "watchOS"
+            "controlType": "App-controlled"
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json; charset=UTF-8",
-            "date": "Sat, 17 Dec 2016 06:49:49 GMT",
-            "server": "Best Buy Public APIs",
-            "x-cache-hit": "false",
-            "content-length": "5692",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:05:01 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "5632",
+            "Connection",
+            "Close"
+        ]
     }
 ]

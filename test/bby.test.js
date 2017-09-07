@@ -1,5 +1,5 @@
 var test = require('./lib/tape-nock-setup');
-var BestBuy = require('../bestbuy');
+var BestBuy = require('../');
 
 function testProperties (t, BBY) {
   t.ok(BBY.options, 'has options');
@@ -9,7 +9,6 @@ function testProperties (t, BBY) {
   t.ok(BBY.categories instanceof Function, 'categories is a function');
   t.ok(BBY.products instanceof Function, 'products is a function');
   t.ok(BBY.recommendations instanceof Function, 'recommendations is a function');
-  t.ok(BBY.reviews instanceof Function, 'reviews is a function');
   t.ok(BBY.stores instanceof Function, 'stores is a function');
 }
 

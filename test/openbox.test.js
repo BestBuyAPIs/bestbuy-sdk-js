@@ -1,7 +1,7 @@
 var test = require('./lib/tape-nock-setup');
-var BBY = require('../bestbuy');
+var BBY = require('../');
 
-var OPEN_BOX_SKU = 2557948; // ipad mini
+var OPEN_BOX_SKU = 5762002; // Samsung - 50\" Class (49.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV
 
 var bby = BBY({
   key: process.env.BBY_API_KEY,
@@ -26,7 +26,7 @@ test('Open box - search for all items', test.opts, function (t) {
   .catch(function (err) {
     t.error(err);
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Open box - search for one item', test.opts, function (t) {
@@ -42,7 +42,7 @@ test('Open box - search for one item', test.opts, function (t) {
   .catch(function (err) {
     t.error(err);
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Open box - search for one item using sku as string', test.opts, function (t) {
@@ -58,7 +58,7 @@ test('Open box - search for one item using sku as string', test.opts, function (
   .catch(function (err) {
     t.error(err);
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Open box - search for one item using search as string', test.opts, function (t) {
@@ -74,7 +74,7 @@ test('Open box - search for one item using search as string', test.opts, functio
   .catch(function (err) {
     t.error(err);
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Open box - search for one item using callback', test.opts, function (t) {

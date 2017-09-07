@@ -1,3 +1,18 @@
+
+
+## Unreleased
+
+**BREAKING CHANGES**
+  - The reviews function has been removed as its no longer available in the API.
+  - If errors are encountered, functions will now return an `Error` object instead of a string.
+    - This may mean updating existing code to check `err.message` instead of `err`.
+  - Native `Promise` is now used instead of `bluebird`
+  - Node version 4 or higher is now required to use this package.
+  - We've switched from `request`/`request-promise` to `axios` which is has built-in `Promise` usage. This means Error objects may look slightly different.
+    - For Example. `status` is returned now instead of `statusCode`.
+
+With the exception of the reviews function (and returning `Error`s), the API interface should be nearly identical as the existing test suite was used to ensure the same functionality. The code behind all other funtions has been refactored to make adding some new features a bit easier.
+
 ## 1.1.0 (2017-05-01)
 
 Features:

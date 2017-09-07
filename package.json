@@ -2,7 +2,7 @@
   "name": "bestbuy",
   "version": "1.1.0",
   "description": "High level node.js client for the Best Buy API.",
-  "main": "bestbuy.js",
+  "main": "index.js",
   "scripts": {
     "record": "rm -rf test/fixtures/*.json && NOCK_BACK_MODE=record npm test",
     "test-live": "NOCK_BACK_MODE=wild npm test",
@@ -32,11 +32,7 @@
   },
   "homepage": "https://github.com/BestBuyAPIs/bestbuy-sdk-js",
   "dependencies": {
-    "bluebird": "^3.0.5",
-    "lodash.assign": "^4.2.0",
-    "request": "^2.79.0",
-    "request-debug": "^0.2.0",
-    "request-promise": "^4.1.1"
+    "axios": "^0.16.2"
   },
   "devDependencies": {
     "coveralls": "^2.11.4",

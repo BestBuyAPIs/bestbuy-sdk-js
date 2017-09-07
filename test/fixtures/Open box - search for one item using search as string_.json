@@ -1,506 +1,483 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/beta/products/openBox(categoryId=abcat0502000)?apiKey=XXX&format=json",
+        "method": "get",
+        "path": "/beta/products/openBox(categoryId=abcat0502000)?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": {
             "metadata": {
-                "resultSet": {
-                    "count": 101
-                },
                 "context": {
-                    "canonicalUrl": "https://api.bestbuy.com/beta/products/openBox(categoryId=abcat0502000)?apiKey=XXX"
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/openBox(categoryId=abcat0502000)?format=json&apiKey=XXX"
+                },
+                "resultSet": {
+                    "count": 125
                 },
                 "page": {
                     "current": 1,
                     "size": 10,
-                    "total": 11
+                    "total": 13
                 }
             },
             "results": [
                 {
+                    "sku": "4260602",
                     "customerReviews": {
-                        "averageScore": "4.0",
-                        "count": 12
-                    },
-                    "descriptions": {
-                        "short": "Windows 10NVIDIA GeForce GTX 965M 4GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 13.3\" OLED display; 8GB memory; 500GB + 8GB hybrid hard driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5386/5386300_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5386300.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5386300/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/5386300/cart"
-                    },
-                    "names": {
-                        "title": "Alienware - 13.3\" OLED Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 500GB + 8GB Hybrid Hard Drive - Epic silver"
-                    },
-                    "offers": [
-                        {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1169.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1229.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
-                    "prices": {
-                        "current": 1499.99,
-                        "regular": 1499.99
-                    },
-                    "sku": "5386300"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.4",
-                        "count": 326
-                    },
-                    "descriptions": {
-                        "short": "Windows 104K Ultra HD3GB dedicated graphicsTechnical details: 6th Gen Intel&#174; Core&#8482; i7 processor; 17.3\" display; 8GB memory; 1TB hard drive + 128GB solid state driveSpecial features: Backlit keyboard; HDMI outputNote: DVD/CD drive not included"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4550/4550902_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4550902.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4550902/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/4550902/cart"
-                    },
-                    "names": {
-                        "title": "Alienware - 17.3\" 4K Ultra HD Laptop - Intel Core i7 - 8GB Memory - 1TB Hard Drive + 128GB Solid State Drive - Epic Silver"
-                    },
-                    "offers": [
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": false,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1108.99,
-                                "regular": 1649.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
-                    "prices": {
-                        "current": 1385.99,
-                        "regular": 1649.99
-                    },
-                    "sku": "4550902"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 4195
-                    },
-                    "descriptions": {
-                        "short": "5th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; 128GB flash storageNote: DVD/CD drive not included"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6443/6443034_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6443034.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6443034/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/6443034/cart"
-                    },
-                    "names": {
-                        "title": "Apple - MacBook Air® (Latest Model) - 13.3\" Display - Intel Core i5 - 8GB Memory - 128GB Flash Storage - Silver"
-                    },
-                    "offers": [
-                        {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": false,
-                            "prices": {
-                                "current": 821.99,
-                                "regular": 999.99
-                            },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 830.99,
-                                "regular": 999.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
-                    "prices": {
-                        "current": 874.99,
-                        "regular": 999.99
-                    },
-                    "sku": "6443034"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 1455
-                    },
-                    "descriptions": {
-                        "short": "5th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; 256GB flash storageNote: DVD/CD drive not included"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6444/6444006_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6444006.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6444006/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/6444006/cart"
-                    },
-                    "names": {
-                        "title": "Apple - MacBook Air® (Latest Model) - 13.3\" Display - Intel Core i5 - 8GB Memory - 256GB Flash Storage - Silver"
-                    },
-                    "offers": [
-                        {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 988.99,
-                                "regular": 1199.99
-                            },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1020.99,
-                                "regular": 1199.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
-                    "prices": {
-                        "current": 1074.99,
-                        "regular": 1199.99
-                    },
-                    "sku": "6444006"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.7",
-                        "count": 148
-                    },
-                    "descriptions": {
-                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FForce Touch Trackpad"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6447012.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6447012/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/6447012/cart"
-                    },
-                    "names": {
-                        "title": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Silver"
-                    },
-                    "offers": [
-                        {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1250.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1291.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
-                    "prices": {
-                        "current": 1374.99,
-                        "regular": 1499.99
-                    },
-                    "sku": "6447012"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.7",
-                        "count": 148
+                        "averageScore": 4.8,
+                        "count": 1453
                     },
                     "descriptions": {
                         "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5465/5465700_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5465700.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5465700/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/5465700/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4260/4260602_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Space Gray"
+                        "title": "Apple - MacBook Pro® with Touch Bar  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage - Silver"
                     },
-                    "offers": [
-                        {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1236.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
-                            "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
-                            "onlineAvailability": true,
-                            "prices": {
-                                "current": 1264.99,
-                                "regular": 1499.99
-                            },
-                            "sellerId": "BBY_OB"
-                        }
-                    ],
                     "prices": {
-                        "current": 1374.99,
-                        "regular": 1499.99
-                    },
-                    "sku": "5465700"
-                },
-                {
-                    "customerReviews": {
-                        "averageScore": "4.6",
-                        "count": 66
-                    },
-                    "descriptions": {
-                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
-                    },
-                    "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5465/5465603_sa.jpg"
+                        "regular": 1799.99,
+                        "current": 1499.99
                     },
                     "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5465603.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5465603/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/5465603/cart"
-                    },
-                    "names": {
-                        "title": "Apple - MacBook Pro® with Touch Bar  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Space Gray"
+                        "product": "https://api.bestbuy.com/v1/products/4260602.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4260602/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4260602/cart?listing_id=3"
                     },
                     "offers": [
                         {
-                            "condition": "certified",
-                            "inStoreAvailability": false,
-                            "listingId": "3",
-                            "onlineAvailability": true,
                             "prices": {
-                                "current": 1691.99,
+                                "current": 1274.99,
                                 "regular": 1799.99
                             },
-                            "sellerId": "BBY_OB"
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "sellerId": null
                         }
-                    ],
-                    "prices": {
-                        "current": 1799.99,
-                        "regular": 1799.99
-                    },
-                    "sku": "5465603"
+                    ]
                 },
                 {
+                    "sku": "4530800",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 512
+                        "averageScore": 4.5,
+                        "count": 1278
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 ProTechnical details: Intel&#174; HD Graphics; 6th Gen Intel&#174; Core&#8482; i5 processor; 13.5\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screenNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4530/4530800_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Microsoft - Surface Book 2-in-1 13.5\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Silver"
+                    },
+                    "prices": {
+                        "regular": 1499.99,
+                        "current": 1249.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4530800.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4530800/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4530800/cart?listing_id=3"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 999.99,
+                                "regular": 1499.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "sellerId": null
+                        },
+                        {
+                            "prices": {
+                                "current": 936.99,
+                                "regular": 1499.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "4598800",
+                    "customerReviews": {
+                        "averageScore": 4.7,
+                        "count": 53
+                    },
+                    "descriptions": {
+                        "short": "Intel Core m3 processor Intel HD Graphics 615Fast SSD storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4598/4598800_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Apple - Macbook® - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage (Latest Model) - Space Gray"
+                    },
+                    "prices": {
+                        "regular": 1299.99,
+                        "current": 1299.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4598800.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4598800/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4598800/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 1039.99,
+                                "regular": 1299.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        },
+                        {
+                            "prices": {
+                                "current": 1104.99,
+                                "regular": 1299.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "4599100",
+                    "customerReviews": {
+                        "averageScore": 4.7,
+                        "count": 53
+                    },
+                    "descriptions": {
+                        "short": "Intel Core m3 processor Intel HD Graphics 615Fast SSD storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4599/4599100_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Apple - Macbook® - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage (Latest Model) - Gold"
+                    },
+                    "prices": {
+                        "regular": 1299.99,
+                        "current": 1299.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4599100.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4599100/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4599100/cart?listing_id=3"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 974.99,
+                                "regular": 1299.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "sellerId": null
+                        },
+                        {
+                            "prices": {
+                                "current": 935.99,
+                                "regular": 1299.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "4599500",
+                    "customerReviews": {
+                        "averageScore": 4.7,
+                        "count": 7
+                    },
+                    "descriptions": {
+                        "short": "Intel Core i5 processor Intel HD Graphics 615Fast SSD storageUp to 10 hours of battery life&#178;802.11ac Wi-FiForce Touch Trackpad"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4599/4599500_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Apple - Macbook® - 12\" Display - Intel Core i5 - 8GB Memory - 512GB Flash Storage (Latest Model) - Gold"
+                    },
+                    "prices": {
+                        "regular": 1599.99,
+                        "current": 1599.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4599500.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4599500/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/4599500/cart?listing_id=3"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 1503.99,
+                                "regular": 1599.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "5206701",
+                    "customerReviews": {
+                        "averageScore": 4.3,
+                        "count": 1219
+                    },
+                    "descriptions": {
+                        "short": "Only @ Best BuyWindows 10Technical details: Intel&#174; Pentium&#8482; processor; 14\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; touch screen; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5206/5206701_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Lenovo - Flex 4 14 2-in-1 14\" Touch-Screen Laptop - Intel Pentium - 4GB Memory - 500GB Hard Drive - Black"
+                    },
+                    "prices": {
+                        "regular": 399.99,
+                        "current": 399.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5206701.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5206701/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5206701/cart?listing_id=3"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 359.99,
+                                "regular": 399.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "sellerId": null
+                        },
+                        {
+                            "prices": {
+                                "current": 351.99,
+                                "regular": 399.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "5217201",
+                    "customerReviews": {
+                        "averageScore": 4.2,
+                        "count": 1129
+                    },
+                    "descriptions": {
+                        "short": "Windows 10 HomeTechnical details: Intel&#174; Pentium&#8482; processor; 11.6\" display; 4GB memory; 500GB hard driveSpecial features: Bluetooth; touch screen; HDMI outputNote: DVD/CD drive not included"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5217/5217201_sa.jpg"
+                    },
+                    "names": {
+                        "title": "HP - Pavilion 2-in-1 11.6\" Touch-Screen Laptop - Intel Pentium - 4GB Memory - 500GB Hard Drive - Natural silver, Ash silver"
+                    },
+                    "prices": {
+                        "regular": 399.99,
+                        "current": 339.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5217201.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5217201/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5217201/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 254.99,
+                                "regular": 399.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": false,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        },
+                        {
+                            "prices": {
+                                "current": 271.99,
+                                "regular": 399.99
+                            },
+                            "condition": "certified",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "3",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "5229400",
+                    "customerReviews": {
+                        "averageScore": 4.7,
+                        "count": 1122
                     },
                     "descriptions": {
                         "short": "Intel&#174; Core&#8482; M3 processor; 12\" display; 8GB memory; 256GB flash storageNote: DVD/CD drive not included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6445/6445156_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6445156.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6445156/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/6445156/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5229/5229400_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - Macbook® (Latest Model) - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage - Gold"
+                        "title": "Apple - Macbook® - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage - Space Gray"
+                    },
+                    "prices": {
+                        "regular": 1299.99,
+                        "current": 999.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5229400.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5229400/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5229400/cart?listing_id=3"
                     },
                     "offers": [
                         {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
                             "prices": {
-                                "current": 1169.99,
+                                "current": 849.99,
                                 "regular": 1299.99
                             },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
                             "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
                             "onlineAvailability": true,
-                            "prices": {
-                                "current": 1195.99,
-                                "regular": 1299.99
-                            },
-                            "sellerId": "BBY_OB"
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "sellerId": null
                         }
-                    ],
-                    "prices": {
-                        "current": 1299.99,
-                        "regular": 1299.99
-                    },
-                    "sku": "6445156"
+                    ]
                 },
                 {
+                    "sku": "5229600",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 512
+                        "averageScore": 4.7,
+                        "count": 452
                     },
                     "descriptions": {
-                        "short": "Intel&#174; Core&#8482; M3 processor; 12\" display; 8GB memory; 256GB flash storageNote: DVD/CD drive not included"
+                        "short": "Intel&#174; Core&#8482; M5 processor; 12\" display; 8GB memory; 512GB flash storageNote: DVD/CD drive not included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6446/6446013_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6446013.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6446013/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/6446013/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5229/5229600_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - Macbook® (Latest Model) - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage - Rose Gold"
+                        "title": "Apple - Macbook® -  12\" Display - Intel Core M5 - 8GB Memory - 512GB Flash Storage - Space Gray"
+                    },
+                    "prices": {
+                        "regular": 1599.99,
+                        "current": 1199.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5229600.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5229600/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5229600/cart?listing_id=3"
                     },
                     "offers": [
                         {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
                             "prices": {
-                                "current": 1169.99,
-                                "regular": 1299.99
+                                "current": 1019.99,
+                                "regular": 1599.99
                             },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
                             "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
                             "onlineAvailability": true,
-                            "prices": {
-                                "current": 1195.99,
-                                "regular": 1299.99
-                            },
-                            "sellerId": "BBY_OB"
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "sellerId": null
                         }
-                    ],
-                    "prices": {
-                        "current": 1299.99,
-                        "regular": 1299.99
-                    },
-                    "sku": "6446013"
+                    ]
                 },
                 {
+                    "sku": "5229901",
                     "customerReviews": {
-                        "averageScore": "4.8",
-                        "count": 512
+                        "averageScore": 4.7,
+                        "count": 452
                     },
                     "descriptions": {
-                        "short": "Intel&#174; Core&#8482; M3 processor; 12\" display; 8GB memory; 256GB flash storageNote: DVD/CD drive not included"
+                        "short": "Intel&#174; Core&#8482; M5 processor; 12\" display; 8GB memory; 512GB flash storageNote: DVD/CD drive not included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5229/5229700_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5229700.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5229700/pdp#tab=buyingOptions",
-                        "addToCart": "https://api.bestbuy.com/click/-/5229700/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5229/5229901_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - Macbook® (Latest Model) - 12\" Display - Intel Core M3 - 8GB Memory - 256GB Flash Storage - Silver"
+                        "title": "Apple - Macbook® - 12\" Display - Intel Core M5 - 8GB Memory - 512GB Flash Storage - Gold"
+                    },
+                    "prices": {
+                        "regular": 1599.99,
+                        "current": 1199.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5229901.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5229901/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/5229901/cart?listing_id=3"
                     },
                     "offers": [
                         {
-                            "condition": "excellent",
-                            "inStoreAvailability": true,
-                            "listingId": "2",
-                            "onlineAvailability": true,
                             "prices": {
-                                "current": 1143.99,
-                                "regular": 1299.99
+                                "current": 899.99,
+                                "regular": 1599.99
                             },
-                            "sellerId": "BBY_OB"
-                        },
-                        {
                             "condition": "certified",
-                            "inStoreAvailability": true,
-                            "listingId": "3",
                             "onlineAvailability": true,
-                            "prices": {
-                                "current": 1169.99,
-                                "regular": 1299.99
-                            },
-                            "sellerId": "BBY_OB"
+                            "inStoreAvailability": false,
+                            "listingId": "3",
+                            "sellerId": null
                         }
-                    ],
-                    "prices": {
-                        "current": 1299.99,
-                        "regular": 1299.99
-                    },
-                    "sku": "5229700"
+                    ]
                 }
             ]
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json;charset=UTF-8",
-            "date": "Mon, 19 Dec 2016 17:49:15 GMT",
-            "server": "Apigee Router",
-            "vary": "Accept-Encoding",
-            "content-length": "10961",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:06:34 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "",
+            "Content-Length",
+            "10369",
+            "Connection",
+            "Close"
+        ]
     }
 ]

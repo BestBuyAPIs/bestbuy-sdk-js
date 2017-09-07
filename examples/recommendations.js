@@ -2,7 +2,7 @@
 // system environment variable called BBY_API_KEY then that will be used
 // automatically. We use it explicitly here so I don't check my API key into
 // version control :)
-var BBY = require('../bestbuy');
+var BBY = require('../');
 var bby = BBY({
   key: process.env.BBY_API_KEY,
   url: 'https://api.bestbuy.com/v1',

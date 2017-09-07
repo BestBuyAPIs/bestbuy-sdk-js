@@ -1,6 +1,6 @@
 var test = require('tape');
 
-var BBY = require('../bestbuy');
+var BBY = require('../');
 var pkg = require('../package.json');
 
 var bby = BBY();

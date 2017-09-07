@@ -1,74 +1,84 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/v1/products(customerReviewAverage=4)?apiKey=XXX&format=json&show=name%2Csku",
+        "method": "get",
+        "path": "/v1/products(customerReviewAverage=4)?format=json&apiKey=XXX&show=name,sku",
         "body": "",
         "status": 200,
         "response": {
             "from": 1,
             "to": 10,
-            "total": 8554,
             "currentPage": 1,
-            "totalPages": 856,
-            "queryTime": "0.032",
-            "totalTime": "0.074",
+            "total": 8613,
+            "totalPages": 862,
+            "queryTime": "0.027",
+            "totalTime": "0.050",
             "partial": false,
             "canonicalUrl": "/v1/products(customerReviewAverage=4)?show=name,sku&format=json&apiKey=XXX",
             "products": [
                 {
-                    "name": "#OfficialMBmusic [CD]",
-                    "sku": 5269312
+                    "name": "Fat Princess - PS3 [Digital Download]",
+                    "sku": 1000000266
                 },
                 {
-                    "name": "'Til Death: The Complete Second Season [WS] [3 Discs] (DVD)",
-                    "sku": 9154513
+                    "name": "Sim City 4 Deluxe - Windows [Digital Download]",
+                    "sku": 1000000547
                 },
                 {
-                    "name": "'Til the Morning [CD]",
-                    "sku": 3796197
+                    "name": "Mass Effect 3 - Windows [Digital Download]",
+                    "sku": 1000001596
                 },
                 {
-                    "name": "(DVD)",
-                    "sku": 20700748
+                    "name": "Rayman 3 Hd - PS3 [Digital Download]",
+                    "sku": 1000002350
                 },
                 {
-                    "name": "(r)Evolution [CD]",
-                    "sku": 8089424
+                    "name": "Metal Gear Solid Hd Collection - PS Vita Games [Digital Download]",
+                    "sku": 1000002573
                 },
                 {
-                    "name": "...And Then There Was X [CD] [PA]",
-                    "sku": 3812896
+                    "name": "Syndicate - Windows [Digital Download]",
+                    "sku": 1000002656
                 },
                 {
-                    "name": "007: The Daniel Craig 4-Film Collection (DVD)",
-                    "sku": 30225153
+                    "name": "ASSASSIN&apos;S CREED 3 SEASON PASS - PS3 [Digital Download Add-On]",
+                    "sku": 1000002984
                 },
                 {
-                    "name": "007: The Timothy Dalton Collection (DVD)",
-                    "sku": 4777805
+                    "name": "Assassin's Creed Liberation - PS3 [Digital Download]",
+                    "sku": 1000004265
                 },
                 {
-                    "name": "1 [2CD] [Deluxe Version] [CD]",
-                    "sku": 8808254
+                    "name": "Assassin's Creed IV Black Flag - Freedom Cry Standalone - PS3 [Digital Download]",
+                    "sku": 1000004446
                 },
                 {
-                    "name": "1-Year Accidental Geek Squad Protection",
-                    "sku": 5624167
+                    "name": "Battlefield 4 Second Assault - PS3 [Digital Download Add-On]",
+                    "sku": 1000004478
                 }
             ]
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json; charset=UTF-8",
-            "date": "Sat, 17 Dec 2016 06:49:47 GMT",
-            "server": "Best Buy Public APIs",
-            "x-cache-hit": "false",
-            "content-length": "1121",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:04:59 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1059",
+            "Connection",
+            "Close"
+        ]
     }
 ]

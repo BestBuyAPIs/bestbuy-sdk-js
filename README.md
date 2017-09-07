@@ -278,6 +278,25 @@ This endpoint will return the version of the API and this package version.
     // { packageVersion: '2.0.0', apiVersion: '1.0.844' }
 ```
 
+## Enabling Debug Output
+Debug can be enabled via the `debug` attribute:
+
+```js
+  var bby = require('bestbuy')({
+    key: 'YOURKEY',
+    debug: true
+  });
+  // output request and response info to console.log
+```
+
+If `console.log` is not desired, a custom debug function can be passed:
+```js
+  var bby = require('bestbuy')({
+    key: 'YOURKEY',
+    debug: function (debugObject) { myCustomLogging.info(debugObject) }
+  });
+  // The debug function will be called for each request and each response.
+```
 
 ## Tests
 Run the existing tests with:

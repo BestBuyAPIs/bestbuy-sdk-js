@@ -15,6 +15,7 @@ With the exception of the reviews function (and returning `Error`s), the API int
 
 Features:
   - Added `version()` which returns the current API version and package version.
+  - Added the ability pass a custom function via `debug` for debug information.
 
 ## 1.1.0 (2017-05-01)
 

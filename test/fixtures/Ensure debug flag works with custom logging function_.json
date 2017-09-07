@@ -1,0 +1,34 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/version.txt?format=json&apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": "1.0.844\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/plain;charset=utf-8",
+            "Date",
+            "Thu, 07 Sep 2017 18:35:59 GMT",
+            "Last-Modified",
+            "Thu, 07 Sep 2017 13:57:53 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "8",
+            "Connection",
+            "Close"
+        ]
+    }
+]

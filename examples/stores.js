@@ -2,7 +2,7 @@
 // system environment variable called BBY_API_KEY then that will be used
 // automatically. We use it explicitly here so I don't check my API key into
 // version control :)
-var bby = require('../bestbuy')(process.env.BBY_API_KEY);
+var bby = require('../')(process.env.BBY_API_KEY);
 
 // Do a query for stores
 bby.stores('area(55119,25)&storeType=BigBox', function (err, data) {

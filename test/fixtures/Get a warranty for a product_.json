@@ -1,8 +1,8 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/v1/products/6354884/warranties.json?apiKey=XXX&format=json",
+        "method": "get",
+        "path": "/v1/products/6354884/warranties.json?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": [
@@ -35,7 +35,7 @@
             "Content-Type",
             "application/json; charset=UTF-8",
             "Date",
-            "Mon, 01 May 2017 19:41:12 GMT",
+            "Thu, 07 Sep 2017 00:06:39 GMT",
             "Server",
             "Best Buy Public APIs",
             "X-Cache-Hit",

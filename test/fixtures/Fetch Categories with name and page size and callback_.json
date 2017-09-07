@@ -1,0 +1,202 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories((name=Video%20Games))?format=json&apiKey=XXX&pageSize=1",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 1,
+            "currentPage": 1,
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.018",
+            "totalTime": "0.025",
+            "partial": false,
+            "canonicalUrl": "/v1/categories((name=\"Video Games\"))?pageSize=1&format=json&apiKey=XXX",
+            "categories": [
+                {
+                    "id": "abcat0700000",
+                    "name": "Video Games",
+                    "active": true,
+                    "url": "https://www.bestbuy.com/site/electronics/video-games/abcat0700000.c?id=abcat0700000&cmp=RMX-cat",
+                    "path": [
+                        {
+                            "id": "cat00000",
+                            "name": "Best Buy"
+                        },
+                        {
+                            "id": "abcat0700000",
+                            "name": "Video Games"
+                        }
+                    ],
+                    "subCategories": [
+                        {
+                            "id": "pcmcat300300050002",
+                            "name": "Xbox One"
+                        },
+                        {
+                            "id": "abcat0701000",
+                            "name": "Xbox 360"
+                        },
+                        {
+                            "id": "pcmcat295700050012",
+                            "name": "PlayStation 4"
+                        },
+                        {
+                            "id": "abcat0703000",
+                            "name": "PlayStation 3"
+                        },
+                        {
+                            "id": "abcat0704000",
+                            "name": "PlayStation 2"
+                        },
+                        {
+                            "id": "pcmcat243400050029",
+                            "name": "PS Vita"
+                        },
+                        {
+                            "id": "abcat0705000",
+                            "name": "PSP"
+                        },
+                        {
+                            "id": "pcmcat1476977522176",
+                            "name": "Nintendo Switch"
+                        },
+                        {
+                            "id": "pcmcat273800050036",
+                            "name": "Wii U"
+                        },
+                        {
+                            "id": "abcat0706000",
+                            "name": "Wii"
+                        },
+                        {
+                            "id": "pcmcat232900050000",
+                            "name": "Nintendo 3DS"
+                        },
+                        {
+                            "id": "pcmcat312000050022",
+                            "name": "Nintendo 2DS"
+                        },
+                        {
+                            "id": "abcat0707000",
+                            "name": "Nintendo DS"
+                        },
+                        {
+                            "id": "pcmcat1500927006607",
+                            "name": "Retro Gaming"
+                        },
+                        {
+                            "id": "abcat0712000",
+                            "name": "PC Gaming"
+                        },
+                        {
+                            "id": "pcmcat1497456762821",
+                            "name": "Digital Gaming"
+                        },
+                        {
+                            "id": "abcat0711000",
+                            "name": "Game Guides"
+                        },
+                        {
+                            "id": "pcmcat165400050004",
+                            "name": "Video Game Services"
+                        },
+                        {
+                            "id": "abcat0715000",
+                            "name": "Video Game Accessories"
+                        },
+                        {
+                            "id": "pcmcat1476727552895",
+                            "name": "Virtual Reality"
+                        },
+                        {
+                            "id": "pcmcat370900050002",
+                            "name": "Gaming Collections"
+                        },
+                        {
+                            "id": "pcmcat183100050001",
+                            "name": "Best Buy Gaming Events"
+                        },
+                        {
+                            "id": "pcmcat306400050032",
+                            "name": "Toys to Life"
+                        },
+                        {
+                            "id": "pcmcat748302046148",
+                            "name": "Licensed Collectibles"
+                        },
+                        {
+                            "id": "pcmcat294500050003",
+                            "name": "OUYA"
+                        },
+                        {
+                            "id": "pcmcat337700050003",
+                            "name": "PlayStation TV"
+                        },
+                        {
+                            "id": "pcmcat270900050006",
+                            "name": "Classic Video Game Systems"
+                        },
+                        {
+                            "id": "abcat0713000",
+                            "name": "Online Games"
+                        },
+                        {
+                            "id": "pcmcat203500050000",
+                            "name": "Pre-Owned & Trade-In Games"
+                        },
+                        {
+                            "id": "pcmcat271000050001",
+                            "name": "My Best Buy Gamers Club"
+                        },
+                        {
+                            "id": "pcat17093",
+                            "name": "Video Game Trade-In"
+                        },
+                        {
+                            "id": "pcmcat186500050003",
+                            "name": "Trade-In"
+                        },
+                        {
+                            "id": "abcat0714000",
+                            "name": "Toys & Kids' Electronics"
+                        },
+                        {
+                            "id": "pcmcat232900050010",
+                            "name": "Trade-in Games"
+                        },
+                        {
+                            "id": "pcmcat1487698928729",
+                            "name": "All Video Games"
+                        }
+                    ]
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:04:58 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "2250",
+            "Connection",
+            "Close"
+        ]
+    }
+]

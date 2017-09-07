@@ -1,5 +1,5 @@
 var test = require('./lib/tape-nock-setup');
-var BBY = require('../bestbuy');
+var BBY = require('../');
 
 var bby = BBY({
   key: process.env.BBY_API_KEY,

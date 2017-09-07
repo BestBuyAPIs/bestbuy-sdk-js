@@ -1,9 +1,8 @@
 var test = require('./lib/tape-nock-setup');
-var BBY = require('../bestbuy');
+var BBY = require('../');
 
 var bby = BBY({
   key: process.env.BBY_API_KEY,
-  debug: false,
   headers: {
     'User-Agent': 'Products tests'
   }
@@ -37,7 +36,7 @@ test('Using Promise Product search for all items reviewed with exactly 4, show o
     t.ok(data.products[0].name, 'has name');
     t.ok(data.products[0].sku, 'has sku');
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Product search with paging', test.opts, function (t) {
@@ -55,7 +54,7 @@ test('Product search with paging', test.opts, function (t) {
     t.ok(data.products[0].sku, 'has sku');
     t.equals(data.from, 6, 'from is equal to 6');
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Product search beginning with asterisk should fail', test.opts, function (t) {
@@ -63,35 +62,32 @@ test('Product search beginning with asterisk should fail', test.opts, function (
   bby.products('name=***phone*', {
     show: 'name,sku'
   })
-  .catch(function (data) {
-    t.equals(data.statusCode, 400, 'statusCode 400 returned');
-    t.equals(data.error.error.code, 400, 'error code 400 returned');
-  })
-  .finally(t.end);
+  .catch(function (error) {
+    t.equals(error.status, 400, 'error code 400 returned');
+    t.end();
+  });
 });
 
 test('Is a garbage search', test.opts, function (t) {
   // Do a search which emits an error
   bby.products('gurgleflats????4')
   .catch(function (data) {
-    t.equals(data.statusCode, 400, 'statusCode 400 returned');
-    t.equals(data.error.error.code, 400, 'error code 400 returned');
-  })
-  .finally(t.end);
+    t.equals(data.status, 400, 'status 400 returned');
+    t.end();
+  });
 });
 
 test('Is a garbage search - callback', test.opts, function (t) {
   // Do a search which emits an error
   bby.products('gurgleflats????4', (err, result) => {
-    t.equals(err.statusCode, 400, 'statusCode 400 returned');
-    t.equals(err.error.error.code, 400, 'error code 400 returned');
+    t.equals(err.status, 400, 'status 400 returned');
     t.end();
   });
 });
 
 test('Products search - function criteria not allowed', test.opts, function (t) {
-  bby.products('name=***phone*', function () {}, (err, result) => {
-    t.equals(err, 'Unhandled parameter type');
+  bby.products('name=phone', function () {}, (err, result) => {
+    t.equals(err.message, 'Unhandled parameter type');
     t.end();
   });
 });
@@ -108,5 +104,5 @@ test('Search multiple attributes and filter', test.opts, function (t) {
     t.ok(data.products[0].sku, 'has sku');
     t.ok(data.products[0].salePrice, 'has salePrice');
   })
-  .finally(t.end);
+  .then(t.end);
 });

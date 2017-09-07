@@ -1,19 +1,18 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/v1/products(gurgleflats?%3F%3F%3F4%29=&apiKey=XXX&format=json",
+        "method": "get",
+        "path": "/v1/products(gurgleflats????4)&format=json&apiKey=XXX",
         "body": "",
         "status": 400,
         "response": {
             "error": {
                 "code": 400,
                 "status": "400 Bad Request",
-                "message": "Couldn't understand '/v1/products(gurgleflats????4)=&apiKey=XXX&format=json': Failed at character 25.",
+                "message": "Couldn't understand '/v1/products(gurgleflats????4)&format=json&apiKey=XXX",
                 "examples": [
                     "/v1/products/8880044.xml?apiKey=<YourApiKey> : Get product information for sku 8880044; display as XML",
                     "/v1/stores/187.json?apiKey=<YourApiKey> : Get information for store 187; display as JSON",
-                    "/v1/reviews/2242984.json?callback=MyCallback&apiKey=<YourApiKey> : Get review 2242984; display as JSON, with callback function MyCallback",
                     "/v1/products?apiKey=<YourApiKey> : Get all products; show the first 10, sorted by name, display default attributes, formatted as xml",
                     "/v1/products?facet=manufacturer,10&apiKey=<YourApiKey> : Get all products; show the first 10, sorted by name, display default attributes, formatted as xml, and display up to 10 facets based on the \"manufacturer\" field.",
                     "/v1/products?pageSize=50&page=4&apiKey=<YourApiKey> : Get page 4 of all products, 50 products per page",
@@ -32,12 +31,17 @@
                 ]
             }
         },
-        "headers": {
-            "content-type": "application/json; charset=UTF-8",
-            "date": "Sat, 17 Dec 2016 06:49:48 GMT",
-            "server": "thin 1.6.1 codename Death Proof",
-            "content-length": "2879",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:05:00 GMT",
+            "Server",
+            "thin",
+            "Content-Length",
+            "2575",
+            "Connection",
+            "Close"
+        ]
     }
 ]

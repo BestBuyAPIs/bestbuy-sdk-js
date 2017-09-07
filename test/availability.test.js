@@ -1,5 +1,5 @@
 var test = require('./lib/tape-nock-setup');
-var BBY = require('../bestbuy');
+var BBY = require('../');
 var AVAILABLE_SKU = 4971901; // insignia AA batteries
 
 var bby = BBY({
@@ -12,7 +12,7 @@ var bby = BBY({
 
 // https://developer.bestbuy.com/documentation/products-api
 test('Availability search', test.opts, function (t) {
-  bby.stores('area(55119,25)&storeType=BigBox')
+  bby.stores('area(55119,25)&storeType=Big Box')
   .then(function (data) {
     t.ok(data.stores.length > 0, 'has stores');
     var stores = data.stores.map(function (store) {
@@ -26,11 +26,11 @@ test('Availability search', test.opts, function (t) {
   .catch(function (err) {
     t.error(err);
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Availability search using callback', test.opts, function (t) {
-  bby.stores('area(55119,25)&storeType=BigBox', function (err, data) {
+  bby.stores('area(55119,25)&storeType=Big Box', function (err, data) {
     t.error(err, 'no error');
     t.ok(data.stores.length > 0, 'has stores');
     var stores = data.stores.map(function (store) {
@@ -45,7 +45,7 @@ test('Availability search using callback', test.opts, function (t) {
 });
 
 test('Availability search using callback and third argument', test.opts, function (t) {
-  bby.stores('area(55119,25)&storeType=BigBox', function (err, data) {
+  bby.stores('area(55119,25)&storeType=Big Box', function (err, data) {
     t.error(err, 'no error');
     t.ok(data.stores.length > 0, 'has stores');
     var stores = data.stores.map(function (store) {
@@ -62,7 +62,7 @@ test('Availability search using callback and third argument', test.opts, functio
 
 test('Availability search using callback error', test.opts, function (t) {
   bby.availability(AVAILABLE_SKU, 'blah', function (err, data) {
-    t.equals(err, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
+    t.equals(err.message, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
     t.end();
   });
 });
@@ -71,9 +71,9 @@ test('Availability search using promises error', test.opts, function (t) {
   bby.availability(AVAILABLE_SKU, 'blah')
   .catch(function (err) {
     t.ok(err, 'has error');
-    t.equals(err, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
+    t.equals(err.message, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Availability search using promises sku error', test.opts, function (t) {
@@ -81,9 +81,9 @@ test('Availability search using promises sku error', test.opts, function (t) {
   .then(function (data) {})
   .catch(function (err) {
     t.ok(err, 'has error');
-    t.equals(err, 'First parameter of "availability" must be the SKU, and it must be either a number or a string');
+    t.equals(err.message, 'First parameter of "availability" must be the SKU, and it must be either a number or a string');
   })
-  .finally(t.end);
+  .then(t.end);
 });
 
 test('Availability search using promises too many parameters error', test.opts, function (t) {
@@ -91,7 +91,7 @@ test('Availability search using promises too many parameters error', test.opts, 
   .then(function (data) {})
   .catch(function (err) {
     t.ok(err, 'has error');
-    t.equals(err, 'Unrecognized parameter length when calling "availability" method');
+    t.equals(err.message, 'Unrecognized parameter length when calling "availability" method');
   })
-  .finally(t.end);
+  .then(t.end);
 });

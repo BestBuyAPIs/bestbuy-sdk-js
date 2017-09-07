@@ -1,391 +1,464 @@
 [
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/beta/products/trendingViewed?apiKey=XXX&format=json&categoryId=abcat0502000",
+        "method": "get",
+        "path": "/beta/products/trendingViewed?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": {
             "metadata": {
-                "resultSet": {
-                    "count": 9
-                },
                 "context": {
-                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?apiKey=XXX"
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/trendingViewed?format=json&apiKey=XXX"
+                },
+                "resultSet": {
+                    "count": 10
                 }
             },
             "results": [
                 {
+                    "sku": "5863600",
                     "customerReviews": {
-                        "averageScore": "4.7",
-                        "count": 148
+                        "averageScore": 0,
+                        "count": 0
                     },
                     "descriptions": {
-                        "short": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FForce Touch Trackpad"
+                        "short": "Compatible with select Apple&#174; iOS and Android smartphones and tablets; authentic movements; holographic simulation; droid to droid experience; adaptive personality; signature BB-9E LEDs; enhanced radio system; suitable for ages 8 and up"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/6447012.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/6447012/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/6447012/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Silver"
+                        "title": "Sphero - BB-9E™ App-Enabled Droid™ - Black/Gray"
                     },
                     "prices": {
-                        "current": 1374.99,
-                        "regular": 1499.99
+                        "regular": 149.99,
+                        "current": 149.99
                     },
-                    "rank": 1,
-                    "sku": "6447012"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5863600.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5863600/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5863600/cart"
+                    },
+                    "rank": 1
                 },
                 {
+                    "sku": "3720002",
                     "customerReviews": {
-                        "averageScore": "5.0",
-                        "count": 13
+                        "averageScore": 4.7,
+                        "count": 16554
                     },
                     "descriptions": {
-                        "short": "Intel Core i7 processorRadeon Pro 450 with 2GB of GDDR5 memoryUltrafast flash storageUp to 9 hours of battery life&#178;802.11ac Wi-FiForce Touch trackpad"
+                        "short": "Only @ Best BuySupports resolution up to 4K Ultra HD (4096 x 2160 pixels)High Dynamic Range (HDR) pass-throughSilver content soldering, 24K gold-plated contactsCertified for in-wall installationLifetime limited warranty"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4260/4260600_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4260600.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4260600/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4260600/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/3720/3720002_sa.jpg"
                     },
                     "names": {
-                        "title": "Apple - MacBook Pro® with Touch Bar - 15\" Display - Intel Core i7 - 16 GB Memory - 512GB Flash Storage (latest model) - Space Gray"
+                        "title": "Rocketfish™ - 4' 4K Ultra HD In-Wall HDMI Cable - Black"
                     },
                     "prices": {
-                        "current": 2799.99,
-                        "regular": 2799.99
+                        "regular": 29.99,
+                        "current": 23.99
                     },
-                    "rank": 10,
-                    "sku": "4260600"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/3720002.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/3720002/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/3720002/cart"
+                    },
+                    "rank": 2
                 },
                 {
+                    "sku": "5647800",
                     "customerReviews": {
-                        "averageScore": "4.0",
-                        "count": 1
+                        "averageScore": 4.7,
+                        "count": 2690
                     },
                     "descriptions": {
-                        "short": "Google Chrome OSTechnical details: Intel&#174; Celeron&#8482; processor; 14\" display; 4GB memory; 16GB eMMC flash memorySpecial features: Bluetooth; HDMI outputNote: DVD/CD drive not included"
+                        "short": "Fits most wrist sizesCompatible with AndroidCompatible with standard 22 mm bandsGPS enabledHeart rate monitorIP68 water resistanceMultifunctional bezelCall and text capabilities"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5623/5623625_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5623625.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5623625/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5623625/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5647/5647800_sa.jpg"
                     },
                     "names": {
-                        "title": "HP - 14\" Chromebook - Intel Celeron - 4GB Memory - 16GB eMMC Flash Memory - HP star pattern in ano silver"
+                        "title": "Samsung - Gear S3 Frontier Smartwatch 46mm - Dark Grey"
                     },
                     "prices": {
-                        "current": 229.99,
-                        "regular": 249.99
+                        "regular": 349.99,
+                        "current": 299.99
                     },
-                    "rank": 5,
-                    "sku": "5623625"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5647800.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5647800/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5647800/cart"
+                    },
+                    "rank": 3
                 },
                 {
+                    "sku": "4127007",
                     "customerReviews": {
-                        "averageScore": "4.3",
-                        "count": 129
+                        "averageScore": 4.7,
+                        "count": 13146
                     },
                     "descriptions": {
-                        "short": "Windows 10 HomeTechnical details: 6th Gen Intel&#174; Core&#8482; i3 processor; 15.6\" display; 6GB memory; 1TB hard driveSpecial features: touch screen; HDMI output"
+                        "short": "Only @ Best BuySupports resolution up to 4K Ultra HD (4096 x 2160 pixels)High Dynamic Range (HDR) pass-through1-year limited warranty3-layer cable shielding"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5606/5606100_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5606100.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5606100/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5606100/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4127/4127007_sa.jpg"
                     },
                     "names": {
-                        "title": "HP - 15.6\" Touch-Screen Laptop - Intel Core i3 - 6GB Memory - 1TB Hard Drive - Black"
+                        "title": "Insignia™ - 6' 4K Ultra HD HDMI Cable - Black"
                     },
                     "prices": {
-                        "current": 329.99,
-                        "regular": 399.99
+                        "regular": 19.99,
+                        "current": 19.99
                     },
-                    "rank": 3,
-                    "sku": "5606100"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4127007.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4127007/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4127007/cart"
+                    },
+                    "rank": 4
                 },
                 {
+                    "sku": "4370400",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 651
+                        "averageScore": 4.7,
+                        "count": 5120
                     },
                     "descriptions": {
-                        "short": "Only at Best Buy\nBlue Label&#8482;Windows 10Technical details: 6th Gen Intel&#174; Core&#8482; i5 processor; 13.3\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screen; backlit keyboard; HDMI outputNote: DVD/CD drive not included"
+                        "short": "Instantly stream thousands of movies and TV shows; search for content and check sports scores and weather updates with Alexa voice search function; compatible with most HDTVs; supports up to 4K Ultra HD resolution; 2GB memory"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5228/5228155_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5228155.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5228155/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5228155/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4370/4370400_sa.jpg"
                     },
                     "names": {
-                        "title": "HP - Pavilion x360 2-in-1 13.3\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Modern Gold"
+                        "title": "Amazon - Fire TV (2015 Model) - Black"
                     },
                     "prices": {
-                        "current": 693.99,
-                        "regular": 729.99
+                        "regular": 89.99,
+                        "current": 89.99
                     },
-                    "rank": 9,
-                    "sku": "5228155"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4370400.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4370400/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4370400/cart"
+                    },
+                    "rank": 5
                 },
                 {
+                    "sku": "5707561",
                     "customerReviews": {
-                        "averageScore": "5.0",
-                        "count": 6
+                        "averageScore": 4.4,
+                        "count": 1059
                     },
                     "descriptions": {
-                        "short": "Only at Best Buy\nWindows 10 HomeTechnical details: 7th Gen Intel&#174; Core&#8482; i7 processor; 13.3\" display; 8GB memory; 256GB solid state driveSpecial features: Bluetooth; backlit keyboardNote: DVD/CD drive not included"
+                        "short": "Compatible with Apple iPhone 7 Plus; 2525 mAh capacity; rechargeable; impact protection; drop proof; notification LED; enables Qi wireless charging"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5606/5606201_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5606201.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5606201/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5606201/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5707/5707561_sa.jpg"
                     },
                     "names": {
-                        "title": "HP - Spectre 13.3\" Laptop - Intel Core i7 - 8GB Memory - 256GB Solid State Drive - Dark ash silver, Luxe copper accent"
+                        "title": "mophie - Juice Pack External Battery Case with Wireless Charging for Apple® iPhone® 7 Plus - Blue"
                     },
                     "prices": {
-                        "current": 1099.99,
-                        "regular": 1249.99
+                        "regular": 99.99,
+                        "current": 63.99
                     },
-                    "rank": 2,
-                    "sku": "5606201"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5707561.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5707561/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5707561/cart"
+                    },
+                    "rank": 6
                 },
                 {
+                    "sku": "5577305",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 713
+                        "averageScore": 4.1,
+                        "count": 670
                     },
                     "descriptions": {
-                        "short": "Only at Best Buy\nBlue Label&#8482;Windows 104K Ultra HDTechnical details:6th Gen Intel&#174; Core&#8482;i7 processor;15.6\" display;16GB memory;256GB solid state driveSpecial features:Bluetooth;touch screen;backlit keyboard;HDMI outputNote: DVD/CD drive not included"
+                        "short": "Compatible with select smartphones and tablets; Bluetooth compatibility; built-in microphone; LCD screen with backlit display; 3.5mm AUX connectivity; USB charge port; flex-neck design; remote control included"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/4864/4864800_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/4864800.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/4864800/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/4864800/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/5577/5577305_sa.jpg"
                     },
                     "names": {
-                        "title": "HP - Spectre x360 2-in-1 15.6\" 4K Ultra HD Touch-Screen Laptop - Intel Core i7 - 16GB Memory - 256GB Solid State Drive - Natural Silver"
+                        "title": "Scosche - BTFreq™ Bluetooth FM Transmitter - Black"
                     },
                     "prices": {
-                        "current": 1349.99,
-                        "regular": 1349.99
+                        "regular": 39.99,
+                        "current": 39.99
                     },
-                    "rank": 8,
-                    "sku": "4864800"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/5577305.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/5577305/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/5577305/cart"
+                    },
+                    "rank": 7
                 },
                 {
+                    "sku": "6029030",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 52
+                        "averageScore": 0,
+                        "count": 0
                     },
                     "descriptions": {
-                        "short": "Only at Best Buy\nWindows 10 Home 64-bitTechnical details: 7th Gen Intel&#174; Core&#8482; i5 processor; 11.6\" display; 8GB memory; 128GB solid state driveSpecial features: Bluetooth; touch screen; HDMI outputNote: DVD/CD drive not included"
+                        "short": "Designed for use with Samsung Galaxy Note8 cell phones; built-in kickstand; military-grade ruggedized design"
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5579/5579843_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5579843.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5579843/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5579843/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/6029/6029030_sa.jpg"
                     },
                     "names": {
-                        "title": "Lenovo - Yoga 710 2-in-1 11.6\" Touch-Screen Laptop - Intel Core i5 - 8GB Memory - 128GB Solid State Drive - Silver"
+                        "title": "Samsung - Rugged Protective Cover for Samsung Galaxy Note8 - Deep Blue"
                     },
                     "prices": {
-                        "current": 649.99,
-                        "regular": 699.99
+                        "regular": 39.99,
+                        "current": 39.99
                     },
-                    "rank": 7,
-                    "sku": "5579843"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/6029030.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/6029030/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/6029030/cart"
+                    },
+                    "rank": 8
                 },
                 {
+                    "sku": "9479027",
                     "customerReviews": {
-                        "averageScore": "4.5",
-                        "count": 89
+                        "averageScore": 4.9,
+                        "count": 2706
                     },
                     "descriptions": {
-                        "short": "Windows 10Technical details: 7th Gen Intel&#174; Core&#8482; i7 processor; 14\" display; 8GB memory; 256GB solid state driveSpecial features: fingerprint reader; Bluetooth; touch screen; backlit keyboardNote: DVD/CD drive not included"
+                        "short": "Perfect gift card? Piece of cake. All Best Buy gift cards are shipped free and are good toward future purchases online and in U.S. or Puerto Rico Best Buy stores. Best Buy gift cards do not have an expiration date."
                     },
                     "images": {
-                        "standard": "http://img.bbystatic.com/BestBuy_US/images/products/5579/5579131_sa.jpg"
-                    },
-                    "links": {
-                        "product": "https://api.remix.bestbuy.com/v1/products/5579131.json?apiKey=XXX",
-                        "web": "https://api.bestbuy.com/click/-/5579131/pdp",
-                        "addToCart": "https://api.bestbuy.com/click/-/5579131/cart"
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/9479/9479027_sa.jpg"
                     },
                     "names": {
-                        "title": "Lenovo - Yoga 910 2-in-1 14\" Touch-Screen Laptop - Intel Core i7 - 8GB Memory - 256GB Solid State Drive - Silver"
+                        "title": "Best Buy GC - $15 Blue Gift Card"
                     },
                     "prices": {
-                        "current": 1199.99,
-                        "regular": 1199.99
+                        "regular": 15,
+                        "current": 15
                     },
-                    "rank": 4,
-                    "sku": "5579131"
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/9479027.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/9479027/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/9479027/cart"
+                    },
+                    "rank": 9
+                },
+                {
+                    "sku": "4343901",
+                    "customerReviews": {
+                        "averageScore": 4.5,
+                        "count": 385
+                    },
+                    "descriptions": {
+                        "short": "Supports TVs up to 60\" or 100 lbs.; wood finish; 3 cabinets with multiple shelves; assembly hardware included"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/4343/4343901_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Insignia™ - TV Stand for Most TVs up to 60\" - Espresso"
+                    },
+                    "prices": {
+                        "regular": 199.99,
+                        "current": 199.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/4343901.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/4343901/pdp",
+                        "addToCart": "https://api.bestbuy.com/click/-/4343901/cart"
+                    },
+                    "rank": 10
                 }
             ]
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json;charset=UTF-8",
-            "date": "Mon, 19 Dec 2016 17:23:24 GMT",
-            "server": "Apigee Router",
-            "vary": "Accept-Encoding",
-            "content-length": "7500",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:02:06 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "",
+            "Content-Length",
+            "7370",
+            "Connection",
+            "Close"
+        ]
     },
     {
         "scope": "https://api.bestbuy.com:443",
-        "method": "GET",
-        "path": "/v1/products/6447012.json?apiKey=XXX",
+        "method": "get",
+        "path": "/v1/products/5863600.json?format=json&apiKey=XXX",
         "body": "",
         "status": 200,
         "response": {
-            "sku": 6447012,
-            "productId": 1219661413798,
-            "name": "Apple - MacBook Pro®  - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage (latest model) - Silver",
-            "source": "bestbuy",
+            "sku": 5863600,
+            "score": null,
+            "productId": null,
+            "name": "Sphero - BB-9E™ App-Enabled Droid™ - Black/Gray",
+            "source": null,
             "type": "HardGood",
-            "startDate": "2016-10-27",
-            "new": false,
+            "startDate": "2017-08-31",
+            "new": true,
             "active": true,
             "lowPriceGuarantee": true,
-            "activeUpdateDate": "2016-11-07T12:16:25",
-            "regularPrice": 1499.99,
-            "salePrice": 1374.99,
+            "activeUpdateDate": "2017-09-01T08:18:05",
+            "regularPrice": 149.99,
+            "salePrice": 149.99,
             "clearance": false,
-            "onSale": true,
+            "onSale": false,
             "planPrice": null,
             "priceWithPlan": [],
             "priceRestriction": null,
-            "priceUpdateDate": "2016-12-18T00:01:13",
+            "priceUpdateDate": "2017-08-31T00:00:49",
             "digital": false,
             "preowned": false,
+            "carriers": [],
+            "planFeatures": [],
+            "devices": [],
             "carrierPlans": [],
             "technologyCode": null,
             "carrierModelNumber": null,
             "earlyTerminationFees": [],
+            "monthlyRecurringCharge": "",
+            "monthlyRecurringChargeGrandTotal": "",
+            "activationCharge": "",
+            "minutePrice": "",
+            "planCategory": null,
+            "planType": null,
+            "familyIndividualCode": null,
+            "validFrom": null,
+            "validUntil": null,
+            "carrierPlan": null,
             "outletCenter": null,
             "secondaryMarket": null,
             "frequentlyPurchasedWith": [],
             "accessories": [],
             "relatedProducts": [],
             "techSupportPlans": [],
-            "salesRankShortTerm": 2412,
-            "salesRankMediumTerm": 2428,
-            "salesRankLongTerm": 3105,
-            "bestSellingRank": 2417,
-            "url": "https://api.bestbuy.com/click/-/6447012/pdp",
+            "crossSell": [],
+            "salesRankShortTerm": 5139,
+            "salesRankMediumTerm": 4368,
+            "salesRankLongTerm": 3677,
+            "bestSellingRank": 4006,
+            "url": "https://api.bestbuy.com/click/-/5863600/pdp",
             "spin360Url": null,
-            "mobileUrl": "https://api.bestbuy.com/click/-/6447012/pdp",
+            "mobileUrl": "https://api.bestbuy.com/click/-/5863600/pdp",
             "affiliateUrl": null,
-            "addToCartUrl": "https://api.bestbuy.com/click/-/6447012/cart",
+            "addToCartUrl": "https://api.bestbuy.com/click/-/5863600/cart",
             "affiliateAddToCartUrl": null,
             "linkShareAffiliateUrl": "",
             "linkShareAffiliateAddToCartUrl": "",
-            "upc": "888462786751",
-            "productTemplate": "Laptop_Computers",
+            "upc": "817961020301",
+            "productTemplate": "Robotics_Kits",
             "categoryPath": [
                 {
                     "id": "cat00000",
                     "name": "Best Buy"
                 },
                 {
-                    "id": "abcat0500000",
-                    "name": "Computers & Tablets"
+                    "id": "pcmcat252700050006",
+                    "name": "Drones, Toys & Collectibles"
                 },
                 {
-                    "id": "abcat0502000",
-                    "name": "Laptops"
+                    "id": "pcmcat748302046148",
+                    "name": "Licensed Collectibles"
+                },
+                {
+                    "id": "pcmcat748302046239",
+                    "name": "Star Wars Collectibles"
                 }
             ],
+            "alternateCategories": [],
             "lists": [],
-            "customerReviewCount": 148,
-            "customerReviewAverage": "4.7",
-            "customerTopRated": true,
+            "customerReviewCount": null,
+            "customerReviewAverage": null,
+            "customerTopRated": null,
             "format": null,
             "freeShipping": true,
             "freeShippingEligible": true,
             "inStoreAvailability": true,
             "inStoreAvailabilityText": "Store Pickup:",
-            "inStoreAvailabilityUpdateDate": "2016-11-28T09:00:31",
-            "itemUpdateDate": "2016-12-19T09:10:13",
+            "inStoreAvailabilityUpdateDate": "2017-09-01T08:18:05",
+            "itemUpdateDate": "2017-09-06T08:05:26",
             "onlineAvailability": true,
             "onlineAvailabilityText": "Shipping: Usually ships in 1 business day",
-            "onlineAvailabilityUpdateDate": "2016-11-07T12:16:25",
-            "releaseDate": "2015-03-10",
+            "onlineAvailabilityUpdateDate": "2017-09-01T08:18:05",
+            "releaseDate": "2017-08-30",
             "shippingCost": 0,
             "shipping": [
                 {
-                    "ground": "",
+                    "ground": 0,
                     "secondDay": 0,
-                    "nextDay": 29.93,
+                    "nextDay": 13.96,
                     "vendorDelivery": ""
                 }
             ],
             "shippingLevelsOfService": [
                 {
-                    "serviceLevelId": 3,
+                    "serviceLevelId": 14,
                     "serviceLevelName": "Two Day",
                     "unitShippingPrice": 0
                 },
                 {
-                    "serviceLevelId": 5,
+                    "serviceLevelId": 2,
+                    "serviceLevelName": "Standard",
+                    "unitShippingPrice": 0
+                },
+                {
+                    "serviceLevelId": 6,
                     "serviceLevelName": "One Day",
-                    "unitShippingPrice": 29.93
+                    "unitShippingPrice": 13.96
                 }
             ],
             "specialOrder": false,
-            "shortDescription": "Intel Core i5 processor Intel Iris Graphics 6100Ultrafast flash storageUp to 10 hours of battery life&#178;802.11ac Wi-FForce Touch Trackpad",
-            "class": "MOBILE COMPUTING",
-            "classId": 140,
-            "subclass": "APPLE",
-            "subclassId": 5075,
-            "department": "COMPUTERS",
-            "departmentId": 6,
+            "shortDescription": "Compatible with select Apple&#174; iOS and Android smartphones and tablets; authentic movements; holographic simulation; droid to droid experience; adaptive personality; signature BB-9E LEDs; enhanced radio system; suitable for ages 8 and up",
+            "class": "LICENSED MERCHANDISE",
+            "classId": 127,
+            "subclass": "STAR WARS",
+            "subclassId": 956,
+            "department": "PHOTO/COMMODITIES",
+            "departmentId": 5,
+            "protectionPlanTerm": "BB-",
+            "protectionPlanType": null,
+            "protectionPlanLowPrice": "",
+            "protectionPlanHighPrice": "",
             "buybackPlans": [],
             "protectionPlans": [],
+            "protectionPlanDetails": [],
             "productFamilies": [],
+            "aspectRatio": null,
+            "screenFormat": null,
+            "lengthInMinutes": null,
+            "mpaaRating": null,
+            "plot": null,
+            "studio": null,
+            "theatricalReleaseDate": null,
             "description": null,
-            "manufacturer": "Apple",
-            "modelNumber": "MLUQ2LL/A",
-            "image": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg",
-            "largeFrontImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sa.jpg",
-            "mediumImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012fp.gif",
-            "thumbnailImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_s.gif",
-            "largeImage": "http://img.bbystatic.com/BestBuy_US/images/products/6447/6447012_sb.jpg",
-            "alternateViewsImage": null,
-            "angleImage": null,
+            "manufacturer": "Sphero",
+            "modelNumber": "VD01ROW",
+            "image": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sa.jpg",
+            "largeFrontImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sd.jpg",
+            "mediumImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600fp.gif",
+            "thumbnailImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_s.gif",
+            "largeImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_sb.jpg",
+            "alternateViewsImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600cv11d.jpg",
+            "angleImage": "https://img.bbystatic.com/BestBuy_US/images/products/5863/5863600_rd.jpg",
             "backViewImage": null,
             "energyGuideImage": null,
             "leftViewImage": null,
@@ -393,59 +466,87 @@
             "remoteControlImage": null,
             "rightViewImage": null,
             "topViewImage": null,
+            "albumTitle": "BB-9E™ App-Enabled Droid™",
+            "artistName": null,
+            "artistId": null,
+            "originalReleaseDate": null,
+            "parentalAdvisory": null,
+            "mediaCount": null,
+            "monoStereo": null,
+            "studioLive": null,
             "condition": "New",
             "inStorePickup": true,
             "friendsAndFamilyPickup": true,
             "homeDelivery": false,
-            "quantityLimit": 1,
-            "fulfilledBy": "BestBuy.com",
+            "quantityLimit": 3,
+            "fulfilledBy": null,
+            "members": [],
             "bundledIn": [],
-            "color": "Silver",
-            "depth": "8.36 inches",
-            "dollarSavings": 125,
-            "percentSavings": "8.33",
+            "albumLabel": null,
+            "genre": null,
+            "color": "Black/Gray",
+            "depth": null,
+            "dollarSavings": 0,
+            "percentSavings": "0.0",
             "tradeInValue": "",
-            "height": "0.59 inches",
+            "height": null,
             "orderable": "Available",
-            "weight": "3.02 pounds",
-            "shippingWeight": "5.88",
-            "width": "11.97 inches",
-            "warrantyLabor": "1 year limited",
-            "warrantyParts": "2 year limited",
-            "longDescription": "The new MacBook Pro is faster and more powerful than before, yet remarkably thinner and lighter.&#185; It has the brightest, most colorful display ever on a Mac notebook. And it features up to 10 hours of battery life.&#178; It&#8217;s a notebook built for the work you do every day. Ready to go anywhere a great idea takes you.",
+            "weight": null,
+            "shippingWeight": 2.25,
+            "width": null,
+            "warrantyLabor": "1 Year",
+            "warrantyParts": "1 Year",
+            "softwareAge": null,
+            "softwareGrade": null,
+            "platform": null,
+            "numberOfPlayers": null,
+            "softwareNumberOfPlayers": null,
+            "esrbRating": null,
+            "longDescription": "BB-9E&#8482; is a menacing astromech droid of the First Order. Control it with your smart device and keep it rolling optimally with the augmented reality Droid Trainer. Watch BB-9E interact with other Star Wars&#8482; App-enabled Droids by Sphero, and view films from the Star Wars saga with BB-9E by your side. This is not the droid you&#8217;re looking for&#8230; it&#8217;s the droid that&#8217;s looking for you.",
             "includedItemList": [
                 {
-                    "includedItem": "87W USB-C Power Adapter"
+                    "includedItem": "Sphero BB-9E™ App-Enabled Droid™"
                 },
                 {
-                    "includedItem": "MacBook Pro® (Latest Model) - 13\" Display - Intel Core i5 - 8 GB Memory - 256GB Flash Storage"
+                    "includedItem": "USB charging cord"
                 },
                 {
-                    "includedItem": "USB-C Charge Cable (2 m)"
+                    "includedItem": "Droid trainer"
+                },
+                {
+                    "includedItem": "Legal guide"
+                },
+                {
+                    "includedItem": "Charging base"
                 }
             ],
-            "marketplace": false,
+            "marketplace": null,
             "listingId": null,
             "sellerId": null,
             "shippingRestrictions": null,
-            "bluetoothEnabled": true,
-            "displayType": "Other",
-            "energyStarQualified": true,
-            "mobileOperatingSystem": "Mac OS",
-            "screenSizeIn": 13.3,
-            "usbPort": true
+            "controlType": "App-controlled"
         },
-        "headers": {
-            "access-control-allow-headers": "origin, x-requested-with, accept",
-            "access-control-allow-methods": "GET",
-            "access-control-allow-origin": "*",
-            "access-control-max-age": "3628800",
-            "content-type": "application/json; charset=UTF-8",
-            "date": "Mon, 19 Dec 2016 17:23:24 GMT",
-            "server": "Best Buy Public APIs",
-            "x-cache-hit": "true",
-            "content-length": "5218",
-            "connection": "Close"
-        }
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 07 Sep 2017 00:05:03 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "5632",
+            "Connection",
+            "Close"
+        ]
     }
 ]

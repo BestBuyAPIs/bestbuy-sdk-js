@@ -38,5 +38,7 @@ function setupOptions (_opts) {
     opts = Object.assign(opts, _opts);
   }
 
+  opts.apiService = require('./lib/api.service')(opts);
+
   return opts;
 }

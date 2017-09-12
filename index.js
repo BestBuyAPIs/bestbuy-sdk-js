@@ -27,13 +27,14 @@ function setupOptions (_opts) {
     debug: false,
     headers: {
       'User-Agent': `bestbuy-sdk-js/${pkg.version};nodejs`
-    }
+    },
+    requestsPerSecond: 5
   };
 
   opts.baseParams = {format: 'json', apiKey: opts.key};
 
   if (typeof _opts === 'string') {
-    opts.key = opts;
+    opts.key = _opts;
   } else if (typeof _opts === 'object') {
     opts = Object.assign(opts, _opts);
   }

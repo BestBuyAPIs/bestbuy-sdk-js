@@ -298,6 +298,17 @@ If `console.log` is not desired, a custom debug function can be passed:
   // The debug function will be called for each request and each response.
 ```
 
+## Rate Limiting
+In order to avoid `429 Too Many Requests` errors, all API calls are automatically throttled to 5 requests per second. This value aligns with the default limit for approved API keys. Setting a lower value can be useful if a key needs to be shared among multiple application instances.
+
+If you need to adjust this value, it can be done via the `requestsPerSecond` option:
+```js
+  var bby = require('bestbuy')({
+    key: 'YOURKEY',
+    requestsPerSecond: 1 // just one request per second
+  });
+```
+
 ## Tests
 Run the existing tests with:
 ```bash

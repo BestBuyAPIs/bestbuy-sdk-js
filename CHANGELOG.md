@@ -16,6 +16,8 @@ With the exception of the reviews function (and returning `Error`s), the API int
 Features:
   - Added `version()` which returns the current API version and package version.
   - Added the ability pass a custom function via `debug` for debug information.
+  - Added automatic rate limiting to avoid `429 Too Many Requests` errors.
+    - This can be manually adjusted via the `requestsPerSecond` option.
 
 ## 1.1.0 (2017-05-01)
 

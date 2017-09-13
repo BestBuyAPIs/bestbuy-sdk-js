@@ -1,6 +1,8 @@
 var test = require('./lib/tape-nock-setup');
 var BBY = require('../');
 
+const NS_PER_SEC = 1000000000;
+
 test('Test Rate Limiting 1 per second', test.opts, function (t) {
   var bby = BBY({
     key: process.env.BBY_API_KEY,
@@ -10,7 +12,6 @@ test('Test Rate Limiting 1 per second', test.opts, function (t) {
     },
     requestsPerSecond: 1
   });
-  const NS_PER_SEC = 1e9;
   var start = process.hrtime();
 
   var promises = [
@@ -41,7 +42,6 @@ test('Test Rate Limiting default 5 per second', test.opts, function (t) {
       'User-Agent': 'rate limiter tests'
     }
   });
-  const NS_PER_SEC = 1e9;
   var start = process.hrtime();
 
   var promises = [
@@ -79,7 +79,6 @@ test('Test Rate Limiting default 5 per second with debug', test.opts, function (
       'User-Agent': 'rate limiter tests'
     }
   });
-  const NS_PER_SEC = 1e9;
   var start = process.hrtime();
 
   var promises = [
@@ -122,7 +121,6 @@ test('Test Rate Limiting torture test', test.opts, function (t) {
     },
     requestsPerSecond: 5
   });
-  const NS_PER_SEC = 1e9;
   var start = process.hrtime();
 
   var promises = [

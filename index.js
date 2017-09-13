@@ -13,6 +13,7 @@ function bestbuy (_options) {
     openBox: require('./lib/openBox')(options),
     categories: require('./lib/categories')(options),
     products: require('./lib/products')(options),
+    productsAsStream: require('./lib/products-as-stream')(options),
     recommendations: require('./lib/recommendations')(options),
     stores: require('./lib/stores')(options),
     warranties: require('./lib/warranties')(options),
@@ -30,8 +31,6 @@ function setupOptions (_opts) {
     },
     requestsPerSecond: 5
   };
-
-  opts.baseParams = {format: 'json', apiKey: opts.key};
 
   if (typeof _opts === 'string') {
     opts.key = _opts;

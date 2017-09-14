@@ -19,6 +19,15 @@ Features:
   - Added automatic rate limiting to avoid `429 Too Many Requests` errors.
     - This can be manually adjusted via the `requestsPerSecond` option.
 
+  - Added Node stream support via these new endpoints:
+    - `availabilityAsStream`
+    - `openBoxAsStream`
+    - `categoriesAsStream`
+    - `productsAsStream`
+    - `storesAsStream`
+    - These endpoints will return all results and handle pagination/throttling automatically.
+    - Check the README/examples for more details.
+
 ## 1.1.0 (2017-05-01)
 
 Features:

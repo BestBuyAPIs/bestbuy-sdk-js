@@ -37,3 +37,38 @@ test('Get a store', test.opts, function (t) {
     })
     .catch(err => t.error(err));
 });
+
+test('Get stores as stream', test.opts, function (t) {
+  var bby = BBY(opts);
+  // Do a query for stores
+  var stream = bby.storesAsStream('area(55119,25)&storeType=Big Box');
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('error', (err) => {
+    t.error(err);
+    t.end();
+  });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});
+
+test('Get stores as stream - garbage data', test.opts, function (t) {
+  var bby = BBY(opts);
+  // Do a query for stores
+  var stream = bby.storesAsStream('blah');
+
+  stream.on('error', (err) => {
+    t.ok(err.message.startsWith("Couldn't understand"), 'error returned');
+    t.end();
+  });
+});

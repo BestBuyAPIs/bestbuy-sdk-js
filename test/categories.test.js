@@ -54,3 +54,35 @@ test('Fetch Categories with name and callback', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Fetch categories as stream', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+
+  var stream;
+  try {
+    stream = bby.categoriesAsStream('name="V*"', {show: 'name'});
+  } catch (err) {
+    console.error(err);
+    t.error(err);
+    t.end();
+  }
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    t.deepEquals(Object.keys(data), ['name'], 'correct keys returned');
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('error', err => {
+    t.error(err);
+    t.end();
+  });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});

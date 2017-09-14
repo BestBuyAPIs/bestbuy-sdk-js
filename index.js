@@ -5,17 +5,27 @@ module.exports = bestbuy;
 function bestbuy (_options) {
   var options = setupOptions(_options);
 
+  const availabilityEndpoint = require('./lib/availability')(options);
+  const categoriesEndpoint = require('./lib/categories')(options);
+  const productsEndpoint = require('./lib/products')(options);
+  const openBoxEndpoint = require('./lib/openBox')(options);
+  const storesEndpoint = require('./lib/stores')(options);
+
   if (!options.key) throw new Error('A Best Buy developer API key is required');
 
   return {
     options: options,
-    availability: require('./lib/availability')(options),
-    openBox: require('./lib/openBox')(options),
-    categories: require('./lib/categories')(options),
-    products: require('./lib/products')(options),
-    productsAsStream: require('./lib/products-as-stream')(options),
+    availability: availabilityEndpoint.availability,
+    availabilityAsStream: availabilityEndpoint.availabilityAsStream,
+    openBox: openBoxEndpoint.openBox,
+    openBoxAsStream: openBoxEndpoint.openBoxAsStream,
+    categories: categoriesEndpoint.categories,
+    categoriesAsStream: categoriesEndpoint.categoriesAsStream,
+    products: productsEndpoint.products,
+    productsAsStream: productsEndpoint.productsAsStream,
     recommendations: require('./lib/recommendations')(options),
-    stores: require('./lib/stores')(options),
+    stores: storesEndpoint.stores,
+    storesAsStream: storesEndpoint.storesAsStream,
     warranties: require('./lib/warranties')(options),
     version: require('./lib/version')(options)
   };
@@ -39,6 +49,7 @@ function setupOptions (_opts) {
   }
 
   opts.apiService = require('./lib/api.service')(opts);
+  opts.apiStreamService = require('./lib/api.stream.service')(opts);
 
   return opts;
 }

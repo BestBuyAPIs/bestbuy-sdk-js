@@ -89,3 +89,26 @@ test('Open box - search for one item using callback', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Get open box as stream', test.opts, function (t) {
+  // Do a query for stores
+  var stream = bby.openBoxAsStream('categoryId=abcat0502000');
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('error', (err) => {
+    t.error(err);
+    t.end();
+  });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});

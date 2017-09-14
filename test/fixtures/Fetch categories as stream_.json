@@ -1,0 +1,676 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories(name=%22V*%22)?format=json&apiKey=XXX&show=name&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMycGNtY2F0MTk3ODAwMDUwMDQ5CD+AAAA+Y2F0ZWdvcnlfcGNtY2F0MTk3ODAwMDUwMDQ5X3Vz",
+            "total": 185,
+            "totalPages": 2,
+            "queryTime": "0.082",
+            "totalTime": "0.122",
+            "partial": false,
+            "canonicalUrl": "/v1/categories(name=\"V*\")?show=name&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "categories": [
+                {
+                    "name": "Component Video Cables"
+                },
+                {
+                    "name": "Composite Video Cables"
+                },
+                {
+                    "name": "VCR Cleaners"
+                },
+                {
+                    "name": "Car Video"
+                },
+                {
+                    "name": "Car Video Accessories"
+                },
+                {
+                    "name": "Video Editing Software"
+                },
+                {
+                    "name": "Voice Recognition Software"
+                },
+                {
+                    "name": "Video Games"
+                },
+                {
+                    "name": "Video Game Accessories"
+                },
+                {
+                    "name": "VoIP"
+                },
+                {
+                    "name": "Voice Recorders"
+                },
+                {
+                    "name": "Vacuum Cleaners & Floor Care"
+                },
+                {
+                    "name": "Canister Vacuums"
+                },
+                {
+                    "name": "Commercial & Garage Vacuums"
+                },
+                {
+                    "name": "Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "Upright Vacuums"
+                },
+                {
+                    "name": "Vacuum Sealers"
+                },
+                {
+                    "name": "Vacuum & Floor Care Accessories"
+                },
+                {
+                    "name": "Vacuum & Floor Tools"
+                },
+                {
+                    "name": "Vacuum Bags"
+                },
+                {
+                    "name": "Vacuum Belts"
+                },
+                {
+                    "name": "Vacuum Filters"
+                },
+                {
+                    "name": "Music (CDs & Vinyl)"
+                },
+                {
+                    "name": "Monitor & Video Cables"
+                },
+                {
+                    "name": "BISSELL Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "BISSELL Canister Vacuums"
+                },
+                {
+                    "name": "BISSELL Vacuum & Floor Care Accessories"
+                },
+                {
+                    "name": "Black Friday Videos"
+                },
+                {
+                    "name": "Shark Upright Vacuums"
+                },
+                {
+                    "name": "Shark Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "Shark Vacuum & Floor Care Accessories"
+                },
+                {
+                    "name": "Robot Vacuums"
+                },
+                {
+                    "name": "Robot Vacuum & Mop Accessories"
+                },
+                {
+                    "name": "Virtual Reality Headsets for PC"
+                },
+                {
+                    "name": "Virtual Reality"
+                },
+                {
+                    "name": "Virtual Reality for Smartphone"
+                },
+                {
+                    "name": "Virtual Reality Headsets for Smartphone"
+                },
+                {
+                    "name": "Virtual Reality Handheld Devices for Smartphone"
+                },
+                {
+                    "name": "Voice Assistants"
+                },
+                {
+                    "name": "VR Technology"
+                },
+                {
+                    "name": "Virtual Reality - Different Types and Peripherals Explained"
+                },
+                {
+                    "name": "5 Awesome Things You Can Do With Virtual Reality"
+                },
+                {
+                    "name": "The Difference Between AR and VR"
+                },
+                {
+                    "name": "The Right Virtual Reality for You"
+                },
+                {
+                    "name": "What's So Great About Virtual Reality?"
+                },
+                {
+                    "name": "Build VR Ready PC"
+                },
+                {
+                    "name": "BISSELL Upright Vacuums"
+                },
+                {
+                    "name": "VR Product Inspiration"
+                },
+                {
+                    "name": "BISSELL Robot Vacuums"
+                },
+                {
+                    "name": "BISSELL Commercial & Garage Vacuums"
+                },
+                {
+                    "name": "Vitamix Blenders"
+                },
+                {
+                    "name": "Vitamix Blender Accessories"
+                },
+                {
+                    "name": "All BISSELL Vacuums & Floor Care"
+                },
+                {
+                    "name": "All Shark Vacuums & Floor Care"
+                },
+                {
+                    "name": "Stardew Valley"
+                },
+                {
+                    "name": "All Video Games"
+                },
+                {
+                    "name": "Physical Video Games"
+                },
+                {
+                    "name": "Video Game New Releases"
+                },
+                {
+                    "name": "Top Picks for Vacuums"
+                },
+                {
+                    "name": "All Hoover Vacuums & Floor Care"
+                },
+                {
+                    "name": "Hoover Upright Vacuums"
+                },
+                {
+                    "name": "Hoover Cordless Vacuums"
+                },
+                {
+                    "name": "Hoover Robot Vacuums"
+                },
+                {
+                    "name": "Pet Vacuums"
+                },
+                {
+                    "name": "Off-Road Vehicle Electronics"
+                },
+                {
+                    "name": "Off-Road Vehicle Audio"
+                },
+                {
+                    "name": "Off-Road Vehicle Lighting"
+                },
+                {
+                    "name": "Off-Road Vehicle Accessories"
+                },
+                {
+                    "name": "VIZIO 4K Ultra HD TVs"
+                },
+                {
+                    "name": "VIZIO Smart TVs"
+                },
+                {
+                    "name": "VIZIO LED TVs"
+                },
+                {
+                    "name": "VIZIO Sound Bars"
+                },
+                {
+                    "name": "VIZIO Wireless Multiroom Speakers"
+                },
+                {
+                    "name": "Samsung Vacuum Cleaners & Floor Care"
+                },
+                {
+                    "name": "Marvel vs. Capcom: Infinite"
+                },
+                {
+                    "name": "Vivint Smart Home Products"
+                },
+                {
+                    "name": "Vivint Smart Home App"
+                },
+                {
+                    "name": "Vivint and Your Smart Home"
+                },
+                {
+                    "name": "Vacuums & Floor Care"
+                },
+                {
+                    "name": "Dirt Devil Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "Dirt Devil Upright Vacuums"
+                },
+                {
+                    "name": "Hoover Canister Vacuums"
+                },
+                {
+                    "name": "Component Video Cables"
+                },
+                {
+                    "name": "Video Splitters"
+                },
+                {
+                    "name": "Dyson Upright Vacuums"
+                },
+                {
+                    "name": "Dyson Cordless Vacuums"
+                },
+                {
+                    "name": "Dyson Canister Vacuums"
+                },
+                {
+                    "name": "Dyson Vacuum Accessories"
+                },
+                {
+                    "name": "Video Cards"
+                },
+                {
+                    "name": "Robot Vacuums & Mops"
+                },
+                {
+                    "name": "Video Game Services"
+                },
+                {
+                    "name": "Video Game Pre-Orders"
+                },
+                {
+                    "name": "Fitness Videos & Software"
+                },
+                {
+                    "name": "Hoover Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "Volume & Tone"
+                },
+                {
+                    "name": "Electrolux Vacuums"
+                },
+                {
+                    "name": "Electrolux Handheld & Stick Vacuums"
+                },
+                {
+                    "name": "Audio Video Systems"
+                },
+                {
+                    "name": "Vinyl Records"
+                },
+                {
+                    "name": "DVD Music Video"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:18 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "3835",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories(name=%22V*%22)?format=json&apiKey=XXX&show=name&cursorMark=AoMycGNtY2F0MTk3ODAwMDUwMDQ5CD%2BAAAA%2BY2F0ZWdvcnlfcGNtY2F0MTk3ODAwMDUwMDQ5X3Vz&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMwcGNtY2F0ODQwMDA1MDAwNAg/gAAAPGNhdGVnb3J5X3BjbWNhdDg0MDAwNTAwMDRfdXM=",
+            "total": 185,
+            "totalPages": 2,
+            "queryTime": "0.075",
+            "totalTime": "0.126",
+            "partial": false,
+            "canonicalUrl": "/v1/categories(name=\"V*\")?show=name&pageSize=100&cursorMark=AoMycGNtY2F0MTk3ODAwMDUwMDQ5CD+AAAA+Y2F0ZWdvcnlfcGNtY2F0MTk3ODAwMDUwMDQ5X3Vz&format=json&apiKey=XXX",
+            "categories": [
+                {
+                    "name": "New Release Vinyl Records"
+                },
+                {
+                    "name": "Pre-Order Vinyl Records"
+                },
+                {
+                    "name": "All Vinyl Records"
+                },
+                {
+                    "name": "View Order History"
+                },
+                {
+                    "name": "Verizon"
+                },
+                {
+                    "name": "Verizon Phones"
+                },
+                {
+                    "name": "Verizon Hotspots"
+                },
+                {
+                    "name": "Verizon Prepaid Phones"
+                },
+                {
+                    "name": "Viper Remote Start & Keyless Entry"
+                },
+                {
+                    "name": "TV & Video"
+                },
+                {
+                    "name": "Video Games & Gadgets"
+                },
+                {
+                    "name": "Minnesota Vikings"
+                },
+                {
+                    "name": "ASUS Video Graphic Cards"
+                },
+                {
+                    "name": "Viewfinders & Eyepieces"
+                },
+                {
+                    "name": "PS Vita"
+                },
+                {
+                    "name": "Music, Photo & Video Editing"
+                },
+                {
+                    "name": "PS Vita Games"
+                },
+                {
+                    "name": "PS Vita Accessories"
+                },
+                {
+                    "name": "Roomba Robot Vacuums"
+                },
+                {
+                    "name": "Cooling & Ventilation"
+                },
+                {
+                    "name": "PS Vita Game Downloads"
+                },
+                {
+                    "name": "Virus & Spyware Removal"
+                },
+                {
+                    "name": "VIZIO"
+                },
+                {
+                    "name": "VIZIO Flat-Panel TVs"
+                },
+                {
+                    "name": "VIZIO Home Audio"
+                },
+                {
+                    "name": "Surveillance Video Recorders"
+                },
+                {
+                    "name": "Video Games, Movies & Music"
+                },
+                {
+                    "name": "Virginia Tax Holiday"
+                },
+                {
+                    "name": "Vision"
+                },
+                {
+                    "name": "Vibrating Alarm Clocks"
+                },
+                {
+                    "name": "Verizon Tablets"
+                },
+                {
+                    "name": "Vehicle Diagnostics"
+                },
+                {
+                    "name": "Computer Vacuums"
+                },
+                {
+                    "name": "All Vacuums & Floor Care"
+                },
+                {
+                    "name": "Expert Videos"
+                },
+                {
+                    "name": "Kicker Vehicle Specific Solutions"
+                },
+                {
+                    "name": "All iRobot Vacuums"
+                },
+                {
+                    "name": "Insignia Video Game Accessories"
+                },
+                {
+                    "name": "Samsung Robotic Vacuum Cleaner"
+                },
+                {
+                    "name": "Pre-Orders (CDs & Vinyl)"
+                },
+                {
+                    "name": "Coming Soon (CDs & Vinyl)"
+                },
+                {
+                    "name": "Samsung Gear VR"
+                },
+                {
+                    "name": "Vitamix"
+                },
+                {
+                    "name": "Virgin Mobile"
+                },
+                {
+                    "name": "Metal Gear Solid V The Phantom Pain"
+                },
+                {
+                    "name": "Visa Checkout"
+                },
+                {
+                    "name": "Magnolia TV & Video"
+                },
+                {
+                    "name": "Magnolia Cooling & Ventilation"
+                },
+                {
+                    "name": "Video Games Outlet"
+                },
+                {
+                    "name": "Pet Videophones"
+                },
+                {
+                    "name": "Virtual Reality for PC"
+                },
+                {
+                    "name": "Virtual Reality-Ready Computers"
+                },
+                {
+                    "name": "Virtual Reality Accessories for PC"
+                },
+                {
+                    "name": "Virtual Reality Cleaning Supplies & Products"
+                },
+                {
+                    "name": "Virtual Reality Controllers"
+                },
+                {
+                    "name": "Virtual Reality Earbuds"
+                },
+                {
+                    "name": "Video Game Trade-In"
+                },
+                {
+                    "name": "Cordless Vacuums"
+                },
+                {
+                    "name": "Virus & Spyware Scan Process"
+                },
+                {
+                    "name": "Cable vs. DSL"
+                },
+                {
+                    "name": "Virtual Reality Monitors"
+                },
+                {
+                    "name": "Virtual Reality-Ready Components for PC"
+                },
+                {
+                    "name": "VR-Ready GPUs/Video Graphics Cards"
+                },
+                {
+                    "name": "VR-Ready  CPUs/Processors"
+                },
+                {
+                    "name": "VR-Ready Memory/RAM"
+                },
+                {
+                    "name": "VR-Ready Solid State Drives & Hard Drives"
+                },
+                {
+                    "name": "VR-Ready Power Supplies"
+                },
+                {
+                    "name": "Video Game Console Hard Drives"
+                },
+                {
+                    "name": "All Neato Robotic Vacuums"
+                },
+                {
+                    "name": "Neato Robotics Vacuum Accessories"
+                },
+                {
+                    "name": "Video Game Collectibles"
+                },
+                {
+                    "name": "Vocal Music"
+                },
+                {
+                    "name": "Top-Rated Vacuums"
+                },
+                {
+                    "name": "Top-Rated Video Games"
+                },
+                {
+                    "name": "PlayStation VR"
+                },
+                {
+                    "name": "PlayStation VR Hardware"
+                },
+                {
+                    "name": "PlayStation VR Controllers"
+                },
+                {
+                    "name": "PlayStation VR Steering Wheels"
+                },
+                {
+                    "name": "PlayStation VR Headsets"
+                },
+                {
+                    "name": "PlayStation VR Chargers & Carriers"
+                },
+                {
+                    "name": "PlayStation VR Games"
+                },
+                {
+                    "name": "DIY vs. Professional Home Monitoring"
+                },
+                {
+                    "name": "Dyson Robot Vacuums"
+                },
+                {
+                    "name": "Vivint Smart Home"
+                },
+                {
+                    "name": "Video Game Deals & Gaming Hardware on Sale"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:18 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "3298",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories(name=%22V*%22)?format=json&apiKey=XXX&show=name&cursorMark=AoMwcGNtY2F0ODQwMDA1MDAwNAg%2FgAAAPGNhdGVnb3J5X3BjbWNhdDg0MDAwNTAwMDRfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMwcGNtY2F0ODQwMDA1MDAwNAg/gAAAPGNhdGVnb3J5X3BjbWNhdDg0MDAwNTAwMDRfdXM=",
+            "total": 185,
+            "totalPages": 2,
+            "queryTime": "0.005",
+            "totalTime": "0.005",
+            "partial": false,
+            "canonicalUrl": "/v1/categories(name=\"V*\")?show=name&pageSize=100&cursorMark=AoMwcGNtY2F0ODQwMDA1MDAwNAg/gAAAPGNhdGVnb3J5X3BjbWNhdDg0MDAwNTAwMDRfdXM=&format=json&apiKey=XXX",
+            "categories": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:19 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "388",
+            "Connection",
+            "Close"
+        ]
+    }
+]

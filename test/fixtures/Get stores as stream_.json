@@ -1,0 +1,883 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(area(55119,25)&storeType=Big%20Box)?format=json&apiKey=XXX&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNTU0NDgIP4AAACxzdG9yZV81NDBfdXM=",
+            "total": 16,
+            "totalPages": 1,
+            "queryTime": "0.011",
+            "totalTime": "0.036",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(area(\"55119\",25)&storeType=\"Big Box\")?pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 15,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "OAKDALE MN",
+                    "longName": "Oakdale",
+                    "address": "8301 3rd St N",
+                    "address2": "",
+                    "city": "Oakdale",
+                    "region": "MN",
+                    "fullPostalCode": "55128-5440",
+                    "country": "US",
+                    "lat": 44.95,
+                    "lng": -92.94,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "651-739-1899",
+                    "postalCode": "55128",
+                    "distance": 3.54
+                },
+                {
+                    "storeId": 6,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "INVER GROVE HGTS MN",
+                    "longName": "Inver Grove Heights",
+                    "address": "1350 50th Street E",
+                    "address2": "",
+                    "city": "Inver Grove Heights",
+                    "region": "MN",
+                    "fullPostalCode": "55077-1249",
+                    "country": "US",
+                    "lat": 44.88,
+                    "lng": -93.08,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "651-457-5817",
+                    "postalCode": "55077",
+                    "distance": 5.28
+                },
+                {
+                    "storeId": 10,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MAPLEWOOD MN",
+                    "longName": "Maplewood",
+                    "address": "1795 County Rd D E",
+                    "address2": "",
+                    "city": "Maplewood",
+                    "region": "MN",
+                    "fullPostalCode": "55109-5305",
+                    "country": "US",
+                    "lat": 45.04,
+                    "lng": -93.03,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-704-1901",
+                    "postalCode": "55109",
+                    "distance": 6.91
+                },
+                {
+                    "storeId": 7,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "ROSEVILLE MN",
+                    "longName": "Roseville",
+                    "address": "1643 County Road B2",
+                    "address2": "",
+                    "city": "Roseville",
+                    "region": "MN",
+                    "fullPostalCode": "55113-3001",
+                    "country": "US",
+                    "lat": 45.02,
+                    "lng": -93.17,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-746-0538",
+                    "postalCode": "55113",
+                    "distance": 9.57
+                },
+                {
+                    "storeId": 1055,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "EAGAN MN",
+                    "longName": "Eagan",
+                    "address": "1235 Town Centre Dr",
+                    "address2": "",
+                    "city": "Eagan",
+                    "region": "MN",
+                    "fullPostalCode": "55123-1067",
+                    "country": "US",
+                    "lat": 44.83,
+                    "lng": -93.16,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-365-0540",
+                    "postalCode": "55123",
+                    "distance": 10.25
+                },
+                {
+                    "storeId": 1000,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MALL OF AMERICA MN",
+                    "longName": "Mall of America",
+                    "address": "340 W Market",
+                    "address2": "",
+                    "city": "Bloomington",
+                    "region": "MN",
+                    "fullPostalCode": "55425-5523",
+                    "country": "US",
+                    "lat": 44.85,
+                    "lng": -93.24,
+                    "hours": "Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Alienware Experience Shop"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "952-853-1359",
+                    "postalCode": "55425",
+                    "distance": 12.93
+                },
+                {
+                    "storeId": 281,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "RICHFIELD MN",
+                    "longName": "Richfield",
+                    "address": "1000 West 78th St",
+                    "address2": "",
+                    "city": "Richfield",
+                    "region": "MN",
+                    "fullPostalCode": "55423-3912",
+                    "country": "US",
+                    "lat": 44.86,
+                    "lng": -93.29,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Authorized Service Provider"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Authorized Service Provider"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "612-861-3917",
+                    "postalCode": "55423",
+                    "distance": 14.89
+                },
+                {
+                    "storeId": 245,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "APPLE VALLEY MN",
+                    "longName": "Apple Valley",
+                    "address": "15300 Cedar Ave",
+                    "address2": "",
+                    "city": "Apple Valley",
+                    "region": "MN",
+                    "fullPostalCode": "55124-3400",
+                    "country": "US",
+                    "lat": 44.73,
+                    "lng": -93.21,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "952-431-2466",
+                    "postalCode": "55124",
+                    "distance": 17.64
+                },
+                {
+                    "storeId": 11,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "NORTHTOWN MN",
+                    "longName": "Northtown",
+                    "address": "300 Northtown Dr NE",
+                    "address2": "",
+                    "city": "Blaine",
+                    "region": "MN",
+                    "fullPostalCode": "55434-1039",
+                    "country": "US",
+                    "lat": 45.13,
+                    "lng": -93.26,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "763-780-8668",
+                    "postalCode": "55434",
+                    "distance": 18.03
+                },
+                {
+                    "storeId": 8,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "BURNSVILLE MN",
+                    "longName": "Burnsville",
+                    "address": "14141 Aldrich Ave S",
+                    "address2": "",
+                    "city": "Burnsville",
+                    "region": "MN",
+                    "fullPostalCode": "55337-4444",
+                    "country": "US",
+                    "lat": 44.75,
+                    "lng": -93.29,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "952-435-9379",
+                    "postalCode": "55337",
+                    "distance": 18.92
+                },
+                {
+                    "storeId": 1443,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "BLAINE MN",
+                    "longName": "Blaine",
+                    "address": "10985 Ulysses St NE",
+                    "address2": "",
+                    "city": "Blaine",
+                    "region": "MN",
+                    "fullPostalCode": "55434-3827",
+                    "country": "US",
+                    "lat": 45.17,
+                    "lng": -93.24,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "763-754-5366",
+                    "postalCode": "55434",
+                    "distance": 19.63
+                },
+                {
+                    "storeId": 611,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "EDEN PRAIRIE MN",
+                    "longName": "Eden Prairie",
+                    "address": "11600 Leona Rd",
+                    "address2": "",
+                    "city": "Eden Prairie",
+                    "region": "MN",
+                    "fullPostalCode": "55344-3803",
+                    "country": "US",
+                    "lat": 44.86,
+                    "lng": -93.42,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "952-941-5149",
+                    "postalCode": "55344",
+                    "distance": 21.12
+                },
+                {
+                    "storeId": 4,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MINNETONKA MN",
+                    "longName": "Minnetonka",
+                    "address": "13513 Ridgedale Dr",
+                    "address2": "",
+                    "city": "Hopkins",
+                    "region": "MN",
+                    "fullPostalCode": "55305-1813",
+                    "country": "US",
+                    "lat": 44.97,
+                    "lng": -93.45,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "952-544-0377",
+                    "postalCode": "55305",
+                    "distance": 21.75
+                },
+                {
+                    "storeId": 1463,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "SHAKOPEE MN",
+                    "longName": "Shakopee",
+                    "address": "8100 Old Carriage Ct",
+                    "address2": "",
+                    "city": "Shakopee",
+                    "region": "MN",
+                    "fullPostalCode": "55379-3160",
+                    "country": "US",
+                    "lat": 44.78,
+                    "lng": -93.41,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "952-233-0387",
+                    "postalCode": "55379",
+                    "distance": 22.75
+                },
+                {
+                    "storeId": 329,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MAPLE GROVE MN",
+                    "longName": "Maple Grove",
+                    "address": "12905 Elm Creek Blvd N",
+                    "address2": "",
+                    "city": "Maple Grove",
+                    "region": "MN",
+                    "fullPostalCode": "55369-7043",
+                    "country": "US",
+                    "lat": 45.09,
+                    "lng": -93.44,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "763-416-6300",
+                    "postalCode": "55369",
+                    "distance": 23.98
+                },
+                {
+                    "storeId": 540,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "COON RAPIDS MN",
+                    "longName": "Coon Rapids",
+                    "address": "12633 Riverdale Blvd NW",
+                    "address2": "",
+                    "city": "Coon Rapids",
+                    "region": "MN",
+                    "fullPostalCode": "55448-6709",
+                    "country": "US",
+                    "lat": 45.2,
+                    "lng": -93.35,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "763-422-0032",
+                    "postalCode": "55448",
+                    "distance": 24.7
+                }
+            ],
+            "warnings": "Distances are in terms of miles (default)"
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:42 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "16929",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(area(55119,25)&storeType=Big%20Box)?format=json&apiKey=XXX&cursorMark=AoMlNTU0NDgIP4AAACxzdG9yZV81NDBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoMlNTU0NDgIP4AAACxzdG9yZV81NDBfdXM=",
+            "total": 16,
+            "totalPages": 1,
+            "queryTime": "0.024",
+            "totalTime": "0.025",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(area(\"55119\",25)&storeType=\"Big Box\")?pageSize=100&cursorMark=AoMlNTU0NDgIP4AAACxzdG9yZV81NDBfdXM=&format=json&apiKey=XXX",
+            "stores": [],
+            "warnings": "Distances are in terms of miles (default)"
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:27:19 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "381",
+            "Connection",
+            "Close"
+        ]
+    }
+]

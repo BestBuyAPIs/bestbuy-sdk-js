@@ -50,6 +50,20 @@ In our documentation, we'll use a couple actual examples:
 
 _More examples are available in the [examples](examples/) directory_
 
+### Streams
+Node.js streams are supported via these endpoints:
+ - `availabilityAsStream`
+ - `openBoxAsStream`
+ - `categoriesAsStream`
+ - `productsAsStream`
+ - `storesAsStream`
+
+For Streams:
+  - ALL results will be returned.
+  - Paginating and throttling is handled automatically!
+  - The stream will be in `objectMode`, so each data chunk will be an object.
+  - a `total` event will always be emitted once per stream with the total number of results.
+  - a `data` event will be emitted for each item in the result (one per product/store/etc).
 
 ### availability
 #### `availability(sku, array of store ids[, query string object])`
@@ -72,6 +86,17 @@ This method supports an optional third parameter that represents extra attribute
       .catch(function(err){
         console.warn(err);
       });
+```
+
+##### Using Streams
+```js
+var stream = bby.availabilityAsStream(5670003, [611, 15, 6, 10, 7, 1055, 1000, 281, 245, 11, 8]);
+
+stream.on('total', function (total) { console.log('Total Products: ' + total); });
+stream.on('data', function (data) {
+  console.log(`\nProduct "${data.name}" available at:\n${data.stores.map(store => ` - ${store.longName}`).join('\n')}`);
+});
+
 ```
 
 ### categories
@@ -99,6 +124,27 @@ The below example returns the first category with the word "music" in it.
       .catch(function(err){
         console.warn(err);
       });
+```
+
+##### Using Streams
+```js
+
+// lets write all categories to a file called categories.json
+var JSONStream = require('JSONStream');
+var categories = bby.categoriesAsStream('');
+
+// a "total" event is emitted so we know how many total products will be sent
+categories.on('total', total => console.log(`Total Categories: ${total}`));
+
+categories
+  .pipe(JSONStream.stringify())
+  .pipe(fs.createWriteStream('categories.json'));
+
+// log when its done
+categories.on('end', () => {
+  console.log('Done!');
+});
+
 ```
 
 ### openBox
@@ -139,6 +185,13 @@ This example searches all open box products in the video games category, and ret
         console.warn(err);
       });
 ```
+##### Using Streams
+```js
+var stream = bby.openBoxAsStream('categoryId=abcat0502000');
+  stream.on('data', data => {});
+  stream.on('total', (t) => { console.log('Total: ' + total) });
+  stream.on('data', (t) => { console.log('Open box Item: ', data) });
+```
 
 ### products
 #### `products(String of search criteria[, query string object])`
@@ -165,6 +218,23 @@ The below example returns the title and price of the first search result with th
       .catch(function(err){
         console.warn(err);
       });
+```
+
+##### Using Streams
+```js
+var productsStream = bby.productsAsStream('customerReviewAverage=5&name=red*', {
+  show: 'name,sku'
+});
+
+// a "total" event is emitted so we know how many total products will be sent
+productsStream.on('total', total => console.log(`Total Products: ${total}`));
+
+// log each product to the console
+productsStream.on('data', product => { console.log(`Product: ${JSON.stringify(product, null, 0)}`); });
+
+// log when its done
+productsStream.on('end', () => console.log('Done!'));
+
 ```
 
 ### recommendations
@@ -198,6 +268,8 @@ The below examples show how to get the most viewed products on BestBuy.com.
         console.warn(err);
       });
 ```
+##### Using Streams
+Streams are not supported for recommendations.
 
 ### stores
 #### `stores(String of search criteria)`
@@ -222,6 +294,17 @@ The below examples show the number of stores located within 25 miles of 94103 (S
       .catch(function(err){
         console.warn(err);
       });
+```
+##### Using Streams
+```js
+  var bby = require('bestbuy')('YOURKEY');
+  bby.storesAsStream('area(94103,25)&storeType=BigBox');
+
+  stream.on('total', function (total) { console.log('Total Stores: ' + total); });
+  stream.on('data', function (store) {
+    console.log(`\Store: ${store.name} - Phone: ${store.phone}}`);
+  });
+
 ```
 
 ### warranties
@@ -248,6 +331,8 @@ The below examples show warranties for an old printer.
         console.warn(err);
       });
 ```
+##### Using Streams
+Streams are not supported for warranties.
 
 ### version
 #### `version()`
@@ -277,6 +362,9 @@ This endpoint will return the version of the API and this package version.
     // output JSON:
     // { packageVersion: '2.0.0', apiVersion: '1.0.844' }
 ```
+##### Using Streams
+Streams are not supported.
+
 
 ## Enabling Debug Output
 Debug can be enabled via the `debug` attribute:

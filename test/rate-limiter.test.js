@@ -109,7 +109,7 @@ test('Test Rate Limiting default 5 per second with debug', test.opts, function (
 });
 
 test('cooldown for rate limit reset', test.opts, function (t) {
-  setTimeout(t.end, 2000);
+  setTimeout(t.end, 5000);
 });
 
 test('Test Rate Limiting torture test', test.opts, function (t) {

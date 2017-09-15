@@ -95,3 +95,35 @@ test('Availability search using promises too many parameters error', test.opts, 
   })
   .then(t.end);
 });
+
+test('Availability search as stream', test.opts, function (t) {
+  bby.stores('area(55119,25)&storeType=Big Box', function (err, data) {
+    t.error(err, 'no error');
+    t.ok(data.stores.length > 0, 'has stores');
+    var stores = data.stores.map(function (store) {
+      return store.storeId;
+    });
+
+    var stream;
+    try {
+      stream = bby.availabilityAsStream(AVAILABLE_SKU, stores);
+    } catch (err) {
+      console.error(err);
+      t.err(err);
+      t.end();
+    }
+
+    var cnt = 0;
+    var total;
+
+    stream.on('data', data => {
+      cnt++;
+    });
+    stream.on('total', (t) => { total = t; });
+
+    stream.on('end', () => {
+      t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+      t.end();
+    });
+  });
+});

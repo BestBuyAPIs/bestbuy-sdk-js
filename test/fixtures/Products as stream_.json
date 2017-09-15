@@ -1,0 +1,1631 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(manufacturer=canon&salePrice%3C500)?format=json&apiKey=XXX&show=sku,name,salePrice&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzQ3NjU3MDBfdXM=",
+            "total": 294,
+            "totalPages": 3,
+            "queryTime": "0.113",
+            "totalTime": "0.318",
+            "partial": false,
+            "canonicalUrl": "/v1/products(manufacturer=\"canon\"&salePrice<500)?show=sku,name,salePrice&pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 1134008,
+                    "name": "Canon - PGI-1200 XL High-Yield Ink Cartridge - Magenta",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 1134017,
+                    "name": "Canon - PGI-2200 XL High-Yield Ink Cartridge - Cyan",
+                    "salePrice": 27.99
+                },
+                {
+                    "sku": 1134026,
+                    "name": "Canon - PGI-1200 Ink Cartridge - Black",
+                    "salePrice": 22.99
+                },
+                {
+                    "sku": 1134035,
+                    "name": "Canon - PGI-2200 XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 36.99
+                },
+                {
+                    "sku": 1134044,
+                    "name": "Canon - PGI-2200 Ink Cartridge - Yellow",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 1134053,
+                    "name": "Canon - PGI-2200 Ink Cartridge - Magenta",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 1134062,
+                    "name": "Canon - PGI-1200 Ink Cartridge - Magenta",
+                    "salePrice": 13.99
+                },
+                {
+                    "sku": 1134071,
+                    "name": "Canon - PGI-1200 XL High-Yield Ink Cartridge - Yellow",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 1134099,
+                    "name": "Canon - PGI-1200 XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 36.99
+                },
+                {
+                    "sku": 1134104,
+                    "name": "Canon - PGI-1200 XL High-Yield Ink Cartridge - Cyan",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 1134113,
+                    "name": "Canon - PGI-1200 Ink Cartridge - Yellow",
+                    "salePrice": 13.99
+                },
+                {
+                    "sku": 1134122,
+                    "name": "Canon - PGI-2200 XL High-Yield Ink Cartridge - Yellow",
+                    "salePrice": 27.99
+                },
+                {
+                    "sku": 1134131,
+                    "name": "Canon - PGI-2200 XL High-Yield Ink Cartridge - Magenta",
+                    "salePrice": 27.99
+                },
+                {
+                    "sku": 1134159,
+                    "name": "Canon - PGI-2200 Ink Cartridge - Cyan",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 1134168,
+                    "name": "Canon - PGI-1200 Ink Cartridge - Cyan",
+                    "salePrice": 13.99
+                },
+                {
+                    "sku": 1201003,
+                    "name": "Canon - PGI-2200 Ink Cartridge - Black",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 1214381,
+                    "name": "Canon - 226 Ink Cartridge - Black",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 1214469,
+                    "name": "Canon - 225 Ink Cartridge - Black",
+                    "salePrice": 18.99
+                },
+                {
+                    "sku": 1214487,
+                    "name": "Canon - 226 Ink Cartridge - Gray",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 1214718,
+                    "name": "Canon - CLI-226 Ink Cartridge - Cyan",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 1214745,
+                    "name": "Canon - 226 Ink Cartridge - Magenta",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 1214863,
+                    "name": "Canon - 226 Ink Cartridge - Yellow",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 1214909,
+                    "name": "Canon - 225/226 4-Pack Ink Cartridges - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 62.99
+                },
+                {
+                    "sku": 1227976,
+                    "name": "Canon - Wireless remote",
+                    "salePrice": 23.99
+                },
+                {
+                    "sku": 1263686,
+                    "name": "Canon - 128 Toner Cartridge - Black",
+                    "salePrice": 91.99
+                },
+                {
+                    "sku": 1500001,
+                    "name": "Canon - CanoScan LiDE120 Flatbed Image Scanner - Black",
+                    "salePrice": 58.99
+                },
+                {
+                    "sku": 1653008,
+                    "name": "Canon - CanoScan LiDE220 Flatbed Image Scanner - Black",
+                    "salePrice": 78.99
+                },
+                {
+                    "sku": 1786128,
+                    "name": "Canon - EF-S 55-250mm f/4-5.6 IS STM Telephoto Zoom Lens for Select Canon Cameras - Black",
+                    "salePrice": 299.99
+                },
+                {
+                    "sku": 1848012,
+                    "name": "Canon - 131 Ink Cartridge - Black",
+                    "salePrice": 59.99
+                },
+                {
+                    "sku": 1848021,
+                    "name": "Canon - 137 Ink Toner - Black",
+                    "salePrice": 67.99
+                },
+                {
+                    "sku": 2208095,
+                    "name": "Canon - Speedlite 270EX II External Flash - Black",
+                    "salePrice": 169.99
+                },
+                {
+                    "sku": 2209067,
+                    "name": "Canon - LP-E10 Lithium-Ion Battery Pack",
+                    "salePrice": 58.99
+                },
+                {
+                    "sku": 2217484,
+                    "name": "Canon - BG-E16 Battery Grip - Black",
+                    "salePrice": 219.99
+                },
+                {
+                    "sku": 2219025,
+                    "name": "Canon - LP-E6N Lithium-Ion Battery",
+                    "salePrice": 69.99
+                },
+                {
+                    "sku": 2464225,
+                    "name": "Canon - PIXMA iP110 Wireless Printer - Black",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 2638041,
+                    "name": "Canon - CL-246 Ink Cartridge - Multi",
+                    "salePrice": 22.99
+                },
+                {
+                    "sku": 2638069,
+                    "name": "Canon - PG-245 Ink Cartridge - Black",
+                    "salePrice": 17.99
+                },
+                {
+                    "sku": 2756133,
+                    "name": "Canon - PowerShot SX610 HS 20.2-Megapixel Digital Camera - Red",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 2757027,
+                    "name": "Canon - PowerShot SX610 HS 20.2-Megapixel Digital Camera - Black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 2760157,
+                    "name": "Canon - PowerShot SX610 HS 20.2-Megapixel Digital Camera - White",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 2761156,
+                    "name": "Canon - PowerShot SX530 16.0-Megapixel HS Digital Camera - Black",
+                    "salePrice": 279.99
+                },
+                {
+                    "sku": 2823760,
+                    "name": "Canon - EF 75–300mm f/4–5.6 III Telephoto Zoom Lens - Black",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 2928375,
+                    "name": "Canon - CLI-226 4-Pack Ink Cartridges + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 64.99
+                },
+                {
+                    "sku": 2958175,
+                    "name": "Canon - PIXMA Inkjet Multifunction Printer - Color - Photo Print - Desktop - Black",
+                    "salePrice": 50.99
+                },
+                {
+                    "sku": 2958184,
+                    "name": "Canon - PG-245XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 25.99
+                },
+                {
+                    "sku": 2958193,
+                    "name": "Canon - CLI-246XL High Yield Ink Cartridge - Multi",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 3044394,
+                    "name": "Canon - CLI-42 Ink Cartridge - Black",
+                    "salePrice": 21.99
+                },
+                {
+                    "sku": 3479188,
+                    "name": "Canon - Extender EF 2x III Extender Lens - White",
+                    "salePrice": 429.99
+                },
+                {
+                    "sku": 3480239,
+                    "name": "Canon - EF 100mm f/2 USM Medium Telephoto Lens - Black",
+                    "salePrice": 499.99
+                },
+                {
+                    "sku": 3593086,
+                    "name": "Canon - 4722B001 NB-9L Battery Pack",
+                    "salePrice": 39.99
+                },
+                {
+                    "sku": 3786197,
+                    "name": "Canon - Toner Cartridge - Black",
+                    "salePrice": 236.99
+                },
+                {
+                    "sku": 3862035,
+                    "name": "Canon - PIXMA MX492 Wireless All-In-One Printer - Black",
+                    "salePrice": 49.99
+                },
+                {
+                    "sku": 3862053,
+                    "name": "Canon - PIXMA MX492 Wireless All-In-One Printer - White",
+                    "salePrice": 59.99
+                },
+                {
+                    "sku": 3971107,
+                    "name": "Canon - Ink Cartridge - Black - Black",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 3973365,
+                    "name": "Canon - Ink Cartridge - Cyan, Magenta, Yellow - Multicolor",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 4126225,
+                    "name": "Canon - Ink Cartridge - Photo Cyan - Photo Cyan",
+                    "salePrice": 13.99
+                },
+                {
+                    "sku": 4241003,
+                    "name": "Canon - PIXMA iP8720 Wireless Photo Printer - Black",
+                    "salePrice": 299.99
+                },
+                {
+                    "sku": 4283859,
+                    "name": "Canon - 125 Toner Cartridge - Black",
+                    "salePrice": 57.99
+                },
+                {
+                    "sku": 4291015,
+                    "name": "Canon - PIXMA MG3620 Wireless All-In-One Printer - White",
+                    "salePrice": 49.99
+                },
+                {
+                    "sku": 4291017,
+                    "name": "Canon - PIXMA MG3620 Wireless All-In-One Printer - Black",
+                    "salePrice": 49.99
+                },
+                {
+                    "sku": 4405006,
+                    "name": "Canon - PGI-270XL Ink Cartridge - Black",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 4405010,
+                    "name": "Canon - CLI-271 Ink Cartridge - Gray",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 4405012,
+                    "name": "Canon - CLI-271 Ink Cartridge - Magenta",
+                    "salePrice": 14.99
+                },
+                {
+                    "sku": 4405100,
+                    "name": "Canon - CLI-271XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 4405101,
+                    "name": "Canon - CLI-271XL High-Yield Ink Cartridge - Magenta",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 4405103,
+                    "name": "Canon - CLI-271 Ink Cartridge - Cyan",
+                    "salePrice": 14.99
+                },
+                {
+                    "sku": 4405104,
+                    "name": "Canon - CLI-271XL Ink Cartridge - Cyan",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 4405106,
+                    "name": "Canon - CLI-271 Ink Cartridge - Yellow",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 4405107,
+                    "name": "Canon - CLI-271 XL Ink Cartridge - Gray",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 4405108,
+                    "name": "Canon - PGI-270 and CLI-271 Ink Cartridge Combo Pack + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 55.99
+                },
+                {
+                    "sku": 4405109,
+                    "name": "Canon - PGI-270 Ink Cartridge - Black",
+                    "salePrice": 15.99
+                },
+                {
+                    "sku": 4405110,
+                    "name": "Canon - CLI-271XL Ink Cartridge - Yellow",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 4405111,
+                    "name": "Canon - CLI-271XL 3-Pack High-Yield Ink Cartridges - Cyan/Magenta/Yellow",
+                    "salePrice": 55.99
+                },
+                {
+                    "sku": 4405112,
+                    "name": "Canon - CLI-271 Ink Cartridge - Black",
+                    "salePrice": 14.99
+                },
+                {
+                    "sku": 4405113,
+                    "name": "Canon - CLI-271 4-Pack Ink Cartridges - Black/Cyan/Yellow/Magenta",
+                    "salePrice": 48.99
+                },
+                {
+                    "sku": 4450005,
+                    "name": "Canon - EF-M 55-200mm f/4.5-6.3 IS STM Telephoto Zoom Lens - Black",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 4450013,
+                    "name": "Canon - EOS M3 Mirrorless Camera (Body Only) - Black",
+                    "salePrice": 429.99
+                },
+                {
+                    "sku": 4498100,
+                    "name": "Canon - Speedlite 430EX III-RT External Flash - Black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 4498201,
+                    "name": "Canon - LP-E17 Lithium-Ion Battery",
+                    "salePrice": 68.99
+                },
+                {
+                    "sku": 4518162,
+                    "name": "Canon - 119 Toner Cartridge - Black",
+                    "salePrice": 78.99
+                },
+                {
+                    "sku": 4589700,
+                    "name": "Canon - E-55 Lens Cap - Black",
+                    "salePrice": 10.99
+                },
+                {
+                    "sku": 4589701,
+                    "name": "Canon - EW-60E Lens Hood - Black",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 4589704,
+                    "name": "Canon - 49mm Protective Lens Filter - Black",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 4589705,
+                    "name": "Canon - E-49 Lens Cap - Black",
+                    "salePrice": 7.99
+                },
+                {
+                    "sku": 4608700,
+                    "name": "Canon - PowerShot G9 X 20.2-Megapixel Digital Camera - Black",
+                    "salePrice": 399.99
+                },
+                {
+                    "sku": 4610349,
+                    "name": "Canon - EOS M10 Mirrorless Camera with 15-45mm Lens - White",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 4610351,
+                    "name": "Canon - EF-M 15-45mm f/3.5-6.3 IS STM Standard Zoom Lens for Canon EOS M Series Cameras - Silver",
+                    "salePrice": 299.99
+                },
+                {
+                    "sku": 4610352,
+                    "name": "Canon - EOS M10 Mirrorless Camera with 15-45mm Lens - Black",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 4610353,
+                    "name": "Canon - EF-M 55-200mm f/4.5-6.3 IS STM Telephoto Zoom Lens for Canon EOS M Series Cameras - Silver",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 4618500,
+                    "name": "Canon - EVF-DC1 Electronic Viewfinder - Black",
+                    "salePrice": 224.99
+                },
+                {
+                    "sku": 4686500,
+                    "name": "Canon - imageClass MF624Cw Wireless Color Laser Printer - White",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 4696237,
+                    "name": "Canon - PG-240XXL High-Yield Ink Cartridge - Black",
+                    "salePrice": 39.99
+                },
+                {
+                    "sku": 4696246,
+                    "name": "Canon - PG-240 XL Ink Cartridge - Pigment Black",
+                    "salePrice": 22.99
+                },
+                {
+                    "sku": 4696255,
+                    "name": "Canon - CL-241 XL Ink Cartridge - Color",
+                    "salePrice": 31.99
+                },
+                {
+                    "sku": 4737669,
+                    "name": "Canon - 240XL/241XL 2-Pack High-Yield Ink Cartridges + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 54.99
+                },
+                {
+                    "sku": 4744300,
+                    "name": "Canon - SELPHY CP1200 Wireless Photo Printer - White",
+                    "salePrice": 94.99
+                },
+                {
+                    "sku": 4744503,
+                    "name": "Canon - SELPHY CP1200 Wireless Photo Printer - Black",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 4748204,
+                    "name": "Canon - Connect Station CS100 1TB External USB 2.0 Portable Hard Drive - Black",
+                    "salePrice": 292.99
+                },
+                {
+                    "sku": 4765601,
+                    "name": "Canon - PT-101 Pro Platinum Glossy Photo 13\" x 19\" 10-count Paper - white",
+                    "salePrice": 27.99
+                },
+                {
+                    "sku": 4765700,
+                    "name": "Canon - Pro LU-101 Luster Photo 13\" x 19\" 50-Count Paper",
+                    "salePrice": 69.99
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:26:59 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "9665",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(manufacturer=canon&salePrice%3C500)?format=json&apiKey=XXX&show=sku,name,salePrice&cursorMark=AoIIP4AAADJwcm9kdWN0XzQ3NjU3MDBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzU4NDcyMTBfdXM=",
+            "total": 294,
+            "totalPages": 3,
+            "queryTime": "0.011",
+            "totalTime": "0.249",
+            "partial": false,
+            "canonicalUrl": "/v1/products(manufacturer=\"canon\"&salePrice<500)?show=sku,name,salePrice&pageSize=100&cursorMark=AoIIP4AAADJwcm9kdWN0XzQ3NjU3MDBfdXM=&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 4770900,
+                    "name": "Canon - PGI-1200 3-Pack Ink Cartridges - Cyan/Magenta/Yellow",
+                    "salePrice": 39.99
+                },
+                {
+                    "sku": 4800100,
+                    "name": "Canon - PGI-250XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 4866800,
+                    "name": "Canon - PowerShot SX420IS 20.0-Megapixel Digital Camera - Red",
+                    "salePrice": 229.99
+                },
+                {
+                    "sku": 4866801,
+                    "name": "Canon - PowerShot ELPH 360 20.2-Megapixel Digital Camera - Black",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 4866802,
+                    "name": "Canon - PowerShot ELPH 360 20.2-Megapixel Digital Camera - Purple",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 4866804,
+                    "name": "Canon - PowerShot ELPH 180 20.0-Megapixel Digital Camera - Silver",
+                    "salePrice": 119.99
+                },
+                {
+                    "sku": 4866805,
+                    "name": "Canon - PowerShot SX420IS 20.0-Megapixel Digital Camera - Black",
+                    "salePrice": 229.99
+                },
+                {
+                    "sku": 4866807,
+                    "name": "Canon - PowerShot ELPH 190 20.0-Megapixel Digital Camera - Black",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 4866809,
+                    "name": "Canon - PowerShot ELPH 190 20.0-Megapixel Digital Camera - Red",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 4866810,
+                    "name": "Canon - PowerShot ELPH 190 20.0-Megapixel Digital Camera - Blue",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 4866811,
+                    "name": "Canon - PowerShot ELPH 360 20.2-Megapixel Digital Camera - Silver",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 4922374,
+                    "name": "Canon - NB-11L Lithium-Ion Battery",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 5015100,
+                    "name": "Canon - PowerShot SX720 HS 20.3-Megapixel Digital Camera - Red",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5015200,
+                    "name": "Canon - PowerShot SX720 HS 20.3-Megapixel Digital Camera - Black",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5029000,
+                    "name": "Canon - DM-E1 Directional Condenser Microphone - black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5084975,
+                    "name": "Canon - BP-718 Lithium-Ion Battery",
+                    "salePrice": 74.99
+                },
+                {
+                    "sku": 5086534,
+                    "name": "Canon - EOS Rebel T6 DSLR Camera with EF-S 18-55mm f/3.5-5.6 IS II Lens",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 5196400,
+                    "name": "Canon - ImageCLASS MF414dw Wireless Black-and-White All-In-One Laser Printer",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5196500,
+                    "name": "Canon - imageCLASS LBP151dw Wireless Black-and-White Laser Printer",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 5196700,
+                    "name": "Canon - ImageCLASS MF416dw Wireless Black-and-White All-In-One Laser Printer",
+                    "salePrice": 439.99
+                },
+                {
+                    "sku": 5196800,
+                    "name": "Canon - ImageCLASS D1520 Black-and-White All-In-One Laser Printer",
+                    "salePrice": 364.99
+                },
+                {
+                    "sku": 5196802,
+                    "name": "Canon - ImageCLASS D1550 Wireless Black-and-White All-In-One Laser Printer",
+                    "salePrice": 381.99
+                },
+                {
+                    "sku": 5294000,
+                    "name": "Canon - EF-M 28mm f/3.5 MACRO IS STM Lens for Canon EOS M Series Cameras",
+                    "salePrice": 299.99
+                },
+                {
+                    "sku": 5298402,
+                    "name": "Canon - PowerShot SX620 HS 20.2-Megapixel Digital Camera - Black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5298501,
+                    "name": "Canon - PowerShot SX620 HS 20.2-Megapixel Digital Camera - Silver",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5298700,
+                    "name": "Canon - PowerShot SX620 HS 20.2-Megapixel Digital Camera - Red",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5304902,
+                    "name": "Canon - Speedlite 600EX II-RT External Flash - Black",
+                    "salePrice": 479.99
+                },
+                {
+                    "sku": 5329501,
+                    "name": "Canon - 270 XL/CLI-271 5-Pack Special Edition Pack 5-pack Ink Cartridges",
+                    "salePrice": 70.99
+                },
+                {
+                    "sku": 5329600,
+                    "name": "Canon - 250 XL/CLI-251 5-Pack Special Edition Pack 5-pack Ink Cartridges",
+                    "salePrice": 70.99
+                },
+                {
+                    "sku": 5537900,
+                    "name": "Canon - Canon MAXIFY MB2720 Wireless All-In-One Printer",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 5538100,
+                    "name": "Canon - Canon MAXIFY MB5420 Wireless All-In-One Printer",
+                    "salePrice": 268.99
+                },
+                {
+                    "sku": 5538200,
+                    "name": "Canon - Canon MAXIFY MB5120 Wireless All-In-One Printer",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 5538400,
+                    "name": "Canon - MAXIFY iB4120 Wireless Printer",
+                    "salePrice": 139.99
+                },
+                {
+                    "sku": 5538500,
+                    "name": "Canon - Canon MAXIFY MB2120 Wireless All-In-One Printer",
+                    "salePrice": 117.99
+                },
+                {
+                    "sku": 5573182,
+                    "name": "Canon - 251 XL 3-Pack High-Yield Ink Cartridges - Cyan/Magenta/Yellow",
+                    "salePrice": 54.99
+                },
+                {
+                    "sku": 5578522,
+                    "name": "Canon - EF 50mm f/1.8 STM Standard Lens and EF-S 10-18mm F4.5-5.6 IS STM Ultra-Wide Zoom Lens Kit",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5581112,
+                    "name": "Canon - BG-E20 Battery Grip - Black",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5593503,
+                    "name": "Canon - imageCLASS MF232w Black-and-White All-In-One Printer",
+                    "salePrice": 189.99
+                },
+                {
+                    "sku": 5623279,
+                    "name": "Canon - EF-M18-150mm f/3.5-6.3 IS STM Telephoto Zoom Lens for Canon EOS M Series Cameras - Black",
+                    "salePrice": 499.99
+                },
+                {
+                    "sku": 5623280,
+                    "name": "Canon - EF70-300 IS II USM Telephoto Zoom Lens for Canon DSLR Cameras",
+                    "salePrice": 499.99
+                },
+                {
+                    "sku": 5632207,
+                    "name": "Canon - EF-M 18-150mm f/3.5-6.3 IS STM Telephoto Zoom Lens for Canon EOS M Series Cameras - Silver",
+                    "salePrice": 499.99
+                },
+                {
+                    "sku": 5657187,
+                    "name": "Canon - Camera Rain Cover ERC-E5L",
+                    "salePrice": 124.99
+                },
+                {
+                    "sku": 5657188,
+                    "name": "Canon - Battery Pack Lithium-Ion Battery",
+                    "salePrice": 229.99
+                },
+                {
+                    "sku": 5657189,
+                    "name": "Canon - EW-73D Lens Hood",
+                    "salePrice": 39.99
+                },
+                {
+                    "sku": 5657190,
+                    "name": "Canon - Camera Rain Cover ERC-E5M",
+                    "salePrice": 124.99
+                },
+                {
+                    "sku": 5705403,
+                    "name": "Canon - imageCLASS MF244dw Wireless Black-and-White All-In-One Printer",
+                    "salePrice": 199
+                },
+                {
+                    "sku": 5705404,
+                    "name": "Canon - imageCLASS MF247dw Wireless Black-and-White All-In-One Printer",
+                    "salePrice": 179.99
+                },
+                {
+                    "sku": 5705405,
+                    "name": "Canon - imageCLASS MF236n Black-and-White All-In-One Printer",
+                    "salePrice": 109.99
+                },
+                {
+                    "sku": 5712930,
+                    "name": "Canon - PIXMA TS6020 Wireless All-In-One Printer - Black",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 5712932,
+                    "name": "Canon - PIXMA TS9020 Wireless All-In-One Printer - White/Black",
+                    "salePrice": 129.99
+                },
+                {
+                    "sku": 5715504,
+                    "name": "Canon - PowerShot G9 X Mark II 20.1-Megapixel Digital Camera - Black",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 5715505,
+                    "name": "Canon - PowerShot G9 X Mark II 20.1-Megapixel Digital Camera - Silver",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 5715606,
+                    "name": "Canon - VIXIA HF R800 HD Flash Memory Camcorder - White",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5715608,
+                    "name": "Canon - VIXIA HF R80 16GB HD Flash Memory Camcorder - Black",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5715658,
+                    "name": "Canon - VIXIA HF R82 32GB HD Flash Memory Camcorder - Black",
+                    "salePrice": 399.99
+                },
+                {
+                    "sku": 5715707,
+                    "name": "Canon - VIXIA HF R800 HD Flash Memory Camcorder - Black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5716004,
+                    "name": "Canon - 250/251 4-Pack High-Yield Ink Cartridges + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 55.99
+                },
+                {
+                    "sku": 5728017,
+                    "name": "Canon - 131 Toner Cartridge - Cyan",
+                    "salePrice": 65.99
+                },
+                {
+                    "sku": 5728026,
+                    "name": "Canon - 131 Toner Cartridge - Yellow",
+                    "salePrice": 74.99
+                },
+                {
+                    "sku": 5728035,
+                    "name": "Canon - 131 Toner Cartridge - Magenta",
+                    "salePrice": 74.99
+                },
+                {
+                    "sku": 5729048,
+                    "name": "Canon - EF 40mm f/2.8 STM Standard Lens - Black",
+                    "salePrice": 179.99
+                },
+                {
+                    "sku": 5733008,
+                    "name": "Canon - Pixma iX6820 Wireless Printer - Black",
+                    "salePrice": 129.99
+                },
+                {
+                    "sku": 5746102,
+                    "name": "Canon - Color imageCLASS MF632Cdw Wireless Color All-In-One Printer",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5746103,
+                    "name": "Canon - PIXMA TS9020 Wireless All-In-One Printer - Red",
+                    "salePrice": 129.99
+                },
+                {
+                    "sku": 5746104,
+                    "name": "Canon - PIXMA TS6020 Wireless All-In-One Printer - Gray",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 5774300,
+                    "name": "Canon - EF-S 18-55mm f/4-5.6 IS STM Zoom Lens for Canon EF-S mount cameras",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5786311,
+                    "name": "Canon - Photo Plus II High-Glossy Photo 8.5\" x 11.02\" 20-Count Paper",
+                    "salePrice": 7.99
+                },
+                {
+                    "sku": 5786342,
+                    "name": "Canon - Photo Plus II Glossy Photo 5.12\" x 7.1\" 20-Count Paper",
+                    "salePrice": 4.99
+                },
+                {
+                    "sku": 5786365,
+                    "name": "Canon - Photo Plus II High-Glossy Photo 3.95\" x 5.9\" 100-Count Paper",
+                    "salePrice": 9.99
+                },
+                {
+                    "sku": 5798105,
+                    "name": "Canon - 045 Toner Cartridge - Black",
+                    "salePrice": 62.99
+                },
+                {
+                    "sku": 5798107,
+                    "name": "Canon - 046 Toner Cartridge - Black",
+                    "salePrice": 82.99
+                },
+                {
+                    "sku": 5798108,
+                    "name": "Canon - 046 H High-Yield Toner Cartridge - Yellow",
+                    "salePrice": 189.99
+                },
+                {
+                    "sku": 5798109,
+                    "name": "Canon - 045 H High-Yield Toner Cartridge - Yellow",
+                    "salePrice": 95.99
+                },
+                {
+                    "sku": 5798110,
+                    "name": "Canon - 046 H XL High-Yield Toner Cartridge - Black",
+                    "salePrice": 137.99
+                },
+                {
+                    "sku": 5798111,
+                    "name": "Canon - 045 Toner Cartridge - Magenta",
+                    "salePrice": 72.99
+                },
+                {
+                    "sku": 5798112,
+                    "name": "Canon - 045 Toner Cartridge - Cyan",
+                    "salePrice": 72.99
+                },
+                {
+                    "sku": 5798113,
+                    "name": "Canon - 046 H High-Yield Toner Cartridge - Magenta",
+                    "salePrice": 189.99
+                },
+                {
+                    "sku": 5798114,
+                    "name": "Canon - 046 H XL High-Yield Toner Cartridge - Cyan",
+                    "salePrice": 189.99
+                },
+                {
+                    "sku": 5798115,
+                    "name": "Canon - 045 H High-Yield Toner Cartridge - Cyan",
+                    "salePrice": 95.99
+                },
+                {
+                    "sku": 5798116,
+                    "name": "Canon - 046 Toner Cartridge - Cyan",
+                    "salePrice": 109.99
+                },
+                {
+                    "sku": 5798117,
+                    "name": "Canon - 046 Toner Cartridge - Yellow",
+                    "salePrice": 109.99
+                },
+                {
+                    "sku": 5798118,
+                    "name": "Canon - 046 Toner Cartridge - Magenta",
+                    "salePrice": 109.99
+                },
+                {
+                    "sku": 5798119,
+                    "name": "Canon - 045 H High-Yield Toner Cartridge - Magenta",
+                    "salePrice": 95.99
+                },
+                {
+                    "sku": 5798120,
+                    "name": "Canon - 045 H High-Yield Toner Cartridge - Black",
+                    "salePrice": 89.99
+                },
+                {
+                    "sku": 5798121,
+                    "name": "Canon - 045 Toner Cartridge - Yellow",
+                    "salePrice": 72.99
+                },
+                {
+                    "sku": 5798123,
+                    "name": "Canon - Color imageCLASS MF731Cdw Wireless Color All-In-One Printer",
+                    "salePrice": 339.99
+                },
+                {
+                    "sku": 5798124,
+                    "name": "Canon - Color imageCLASS MF634Cdw Wireless Color All-In-One Printer",
+                    "salePrice": 264.99
+                },
+                {
+                    "sku": 5798900,
+                    "name": "Canon - PIXMA TS5020 Wireless All-In-One Printer - Gray",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 5798901,
+                    "name": "Canon - PIXMA TS5020 Wireless All-In-One Printer - Black",
+                    "salePrice": 54.99
+                },
+                {
+                    "sku": 5798902,
+                    "name": "Canon - PIXMA TS5020 Wireless All-In-One Printer - White",
+                    "salePrice": 54.99
+                },
+                {
+                    "sku": 5798903,
+                    "name": "Canon - PIXMA TS6020 Wireless All-In-One Printer - White",
+                    "salePrice": 69.99
+                },
+                {
+                    "sku": 5840700,
+                    "name": "Canon - PIXMA MG2522 All-In-One Printer - White",
+                    "salePrice": 24.99
+                },
+                {
+                    "sku": 5846300,
+                    "name": "Canon - EF-S 35mm f/2.8 Macro IS STM Lens for Canon APS-C DSLR",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5846900,
+                    "name": "Canon - MegaTank GI-290 Pigment Ink Bottle - Black",
+                    "salePrice": 17.99
+                },
+                {
+                    "sku": 5846901,
+                    "name": "Canon - MegaTank GI-290 Ink Bottle - Cyan",
+                    "salePrice": 11.99
+                },
+                {
+                    "sku": 5846905,
+                    "name": "Canon - MegaTank GI-290 Ink Bottle - Magenta",
+                    "salePrice": 11.99
+                },
+                {
+                    "sku": 5846909,
+                    "name": "Canon - MegaTank GI-290 Ink Bottle - Yellow",
+                    "salePrice": 11.99
+                },
+                {
+                    "sku": 5846912,
+                    "name": "Canon - PIXMA G3200 Wireless All-In-One Printer",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 5847201,
+                    "name": "Canon - PowerShot SX730 HS 20.3-Megapixel Digital Camera - Black",
+                    "salePrice": 399.99
+                },
+                {
+                    "sku": 5847210,
+                    "name": "Canon - PowerShot SX730 HS 20.3-Megapixel Digital Camera - Silver",
+                    "salePrice": 399.99
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:22 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "10469",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(manufacturer=canon&salePrice%3C500)?format=json&apiKey=XXX&show=sku,name,salePrice&cursorMark=AoIIP4AAADJwcm9kdWN0XzU4NDcyMTBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0Xzk5Nzk5NjlfdXM=",
+            "total": 294,
+            "totalPages": 3,
+            "queryTime": "0.019",
+            "totalTime": "0.211",
+            "partial": false,
+            "canonicalUrl": "/v1/products(manufacturer=\"canon\"&salePrice<500)?show=sku,name,salePrice&pageSize=100&cursorMark=AoIIP4AAADJwcm9kdWN0XzU4NDcyMTBfdXM=&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 5848300,
+                    "name": "Canon - imageCLASS D570 Wireless Black-and-White All-In-One Printer",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 5872301,
+                    "name": "Canon - PIXMA G4200 Wireless All-In-One Printer",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 5997500,
+                    "name": "Canon - Glossy Photo 5\" x 5\" 20-Count Paper",
+                    "salePrice": 6.29
+                },
+                {
+                    "sku": 6007146,
+                    "name": "Canon - PIXMA PRO-100 Wireless Inkjet Printer - Black",
+                    "salePrice": 429.99
+                },
+                {
+                    "sku": 6007164,
+                    "name": "Canon - CLI-42 Ink Cartridge - Photo Magenta",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 6007173,
+                    "name": "Canon - CLI-42 Ink Cartridge - Photo Cyan",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 6007182,
+                    "name": "Canon - CLI-42 Ink Cartridge - Magenta",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 6007301,
+                    "name": "Canon - CLI-42 Ink Cartridge - Light Gray",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 6007329,
+                    "name": "Canon - CLI-42 Ink Cartridge - Cyan",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 6042704,
+                    "name": "Canon - PIXMA TS3120 Wireless All-In-One Printer - Black",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 6042705,
+                    "name": "Canon - PIXMA TS5120 Wireless All-In-One Printer - White",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 6042706,
+                    "name": "Canon - PIXMA TS8120 Wireless All-In-One Printer - Black",
+                    "salePrice": 179.99
+                },
+                {
+                    "sku": 6042707,
+                    "name": "Canon - PIXMA TS6120 Wireless All-In-One Printer - White",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 6042708,
+                    "name": "Canon - PIXMA TR8520 Wireless All-In-One Printer - Black",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 6042709,
+                    "name": "Canon - PIXMA TS5120 Wireless All-In-One Printer - Black",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 6042710,
+                    "name": "Canon - PIXMA TS8120 Wireless All-In-One Printer - Red",
+                    "salePrice": 179.99
+                },
+                {
+                    "sku": 6042712,
+                    "name": "Canon - PIXMA TS6120 Wireless All-In-One Printer - Black",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 6042714,
+                    "name": "Canon - PIXMA TS8120 Wireless All-In-One Printer - White",
+                    "salePrice": 179.99
+                },
+                {
+                    "sku": 6042715,
+                    "name": "Canon - PIXMA TS3120 Wireless All-In-One Printer - White",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 6042716,
+                    "name": "Canon - PIXMA TS9120 Wireless All-In-One Printer - Gold",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 6042717,
+                    "name": "Canon - PIXMA TS9120 Wireless All-In-One Printer - Gray",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 6092100,
+                    "name": "Canon - ET-83E Lens Hood",
+                    "salePrice": 60
+                },
+                {
+                    "sku": 6092101,
+                    "name": "Canon - ES-84 Lens Hood",
+                    "salePrice": 60
+                },
+                {
+                    "sku": 6092102,
+                    "name": "Canon - ET-88 Lens Hood",
+                    "salePrice": 60
+                },
+                {
+                    "sku": 6384165,
+                    "name": "Canon - RP-54 High-Capacity Color Ink/Paper Set",
+                    "salePrice": 17.99
+                },
+                {
+                    "sku": 6405162,
+                    "name": "Canon - EF-S 10-18mm f/4.5-5.6 IS STM Ultra-Wide Zoom Lens - Black",
+                    "salePrice": 279.99
+                },
+                {
+                    "sku": 6622926,
+                    "name": "Canon - Lens Mount Adapter",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 6646011,
+                    "name": "Canon - 126 Toner Cartridge - Black",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 6813362,
+                    "name": "Canon - Camera Bag - Black",
+                    "salePrice": 59.99
+                },
+                {
+                    "sku": 7064336,
+                    "name": "Canon - 250 Ink Cartridge - Black",
+                    "salePrice": 15.99
+                },
+                {
+                    "sku": 7064354,
+                    "name": "Canon - 251 Ink Tank - Black",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 7064405,
+                    "name": "Canon - 251 Ink Cartridge - Magenta",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 7064414,
+                    "name": "Canon - 251 Ink Cartridge - Gray",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 7064511,
+                    "name": "Canon - 251XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 7065131,
+                    "name": "Canon - 251 Ink Cartridge - Yellow",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 7065159,
+                    "name": "Canon - 251 Ink Cartridge - Cyan",
+                    "salePrice": 12.99
+                },
+                {
+                    "sku": 7124104,
+                    "name": "Canon - 16 Ink Tank Twin-Pack - Multicolor",
+                    "salePrice": 20.99
+                },
+                {
+                    "sku": 7191004,
+                    "name": "Canon - Deluxe Carrying Case for Camera, - Black",
+                    "salePrice": 44.99
+                },
+                {
+                    "sku": 7311553,
+                    "name": "Canon - Ink Cartridge - Black - Black",
+                    "salePrice": 21.99
+                },
+                {
+                    "sku": 7312142,
+                    "name": "Canon - 51 High-Yield Ink Cartridge - Tri-Color",
+                    "salePrice": 42.99
+                },
+                {
+                    "sku": 7314239,
+                    "name": "Canon - 8M Ink Cartridge",
+                    "salePrice": 17.99
+                },
+                {
+                    "sku": 7314373,
+                    "name": "Canon - CLI8Y (CLI-8) Ink Tank, Yellow - Yellow",
+                    "salePrice": 19.99
+                },
+                {
+                    "sku": 7314382,
+                    "name": "Canon - 50 High-Yield Ink Cartridge - Black",
+                    "salePrice": 36.99
+                },
+                {
+                    "sku": 7314391,
+                    "name": "Canon - 41 Ink Cartridge - Cyan, Magenta, Yellow",
+                    "salePrice": 30.99
+                },
+                {
+                    "sku": 7314444,
+                    "name": "Canon - 40 Ink Cartridge - Black",
+                    "salePrice": 20.99
+                },
+                {
+                    "sku": 7399046,
+                    "name": "Canon - LP-E12 Rechargeable Lithium-Ion Battery Pack",
+                    "salePrice": 58.99
+                },
+                {
+                    "sku": 7485136,
+                    "name": "Canon - 332 Toner Cartridge - Cyan",
+                    "salePrice": 247
+                },
+                {
+                    "sku": 7520257,
+                    "name": "Canon - PGI-5 Pigment Ink Tank Replacement Twin-Pack for Pixma Photo Printers - Black",
+                    "salePrice": 39.99
+                },
+                {
+                    "sku": 7520319,
+                    "name": "Canon - Cli8 Ink Tank 52 mL - Black",
+                    "salePrice": 69.99
+                },
+                {
+                    "sku": 7919046,
+                    "name": "Canon - PIXMA MX922 Network-Ready Wireless All-In-One Printer - Black",
+                    "salePrice": 89.99
+                },
+                {
+                    "sku": 7963106,
+                    "name": "Canon - EF 50mm f/1.8 STM Standard Lens - Black",
+                    "salePrice": 125.99
+                },
+                {
+                    "sku": 8310419,
+                    "name": "Canon - 30 Ink Cartridge - Black",
+                    "salePrice": 16.99
+                },
+                {
+                    "sku": 8310446,
+                    "name": "Canon - 31 ChromaLife High-Yield Ink Cartridge - Cyan/Magenta/Yellow",
+                    "salePrice": 21.99
+                },
+                {
+                    "sku": 8349049,
+                    "name": "Canon - Lithium-Ion Battery",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 8503737,
+                    "name": "Canon - CRG 104 Toner Cartridge - Black",
+                    "salePrice": 81.99
+                },
+                {
+                    "sku": 8551186,
+                    "name": "Canon - EF 85mm f/1.8 USM Medium Telephoto Lens - Black",
+                    "salePrice": 349.99
+                },
+                {
+                    "sku": 8566456,
+                    "name": "Canon - 36 Ink Cartridge - Cyan/Magenta/Yellow",
+                    "salePrice": 18.99
+                },
+                {
+                    "sku": 8595011,
+                    "name": "Canon - PowerShot SX60 HS 16.1-Megapixel Digital Camera - Black",
+                    "salePrice": 449.99
+                },
+                {
+                    "sku": 8620063,
+                    "name": "Canon - EF-S 18-55mm f/3.5-5.6 IS STM Standard Zoom Lens - Black",
+                    "salePrice": 249.99
+                },
+                {
+                    "sku": 8735015,
+                    "name": "Canon - RP-108 High-Capacity Color Ink/Paper Set",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 8780866,
+                    "name": "Canon - 35 Ink Cartridge - Black",
+                    "salePrice": 14.99
+                },
+                {
+                    "sku": 8795075,
+                    "name": "Canon - 100-Pack 4\" x 6\" Glossy Photo Paper - White",
+                    "salePrice": 7.99
+                },
+                {
+                    "sku": 8795128,
+                    "name": "Canon - 20-Pack 5\" x 7\" Glossy Photo Paper - White",
+                    "salePrice": 3.99
+                },
+                {
+                    "sku": 8795137,
+                    "name": "Canon - 20-Pack 8.5\" x 11\" Glossy Photo Paper - White",
+                    "salePrice": 4.99
+                },
+                {
+                    "sku": 8815473,
+                    "name": "Canon - Data Cable - Black",
+                    "salePrice": 79.99
+                },
+                {
+                    "sku": 8959274,
+                    "name": "Canon - 9000F Mark II Flatbed Scanner - Black",
+                    "salePrice": 176.99
+                },
+                {
+                    "sku": 8987313,
+                    "name": "Canon - 221 4-Pack Ink Cartridges - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 56.99
+                },
+                {
+                    "sku": 8987377,
+                    "name": "Canon - CLI-221 Black Ink Cartridge - Black",
+                    "salePrice": 15.99
+                },
+                {
+                    "sku": 8987395,
+                    "name": "Canon - 220 Ink Cartridge - Black",
+                    "salePrice": 17.99
+                },
+                {
+                    "sku": 9057096,
+                    "name": "Canon - EF-S 24mm f/2.8 STM Standard Lens for Canon APS-C Cameras - Black",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 9065508,
+                    "name": "Canon - PG-245XL/CL-246XL/GP-502 2-Pack High-Yield Ink Cartridges - Black/Multi",
+                    "salePrice": 54.99
+                },
+                {
+                    "sku": 9070337,
+                    "name": "Canon - KP-108IN Ink Cartridge + Paper - Multicolor",
+                    "salePrice": 29.99
+                },
+                {
+                    "sku": 9293828,
+                    "name": "Canon - S35 High-Yield Ink Cartridge - Black",
+                    "salePrice": 131.99
+                },
+                {
+                    "sku": 9541667,
+                    "name": "Canon - LC-E6 Battery Charger - Black",
+                    "salePrice": 60.99
+                },
+                {
+                    "sku": 9550098,
+                    "name": "Canon - imageCLASS LBP6230DW Wireless Black-and-White Laser Printer - White",
+                    "salePrice": 149.99
+                },
+                {
+                    "sku": 9621405,
+                    "name": "Canon - 210XL/211XL 2-Pack High-Yield Ink Cartridge + Photo Paper - Multi",
+                    "salePrice": 57.99
+                },
+                {
+                    "sku": 9671915,
+                    "name": "Canon - 118 Toner Cartridge - Magenta",
+                    "salePrice": 101.99
+                },
+                {
+                    "sku": 9671924,
+                    "name": "Canon - 118 Toner Cartridge - Black",
+                    "salePrice": 99.99
+                },
+                {
+                    "sku": 9671933,
+                    "name": "Canon - 118 Toner Cartridge - Cyan",
+                    "salePrice": 100.99
+                },
+                {
+                    "sku": 9671942,
+                    "name": "Canon - 118 Toner Cartridge - Yellow",
+                    "salePrice": 100.99
+                },
+                {
+                    "sku": 9717905,
+                    "name": "Canon - 251 4-Pack Ink Cartridges - Photo Black/Cyan/Magenta/Yellow",
+                    "salePrice": 47.99
+                },
+                {
+                    "sku": 9719394,
+                    "name": "Canon - 250 XL 2-Pack High-Yield Ink Cartridges - Black",
+                    "salePrice": 45.99
+                },
+                {
+                    "sku": 9771226,
+                    "name": "Canon - 5/8 4-Pack Ink Cartridges + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 74.99
+                },
+                {
+                    "sku": 9771244,
+                    "name": "Canon - 220/221 4-Pack Ink Cartridges + Photo Paper - Black/Cyan/Magenta/Yellow",
+                    "salePrice": 63.99
+                },
+                {
+                    "sku": 9774223,
+                    "name": "Canon - LP-E8 Rechargeable Lithium-Ion Battery Pack",
+                    "salePrice": 55.99
+                },
+                {
+                    "sku": 9798547,
+                    "name": "Canon - 211 High-Yield Ink Cartridge - Cyan/Magenta/Yellow",
+                    "salePrice": 32.99
+                },
+                {
+                    "sku": 9798556,
+                    "name": "Canon - 210XL High-Yield Ink Cartridge - Black",
+                    "salePrice": 26.99
+                },
+                {
+                    "sku": 9883125,
+                    "name": "Canon - R-F-3 Body Cap - Black",
+                    "salePrice": 7.99
+                },
+                {
+                    "sku": 9883143,
+                    "name": "Canon - E-82 II Lens Cap - Black",
+                    "salePrice": 15.99
+                },
+                {
+                    "sku": 9883408,
+                    "name": "Canon - EF-S 18-55mm f/3.5-5.6 IS II Standard Zoom Lens - Black",
+                    "salePrice": 199.99
+                },
+                {
+                    "sku": 9885105,
+                    "name": "Canon - E-58 II Lens Cap - Black",
+                    "salePrice": 10.99
+                },
+                {
+                    "sku": 9886177,
+                    "name": "Canon - 300DG Gadget Bag - Black",
+                    "salePrice": 46.99
+                },
+                {
+                    "sku": 9888121,
+                    "name": "Canon - 120 Toner Cartridge - Black",
+                    "salePrice": 184.99
+                },
+                {
+                    "sku": 9979969,
+                    "name": "Canon - EF 50mm f/1.4 USM Standard Lens - Black",
+                    "salePrice": 349.99
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:25:22 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "8906",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(manufacturer=canon&salePrice%3C500)?format=json&apiKey=XXX&show=sku,name,salePrice&cursorMark=AoIIP4AAADJwcm9kdWN0Xzk5Nzk5NjlfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0Xzk5Nzk5NjlfdXM=",
+            "total": 294,
+            "totalPages": 3,
+            "queryTime": "0.019",
+            "totalTime": "0.020",
+            "partial": false,
+            "canonicalUrl": "/v1/products(manufacturer=\"canon\"&salePrice<500)?show=sku,name,salePrice&pageSize=100&cursorMark=AoIIP4AAADJwcm9kdWN0Xzk5Nzk5NjlfdXM=&format=json&apiKey=XXX",
+            "products": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 14 Sep 2017 21:26:59 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "351",
+            "Connection",
+            "Close"
+        ]
+    }
+]

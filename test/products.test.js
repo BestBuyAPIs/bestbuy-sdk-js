@@ -106,3 +106,46 @@ test('Search multiple attributes and filter', test.opts, function (t) {
   })
   .then(t.end);
 });
+
+test('Products as stream', test.opts, function (t) {
+  var stream = bby.productsAsStream('manufacturer=canon&salePrice<500', {
+    format: 'json',
+    show: 'sku,name,salePrice'
+  });
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+    t.deepEquals(Object.keys(data), ['sku', 'name', 'salePrice'], 'correct keys present');
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});
+
+test('stream a single product by sku', test.opts, function (t) {
+  var stream = bby.productsAsStream(5758400);
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('error', (err) => {
+    t.error(err);
+    t.end();
+  });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});

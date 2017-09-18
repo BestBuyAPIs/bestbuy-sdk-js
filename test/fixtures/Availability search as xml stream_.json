@@ -1,0 +1,554 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores(area(55119,25)&storeType=Big%20Box)?format=json&apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "currentPage": 1,
+            "total": 16,
+            "totalPages": 2,
+            "queryTime": "0.011",
+            "totalTime": "0.033",
+            "partial": false,
+            "canonicalUrl": "/v1/stores(area(\"55119\",25)&storeType=\"Big Box\")?format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 15,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "OAKDALE MN",
+                    "longName": "Oakdale",
+                    "address": "8301 3rd St N",
+                    "address2": "",
+                    "city": "Oakdale",
+                    "region": "MN",
+                    "fullPostalCode": "55128-5440",
+                    "country": "US",
+                    "lat": 44.95,
+                    "lng": -92.94,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "651-739-1899",
+                    "postalCode": "55128",
+                    "distance": 3.54
+                },
+                {
+                    "storeId": 6,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "INVER GROVE HGTS MN",
+                    "longName": "Inver Grove Heights",
+                    "address": "1350 50th Street E",
+                    "address2": "",
+                    "city": "Inver Grove Heights",
+                    "region": "MN",
+                    "fullPostalCode": "55077-1249",
+                    "country": "US",
+                    "lat": 44.88,
+                    "lng": -93.08,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "651-457-5817",
+                    "postalCode": "55077",
+                    "distance": 5.28
+                },
+                {
+                    "storeId": 10,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MAPLEWOOD MN",
+                    "longName": "Maplewood",
+                    "address": "1795 County Rd D E",
+                    "address2": "",
+                    "city": "Maplewood",
+                    "region": "MN",
+                    "fullPostalCode": "55109-5305",
+                    "country": "US",
+                    "lat": 45.04,
+                    "lng": -93.03,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-704-1901",
+                    "postalCode": "55109",
+                    "distance": 6.91
+                },
+                {
+                    "storeId": 7,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "ROSEVILLE MN",
+                    "longName": "Roseville",
+                    "address": "1643 County Road B2",
+                    "address2": "",
+                    "city": "Roseville",
+                    "region": "MN",
+                    "fullPostalCode": "55113-3001",
+                    "country": "US",
+                    "lat": 45.02,
+                    "lng": -93.17,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Marine Powered by Geek Squad"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-746-0538",
+                    "postalCode": "55113",
+                    "distance": 9.57
+                },
+                {
+                    "storeId": 1055,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "EAGAN MN",
+                    "longName": "Eagan",
+                    "address": "1235 Town Centre Dr",
+                    "address2": "",
+                    "city": "Eagan",
+                    "region": "MN",
+                    "fullPostalCode": "55123-1067",
+                    "country": "US",
+                    "lat": 44.83,
+                    "lng": -93.16,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "651-365-0540",
+                    "postalCode": "55123",
+                    "distance": 10.25
+                },
+                {
+                    "storeId": 1000,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MALL OF AMERICA MN",
+                    "longName": "Mall of America",
+                    "address": "340 W Market",
+                    "address2": "",
+                    "city": "Bloomington",
+                    "region": "MN",
+                    "fullPostalCode": "55425-5523",
+                    "country": "US",
+                    "lat": 44.85,
+                    "lng": -93.24,
+                    "hours": "Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Alienware Experience Shop"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "952-853-1359",
+                    "postalCode": "55425",
+                    "distance": 12.93
+                },
+                {
+                    "storeId": 281,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "RICHFIELD MN",
+                    "longName": "Richfield",
+                    "address": "1000 West 78th St",
+                    "address2": "",
+                    "city": "Richfield",
+                    "region": "MN",
+                    "fullPostalCode": "55423-3912",
+                    "country": "US",
+                    "lat": 44.86,
+                    "lng": -93.29,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Authorized Service Provider"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Authorized Service Provider"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "612-861-3917",
+                    "postalCode": "55423",
+                    "distance": 14.89
+                },
+                {
+                    "storeId": 245,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "APPLE VALLEY MN",
+                    "longName": "Apple Valley",
+                    "address": "15300 Cedar Ave",
+                    "address2": "",
+                    "city": "Apple Valley",
+                    "region": "MN",
+                    "fullPostalCode": "55124-3400",
+                    "country": "US",
+                    "lat": 44.73,
+                    "lng": -93.21,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "952-431-2466",
+                    "postalCode": "55124",
+                    "distance": 17.64
+                },
+                {
+                    "storeId": 11,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "NORTHTOWN MN",
+                    "longName": "Northtown",
+                    "address": "300 Northtown Dr NE",
+                    "address2": "",
+                    "city": "Blaine",
+                    "region": "MN",
+                    "fullPostalCode": "55434-1039",
+                    "country": "US",
+                    "lat": 45.13,
+                    "lng": -93.26,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "763-780-8668",
+                    "postalCode": "55434",
+                    "distance": 18.03
+                },
+                {
+                    "storeId": 8,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "BURNSVILLE MN",
+                    "longName": "Burnsville",
+                    "address": "14141 Aldrich Ave S",
+                    "address2": "",
+                    "city": "Burnsville",
+                    "region": "MN",
+                    "fullPostalCode": "55337-4444",
+                    "country": "US",
+                    "lat": 44.75,
+                    "lng": -93.29,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -5,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "952-435-9379",
+                    "postalCode": "55337",
+                    "distance": 18.92
+                }
+            ],
+            "warnings": "Distances are in terms of miles (default)"
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Mon, 18 Sep 2017 22:58:30 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "false",
+            "Content-Length",
+            "10411",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku=5670003)+stores(storeId%20in(15,6,10,7,1055,1000,281,245,11,8))?format=xml&apiKey=XXX&pageSize=10&cursorMark=*",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<products currentPage=\"1\" from=\"1\" to=\"1\" totalPages=\"1\" total=\"1\" queryTime=\"0.060\" totalTime=\"0.103\" canonicalUrl=\"/v1/products(sku=5670003)+stores(storeId in(15,6,10,7,1055,1000,281,245,11,8))?pageSize=10&amp;cursorMark=*&amp;apiKey=XXX\" partial=\"false\">\n  <product>\n    <sku>5670003</sku>\n    <score/>\n    <productId>5670003</productId>\n    <name>Nintendo - Switch™ 32GB Console - Gray Joy-Con™</name>\n    <source>bestbuy</source>\n    <type>HardGood</type>\n    <startDate>2017-01-12</startDate>\n    <new>false</new>\n    <active>true</active>\n    <lowPriceGuarantee>true</lowPriceGuarantee>\n    <activeUpdateDate>2017-03-13T10:33:13</activeUpdateDate>\n    <regularPrice>299.99</regularPrice>\n    <salePrice>299.99</salePrice>\n    <clearance>false</clearance>\n    <onSale>false</onSale>\n    <planPrice/>\n    <priceWithPlan/>\n    <contracts/>\n    <priceRestriction/>\n    <priceUpdateDate>2017-03-13T10:33:13</priceUpdateDate>\n    <digital>false</digital>\n    <preowned>false</preowned>\n    <carriers/>\n    <planFeatures/>\n    <devices/>\n    <carrierPlans/>\n    <technologyCode/>\n    <carrierModelNumber/>\n    <earlyTerminationFees/>\n    <monthlyRecurringCharge/>\n    <monthlyRecurringChargeGrandTotal/>\n    <activationCharge/>\n    <minutePrice/>\n    <planCategory/>\n    <planType/>\n    <familyIndividualCode/>\n    <validFrom/>\n    <validUntil/>\n    <carrierPlan/>\n    <outletCenter/>\n    <secondaryMarket/>\n    <frequentlyPurchasedWith/>\n    <accessories/>\n    <relatedProducts/>\n    <techSupportPlans/>\n    <crossSell/>\n    <salesRankShortTerm>43</salesRankShortTerm>\n    <salesRankMediumTerm>91</salesRankMediumTerm>\n    <salesRankLongTerm>89</salesRankLongTerm>\n    <bestSellingRank>88</bestSellingRank>\n    <url>https://api.bestbuy.com/click/-/5670003/pdp</url>\n    <spin360Url/>\n    <mobileUrl>https://api.bestbuy.com/click/-/5670003/pdp</mobileUrl>\n    <affiliateUrl/>\n    <addToCartUrl>https://api.bestbuy.com/click/-/5670003/cart</addToCartUrl>\n    <affiliateAddToCartUrl/>\n    <linkShareAffiliateUrl/>\n    <linkShareAffiliateAddToCartUrl/>\n    <stores>\n      <store>\n        <storeId>6</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>INVER GROVE HGTS MN</name>\n        <longName>Inver Grove Heights</longName>\n        <address>1350 50th Street E</address>\n        <address2/>\n        <city>Inver Grove Heights</city>\n        <region>MN</region>\n        <fullPostalCode>55077-1249</fullPostalCode>\n        <country>US</country>\n        <lat>44.8795</lat>\n        <lng>-93.07771</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>Microsoft Windows Store</service>\n          <service>Trade-In</service>\n        </services>\n        <phone>651-457-5817</phone>\n        <postalCode>55077</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>10</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>MAPLEWOOD MN</name>\n        <longName>Maplewood</longName>\n        <address>1795 County Rd D E</address>\n        <address2/>\n        <city>Maplewood</city>\n        <region>MN</region>\n        <fullPostalCode>55109-5305</fullPostalCode>\n        <country>US</country>\n        <lat>45.03639</lat>\n        <lng>-93.02609</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>LG Experience</service>\n          <service>Magnolia Home Theater</service>\n          <service>Microsoft Windows Store</service>\n          <service>Samsung Entertainment Experience</service>\n          <service>Sony Experience</service>\n          <service>Samsung Open House</service>\n          <service>Trade-In</service>\n          <service>Vivint</service>\n        </services>\n        <phone>651-704-1901</phone>\n        <postalCode>55109</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>7</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>ROSEVILLE MN</name>\n        <longName>Roseville</longName>\n        <address>1643 County Road B2</address>\n        <address2/>\n        <city>Roseville</city>\n        <region>MN</region>\n        <fullPostalCode>55113-3001</fullPostalCode>\n        <country>US</country>\n        <lat>45.01643</lat>\n        <lng>-93.16787</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Camera Experience Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>LG Experience</service>\n          <service>Marine Powered by Geek Squad</service>\n          <service>Magnolia Home Theater</service>\n          <service>Microsoft Windows Store</service>\n          <service>Pacific Kitchen and Home Inside Best Buy</service>\n          <service>Samsung Entertainment Experience</service>\n          <service>Samsung Open House</service>\n          <service>Trade-In</service>\n          <service>Vivint</service>\n        </services>\n        <phone>651-746-0538</phone>\n        <postalCode>55113</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>1055</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>EAGAN MN</name>\n        <longName>Eagan</longName>\n        <address>1235 Town Centre Dr</address>\n        <address2/>\n        <city>Eagan</city>\n        <region>MN</region>\n        <fullPostalCode>55123-1067</fullPostalCode>\n        <country>US</country>\n        <lat>44.83303</lat>\n        <lng>-93.15589</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>Magnolia Home Theater</service>\n          <service>Trade-In</service>\n          <service>Vivint</service>\n        </services>\n        <phone>651-365-0540</phone>\n        <postalCode>55123</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>245</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>APPLE VALLEY MN</name>\n        <longName>Apple Valley</longName>\n        <address>15300 Cedar Ave</address>\n        <address2/>\n        <city>Apple Valley</city>\n        <region>MN</region>\n        <fullPostalCode>55124-3400</fullPostalCode>\n        <country>US</country>\n        <lat>44.72874</lat>\n        <lng>-93.21401</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>LG Experience</service>\n          <service>Samsung Entertainment Experience</service>\n          <service>Sony Experience</service>\n          <service>Samsung Open House</service>\n          <service>Trade-In</service>\n          <service>Vivint</service>\n        </services>\n        <phone>952-431-2466</phone>\n        <postalCode>55124</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>15</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>OAKDALE MN</name>\n        <longName>Oakdale</longName>\n        <address>8301 3rd St N</address>\n        <address2/>\n        <city>Oakdale</city>\n        <region>MN</region>\n        <fullPostalCode>55128-5440</fullPostalCode>\n        <country>US</country>\n        <lat>44.9496</lat>\n        <lng>-92.93713</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>LG Experience</service>\n          <service>Magnolia Design Center</service>\n          <service>Microsoft Windows Store</service>\n          <service>Pacific Kitchen and Home Inside Best Buy</service>\n          <service>Samsung Entertainment Experience</service>\n          <service>Sony Experience</service>\n          <service>Samsung Open House</service>\n          <service>Trade-In</service>\n        </services>\n        <phone>651-739-1899</phone>\n        <postalCode>55128</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>8</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>BURNSVILLE MN</name>\n        <longName>Burnsville</longName>\n        <address>14141 Aldrich Ave S</address>\n        <address2/>\n        <city>Burnsville</city>\n        <region>MN</region>\n        <fullPostalCode>55337-4444</fullPostalCode>\n        <country>US</country>\n        <lat>44.74802</lat>\n        <lng>-93.28584</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Trade-In</service>\n        </services>\n        <phone>952-435-9379</phone>\n        <postalCode>55337</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>281</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>RICHFIELD MN</name>\n        <longName>Richfield</longName>\n        <address>1000 West 78th St</address>\n        <address2/>\n        <city>Richfield</city>\n        <region>MN</region>\n        <fullPostalCode>55423-3912</fullPostalCode>\n        <country>US</country>\n        <lat>44.86321</lat>\n        <lng>-93.29274</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Apple Authorized Service Provider</service>\n          <service>Apple Shop</service>\n          <service>Camera Experience Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>LG Experience</service>\n          <service>Magnolia Design Center</service>\n          <service>Microsoft Windows Store</service>\n          <service>Pacific Kitchen and Home Inside Best Buy</service>\n          <service>Samsung Authorized Service Provider</service>\n          <service>Samsung Entertainment Experience</service>\n          <service>Samsung Open House</service>\n          <service>Trade-In</service>\n          <service>Vivint</service>\n        </services>\n        <phone>612-861-3917</phone>\n        <postalCode>55423</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>1000</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>MALL OF AMERICA MN</name>\n        <longName>Mall of America</longName>\n        <address>340 W Market</address>\n        <address2/>\n        <city>Bloomington</city>\n        <region>MN</region>\n        <fullPostalCode>55425-5523</fullPostalCode>\n        <country>US</country>\n        <lat>44.85488</lat>\n        <lng>-93.24427</lng>\n        <hours>Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-7; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-7pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Alienware Experience Shop</service>\n          <service>Apple Shop</service>\n          <service>Camera Experience Shop</service>\n          <service>Geek Squad Services</service>\n          <service>Magnolia Home Theater</service>\n          <service>Microsoft Windows Store</service>\n          <service>Trade-In</service>\n        </services>\n        <phone>952-853-1359</phone>\n        <postalCode>55425</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>11:00</open>\n            <close>19:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>11:00</open>\n            <close>19:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:30</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n      <store>\n        <storeId>11</storeId>\n        <storeType>Big Box</storeType>\n        <tradeIn/>\n        <name>NORTHTOWN MN</name>\n        <longName>Northtown</longName>\n        <address>300 Northtown Dr NE</address>\n        <address2/>\n        <city>Blaine</city>\n        <region>MN</region>\n        <fullPostalCode>55434-1039</fullPostalCode>\n        <country>US</country>\n        <lat>45.12607</lat>\n        <lng>-93.26186</lng>\n        <hours>Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9</hours>\n        <hoursAmPm>Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm</hoursAmPm>\n        <gmtOffset>-5</gmtOffset>\n        <services>\n          <service>Geek Squad Services</service>\n          <service>Car and GPS Install Services</service>\n          <service>Microsoft Windows Store</service>\n          <service>Trade-In</service>\n        </services>\n        <phone>763-780-8668</phone>\n        <postalCode>55434</postalCode>\n        <detailedHours>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-17</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-18</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-19</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-20</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-21</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-22</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-23</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Sunday</day>\n            <date>2017-09-24</date>\n            <open>10:00</open>\n            <close>20:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Monday</day>\n            <date>2017-09-25</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Tuesday</day>\n            <date>2017-09-26</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Wednesday</day>\n            <date>2017-09-27</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Thursday</day>\n            <date>2017-09-28</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Friday</day>\n            <date>2017-09-29</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n          <detailedHour>\n            <day>Saturday</day>\n            <date>2017-09-30</date>\n            <open>10:00</open>\n            <close>21:00</close>\n          </detailedHour>\n        </detailedHours>\n      </store>\n    </stores>\n    <upc>045496590086</upc>\n    <productTemplate>Consoles</productTemplate>\n    <categoryPath>\n      <category>\n        <id>cat00000</id>\n        <name>Best Buy</name>\n      </category>\n      <category>\n        <id>abcat0700000</id>\n        <name>Video Games</name>\n      </category>\n      <category>\n        <id>pcmcat1476977522176</id>\n        <name>Nintendo Switch</name>\n      </category>\n      <category>\n        <id>pcmcat1484077694025</id>\n        <name>Nintendo Switch Consoles</name>\n      </category>\n    </categoryPath>\n    <alternateCategories/>\n    <lists/>\n    <customerReviewCount>6598</customerReviewCount>\n    <customerReviewAverage>4.8</customerReviewAverage>\n    <customerTopRated>true</customerTopRated>\n    <format/>\n    <freeShipping>true</freeShipping>\n    <freeShippingEligible>false</freeShippingEligible>\n    <inStoreAvailability>true</inStoreAvailability>\n    <inStoreAvailabilityText>Store Pickup:</inStoreAvailabilityText>\n    <inStoreAvailabilityUpdateDate>2017-09-18T05:31:58</inStoreAvailabilityUpdateDate>\n    <itemUpdateDate>2017-09-18T15:32:33</itemUpdateDate>\n    <onlineAvailability>false</onlineAvailability>\n    <onlineAvailabilityText>Shipping: Not Available</onlineAvailabilityText>\n    <onlineAvailabilityUpdateDate>2017-09-10T03:52:58</onlineAvailabilityUpdateDate>\n    <releaseDate>2017-03-03</releaseDate>\n    <shippingCost>0.00</shippingCost>\n    <shipping/>\n    <shippingLevelsOfService/>\n    <specialOrder>false</specialOrder>\n    <shortDescription>32GB storage capacity; two Joy-Con controllers; motion control; IR motion camera; home gaming system/handheld mode compatible</shortDescription>\n    <class>VIDEO GAME HARDWARE</class>\n    <classId>96</classId>\n    <subclass>NINTENDO SWITCH HDWE</subclass>\n    <subclassId>4672</subclassId>\n    <department>INTERACTIVE SOFTWARE</department>\n    <departmentId>9</departmentId>\n    <protectionPlanTerm>NIN</protectionPlanTerm>\n    <protectionPlanType/>\n    <protectionPlanLowPrice/>\n    <protectionPlanHighPrice/>\n    <buybackPlans/>\n    <protectionPlans/>\n    <protectionPlanDetails/>\n    <productFamilies/>\n    <productVariations>\n      <productVariation>\n        <sku>5670003</sku>\n        <variations>\n          <variation>\n            <name>Electronics:Color_Category</name>\n            <value>Gray</value>\n          </variation>\n        </variations>\n      </productVariation>\n      <productVariation>\n        <sku>5670100</sku>\n        <variations>\n          <variation>\n            <name>Electronics:Color_Category</name>\n            <value>Gray</value>\n          </variation>\n        </variations>\n      </productVariation>\n    </productVariations>\n    <aspectRatio/>\n    <screenFormat/>\n    <lengthInMinutes/>\n    <mpaaRating/>\n    <plot/>\n    <studio/>\n    <theatricalReleaseDate/>\n    <description/>\n    <manufacturer>Nintendo</manufacturer>\n    <modelNumber>HACSKAAAA</modelNumber>\n    <image>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003_sa.jpg</image>\n    <largeFrontImage>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003_sd.jpg</largeFrontImage>\n    <mediumImage>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003fp.gif</mediumImage>\n    <thumbnailImage>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003_s.gif</thumbnailImage>\n    <largeImage>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003_sb.jpg</largeImage>\n    <alternateViewsImage>https://img.bbystatic.com/BestBuy_US/images/products/5670/5670003cv11d.jpg</alternateViewsImage>\n    <angleImage/>\n    <backViewImage/>\n    <energyGuideImage/>\n    <leftViewImage/>\n    <accessoriesImage/>\n    <remoteControlImage/>\n    <rightViewImage/>\n    <topViewImage/>\n    <albumTitle>Switch™ 32GB Console</albumTitle>\n    <artistName/>\n    <artistId/>\n    <originalReleaseDate/>\n    <parentalAdvisory/>\n    <mediaCount/>\n    <monoStereo/>\n    <studioLive/>\n    <condition>New</condition>\n    <inStorePickup>true</inStorePickup>\n    <friendsAndFamilyPickup>true</friendsAndFamilyPickup>\n    <homeDelivery>false</homeDelivery>\n    <quantityLimit>1</quantityLimit>\n    <fulfilledBy>BestBuy.com</fulfilledBy>\n    <members/>\n    <bundledIn>\n      <sku>9999281300050000</sku>\n      <sku>9999280700050004</sku>\n      <sku>9999281700050005</sku>\n    </bundledIn>\n    <albumLabel/>\n    <genre/>\n    <color>Gray Joy-Con™</color>\n    <depth/>\n    <dollarSavings>0.00</dollarSavings>\n    <percentSavings>0.0</percentSavings>\n    <tradeInValue/>\n    <height/>\n    <orderable>Available</orderable>\n    <weight/>\n    <shippingWeight>3.5</shippingWeight>\n    <width/>\n    <warrantyLabor>1 Year</warrantyLabor>\n    <warrantyParts>1 Year</warrantyParts>\n    <softwareAge/>\n    <softwareGrade/>\n    <platform/>\n    <numberOfPlayers/>\n    <softwareNumberOfPlayers/>\n    <esrbRating/>\n    <longDescription>Choose this Nintendo Switch console to play favorite games anywhere with one system. It replaces both home and portable components for a seamless experience, docking with your television or standing alone on a tabletop for outdoor action on its 6.2-inch screen. This Nintendo Switch console includes the Joy-Con detachable controller and can link with other units for multiplayer adventures.</longDescription>\n    <includedItemList>\n      <includedItem>AC Adapter</includedItem>\n      <includedItem>HDMI Cable</includedItem>\n      <includedItem>Joy-Con (L) and Joy-Con (R)</includedItem>\n      <includedItem>Nintendo Switch™ 32GB Console</includedItem>\n      <includedItem>One Joy-Con Grip</includedItem>\n      <includedItem>Switch Dock</includedItem>\n      <includedItem>Two Joy-Con Strap Accessories</includedItem>\n    </includedItemList>\n    <marketplace>false</marketplace>\n    <listingId/>\n    <sellerId/>\n    <shippingRestrictions/>\n    <driveCapacityGb>32</driveCapacityGb>\n    <hdmiOutputs>1</hdmiOutputs>\n    <internetConnectable>true</internetConnectable>\n    <smartCapable>false</smartCapable>\n    <usbPort>true</usbPort>\n  </product>\n</products>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Mon, 18 Sep 2017 22:58:31 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "false",
+            "Content-Length",
+            "48532",
+            "Connection",
+            "Close"
+        ]
+    }
+]

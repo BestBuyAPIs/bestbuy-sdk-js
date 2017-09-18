@@ -1,0 +1,32 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(customerReviewAverage=4)?format=xml&apiKey=XXX&show=name,sku",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<products currentPage=\"1\" from=\"1\" to=\"10\" totalPages=\"863\" total=\"8628\" queryTime=\"0.018\" totalTime=\"0.041\" canonicalUrl=\"/v1/products(customerReviewAverage=4)?show=name,sku&amp;apiKey=XXX\" partial=\"false\">\n  <product>\n    <name>Fat Princess - PS3 [Digital Download]</name>\n    <sku>1000000266</sku>\n  </product>\n  <product>\n    <name>Sim City 4 Deluxe - Windows [Digital Download]</name>\n    <sku>1000000547</sku>\n  </product>\n  <product>\n    <name>Mass Effect 3 - Windows [Digital Download]</name>\n    <sku>1000001596</sku>\n  </product>\n  <product>\n    <name>Rayman 3 Hd - PS3 [Digital Download]</name>\n    <sku>1000002350</sku>\n  </product>\n  <product>\n    <name>Metal Gear Solid Hd Collection - PS Vita Games [Digital Download]</name>\n    <sku>1000002573</sku>\n  </product>\n  <product>\n    <name>Syndicate - Windows [Digital Download]</name>\n    <sku>1000002656</sku>\n  </product>\n  <product>\n    <name>ASSASSIN&amp;apos;S CREED 3 SEASON PASS - PS3 [Digital Download Add-On]</name>\n    <sku>1000002984</sku>\n  </product>\n  <product>\n    <name>Assassin&apos;s Creed Liberation - PS3 [Digital Download]</name>\n    <sku>1000004265</sku>\n  </product>\n  <product>\n    <name>Assassin&apos;s Creed IV Black Flag - Freedom Cry Standalone - PS3 [Digital Download]</name>\n    <sku>1000004446</sku>\n  </product>\n  <product>\n    <name>Battlefield 4 Second Assault - PS3 [Digital Download Add-On]</name>\n    <sku>1000004478</sku>\n  </product>\n</products>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Fri, 15 Sep 2017 22:00:25 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1580",
+            "Connection",
+            "Close"
+        ]
+    }
+]

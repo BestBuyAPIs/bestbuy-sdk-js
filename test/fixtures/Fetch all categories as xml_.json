@@ -1,0 +1,32 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/categories?format=xml&apiKey=XXX&show=name,id",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<categories currentPage=\"1\" from=\"1\" to=\"10\" totalPages=\"378\" total=\"3775\" queryTime=\"0.008\" totalTime=\"0.020\" canonicalUrl=\"/v1/categories?show=name,id&amp;apiKey=XXX\" partial=\"false\">\n  <category>\n    <name>Gift Ideas</name>\n    <id>abcat0010000</id>\n  </category>\n  <category>\n    <name>Unique Gifts</name>\n    <id>abcat0020004</id>\n  </category>\n  <category>\n    <name>TV &amp; Home Theater</name>\n    <id>abcat0100000</id>\n  </category>\n  <category>\n    <name>TVs</name>\n    <id>abcat0101000</id>\n  </category>\n  <category>\n    <name>All Flat-Panel TVs</name>\n    <id>abcat0101001</id>\n  </category>\n  <category>\n    <name>TV/DVD Combos</name>\n    <id>abcat0101005</id>\n  </category>\n  <category>\n    <name>Blu-ray &amp; DVD Players</name>\n    <id>abcat0102000</id>\n  </category>\n  <category>\n    <name>Blu-ray Players</name>\n    <id>abcat0102003</id>\n  </category>\n  <category>\n    <name>DVD Players</name>\n    <id>abcat0102005</id>\n  </category>\n  <category>\n    <name>Portable DVD Players</name>\n    <id>abcat0102008</id>\n  </category>\n</categories>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Fri, 15 Sep 2017 22:02:40 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "1191",
+            "Connection",
+            "Close"
+        ]
+    }
+]

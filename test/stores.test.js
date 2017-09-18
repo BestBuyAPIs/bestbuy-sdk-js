@@ -26,6 +26,17 @@ test('Get a collection of stores', test.opts, function (t) {
     });
 });
 
+test('Get a collection of stores as xml', test.opts, function (t) {
+  var bby = BBY(opts);
+  // Do a query for stores
+  bby.stores('area(55119,25)&storeType=Big Box', {format: 'xml'})
+    .then(function (data) {
+      t.ok(data.startsWith('<?xml'), 'xml string returned');
+      t.ok(data.indexOf('store>'), 'stores returned');
+      t.end();
+    });
+});
+
 test('Get a store', test.opts, function (t) {
   // Show details for one store
   var bby = BBY(opts);
@@ -33,6 +44,21 @@ test('Get a store', test.opts, function (t) {
     .then(function (data) {
       t.equals(data.longName, 'Blaine', 'name is correct');
       t.equals(data.address, '10985 Ulysses St NE', 'address is correct');
+      t.end();
+    })
+    .catch(err => t.error(err));
+});
+
+test('Get a store as xml', test.opts, function (t) {
+  // Show details for one store
+  var bby = BBY(opts);
+  bby.stores(1443, {format: 'xml'})
+    .then(function (data) {
+      t.ok(data.startsWith('<?xml'), 'xml string returned');
+      t.ok(data.indexOf('store>') > -1, 'stores returned');
+
+      t.ok(data.indexOf('<longName>Blaine</longName>') > -1, 'name is correct');
+      t.ok(data.indexOf('<address>10985 Ulysses St NE</address>') > -1, 'address is correct');
       t.end();
     })
     .catch(err => t.error(err));

@@ -27,6 +27,22 @@ test('Fetch all categories', test.opts, function (t) {
   .then(t.end);
 });
 
+test('Fetch all categories as xml', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+  bby.categories('', {
+    show: 'name,id',
+    format: 'xml'
+  })
+  .then(function (data) {
+    t.ok(data.startsWith('<?xml'), 'xml string returned');
+    t.ok(data.indexOf('category>') > -1, 'categories returned');
+    t.end();
+  })
+  .catch(function (err) {
+    t.error(err);
+  });
+});
+
 test('Fetch Categories with name and page size and callback', test.opts, function (t) {
   // Product search for all items reviewed with exactly 4, show only name + sku
   bby.categories('(name=Video Games)', {pageSize: 1}, function (err, data) {

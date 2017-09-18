@@ -39,6 +39,19 @@ test('Using Promise Product search for all items reviewed with exactly 4, show o
   .then(t.end);
 });
 
+test('Using Promise Product search for all items reviewed with exactly 4, show only name + sku as xml', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+  bby.products('customerReviewAverage=4', {
+    show: 'name,sku',
+    format: 'xml'
+  })
+  .then(function (data) {
+    t.ok(data.startsWith('<?xml'), 'xml string returned');
+    t.ok(data.indexOf('product>') > -1, 'products returned');
+  })
+  .then(t.end);
+});
+
 test('Product search with paging', test.opts, function (t) {
   // Product search for all items reviewed with exactly 4, show only name + sku
   bby.products('type=Movie', {

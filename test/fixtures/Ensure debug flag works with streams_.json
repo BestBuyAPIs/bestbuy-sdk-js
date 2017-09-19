@@ -1,0 +1,361 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku=5758400)?format=json&apiKey=XXX&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzU3NTg0MDBfdXM=",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.014",
+            "totalTime": "0.023",
+            "partial": false,
+            "canonicalUrl": "/v1/products(sku=5758400)?pageSize=100&cursorMark=*&format=json&apiKey=XXX",
+            "products": [
+                {
+                    "sku": 5758400,
+                    "score": null,
+                    "productId": null,
+                    "name": "Samsung - 65\" Class (64.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV with High Dynamic Range",
+                    "source": null,
+                    "type": "HardGood",
+                    "startDate": "2017-02-06",
+                    "new": false,
+                    "active": true,
+                    "lowPriceGuarantee": false,
+                    "activeUpdateDate": "2017-03-15T13:55:01",
+                    "regularPrice": 5999.99,
+                    "salePrice": 3499.99,
+                    "clearance": false,
+                    "onSale": true,
+                    "planPrice": null,
+                    "priceWithPlan": [],
+                    "contracts": [],
+                    "priceRestriction": null,
+                    "priceUpdateDate": "2017-09-15T21:00:47",
+                    "digital": false,
+                    "preowned": false,
+                    "carriers": [],
+                    "planFeatures": [],
+                    "devices": [],
+                    "carrierPlans": [],
+                    "technologyCode": null,
+                    "carrierModelNumber": null,
+                    "earlyTerminationFees": [],
+                    "monthlyRecurringCharge": "",
+                    "monthlyRecurringChargeGrandTotal": "",
+                    "activationCharge": "",
+                    "minutePrice": "",
+                    "planCategory": null,
+                    "planType": null,
+                    "familyIndividualCode": null,
+                    "validFrom": null,
+                    "validUntil": null,
+                    "carrierPlan": null,
+                    "outletCenter": null,
+                    "secondaryMarket": null,
+                    "frequentlyPurchasedWith": [],
+                    "accessories": [],
+                    "relatedProducts": [],
+                    "techSupportPlans": [],
+                    "crossSell": [],
+                    "salesRankShortTerm": 5924,
+                    "salesRankMediumTerm": 7086,
+                    "salesRankLongTerm": 7291,
+                    "bestSellingRank": 7245,
+                    "url": "https://api.bestbuy.com/click/-/5758400/pdp",
+                    "spin360Url": null,
+                    "mobileUrl": "https://api.bestbuy.com/click/-/5758400/pdp",
+                    "affiliateUrl": null,
+                    "addToCartUrl": "https://api.bestbuy.com/click/-/5758400/cart",
+                    "affiliateAddToCartUrl": null,
+                    "linkShareAffiliateUrl": "",
+                    "linkShareAffiliateAddToCartUrl": "",
+                    "upc": "887276201986",
+                    "productTemplate": "Televisions",
+                    "categoryPath": [
+                        {
+                            "id": "cat00000",
+                            "name": "Best Buy"
+                        },
+                        {
+                            "id": "abcat0100000",
+                            "name": "TV & Home Theater"
+                        },
+                        {
+                            "id": "abcat0101000",
+                            "name": "TVs"
+                        },
+                        {
+                            "id": "pcmcat333800050003",
+                            "name": "4K Ultra HD TVs"
+                        }
+                    ],
+                    "alternateCategories": [
+                        {
+                            "id": "abcat0101001",
+                            "name": "All Flat-Panel TVs"
+                        }
+                    ],
+                    "lists": [],
+                    "customerReviewCount": 28,
+                    "customerReviewAverage": 4.6,
+                    "customerTopRated": true,
+                    "format": null,
+                    "freeShipping": false,
+                    "freeShippingEligible": true,
+                    "inStoreAvailability": true,
+                    "inStoreAvailabilityText": "Store Pickup:",
+                    "inStoreAvailabilityUpdateDate": "2017-03-15T13:55:01",
+                    "itemUpdateDate": "2017-09-19T08:04:58",
+                    "onlineAvailability": true,
+                    "onlineAvailabilityText": "Delivery: Most Areas",
+                    "onlineAvailabilityUpdateDate": "2017-03-15T13:55:01",
+                    "releaseDate": null,
+                    "shippingCost": "",
+                    "shipping": [
+                        {
+                            "ground": "",
+                            "secondDay": "",
+                            "nextDay": "",
+                            "vendorDelivery": ""
+                        }
+                    ],
+                    "shippingLevelsOfService": [],
+                    "specialOrder": false,
+                    "shortDescription": "2160p (4K) resolution with HDRQLED TV: Featuring Quantum Dot technologySmart TV, Samsung Smart Hub, web browser includedMotion Rate 240",
+                    "class": "MHT FLAT PANEL TV",
+                    "classId": 306,
+                    "subclass": "MHT 61\"-100\" TV's",
+                    "subclassId": 3984,
+                    "department": "MAGNOLIA HOME THEATR",
+                    "departmentId": 14,
+                    "protectionPlanTerm": "SAM",
+                    "protectionPlanType": null,
+                    "protectionPlanLowPrice": "",
+                    "protectionPlanHighPrice": "",
+                    "buybackPlans": [],
+                    "protectionPlans": [],
+                    "protectionPlanDetails": [],
+                    "productFamilies": [],
+                    "productVariations": [],
+                    "aspectRatio": null,
+                    "screenFormat": null,
+                    "lengthInMinutes": null,
+                    "mpaaRating": null,
+                    "plot": null,
+                    "studio": null,
+                    "theatricalReleaseDate": null,
+                    "description": null,
+                    "manufacturer": "Samsung",
+                    "modelNumber": "QN65Q9FAMFXZA",
+                    "image": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_sa.jpg",
+                    "largeFrontImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_sd.jpg",
+                    "mediumImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400fp.gif",
+                    "thumbnailImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_s.gif",
+                    "largeImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_sb.jpg",
+                    "alternateViewsImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400cv11d.jpg",
+                    "angleImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_rd.jpg",
+                    "backViewImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_bd.jpg",
+                    "energyGuideImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400_eg.jpg",
+                    "leftViewImage": "https://img.bbystatic.com/BestBuy_US/images/products/5758/5758400ld.jpg",
+                    "accessoriesImage": null,
+                    "remoteControlImage": null,
+                    "rightViewImage": null,
+                    "topViewImage": null,
+                    "albumTitle": "65\" Class (64.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV with High Dynamic Range",
+                    "artistName": null,
+                    "artistId": null,
+                    "originalReleaseDate": null,
+                    "parentalAdvisory": null,
+                    "mediaCount": null,
+                    "monoStereo": null,
+                    "studioLive": null,
+                    "condition": "New",
+                    "inStorePickup": true,
+                    "friendsAndFamilyPickup": true,
+                    "homeDelivery": true,
+                    "quantityLimit": 3,
+                    "fulfilledBy": null,
+                    "members": [],
+                    "bundledIn": [],
+                    "albumLabel": null,
+                    "genre": null,
+                    "color": "Charcoal Black",
+                    "depth": null,
+                    "dollarSavings": 2500,
+                    "percentSavings": "41.67",
+                    "tradeInValue": "",
+                    "height": null,
+                    "orderable": "Available",
+                    "weight": null,
+                    "shippingWeight": 85.1,
+                    "width": "57.1 inches",
+                    "warrantyLabor": "1 Year",
+                    "warrantyParts": "1 Year",
+                    "softwareAge": null,
+                    "softwareGrade": null,
+                    "platform": null,
+                    "numberOfPlayers": null,
+                    "softwareNumberOfPlayers": null,
+                    "esrbRating": null,
+                    "longDescription": "Upgrade your entertainment experience with this Samsung QLED TV. Built-in Wi-Fi offers smart compatibility, and OneRemote senses the device you are using without needing any input. The 65-inch screen features Samsung Boundless design for edge-to-edge enjoyment, and this Samsung QLED TV uses Samsung Quantum Dots technology for an incredibly colorful display.",
+                    "includedItemList": [
+                        {
+                            "includedItem": "16.4' OCB Fiber Optical Cable"
+                        },
+                        {
+                            "includedItem": "One Connect Box"
+                        },
+                        {
+                            "includedItem": "Owner's manual"
+                        },
+                        {
+                            "includedItem": "Samsung 65\" Class (64.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV with High Dynamic Range"
+                        },
+                        {
+                            "includedItem": "Samsung Premium Smart Remote TM1790A"
+                        }
+                    ],
+                    "marketplace": null,
+                    "listingId": null,
+                    "sellerId": null,
+                    "shippingRestrictions": null,
+                    "collection": "Magnolia Home Theater",
+                    "componentVideoInputs": 0,
+                    "compositeVideoInputs": 0,
+                    "depthWithStandIn": 12.1,
+                    "depthWithoutStandIn": 1,
+                    "displayType": "LED",
+                    "dviInputs": 0,
+                    "energyConsumptionKwhPerYear": 231,
+                    "energyStarQualified": true,
+                    "estimatedYearlyOperatingCostsUsd": 28,
+                    "hdmiInputs": 4,
+                    "hdmiOutputs": 4,
+                    "headphoneJacks": false,
+                    "heightWithStandIn": 34,
+                    "heightWithoutStandIn": 32.6,
+                    "instantContent": [
+                        {
+                            "provider": "Amazon Video"
+                        },
+                        {
+                            "provider": "Google TV"
+                        },
+                        {
+                            "provider": "HBO GO"
+                        },
+                        {
+                            "provider": "Hulu"
+                        },
+                        {
+                            "provider": "Hulu Plus"
+                        },
+                        {
+                            "provider": "Netflix"
+                        },
+                        {
+                            "provider": "Pandora"
+                        },
+                        {
+                            "provider": "Spotify"
+                        },
+                        {
+                            "provider": "Viewster"
+                        },
+                        {
+                            "provider": "YouTube"
+                        }
+                    ],
+                    "languageOptions": [
+                        {
+                            "language": "English"
+                        },
+                        {
+                            "language": "French"
+                        },
+                        {
+                            "language": "Spanish"
+                        }
+                    ],
+                    "mountBracketVesaPattern": "400mm x 400mm",
+                    "productHeightIn": 32.6,
+                    "remoteControlType": "Multifunction",
+                    "rfAntennaInput": true,
+                    "screenSizeIn": 64.5,
+                    "screenSizeClassIn": 65,
+                    "screenRefreshRateHz": 60,
+                    "smartCapable": true,
+                    "tvType": "LED",
+                    "usbPort": true,
+                    "vChip": true,
+                    "verticalResolution": "2160p (4K)"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Tue, 19 Sep 2017 19:50:47 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "6950",
+            "Connection",
+            "Close"
+        ]
+    },
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(sku=5758400)?format=json&apiKey=XXX&cursorMark=AoIIP4AAADJwcm9kdWN0XzU3NTg0MDBfdXM%3D&pageSize=100",
+        "body": "",
+        "status": 200,
+        "response": {
+            "nextCursorMark": "AoIIP4AAADJwcm9kdWN0XzU3NTg0MDBfdXM=",
+            "total": 1,
+            "totalPages": 1,
+            "queryTime": "0.032",
+            "totalTime": "0.032",
+            "partial": false,
+            "canonicalUrl": "/v1/products(sku=5758400)?pageSize=100&cursorMark=AoIIP4AAADJwcm9kdWN0XzU3NTg0MDBfdXM=&format=json&apiKey=XXX",
+            "products": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Tue, 19 Sep 2017 19:49:09 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "300",
+            "Connection",
+            "Close"
+        ]
+    }
+]

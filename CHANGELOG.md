@@ -19,9 +19,9 @@ Features:
   - Added automatic rate limiting to avoid `429 Too Many Requests` errors.
     - This can be manually adjusted via the `requestsPerSecond` option.
 
-  - Added Node stream support via these new endpoints:
+  - Added Node stream support as JSON and XML via these new endpoints:
     - `availabilityAsStream`
-    - `openBoxAsStream`
+    - `openBoxAsStream` (xml streaming not supported)
     - `categoriesAsStream`
     - `productsAsStream`
     - `storesAsStream`

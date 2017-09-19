@@ -53,7 +53,7 @@ _More examples are available in the [examples](examples/) directory_
 ### Streams
 Node.js streams are supported via these endpoints:
  - `availabilityAsStream`
- - `openBoxAsStream`
+ - `openBoxAsStream` (xml format not supported)
  - `categoriesAsStream`
  - `productsAsStream`
  - `storesAsStream`
@@ -61,7 +61,9 @@ Node.js streams are supported via these endpoints:
 For Streams:
   - ALL results will be returned.
   - Paginating and throttling is handled automatically!
-  - The stream will be in `objectMode`, so each data chunk will be an object.
+  - For **json** format, the stream will be in `objectMode`, so each data chunk will be an object.
+  - For **xml** format, the stream will return buffers, so each data chunk will be a buffer filled with exactly one object (exmaple: `<product><sku>123</sku></product>`)
+    - If streaming xml directly into a file, be sure to add the xml pragma and wrap the stream in a root element or it won't be valid.
   - a `total` event will always be emitted once per stream with the total number of results.
   - a `data` event will be emitted for each item in the result (one per product/store/etc).
 

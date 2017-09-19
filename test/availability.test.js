@@ -147,3 +147,35 @@ test('Availability search as stream', test.opts, function (t) {
     });
   });
 });
+
+test('Availability search as xml stream', test.opts, function (t) {
+  bby.stores('area(55119,25)&storeType=Big Box', function (err, data) {
+    t.error(err, 'no error');
+    t.ok(data.stores.length > 0, 'has stores');
+    var stores = data.stores.map(function (store) {
+      return store.storeId;
+    });
+
+    var stream;
+    try {
+      stream = bby.availabilityAsStream(ANOTHER_AVAILABILE_SKU, stores, {format: 'xml'});
+    } catch (err) {
+      console.error(err);
+      t.err(err);
+      t.end();
+    }
+
+    var cnt = 0;
+    var total;
+
+    stream.on('data', data => {
+      cnt++;
+    });
+    stream.on('total', (t) => { total = t; });
+
+    stream.on('end', () => {
+      t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+      t.end();
+    });
+  });
+});

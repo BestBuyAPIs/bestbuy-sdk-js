@@ -102,3 +102,35 @@ test('Fetch categories as stream', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Fetch categories as xml stream', test.opts, function (t) {
+  // Product search for all items reviewed with exactly 4, show only name + sku
+
+  var stream;
+  try {
+    stream = bby.categoriesAsStream('name="V*"', {format: 'xml'});
+  } catch (err) {
+    console.error(err);
+    t.error(err);
+    t.end();
+  }
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    t.ok(data.toString().match(/^<category>.*/), 'correct xml text present');
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('error', err => {
+    t.error(err);
+    t.end();
+  });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});

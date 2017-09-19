@@ -1,0 +1,32 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products/5758400.xml?format=xml&apiKey=XXX&show=sku,name,salePrice",
+        "body": "",
+        "status": 200,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<product>\n  <sku>5758400</sku>\n  <name>Samsung - 65&quot; Class (64.5&quot; Diag.) - LED - 2160p - Smart - 4K Ultra HD TV with High Dynamic Range</name>\n  <salePrice>3499.99</salePrice>\n</product>\n",
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Tue, 19 Sep 2017 19:49:17 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "309",
+            "Connection",
+            "Close"
+        ]
+    }
+]

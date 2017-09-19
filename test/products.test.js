@@ -204,3 +204,13 @@ test('Single Product as xml stream', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Is a garbage search as xml stream', test.opts, function (t) {
+  // Do a search which emits an error
+  var stream = bby.productsAsStream('gurgleflats????4', {format: 'xml'});
+
+  stream.on('error', err => {
+    t.ok(err.toString().indexOf('<error') > -1, 'error element present');
+    t.end();
+  });
+});

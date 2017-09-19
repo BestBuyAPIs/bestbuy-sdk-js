@@ -183,3 +183,24 @@ test('Products as xml stream', test.opts, function (t) {
     t.end();
   });
 });
+
+test('Single Product as xml stream', test.opts, function (t) {
+  var stream = bby.productsAsStream(5758400, {
+    format: 'xml',
+    show: 'sku,name,salePrice'
+  });
+
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+    t.ok(data.toString().match(/^<product>.*/), 'correct xml text present');
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});

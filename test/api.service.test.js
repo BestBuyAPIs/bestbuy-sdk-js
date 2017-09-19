@@ -13,6 +13,26 @@ test('Ensure debug flag works', test.opts, function (t) {
   .catch(err => t.error(err));
 });
 
+test('Ensure debug flag works with streams', test.opts, function (t) {
+  var bby = BestBuy({
+    debug: true
+  });
+
+  var stream = bby.productsAsStream('sku=5758400');
+  var cnt = 0;
+  var total;
+
+  stream.on('data', data => {
+    cnt++;
+  });
+  stream.on('total', (t) => { total = t; });
+
+  stream.on('end', () => {
+    t.equals(cnt, total, `data emitted matches total results (${cnt}/${total})`);
+    t.end();
+  });
+});
+
 test('Ensure debug flag works with custom logging function', test.opts, function (t) {
   var debugObjs = [];
 

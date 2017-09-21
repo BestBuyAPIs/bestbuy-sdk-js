@@ -26,6 +26,16 @@ test('Get a collection of stores', test.opts, function (t) {
     });
 });
 
+test('Get a all stores', test.opts, function (t) {
+  var bby = BBY(opts);
+  // Do a query for stores
+  bby.stores()
+    .then(function (data) {
+      t.ok(data.stores.length > 0, 'stores returned');
+      t.end();
+    });
+});
+
 test('Get a collection of stores as xml', test.opts, function (t) {
   var bby = BBY(opts);
   // Do a query for stores

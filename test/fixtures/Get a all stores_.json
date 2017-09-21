@@ -1,0 +1,423 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/stores?format=json&apiKey=XXX",
+        "body": "",
+        "status": 200,
+        "response": {
+            "from": 1,
+            "to": 10,
+            "currentPage": 1,
+            "total": 1568,
+            "totalPages": 157,
+            "queryTime": "0.025",
+            "totalTime": "0.044",
+            "partial": false,
+            "canonicalUrl": "/v1/stores?format=json&apiKey=XXX",
+            "stores": [
+                {
+                    "storeId": 2843,
+                    "storeType": "Mobile SAS",
+                    "tradeIn": null,
+                    "name": "HOLYOKE MALL",
+                    "longName": "Holyoke Mall",
+                    "address": "50 Holyoke St",
+                    "address2": "Spc #B216",
+                    "city": "Holyoke",
+                    "region": "MA",
+                    "fullPostalCode": "01040-2755",
+                    "country": "US",
+                    "lat": 42.17,
+                    "lng": -72.64,
+                    "hours": "Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "413-535-2070",
+                    "postalCode": "01040"
+                },
+                {
+                    "storeId": 418,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "HOLYOKE MALL MA",
+                    "longName": "Holyoke Mall",
+                    "address": "50 Holyoke St",
+                    "address2": "",
+                    "city": "Holyoke",
+                    "region": "MA",
+                    "fullPostalCode": "01040-2709",
+                    "country": "US",
+                    "lat": 42.17,
+                    "lng": -72.64,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Apple Authorized Service Provider"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "413-533-4443",
+                    "postalCode": "01040"
+                },
+                {
+                    "storeId": 1433,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "LEOMINSTER MA",
+                    "longName": "Leominster",
+                    "address": "33 Orchard Hill Park Dr",
+                    "address2": "",
+                    "city": "Leominster",
+                    "region": "MA",
+                    "fullPostalCode": "01453-7019",
+                    "country": "US",
+                    "lat": 42.52,
+                    "lng": -71.71,
+                    "hours": "Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "978-537-9042",
+                    "postalCode": "01453"
+                },
+                {
+                    "storeId": 2901,
+                    "storeType": "Mobile SAS",
+                    "tradeIn": null,
+                    "name": "AUBURN MALL",
+                    "longName": "Auburn Mall",
+                    "address": "385 Southbridget St",
+                    "address2": "",
+                    "city": "Auburn",
+                    "region": "MA",
+                    "fullPostalCode": "01501-2498",
+                    "country": "US",
+                    "lat": 42.2,
+                    "lng": -71.83,
+                    "hours": "Sun: 12-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 12-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 12pm-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 12pm-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "508-832-3203",
+                    "postalCode": "01501"
+                },
+                {
+                    "storeId": 2506,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MILLBURY MA",
+                    "longName": "Millbury",
+                    "address": "70 Worcester Providence Tpke",
+                    "address2": "Ste 140",
+                    "city": "Millbury",
+                    "region": "MA",
+                    "fullPostalCode": "01527-2652",
+                    "country": "US",
+                    "lat": 42.2,
+                    "lng": -71.78,
+                    "hours": "Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "508-421-9149",
+                    "postalCode": "01527"
+                },
+                {
+                    "storeId": 567,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "WORCESTER MA",
+                    "longName": "Worcester",
+                    "address": "7 Neponset St",
+                    "address2": "",
+                    "city": "Worcester",
+                    "region": "MA",
+                    "fullPostalCode": "01606-2794",
+                    "country": "US",
+                    "lat": 42.3,
+                    "lng": -71.8,
+                    "hours": "Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "508-852-1800",
+                    "postalCode": "01606"
+                },
+                {
+                    "storeId": 532,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "FRAMINGHAM MA",
+                    "longName": "Framingham",
+                    "address": "1 Worcester Rd",
+                    "address2": "",
+                    "city": "Framingham",
+                    "region": "MA",
+                    "fullPostalCode": "01701-5359",
+                    "country": "US",
+                    "lat": 42.3,
+                    "lng": -71.4,
+                    "hours": "Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Camera Experience Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "LG Experience"
+                        },
+                        {
+                            "service": "Magnolia Design Center"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Pacific Kitchen and Home Inside Best Buy"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Samsung Experience"
+                        },
+                        {
+                            "service": "Sony Experience"
+                        },
+                        {
+                            "service": "Samsung Open House"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "508-872-2223",
+                    "postalCode": "01701"
+                },
+                {
+                    "storeId": 1966,
+                    "storeType": "Mobile SAS",
+                    "tradeIn": null,
+                    "name": "SOLOMON POND MALL",
+                    "longName": "Solomon Pond Mall",
+                    "address": "601 Donald Lynch Blvd",
+                    "address2": "Ste N137",
+                    "city": "Marlborough",
+                    "region": "MA",
+                    "fullPostalCode": "01752-4730",
+                    "country": "US",
+                    "lat": 42.36,
+                    "lng": -71.61,
+                    "hours": "Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-6; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-6pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "508-460-0232",
+                    "postalCode": "01752"
+                },
+                {
+                    "storeId": 820,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MARLBOROUGH MA",
+                    "longName": "Marlborough",
+                    "address": "769 Donald Lynch Blvd",
+                    "address2": "",
+                    "city": "Marlborough",
+                    "region": "MA",
+                    "fullPostalCode": "01752-4727",
+                    "country": "US",
+                    "lat": 42.35,
+                    "lng": -71.62,
+                    "hours": "Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 11-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 11am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Apple Authorized Service Provider"
+                        },
+                        {
+                            "service": "Apple Shop"
+                        },
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Samsung Entertainment Experience"
+                        },
+                        {
+                            "service": "Trade-In"
+                        },
+                        {
+                            "service": "Vivint"
+                        }
+                    ],
+                    "phone": "508-486-9430",
+                    "postalCode": "01752"
+                },
+                {
+                    "storeId": 1407,
+                    "storeType": "Big Box",
+                    "tradeIn": null,
+                    "name": "MILFORD MA",
+                    "longName": "Milford",
+                    "address": "208 Fortune Blvd",
+                    "address2": "",
+                    "city": "Milford",
+                    "region": "MA",
+                    "fullPostalCode": "01757-1754",
+                    "country": "US",
+                    "lat": 42.16,
+                    "lng": -71.5,
+                    "hours": "Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9; Sun: 10-8; Mon: 10-9; Tue: 10-9; Wed: 10-9; Thurs: 10-9; Fri: 10-9; Sat: 10-9",
+                    "hoursAmPm": "Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm; Sun: 10am-8pm; Mon: 10am-9pm; Tue: 10am-9pm; Wed: 10am-9pm; Thurs: 10am-9pm; Fri: 10am-9pm; Sat: 10am-9pm",
+                    "gmtOffset": -4,
+                    "services": [
+                        {
+                            "service": "Geek Squad Services"
+                        },
+                        {
+                            "service": "Car and GPS Install Services"
+                        },
+                        {
+                            "service": "Magnolia Home Theater"
+                        },
+                        {
+                            "service": "Microsoft Windows Store"
+                        },
+                        {
+                            "service": "Trade-In"
+                        }
+                    ],
+                    "phone": "508-634-2291",
+                    "postalCode": "01757"
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Thu, 21 Sep 2017 18:55:09 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "9177",
+            "Connection",
+            "Close"
+        ]
+    }
+]

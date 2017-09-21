@@ -1,6 +1,8 @@
 
+## 2.0.1 (2017-09-21)
+  - Fix error when search query is blank.
 
-## Unreleased
+## 2.0.0 (2017-09-20)
 
 **BREAKING CHANGES**
   - The reviews function has been removed as its no longer available in the API.

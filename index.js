@@ -6,6 +6,7 @@ function bestbuy (_options) {
   var options = setupOptions(_options);
 
   const availabilityEndpoint = require('./lib/availability')(options);
+  const realTimeAvailabilityEndpoint = require('./lib/real-time-availability')(options);
   const categoriesEndpoint = require('./lib/categories')(options);
   const productsEndpoint = require('./lib/products')(options);
   const openBoxEndpoint = require('./lib/openBox')(options);
@@ -17,6 +18,7 @@ function bestbuy (_options) {
     options: options,
     availability: availabilityEndpoint.availability,
     availabilityAsStream: availabilityEndpoint.availabilityAsStream,
+    realTimeAvailability: realTimeAvailabilityEndpoint.realTimeAvailability,
     openBox: openBoxEndpoint.openBox,
     openBoxAsStream: openBoxEndpoint.openBoxAsStream,
     categories: categoriesEndpoint.categories,

@@ -36,7 +36,7 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 ## Documentation
 
  - [`availability`](#availability)
- - [`real-time availability`](#realTimeAvailability)
+ - [`real-time availability`](#real-time-availability)
  - [`categories`](#categories)
  - [`openBox`](#openbox)
  - [`products`](#products)

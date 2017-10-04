@@ -36,6 +36,7 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 ## Documentation
 
  - [`availability`](#availability)
+ - [`real-time availability`](#realTimeAvailability)
  - [`categories`](#categories)
  - [`openBox`](#openbox)
  - [`products`](#products)
@@ -99,6 +100,40 @@ stream.on('data', function (data) {
   console.log(`\nProduct "${data.name}" available at:\n${data.stores.map(store => ` - ${store.longName}`).join('\n')}`);
 });
 
+```
+
+###real-time availability
+#### `realTimeAvailability(AVAILABLE_SKU, {postalCode: postalCode}`
+#### `realTimeAvailability(AVAILABLE_SKU, {storeId: storeId}`
+This method provides real time inventory levels for a sku.
+##### Using Callbacks
+```js
+bby.realTimeAvailability(AVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID}, function (err, data) {
+  if (err) console.warn(err);
+  console.log(`Sku ${AVAILABLE_SKU} in store pickup availability: ${data.ispuEligible}`);
+
+  if(data.stores.length === 1) {
+    console.log(`Sku ${AVAILABLE_SKU} availability in the Richfield store: ${JSON.stringify(data.stores[0])}`);
+  } else {
+    console.log(`Sku ${AVAILABLE_SKU} is not available in the Richfield store`);
+  }
+});
+```
+#### Using Promises
+```js
+bby.realTimeAvailability(AVAILABLE_SKU, {postalCode: POSTAL_CODE})
+  .then(function(data) {
+    console.log(`Sku ${AVAILABLE_SKU} in store pickup availability: ${data.ispuEligible}`);
+
+    if(data.stores.length > 0) {
+      console.log(`Sku ${AVAILABLE_SKU} availability in the POSTAL_CODE area: ${JSON.stringify(data.stores)}`);
+    } else {
+      console.log(`Sku ${AVAILABLE_SKU} is not available in the POSTAL_CODE area`);
+    }
+  })
+  .catch(function (err) {
+    console.warn(err);
+  });
 ```
 
 ### categories

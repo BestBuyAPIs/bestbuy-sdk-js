@@ -105,7 +105,7 @@ stream.on('data', function (data) {
 ### real-time availability
 #### `realTimeAvailability(sku, {postalCode: postalCode}`
 #### `realTimeAvailability(sku, {storeId: storeId}`
-This method provides real time inventory levels for a sku.
+This method provides real time inventory levels for a sku. This endpoint only support JSON responses.
 ##### Using Callbacks
 ```js
 bby.realTimeAvailability(4312001, {storeId: 611}, function (err, data) {

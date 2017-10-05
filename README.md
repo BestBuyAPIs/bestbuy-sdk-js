@@ -36,6 +36,7 @@ In addition to the examples, the package contains a suite of Jasmine tests to fu
 ## Documentation
 
  - [`availability`](#availability)
+ - [`real-time availability`](#real-time-availability)
  - [`categories`](#categories)
  - [`openBox`](#openbox)
  - [`products`](#products)
@@ -99,6 +100,40 @@ stream.on('data', function (data) {
   console.log(`\nProduct "${data.name}" available at:\n${data.stores.map(store => ` - ${store.longName}`).join('\n')}`);
 });
 
+```
+
+### real-time availability
+#### `realTimeAvailability(sku, {postalCode: postalCode}`
+#### `realTimeAvailability(sku, {storeId: storeId}`
+This method provides real time inventory levels for a sku. This endpoint only support JSON responses.
+##### Using Callbacks
+```js
+bby.realTimeAvailability(4312001, {storeId: 611}, function (err, data) {
+  if (err) console.warn(err);
+  console.log(`Sku 4312001 in store pickup availability: ${data.ispuEligible}`);
+
+  if(data.stores.length === 1) {
+    console.log(`Sku 4312001 availability in the 611 store: ${JSON.stringify(data.stores[0])}`);
+  } else {
+    console.log(`Sku 4312001 is not available in the 611 store`);
+  }
+});
+```
+#### Using Promises
+```js
+bby.realTimeAvailability(4312001, {postalCode: 55454})
+  .then(function(data) {
+    console.log(`Sku 4312001 in store pickup availability: ${data.ispuEligible}`);
+
+    if(data.stores.length > 0) {
+      console.log(`Sku 4312001 availability in the 55454 area: ${JSON.stringify(data.stores)}`);
+    } else {
+      console.log(`Sku 4312001 is not available in the 55454 area`);
+    }
+  })
+  .catch(function (err) {
+    console.warn(err);
+  });
 ```
 
 ### categories

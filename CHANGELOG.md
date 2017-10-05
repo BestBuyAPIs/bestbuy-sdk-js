@@ -1,3 +1,5 @@
+## 2.1.0 (2017-10-05)
+  - Added new endpoint: `realTimeAvailability` to check the near real-time availability of a sku for a store or postal code.
 
 ## 2.0.1 (2017-09-21)
   - Fix error when search query is blank.

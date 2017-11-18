@@ -1,3 +1,8 @@
+
+## 2.1.1 (2017-11-18)
+  - Added retry logic to ensure streams are more resilient.
+  - Show more data when debugging streams.
+
 ## 2.1.0 (2017-10-05)
   - Added new endpoint: `realTimeAvailability` to check the near real-time availability of a sku for a store or postal code.
 

@@ -1,0 +1,35 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products/5919830/stores.json?format=json&apiKey=XXX&storeId=281",
+        "body": "",
+        "status": 200,
+        "response": {
+            "ispuEligible": false,
+            "stores": []
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Sat, 18 Nov 2017 18:11:34 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "true",
+            "Content-Length",
+            "34",
+            "Connection",
+            "Close"
+        ]
+    }
+]

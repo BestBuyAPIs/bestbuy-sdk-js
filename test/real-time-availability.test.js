@@ -1,7 +1,7 @@
 var test = require('./lib/tape-nock-setup');
 var BBY = require('../');
-var AVAILABLE_SKU = 5670003; // Nintendo Switch
-var UNAVAILABLE_SKU = 9554207; // Fallout 3 GOTY
+var AVAILABLE_SKU = 4971902; // Insignia Batteries
+var UNAVAILABLE_SKU = 5919830; // SNES Classic
 var MINNEAPOLIS_POSTAL_CODE = 55454; // Minneapolis ZIP
 var RICHFIELD_STORE_ID = '281'; // Richfield Big Box
 
@@ -25,13 +25,14 @@ test('Real time Availability check by store id using promises', test.opts, funct
       t.ok(data.stores[0].state === 'MN', 'The RICHFIELD store has the correct state');
       t.ok(data.stores[0].postalCode === '55423', 'The RICHFIELD store has the correct postalCode');
       t.ok(data.stores[0].storeType === 'Big_Box_Store', 'The RICHFIELD store has the correct storeType');
-      t.ok(data.stores[0].minPickupHours === 1, 'The RICHFIELD store has the correct minPickupHours');
       t.ok(data.stores[0].lowStock === false, 'The RICHFIELD store has the correct lowStock');
+
+      t.end();
     })
     .catch(function (err) {
-      t.error(err);
-    })
-  .then(t.end);
+      t.error(err, 'no error');
+      t.end();
+    });
 });
 
 test('Real time availability check by store id using callback', test.opts, function (t) {
@@ -47,7 +48,6 @@ test('Real time availability check by store id using callback', test.opts, funct
     t.ok(data.stores[0].state === 'MN', 'The RICHFIELD store has the correct state');
     t.ok(data.stores[0].postalCode === '55423', 'The RICHFIELD store has the correct postalCode');
     t.ok(data.stores[0].storeType === 'Big_Box_Store', 'The RICHFIELD store has the correct storeType');
-    t.ok(data.stores[0].minPickupHours === 1, 'The RICHFIELD store has the correct minPickupHours');
     t.ok(data.stores[0].lowStock === false, 'The RICHFIELD store has the correct lowStock');
     t.end();
   });
@@ -98,7 +98,7 @@ test('Real time availability search unavailable sku using callback', test.opts, 
   bby.realTimeAvailability(UNAVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID}, function (err, data) {
     t.error(err, 'no error');
     t.ok(data);
-    t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
+    t.ok(data.ispuEligible === false, 'Eligible for in store pickup');
     t.ok(data.stores.length === 0, 'No stores are returned');
     t.end();
   });
@@ -107,7 +107,7 @@ test('Real time availability search unavailable sku using callback', test.opts, 
 test('Real time availability search unavailable sku using promises', test.opts, function (t) {
   bby.realTimeAvailability(UNAVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID})
     .then(function (data) {
-      t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
+      t.ok(data.ispuEligible === false, 'Eligible for in store pickup');
       t.ok(data.stores.length === 0, 'No stores are returned');
     })
     .catch(function (err) {

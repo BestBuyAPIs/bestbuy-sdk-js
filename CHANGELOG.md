@@ -1,3 +1,5 @@
+## 2.1.2 (2017-11-20)
+  - Fix retry logic to ensure streams are even more resilient.
 
 ## 2.1.1 (2017-11-18)
   - Added retry logic to ensure streams are more resilient.

@@ -4,7 +4,7 @@ var BBY = require('../');
 var OPEN_BOX_SKU = 5762002; // Samsung - 50\" Class (49.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV
 
 var bby = BBY({
-  key: process.env.BBY_API_KEY || 'XXX',
+  key: process.env.BBY_API_KEY || '',
   debug: false,
   headers: {
     'User-Agent': 'open box tests'
@@ -12,7 +12,6 @@ var bby = BBY({
 });
 
 test('Open box - search for all items', test.opts, function (t) {
-  // Product search for all items reviewed with exactly 4, show only name + sku
   bby.openBox(null, {
     show: 'name,sku'
   })
@@ -22,15 +21,15 @@ test('Open box - search for all items', test.opts, function (t) {
     t.ok(data.results[0].customerReviews.averageScore, 'has averageScore of customerReviews');
     t.ok(data.results[0].names, 'has names');
     t.ok(data.results[0].offers.length > 0, 'has offers');
+    t.end();
   })
   .catch(function (err) {
-    t.error(err);
-  })
-  .then(t.end);
+    t.error(err, 'no error');
+    t.end();
+  });
 });
 
 test('Open box - search for one item', test.opts, function (t) {
-  // Product search for all items reviewed with exactly 4, show only name + sku
   bby.openBox(OPEN_BOX_SKU)
   .then(function (data) {
     t.ok(data.results.length > 0, 'has results');
@@ -46,7 +45,6 @@ test('Open box - search for one item', test.opts, function (t) {
 });
 
 test('Open box - search for one item using sku as string', test.opts, function (t) {
-  // Product search for all items reviewed with exactly 4, show only name + sku
   bby.openBox(String(OPEN_BOX_SKU))
   .then(function (data) {
     t.ok(data.results.length > 0, 'has results');
@@ -62,7 +60,6 @@ test('Open box - search for one item using sku as string', test.opts, function (
 });
 
 test('Open box - search for one item using search as string', test.opts, function (t) {
-  // Product search for all items reviewed with exactly 4, show only name + sku
   bby.openBox('categoryId=abcat0502000')
   .then(function (data) {
     t.ok(data.results.length > 0, 'has results');
@@ -78,7 +75,6 @@ test('Open box - search for one item using search as string', test.opts, functio
 });
 
 test('Open box - search for one item using callback', test.opts, function (t) {
-  // Product search for all items reviewed with exactly 4, show only name + sku
   bby.openBox(OPEN_BOX_SKU, function (err, data) {
     t.error(err, 'no error');
     t.ok(data.results.length > 0, 'has results');

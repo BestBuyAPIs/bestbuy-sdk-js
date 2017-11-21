@@ -1,1 +1,428 @@
-[]
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/beta/products/openBox?format=json&apiKey=XXX&show=name,sku",
+        "body": "",
+        "status": 200,
+        "response": {
+            "metadata": {
+                "context": {
+                    "canonicalUrl": "https://api.bestbuy.com/beta/products/openBox?format=json&apiKey=XXX&show=name%2Csku"
+                },
+                "resultSet": {
+                    "count": 2716
+                },
+                "page": {
+                    "current": 1,
+                    "size": 10,
+                    "total": 272
+                }
+            },
+            "results": [
+                {
+                    "sku": "1014974",
+                    "customerReviews": {
+                        "averageScore": 4.5,
+                        "count": 23
+                    },
+                    "descriptions": {
+                        "short": "65\" x 90\" - Matte White - 100\" Diagonal"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1014/1014974_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Elite Screens - Spectrum Electric Projection Screen - White"
+                    },
+                    "prices": {
+                        "regular": 220.99,
+                        "current": 185.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1014974.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1014974/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1014974/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 166.99,
+                                "regular": 220.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1019306",
+                    "customerReviews": {
+                        "averageScore": 4.6,
+                        "count": 3855
+                    },
+                    "descriptions": {
+                        "short": "Compatible with Apple&#174; MacBook and MacBook Pro with a 13\" display; magnetic DC connector; LED indicator lights; travel-friendly design"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1019/1019306_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Apple - MagSafe 60W Power Adapter for MacBook® and 13\" MacBook® Pro - White"
+                    },
+                    "prices": {
+                        "regular": 77.99,
+                        "current": 77.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1019306.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1019306/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1019306/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 61.99,
+                                "regular": 77.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1086136",
+                    "customerReviews": {
+                        "averageScore": 4.4,
+                        "count": 42
+                    },
+                    "descriptions": {
+                        "short": "Enhances sound quality; digital display"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1086/1086136_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Metra - One Farad Digital Capacitor"
+                    },
+                    "prices": {
+                        "regular": 99.99,
+                        "current": 99.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1086136.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1086136/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1086136/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 84.99,
+                                "regular": 99.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1086776",
+                    "customerReviews": {
+                        "averageScore": 4.5,
+                        "count": 23
+                    },
+                    "descriptions": {
+                        "short": "Compatible with 2006-2012 Toyota RAV4 vehicles; installs a double DIN radio or 2 single DIN radios into your vehicle's dash; contoured; ABS plastic construction; hardware included"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1086/1086776_ra.jpg"
+                    },
+                    "names": {
+                        "title": "Metra - Dash Kit for Select 2006-2012 Toyota RAV4 - Black"
+                    },
+                    "prices": {
+                        "regular": 49.99,
+                        "current": 49.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1086776.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1086776/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1086776/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 41.99,
+                                "regular": 49.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1087153",
+                    "customerReviews": {
+                        "averageScore": 4.8,
+                        "count": 9
+                    },
+                    "descriptions": {
+                        "short": "Compatible with most 2009-2010 Honda Acura vehicles; connects your vehicle's radio cable to an aftermarket antenna; 6\" length"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1087/1087153_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Metra - Antenna Adapter Cable for Most 2009-2010 Honda Acura Vehicles - Blue/Black"
+                    },
+                    "prices": {
+                        "regular": 13.99,
+                        "current": 13.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1087153.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1087153/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1087153/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 11.99,
+                                "regular": 13.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": true,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1125615",
+                    "customerReviews": {
+                        "averageScore": 4.1,
+                        "count": 7
+                    },
+                    "descriptions": {
+                        "short": "Compatible with most vehicles; installs a capacitor in an aftermarket audio system; high strand count; marine compliant"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1125/1125615_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Metra - 4AWG Capacitor Add-On Kit"
+                    },
+                    "prices": {
+                        "regular": 34.99,
+                        "current": 34.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1125615.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1125615/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1125615/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 29.99,
+                                "regular": 34.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1192128",
+                    "customerReviews": {
+                        "averageScore": 4.8,
+                        "count": 24
+                    },
+                    "descriptions": {
+                        "short": "ELITE SCREENS YardMaster2 100\" Outdoor Projector Screen: 49\"H x 87\"W viewing area; 16:9 aspect ratio; CineWhite screen material; floorstanding; portable design"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1192/1192128_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Elite Screens - YardMaster2 100\" Outdoor Projector Screen - Silver"
+                    },
+                    "prices": {
+                        "regular": 148.99,
+                        "current": 140.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1192128.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1192128/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1192128/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 119.99,
+                                "regular": 148.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1192146",
+                    "customerReviews": {
+                        "averageScore": 5,
+                        "count": 1
+                    },
+                    "descriptions": {
+                        "short": "ELITE SCREENS YardMaster2 100\" Outdoor Projector Screen: 49\"H x 87\"W viewing area; 16:9 aspect ratio; WraithVeil screen material; floorstanding; portable design"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1192/1192146_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Elite Screens - YardMaster2 100\" Outdoor Rear Projector Screen - Silver"
+                    },
+                    "prices": {
+                        "regular": 232.99,
+                        "current": 232.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1192146.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1192146/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1192146/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 209.99,
+                                "regular": 232.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1209916",
+                    "customerReviews": {
+                        "averageScore": 4.7,
+                        "count": 461
+                    },
+                    "descriptions": {
+                        "short": "Compatible with rechargeable AA NiMH batteries; 6 AA NiMH batteries included; wall outlet charger"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1209/1209916_sa.jpg"
+                    },
+                    "names": {
+                        "title": "Apple - Battery Charger - White"
+                    },
+                    "prices": {
+                        "regular": 29.99,
+                        "current": 29.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1209916.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1209916/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1209916/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 24.99,
+                                "regular": 29.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                },
+                {
+                    "sku": "1230546",
+                    "customerReviews": {
+                        "averageScore": 4.4,
+                        "count": 82
+                    },
+                    "descriptions": {
+                        "short": "Compatible with Sony Alpha NEX E-mount cameras; quiet autofocus; 83&#176; field of view; 16mm focal length; f/2.8-22 aperture range"
+                    },
+                    "images": {
+                        "standard": "https://img.bbystatic.com/BestBuy_US/images/products/1230/1230546_ra.jpg"
+                    },
+                    "names": {
+                        "title": "Sony - 16mm f/2.8 E-Mount Wide-Angle Lens - Silver"
+                    },
+                    "prices": {
+                        "regular": 249.99,
+                        "current": 224.99
+                    },
+                    "links": {
+                        "product": "https://api.bestbuy.com/v1/products/1230546.json?apiKey=XXX",
+                        "web": "https://api.bestbuy.com/click/-/1230546/pdp#tab=buyingOptions",
+                        "addToCart": "https://api.bestbuy.com/click/-/1230546/cart?listing_id=2"
+                    },
+                    "offers": [
+                        {
+                            "prices": {
+                                "current": 201.99,
+                                "regular": 249.99
+                            },
+                            "condition": "excellent",
+                            "onlineAvailability": true,
+                            "inStoreAvailability": false,
+                            "listingId": "2",
+                            "sellerId": null
+                        }
+                    ]
+                }
+            ]
+        },
+        "rawHeaders": [
+            "Access-Control-Allow-Headers",
+            "origin, x-requested-with, accept",
+            "Access-Control-Allow-Methods",
+            "GET",
+            "Access-Control-Allow-Origin",
+            "*",
+            "Access-Control-Max-Age",
+            "3628800",
+            "Content-Type",
+            "application/json; charset=UTF-8",
+            "Date",
+            "Tue, 21 Nov 2017 19:19:05 GMT",
+            "Server",
+            "Best Buy Public APIs",
+            "X-Cache-Hit",
+            "",
+            "Content-Length",
+            "8696",
+            "Connection",
+            "Close"
+        ]
+    }
+]

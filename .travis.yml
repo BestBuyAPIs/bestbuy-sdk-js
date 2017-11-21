@@ -5,6 +5,3 @@ node_js:
   - "4"
 script: "npm run coverage"
 after_script: "npm run coveralls"
-env:
-    global:
-        - secure: "Ep8Xty1hX2igO7bwaV+5wOro2dFzIoee/22qTJJdC9lKGZQDf3E1ifGAaip5VOKp37rOj4MQloo6ug9b+MhKzXyhWt2FZfYSfdslCmLo/FYzO/HU/gfg6ET+RpxIlp7jN7iSUhmqZXV4p3D1/oIeqGjQfcbdZHGaVaDhhYrXg8U="

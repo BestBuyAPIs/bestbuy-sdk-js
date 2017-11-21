@@ -1,3 +1,8 @@
+## 2.1.3 (2017-11-21)
+  - Fix bug in openBox endpoint that prevented searching for all open box items (null search).
+  - Updated tests to ensure all work offline
+  - Updated travis tests to target node versions 6, 8, and 9.
+
 ## 2.1.2 (2017-11-20)
   - Fix retry logic to ensure streams are even more resilient.
 

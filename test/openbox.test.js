@@ -4,7 +4,7 @@ var BBY = require('../');
 var OPEN_BOX_SKU = 5762002; // Samsung - 50\" Class (49.5\" Diag.) - LED - 2160p - Smart - 4K Ultra HD TV
 
 var bby = BBY({
-  key: process.env.BBY_API_KEY || '',
+  key: process.env.BBY_API_KEY || 'XXX',
   debug: false,
   headers: {
     'User-Agent': 'open box tests'

@@ -13,21 +13,23 @@ function testProperties (t, BBY) {
 }
 
 test('Using type one initilization', test.opts, function (t) {
-  var BBY = BestBuy(process.env.BBY_API_KEY);
+  var BBY = BestBuy(process.env.BBY_API_KEY || 'XXX');
   testProperties(t, BBY);
   t.end();
 });
 
 test('Using type two initilization', test.opts, function (t) {
   var BBY = BestBuy({
-    'key': process.env.BBY_API_KEY
+    key: process.env.BBY_API_KEY || 'XXX'
   });
   testProperties(t, BBY);
   t.end();
 });
 
 test('using type three initilization', test.opts, function (t) {
-  var BBY = BestBuy();
+  var BBY = BestBuy({
+    key: process.env.BBY_API_KEY || 'XXX'
+  });
   testProperties(t, BBY);
   t.end();
 });

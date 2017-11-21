@@ -4,7 +4,7 @@ var AVAILABLE_SKU = 4971901; // insignia AA batteries
 var ANOTHER_AVAILABILE_SKU = 5670003; // nintendo switch
 
 var bby = BBY({
-  key: process.env.BBY_API_KEY,
+  key: process.env.BBY_API_KEY || 'XXX',
   debug: false,
   headers: {
     'User-Agent': 'Availability tests'

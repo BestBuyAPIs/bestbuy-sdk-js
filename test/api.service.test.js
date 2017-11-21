@@ -3,6 +3,7 @@ var BestBuy = require('../');
 
 test('Ensure debug flag works', test.opts, function (t) {
   var bby = BestBuy({
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: true
   });
 
@@ -15,6 +16,7 @@ test('Ensure debug flag works', test.opts, function (t) {
 
 test('Ensure debug flag works with streams', test.opts, function (t) {
   var bby = BestBuy({
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: true
   });
 
@@ -37,6 +39,7 @@ test('Ensure debug flag works with custom logging function', test.opts, function
   var debugObjs = [];
 
   var bbyWithDebugFn = BestBuy({
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: (data) => {
       debugObjs.push(data);
     }

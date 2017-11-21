@@ -2,7 +2,7 @@ var test = require('./lib/tape-nock-setup');
 var BBY = require('../');
 
 var bby = BBY({
-  key: process.env.BBY_API_KEY,
+  key: process.env.BBY_API_KEY || 'XXX',
   debug: false,
   headers: {
     'User-Agent': 'Version tests'

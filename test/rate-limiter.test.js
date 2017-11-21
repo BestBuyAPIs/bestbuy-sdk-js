@@ -5,7 +5,7 @@ const NS_PER_SEC = 1000000000;
 
 test('Test Rate Limiting 1 per second', test.opts, function (t) {
   var bby = BBY({
-    key: process.env.BBY_API_KEY,
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: false,
     headers: {
       'User-Agent': 'rate limiter tests'
@@ -36,7 +36,7 @@ test('Test Rate Limiting 1 per second', test.opts, function (t) {
 
 test('Test Rate Limiting default 5 per second', test.opts, function (t) {
   var bby = BBY({
-    key: process.env.BBY_API_KEY,
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: false,
     headers: {
       'User-Agent': 'rate limiter tests'
@@ -73,7 +73,7 @@ test('Test Rate Limiting default 5 per second', test.opts, function (t) {
 
 test('Test Rate Limiting default 5 per second with debug', test.opts, function (t) {
   var bby = BBY({
-    key: process.env.BBY_API_KEY,
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: true,
     headers: {
       'User-Agent': 'rate limiter tests'
@@ -114,7 +114,7 @@ test('cooldown for rate limit reset', test.opts, function (t) {
 
 test('Test Rate Limiting torture test', test.opts, function (t) {
   var bby = BBY({
-    key: process.env.BBY_API_KEY,
+    key: process.env.BBY_API_KEY || 'XXX',
     debug: false,
     headers: {
       'User-Agent': 'rate limiter tests'

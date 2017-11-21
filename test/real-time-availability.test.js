@@ -6,7 +6,7 @@ var MINNEAPOLIS_POSTAL_CODE = 55454; // Minneapolis ZIP
 var RICHFIELD_STORE_ID = '281'; // Richfield Big Box
 
 var bby = BBY({
-  key: process.env.BBY_API_KEY,
+  key: process.env.BBY_API_KEY || 'XXX',
   debug: false,
   headers: {
     'User-Agent': 'Availability tests'

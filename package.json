@@ -46,6 +46,6 @@
     "semistandard": "^9.2.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",
-    "tape-nock": "^1.4.0"
+    "tape-nock": "1.4.1"
   }
 }

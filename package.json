@@ -1,6 +1,6 @@
 {
   "name": "bestbuy",
-  "version": "2.1.3",
+  "version": "2.1.4",
   "description": "High level node.js client for the Best Buy API.",
   "main": "index.js",
   "scripts": {

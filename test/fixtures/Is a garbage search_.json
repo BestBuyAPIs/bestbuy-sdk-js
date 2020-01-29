@@ -2,14 +2,14 @@
     {
         "scope": "https://api.bestbuy.com:443",
         "method": "get",
-        "path": "/v1/products(gurgleflats????4)&format=json&apiKey=XXX",
+        "path": "/v1/products(gurgleflats)?format=json&apiKey=XXX",
         "body": "",
         "status": 400,
         "response": {
             "error": {
                 "code": 400,
                 "status": "400 Bad Request",
-                "message": "Couldn't understand '/v1/products(gurgleflats????4)&format=json&apiKey=XXX",
+                "message": "Couldn't understand '/v1/products(gurgleflats)&format=json&apiKey=XXX",
                 "examples": [
                     "/v1/products/8880044.xml?apiKey=<YourApiKey> : Get product information for sku 8880044; display as XML",
                     "/v1/stores/187.json?apiKey=<YourApiKey> : Get information for store 187; display as JSON",

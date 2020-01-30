@@ -1,3 +1,6 @@
+## 2.1.4 (2020-01-29)
+  - Pass errors to debug function.
+
 ## 2.1.3 (2017-11-21)
   - Fix bug in openBox endpoint that prevented searching for all open box items (null search).
   - Updated tests to ensure all work offline

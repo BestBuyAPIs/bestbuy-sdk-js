@@ -83,7 +83,7 @@ test('Product search beginning with asterisk should fail', test.opts, function (
 
 test('Is a garbage search', test.opts, function (t) {
   // Do a search which emits an error
-  bby.products('gurgleflats????4')
+  bby.products('gurgleflats')
   .catch(function (data) {
     t.equals(data.status, 400, 'status 400 returned');
     t.end();
@@ -92,7 +92,7 @@ test('Is a garbage search', test.opts, function (t) {
 
 test('Is a garbage search - callback', test.opts, function (t) {
   // Do a search which emits an error
-  bby.products('gurgleflats????4', (err, result) => {
+  bby.products('gurgleflats', (err, result) => {
     t.equals(err.status, 400, 'status 400 returned');
     t.end();
   });
@@ -207,7 +207,7 @@ test('Single Product as xml stream', test.opts, function (t) {
 
 test('Is a garbage search as xml stream', test.opts, function (t) {
   // Do a search which emits an error
-  var stream = bby.productsAsStream('gurgleflats????4', {format: 'xml'});
+  var stream = bby.productsAsStream('gurgleflats', {format: 'xml'});
 
   stream.on('error', err => {
     t.ok(err.toString().indexOf('<error') > -1, 'error element present');

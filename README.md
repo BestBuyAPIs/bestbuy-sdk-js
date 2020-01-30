@@ -421,7 +421,7 @@ If `console.log` is not desired, a custom debug function can be passed:
     key: 'YOURKEY',
     debug: function (debugObject) { myCustomLogging.info(debugObject) }
   });
-  // The debug function will be called for each request and each response.
+  // The debug function will be called for each request, response, and error thrown by the internal HTTP client.
 ```
 
 ## Rate Limiting

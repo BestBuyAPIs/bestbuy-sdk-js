@@ -41,7 +41,9 @@ function setupOptions (_opts) {
     headers: {
       'User-Agent': `bestbuy-sdk-js/${pkg.version};nodejs`
     },
-    requestsPerSecond: 5
+    requestsPerSecond: 5,
+    maxRetries: 0,
+    retryInterval: 2000
   };
 
   if (typeof _opts === 'string') {

@@ -435,6 +435,16 @@ If you need to adjust this value, it can be done via the `requestsPerSecond` opt
   });
 ```
 
+## Retries
+By default, requests will be attempted only once before erroring. The maximum number of retries and the time taken between retries can be configured with the `maxRetries` and `retryInterval` options. `retryInterval` is set to 2000 by default.
+```js
+  var bby = require('bestbuy')({
+    key: 'YOURKEY',
+    maxRetries: 4, // make five requests at most
+    retryInterval: 5000, // wait 5 seconds before retrying
+  });
+```
+
 ## Tests
 Run the existing tests with:
 ```bash

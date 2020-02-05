@@ -9,7 +9,9 @@ var bby = BBY({
   debug: true,
   headers: {
     'User-Agent': 'recommendations example'
-  }
+  },
+  maxRetries: 3,
+  retryInterval: 1000
 });
 
 // Figure out the current top trending product

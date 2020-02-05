@@ -1,3 +1,6 @@
+## 2.2.0 (2020-01-29)
+  - Add `maxRetries` and `retryInterval` configuration options.
+
 ## 2.1.4 (2020-01-29)
   - Pass errors to debug function.
 

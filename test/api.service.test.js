@@ -1,5 +1,10 @@
-var test = require('./lib/tape-nock-setup');
-var BestBuy = require('../');
+const axios = require('axios');
+const sinon = require('sinon');
+
+const test = require('./lib/tape-nock-setup');
+const apiServiceFactory = require('../lib/api.service');
+const rateLimiter = require('../lib/rate-limiter');
+const BestBuy = require('../');
 
 test('Ensure debug flag works', test.opts, function (t) {
   var bby = BestBuy({
@@ -54,4 +59,28 @@ test('Ensure debug flag works with custom logging function', test.opts, function
     t.end();
   })
   .catch(err => t.error(err));
+});
+
+test('Ensure it can retry', test.opts, function (t) {
+  const rateLimiterStub = sinon.stub(rateLimiter, 'rateLimiter');
+  const spy = sinon.spy();
+  const axiosStub = sinon.stub(axios, 'create').returns(data => {
+    spy();
+    return Promise.reject({ response: { status: 503 } });
+  });
+  const apiService = apiServiceFactory({ maxRetries: 2, retryInterval: 0 });
+
+  apiService({}, null)
+    .then(() => {
+      t.fail('should not resolve');
+      axiosStub.restore();
+      rateLimiterStub.restore();
+      t.end();
+    }).catch(() => {
+      t.pass('should reject');
+      t.equals(spy.callCount, 3, 'should attempt call three times');
+      axiosStub.restore();
+      rateLimiterStub.restore();
+      t.end();
+    });
 });

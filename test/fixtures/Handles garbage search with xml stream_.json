@@ -1,0 +1,22 @@
+[
+    {
+        "scope": "https://api.bestbuy.com:443",
+        "method": "get",
+        "path": "/v1/products(gurgleflats)?format=xml&apiKey=XXX&cursorMark=*&pageSize=100",
+        "body": "",
+        "status": 400,
+        "response": "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n<?xml-stylesheet href=\"/v1/xsl/xml_pretty_printer.xsl\" type=\"text/xsl\"?>\n<error>\n  <code>400</code>\n  <status>400 Bad Request</status>\n  <message>Couldn&apos;t understand &apos;/v1/products(gurgleflats)?format=xml&amp;apiKey=XXX&amp;cursorMark=*&amp;pageSize=100&apos;: Failed at character 25.</message>\n  <examples>\n    <example>/v1/products/8880044.xml?apiKey=&lt;YourApiKey&gt; : Get product information for sku 8880044; display as XML</example>\n    <example>/v1/stores/187.json?apiKey=&lt;YourApiKey&gt; : Get information for store 187; display as JSON</example>\n    <example>/v1/products?apiKey=&lt;YourApiKey&gt; : Get all products; show the first 10, sorted by name, display default attributes, formatted as xml</example>\n    <example>/v1/products?facet=manufacturer,10&amp;apiKey=&lt;YourApiKey&gt; : Get all products; show the first 10, sorted by name, display default attributes, formatted as xml, and display up to 10 facets based on the &quot;manufacturer&quot; field.</example>\n    <example>/v1/products?pageSize=50&amp;page=4&amp;apiKey=&lt;YourApiKey&gt; : Get page 4 of all products, 50 products per page</example>\n    <example>/v1/products?show=sku,name,salePrice&amp;apiKey=&lt;YourApiKey&gt; : Get all products, display only sku, name, and SalePrice for each</example>\n    <example>/v1/products?sort=regularPrice.desc&amp;apiKey=&lt;YourApiKey&gt; : Get all products, sort descending by regular price (most expensive first)</example>\n    <example>/v1/products(manufacturer=canon)?apiKey=&lt;YourApiKey&gt; : Get all products manufactured by Canon</example>\n    <example>/v1/products(salePrice&lt;299.99)?apiKey=&lt;YourApiKey&gt; : Get all products whose sale price is less than $299.99</example>\n    <example>/v1/products(manufacturer=canon&amp;salePrice&lt;299.99)?apiKey=&lt;YourApiKey&gt; : Get Canon products with sale price less than $299.99</example>\n    <example>/v1/products(sku in(9909482,1221963,9491935))?apiKey=&lt;YourApiKey&gt; : Get products whose sku is in the list (9909482,1221963,9491935)</example>\n    <example>/v1/products(wifiReady=true|wifiBuiltIn=true)?apiKey=&lt;YourApiKey&gt; : Get products that are either Wi-Fi ready, OR have Wi-Fi built in</example>\n    <example>/v1/products(name=castlevania*)?apiKey=&lt;YourApiKey&gt; : Get physical (not downloadable) products with &quot;castlevania&quot; in name</example>\n    <example>/v1/products(name=castlevania*&amp;digital=true)?apiKey=&lt;YourApiKey&gt; : Get downloadable products with &quot;castlevania&quot; in name</example>\n    <example>/v1/products(name=castlevania*&amp;digital=*)?apiKey=&lt;YourApiKey&gt; : Get products, physical or downloadable, with &quot;castlevania&quot; in name</example>\n    <example>/v1/stores(area(55423,10))?show=storeId,name,hours,distance&amp;apiKey=&lt;YourApiKey&gt; : Get stores within 10 miles of zip code 55423; show store number, name, store hours, and distance from zip code reference point</example>\n    <example>/v1/stores(area(55423,10))+products(sku in(9909482,1221963,9491935))?show=storeId,name,products.sku,products.name&amp;apiKey=&lt;YourApiKey&gt; : Get stores within 10 miles of zip code 55423, and show which skus, of 9909482, 1221963, or 9491935, each store has in stock</example>\n  </examples>\n</error>\n",
+        "rawHeaders": [
+            "Content-Type",
+            "text/xml; charset=UTF-8",
+            "Date",
+            "Fri, 14 Feb 2020 18:55:45 GMT",
+            "Server",
+            "thin",
+            "Content-Length",
+            "3316",
+            "Connection",
+            "Close"
+        ]
+    }
+]

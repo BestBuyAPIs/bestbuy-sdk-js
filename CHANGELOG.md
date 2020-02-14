@@ -1,3 +1,7 @@
+## 2.3.0 (2020-02-14)
+  - Change emitted error format—errors now have `headers`, `status`, `body`, and `cause` keys.
+  - Always emit errors when `maxRetries` is exhausted during streaming.
+
 ## 2.2.0 (2020-01-29)
   - Add `maxRetries` and `retryInterval` configuration options.
 

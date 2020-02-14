@@ -17,10 +17,8 @@ bby.products('customerReviewAverage=4', {
 // Do a search which emits an error
 bby.products('gurgleflats????4', function (err, data) {
   console.log('Here is what an error looks like:');
-  console.log('HTTP Status Code: ' + err.statusCode);
-  console.log(err.message);
-  console.log('There are %d examples of how to do it right',
-        err.error.error.examples.length);
+  console.log('HTTP Status Code: ' + err.status);
+  console.log('Response body: ' + JSON.stringify(err.body));
   console.log('');
 });
 

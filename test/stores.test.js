@@ -129,7 +129,7 @@ test('Get stores as stream - garbage data', test.opts, function (t) {
   var stream = bby.storesAsStream('blah');
 
   stream.on('error', (err) => {
-    t.ok(err.message.startsWith("Couldn't understand"), 'error returned');
+    t.ok(err.body.error.message.startsWith("Couldn't understand"), 'error returned');
     t.end();
   });
 });

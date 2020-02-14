@@ -77,6 +77,7 @@ test('Product search beginning with asterisk should fail', test.opts, function (
   })
   .catch(function (error) {
     t.equals(error.status, 400, 'error code 400 returned');
+    t.ok(error.body.error, 'error element present');
     t.end();
   });
 });
@@ -84,8 +85,9 @@ test('Product search beginning with asterisk should fail', test.opts, function (
 test('Is a garbage search', test.opts, function (t) {
   // Do a search which emits an error
   bby.products('gurgleflats')
-  .catch(function (data) {
-    t.equals(data.status, 400, 'status 400 returned');
+  .catch(function (error) {
+    t.equals(error.status, 400, 'status 400 returned');
+    t.ok(error.body.error, 'error element present');
     t.end();
   });
 });
@@ -94,6 +96,7 @@ test('Is a garbage search - callback', test.opts, function (t) {
   // Do a search which emits an error
   bby.products('gurgleflats', (err, result) => {
     t.equals(err.status, 400, 'status 400 returned');
+    t.ok(err.body.error, 'error element present');
     t.end();
   });
 });
@@ -205,12 +208,20 @@ test('Single Product as xml stream', test.opts, function (t) {
   });
 });
 
-test('Is a garbage search as xml stream', test.opts, function (t) {
-  // Do a search which emits an error
-  var stream = bby.productsAsStream('gurgleflats', {format: 'xml'});
-
+test('Handles garbage search with xml stream', test.opts, function (t) {
+  const stream = bby.productsAsStream('gurgleflats', {format: 'xml'});
   stream.on('error', err => {
-    t.ok(err.toString().indexOf('<error') > -1, 'error element present');
+    t.equals(err.status, 400, 'returns response status');
+    t.ok(err.body.indexOf('<error') > -1, 'error element present');
+    t.end();
+  });
+});
+
+test('Handles garbage search with json stream', test.opts, function (t) {
+  const stream = bby.productsAsStream('gurgleflats', {format: 'json'});
+  stream.on('error', err => {
+    t.equals(err.status, 400, 'returns response status');
+    t.ok(err.body.error, 'error element present');
     t.end();
   });
 });

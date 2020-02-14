@@ -67,6 +67,7 @@ For Streams:
     - If streaming xml directly into a file, be sure to add the xml pragma and wrap the stream in a root element or it won't be valid.
   - a `total` event will always be emitted once per stream with the total number of results.
   - a `data` event will be emitted for each item in the result (one per product/store/etc).
+  - an `error` event will be emitted once `maxRetries` is exceeded.
 
 ### availability
 #### `availability(sku, array of store ids[, query string object])`
@@ -99,7 +100,12 @@ stream.on('total', function (total) { console.log('Total Products: ' + total); }
 stream.on('data', function (data) {
   console.log(`\nProduct "${data.name}" available at:\n${data.stores.map(store => ` - ${store.longName}`).join('\n')}`);
 });
-
+stream.on('error', function (error) {
+  console.error(`Error status: ${error.status}`);
+  console.error(`Error headers: ${error.headers}`);
+  console.error(`Error body: ${error.body}`);
+  console.error(`Error cause: ${error.cause}`);
+})
 ```
 
 ### real-time availability

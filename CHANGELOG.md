@@ -1,3 +1,6 @@
+## 2.3.1 (2020-02-14)
+  - Add missing `cause` key to error.
+
 ## 2.3.0 (2020-02-14)
   - Change emitted error format—errors now have `headers`, `status`, `body`, and `cause` keys.
   - Always emit errors when `maxRetries` is exhausted during streaming.

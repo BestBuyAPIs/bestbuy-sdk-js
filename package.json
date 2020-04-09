@@ -41,9 +41,9 @@
     "through2": "^2.0.3"
   },
   "devDependencies": {
-    "coveralls": "^2.11.4",
+    "coveralls": "^3.0.11",
     "istanbul": "^0.4.0",
-    "semistandard": "^9.2.1",
+    "semistandard": "^14.2.0",
     "sinon": "^8.1.1",
     "tap-spec": "^4.1.1",
     "tape": "^4.6.3",

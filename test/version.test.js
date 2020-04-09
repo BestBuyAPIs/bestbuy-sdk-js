@@ -11,15 +11,15 @@ var bby = BBY({
 
 test('Get the API and Package version', test.opts, function (t) {
   bby.version()
-  .then(function (data) {
-    t.ok(data.packageVersion, 'package version returned');
-    t.ok(data.apiVersion, 'API version returned');
-    t.end();
-  })
-  .catch(err => {
-    t.error(err, 'no error');
-    t.end();
-  });
+    .then(function (data) {
+      t.ok(data.packageVersion, 'package version returned');
+      t.ok(data.apiVersion, 'API version returned');
+      t.end();
+    })
+    .catch(err => {
+      t.error(err, 'no error');
+      t.end();
+    });
 });
 
 test('Get the API and Package version with callback', test.opts, function (t) {

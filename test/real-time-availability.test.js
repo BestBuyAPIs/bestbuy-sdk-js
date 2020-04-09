@@ -14,7 +14,7 @@ var bby = BBY({
 });
 
 test('Real time Availability check by store id using promises', test.opts, function (t) {
-  bby.realTimeAvailability(AVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID})
+  bby.realTimeAvailability(AVAILABLE_SKU, { storeId: RICHFIELD_STORE_ID })
     .then(function (data) {
       t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
       t.ok(data.stores.length === 1, 'One store is returned');
@@ -36,7 +36,7 @@ test('Real time Availability check by store id using promises', test.opts, funct
 });
 
 test('Real time availability check by store id using callback', test.opts, function (t) {
-  bby.realTimeAvailability(AVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID}, function (err, data) {
+  bby.realTimeAvailability(AVAILABLE_SKU, { storeId: RICHFIELD_STORE_ID }, function (err, data) {
     t.error(err, 'no error');
     t.ok(data);
     t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
@@ -54,7 +54,7 @@ test('Real time availability check by store id using callback', test.opts, funct
 });
 
 test('Real time Availability check by postal code using promises', test.opts, function (t) {
-  bby.realTimeAvailability(AVAILABLE_SKU, {postalCode: MINNEAPOLIS_POSTAL_CODE})
+  bby.realTimeAvailability(AVAILABLE_SKU, { postalCode: MINNEAPOLIS_POSTAL_CODE })
     .then(function (data) {
       t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
       t.ok(data.stores.length > 1, 'More then one store is returned');
@@ -64,11 +64,11 @@ test('Real time Availability check by postal code using promises', test.opts, fu
     .catch(function (err) {
       t.error(err);
     })
-  .then(t.end);
+    .then(t.end);
 });
 
 test('Real time availability check by postal code using callback', test.opts, function (t) {
-  bby.realTimeAvailability(AVAILABLE_SKU, {postalCode: MINNEAPOLIS_POSTAL_CODE}, function (err, data) {
+  bby.realTimeAvailability(AVAILABLE_SKU, { postalCode: MINNEAPOLIS_POSTAL_CODE }, function (err, data) {
     t.error(err, 'no error');
     t.ok(data.ispuEligible === true, 'Eligible for in store pickup');
     t.ok(data.stores.length > 1, 'More then one store is returned');
@@ -79,14 +79,14 @@ test('Real time availability check by postal code using callback', test.opts, fu
 });
 
 test('Real time availability search invalid sku error using callback', test.opts, function (t) {
-  bby.realTimeAvailability({}, {storeId: RICHFIELD_STORE_ID}, function (err, data) {
+  bby.realTimeAvailability({}, { storeId: RICHFIELD_STORE_ID }, function (err, data) {
     t.equals(err.message, 'First parameter of "realTimeAvailability" must be the SKU, and it must be either a number or a string');
     t.end();
   });
 });
 
 test('Real time availability search invalid sku error using promises', test.opts, function (t) {
-  bby.realTimeAvailability({}, {storeId: RICHFIELD_STORE_ID})
+  bby.realTimeAvailability({}, { storeId: RICHFIELD_STORE_ID })
     .catch(function (err) {
       t.ok(err, 'has error');
       t.equals(err.message, 'First parameter of "realTimeAvailability" must be the SKU, and it must be either a number or a string');
@@ -95,7 +95,7 @@ test('Real time availability search invalid sku error using promises', test.opts
 });
 
 test('Real time availability search unavailable sku using callback', test.opts, function (t) {
-  bby.realTimeAvailability(UNAVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID}, function (err, data) {
+  bby.realTimeAvailability(UNAVAILABLE_SKU, { storeId: RICHFIELD_STORE_ID }, function (err, data) {
     t.error(err, 'no error');
     t.ok(data);
     t.ok(data.ispuEligible === false, 'Eligible for in store pickup');
@@ -105,7 +105,7 @@ test('Real time availability search unavailable sku using callback', test.opts, 
 });
 
 test('Real time availability search unavailable sku using promises', test.opts, function (t) {
-  bby.realTimeAvailability(UNAVAILABLE_SKU, {storeId: RICHFIELD_STORE_ID})
+  bby.realTimeAvailability(UNAVAILABLE_SKU, { storeId: RICHFIELD_STORE_ID })
     .then(function (data) {
       t.ok(data.ispuEligible === false, 'Eligible for in store pickup');
       t.ok(data.stores.length === 0, 'No stores are returned');
@@ -113,7 +113,7 @@ test('Real time availability search unavailable sku using promises', test.opts, 
     .catch(function (err) {
       t.error(err);
     })
-  .then(t.end);
+    .then(t.end);
 });
 
 test('Real time availability search invalid argument error using callback', test.opts, function (t) {

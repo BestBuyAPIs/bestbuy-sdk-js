@@ -39,7 +39,7 @@ test('Get a all stores', test.opts, function (t) {
 test('Get a collection of stores as xml', test.opts, function (t) {
   var bby = BBY(opts);
   // Do a query for stores
-  bby.stores('area(55119,25)&storeType=Big Box', {format: 'xml'})
+  bby.stores('area(55119,25)&storeType=Big Box', { format: 'xml' })
     .then(function (data) {
       t.ok(data.startsWith('<?xml'), 'xml string returned');
       t.ok(data.indexOf('store>'), 'stores returned');
@@ -62,7 +62,7 @@ test('Get a store', test.opts, function (t) {
 test('Get a store as xml', test.opts, function (t) {
   // Show details for one store
   var bby = BBY(opts);
-  bby.stores(1443, {format: 'xml'})
+  bby.stores(1443, { format: 'xml' })
     .then(function (data) {
       t.ok(data.startsWith('<?xml'), 'xml string returned');
       t.ok(data.indexOf('store>') > -1, 'stores returned');
@@ -101,7 +101,7 @@ test('Get stores as stream', test.opts, function (t) {
 test('Get stores as xml stream', test.opts, function (t) {
   var bby = BBY(opts);
   // Do a query for stores
-  var stream = bby.storesAsStream('area(55119,25)&storeType=Big Box', {format: 'xml'});
+  var stream = bby.storesAsStream('area(55119,25)&storeType=Big Box', { format: 'xml' });
 
   var cnt = 0;
   var total;

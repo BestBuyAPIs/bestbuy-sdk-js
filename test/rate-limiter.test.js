@@ -21,17 +21,17 @@ test('Test Rate Limiting 1 per second', test.opts, function (t) {
   ];
 
   Promise.all(promises)
-  .then(result => {
-    var diff = process.hrtime(start);
-    var totalTime = diff[0] * NS_PER_SEC + diff[1];
+    .then(result => {
+      var diff = process.hrtime(start);
+      var totalTime = diff[0] * NS_PER_SEC + diff[1];
 
-    t.ok(totalTime > (promises.length - 1) * NS_PER_SEC, `took more than 2 seconds (${totalTime / NS_PER_SEC})`);
-    t.end();
-  })
-  .catch(error => {
-    t.error(error);
-    t.end();
-  });
+      t.ok(totalTime > (promises.length - 1) * NS_PER_SEC, `took more than 2 seconds (${totalTime / NS_PER_SEC})`);
+      t.end();
+    })
+    .catch(error => {
+      t.error(error);
+      t.end();
+    });
 });
 
 test('Test Rate Limiting default 5 per second', test.opts, function (t) {
@@ -58,17 +58,17 @@ test('Test Rate Limiting default 5 per second', test.opts, function (t) {
   ];
 
   Promise.all(promises)
-  .then(result => {
-    var diff = process.hrtime(start);
-    var totalTime = diff[0] * NS_PER_SEC + diff[1];
+    .then(result => {
+      var diff = process.hrtime(start);
+      var totalTime = diff[0] * NS_PER_SEC + diff[1];
 
-    t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
-    t.end();
-  })
-  .catch(error => {
-    t.error(error);
-    t.end();
-  });
+      t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
+      t.end();
+    })
+    .catch(error => {
+      t.error(error);
+      t.end();
+    });
 });
 
 test('Test Rate Limiting default 5 per second with debug', test.opts, function (t) {
@@ -95,17 +95,17 @@ test('Test Rate Limiting default 5 per second with debug', test.opts, function (
   ];
 
   Promise.all(promises)
-  .then(result => {
-    var diff = process.hrtime(start);
-    var totalTime = diff[0] * NS_PER_SEC + diff[1];
+    .then(result => {
+      var diff = process.hrtime(start);
+      var totalTime = diff[0] * NS_PER_SEC + diff[1];
 
-    t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
-    t.end();
-  })
-  .catch(error => {
-    t.error(error);
-    t.end();
-  });
+      t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
+      t.end();
+    })
+    .catch(error => {
+      t.error(error);
+      t.end();
+    });
 });
 
 test('cooldown for rate limit reset', test.opts, function (t) {
@@ -137,16 +137,16 @@ test('Test Rate Limiting torture test', test.opts, function (t) {
   ];
 
   Promise.all(promises)
-  .then(result => {
-    var diff = process.hrtime(start);
-    var totalTime = diff[0] * NS_PER_SEC + diff[1];
+    .then(result => {
+      var diff = process.hrtime(start);
+      var totalTime = diff[0] * NS_PER_SEC + diff[1];
 
-    t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
-    t.end();
-  })
-  .catch(error => {
-    console.log(error.message);
-    t.error(error, 'no error');
-    t.end();
-  });
+      t.ok(totalTime > 1 * NS_PER_SEC, `took more than 1 second (${totalTime / NS_PER_SEC})`);
+      t.end();
+    })
+    .catch(error => {
+      console.log(error.message);
+      t.error(error, 'no error');
+      t.end();
+    });
 });

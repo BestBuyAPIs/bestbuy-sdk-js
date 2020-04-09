@@ -12,10 +12,10 @@ var bby = BBY({
 test('Get a warranty for a product', test.opts, function (t) {
   // Do a query for stores
   bby.warranties(6354884)
-  .then(function (data) {
-    t.ok(data.length > 0, 'warranties returned');
-    t.end();
-  });
+    .then(function (data) {
+      t.ok(data.length > 0, 'warranties returned');
+      t.end();
+    });
 });
 
 test('Get a warranty for a product via callback', test.opts, function (t) {

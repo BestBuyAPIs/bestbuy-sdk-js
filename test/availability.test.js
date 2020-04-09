@@ -14,39 +14,39 @@ var bby = BBY({
 // https://developer.bestbuy.com/documentation/products-api
 test('Availability search', test.opts, function (t) {
   bby.stores('area(55119,25)&storeType=Big Box')
-  .then(function (data) {
-    t.ok(data.stores.length > 0, 'has stores');
-    var stores = data.stores.map(function (store) {
-      return store.storeId;
-    });
-    return bby.availability(AVAILABLE_SKU, stores);
-  })
-  .then(function (data) {
-    t.ok(data.products.length > 0, 'has products');
-  })
-  .catch(function (err) {
-    t.error(err);
-  })
-  .then(t.end);
+    .then(function (data) {
+      t.ok(data.stores.length > 0, 'has stores');
+      var stores = data.stores.map(function (store) {
+        return store.storeId;
+      });
+      return bby.availability(AVAILABLE_SKU, stores);
+    })
+    .then(function (data) {
+      t.ok(data.products.length > 0, 'has products');
+    })
+    .catch(function (err) {
+      t.error(err);
+    })
+    .then(t.end);
 });
 
 test('Availability search as xml', test.opts, function (t) {
   bby.stores('area(55119,50)&storeType=Big Box')
-  .then(function (data) {
-    t.ok(data.stores.length > 0, 'has stores');
-    var stores = data.stores.map(function (store) {
-      return store.storeId;
-    });
-    return bby.availability(ANOTHER_AVAILABILE_SKU, stores, {format: 'xml'});
-  })
-  .then(function (data) {
-    t.ok(data.startsWith('<?xml'), 'xml string returned');
-    t.ok(data.indexOf('product>') > -1, 'products returned');
-  })
-  .catch(function (err) {
-    t.error(err);
-  })
-  .then(t.end);
+    .then(function (data) {
+      t.ok(data.stores.length > 0, 'has stores');
+      var stores = data.stores.map(function (store) {
+        return store.storeId;
+      });
+      return bby.availability(ANOTHER_AVAILABILE_SKU, stores, { format: 'xml' });
+    })
+    .then(function (data) {
+      t.ok(data.startsWith('<?xml'), 'xml string returned');
+      t.ok(data.indexOf('product>') > -1, 'products returned');
+    })
+    .catch(function (err) {
+      t.error(err);
+    })
+    .then(t.end);
 });
 
 test('Availability search using callback', test.opts, function (t) {
@@ -71,7 +71,7 @@ test('Availability search using callback and third argument', test.opts, functio
     var stores = data.stores.map(function (store) {
       return store.storeId;
     });
-    bby.availability(AVAILABLE_SKU, stores, {show: 'all'}, function (err, data) {
+    bby.availability(AVAILABLE_SKU, stores, { show: 'all' }, function (err, data) {
       t.error(err, 'no error');
       t.equals(data.products[0].active, true, 'is active');
       t.ok(data.products.length > 0, 'has products');
@@ -89,31 +89,31 @@ test('Availability search using callback error', test.opts, function (t) {
 
 test('Availability search using promises error', test.opts, function (t) {
   bby.availability(AVAILABLE_SKU, 'blah')
-  .catch(function (err) {
-    t.ok(err, 'has error');
-    t.equals(err.message, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
-  })
-  .then(t.end);
+    .catch(function (err) {
+      t.ok(err, 'has error');
+      t.equals(err.message, 'Second parameter of "availability" must be store id(s), and it must be either a number or array of numbers');
+    })
+    .then(t.end);
 });
 
 test('Availability search using promises sku error', test.opts, function (t) {
   bby.availability({}, 'blah')
-  .then(function (data) {})
-  .catch(function (err) {
-    t.ok(err, 'has error');
-    t.equals(err.message, 'First parameter of "availability" must be the SKU, and it must be either a number or a string');
-  })
-  .then(t.end);
+    .then(function (data) {})
+    .catch(function (err) {
+      t.ok(err, 'has error');
+      t.equals(err.message, 'First parameter of "availability" must be the SKU, and it must be either a number or a string');
+    })
+    .then(t.end);
 });
 
 test('Availability search using promises too many parameters error', test.opts, function (t) {
   bby.availability(AVAILABLE_SKU, 123, 123, 123)
-  .then(function (data) {})
-  .catch(function (err) {
-    t.ok(err, 'has error');
-    t.equals(err.message, 'Unrecognized parameter length when calling "availability" method');
-  })
-  .then(t.end);
+    .then(function (data) {})
+    .catch(function (err) {
+      t.ok(err, 'has error');
+      t.equals(err.message, 'Unrecognized parameter length when calling "availability" method');
+    })
+    .then(t.end);
 });
 
 test('Availability search as stream', test.opts, function (t) {
@@ -158,7 +158,7 @@ test('Availability search as xml stream', test.opts, function (t) {
 
     var stream;
     try {
-      stream = bby.availabilityAsStream(ANOTHER_AVAILABILE_SKU, stores, {format: 'xml'});
+      stream = bby.availabilityAsStream(ANOTHER_AVAILABILE_SKU, stores, { format: 'xml' });
     } catch (err) {
       console.error(err);
       t.err(err);

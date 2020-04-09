@@ -46,7 +46,7 @@ test('Recommendations search - trendingview - criteria as string', test.opts, fu
 });
 
 test('Recommendations search - trendingview - criteria as object', test.opts, function (t) {
-  bby.recommendations('trendingViewed', {categoryId: 'abcat0502000'})
+  bby.recommendations('trendingViewed', { categoryId: 'abcat0502000' })
     .then(function (data) {
       t.ok(data.results.length > 0, 'results returned');
       topTrendingSku = data.results[0].sku;

@@ -6,7 +6,7 @@ var bby = require('../')(process.env.BBY_API_KEY);
 
 var SKU = 5670003;
 
-bby.realTimeAvailability(SKU, {postalCode: 90210}, function (err, data) {
+bby.realTimeAvailability(SKU, { postalCode: 90210 }, function (err, data) {
   if (err) console.error(err);
   console.log(JSON.stringify(data, null, 2));
 

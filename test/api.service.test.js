@@ -16,7 +16,7 @@ test('Ensure debug flag works', test.opts, function (t) {
     t.ok(result, 'result returned');
     t.end();
   })
-  .catch(err => t.error(err));
+    .catch(err => t.error(err));
 });
 
 test('Ensure debug flag works with streams', test.opts, function (t) {
@@ -58,7 +58,7 @@ test('Ensure debug flag works with custom logging function', test.opts, function
     t.ok(debugObjs[1].response, 'response log JSON object is present');
     t.end();
   })
-  .catch(err => t.error(err));
+    .catch(err => t.error(err));
 });
 
 test('Ensure it can retry', test.opts, function (t) {
@@ -66,7 +66,9 @@ test('Ensure it can retry', test.opts, function (t) {
   const spy = sinon.spy();
   const axiosStub = sinon.stub(axios, 'create').returns(data => {
     spy();
-    return Promise.reject({ response: { status: 503 } });
+    const error = new Error('Service Unavailable');
+    error.response = { status: 503 };
+    return Promise.reject(error);
   });
   const apiService = apiServiceFactory({ maxRetries: 2, retryInterval: 0 });
 

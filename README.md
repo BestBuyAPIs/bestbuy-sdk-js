@@ -451,6 +451,15 @@ By default, requests will be attempted only once before erroring. The maximum nu
   });
 ```
 
+## Timeout
+Request timeout can be configured with the `timeout` option. This value is set to 5000ms by default.
+```js
+  var bby = require('bestbuy')({
+    key: 'YOURKEY',
+    timeout: 15000 // wait for 15 seconds before erroring due to timeout
+  });
+```
+
 ## Tests
 Run the existing tests with:
 ```bash

@@ -43,7 +43,8 @@ function setupOptions (_opts) {
     },
     requestsPerSecond: 5,
     maxRetries: 0,
-    retryInterval: 2000
+    retryInterval: 2000,
+    timeout: 5000
   };
 
   if (typeof _opts === 'string') {

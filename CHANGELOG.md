@@ -1,3 +1,9 @@
+## 2.4.1 (2021-02-10)
+- Update axios dependency to a version that fixes a security vulnerability. 
+
+## 2.4.0 (2020-05-11)
+- Add configurable timeout duration.
+
 ## 2.3.1 (2020-02-14)
   - Add missing `cause` key to error.
 

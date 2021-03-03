@@ -1,6 +1,3 @@
-### Dot files ###
-.*
-
 ### Git ###
 !/.gitignore
 !/.gitmodules
